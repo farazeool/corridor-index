@@ -9,6 +9,7 @@ import "@fontsource/ibm-plex-mono/400.css";
 import "@fontsource/ibm-plex-mono/500.css";
 import "./globals.css";
 import { REPO_URL } from "@/lib/site";
+import { Progress } from "@/components/Progress";
 
 export const metadata: Metadata = {
   title: "Corridor Index: where NEAR wins at sending money home",
@@ -22,6 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-dvh flex flex-col">
         <div className="grade" aria-hidden />
         <div className="grain" aria-hidden />
+        <Progress />
         <div className="stripe" aria-hidden />
         <header className="sticky top-0 z-40 border-b border-rule bg-[rgba(10,11,13,0.72)] backdrop-blur-xl">
           <div className="mx-auto max-w-[1180px] px-4 sm:px-6 h-14 flex items-center gap-6">

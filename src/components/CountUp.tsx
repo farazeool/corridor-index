@@ -24,6 +24,6 @@ export function CountUp({ to, format, duration = 1600 }: { to: number; format: "
     io.observe(el);
     return () => io.disconnect();
   }, [to, duration]);
-  const text = format === "int" ? Math.round(v).toLocaleString("en-US") : format === "pct" ? `${Math.round(v * 100)}%` : `$${Math.round(v / 1e9)}B`;
+  const text = format === "int" ? Math.round(v).toLocaleString("en-US") : format === "pct" ? `${Math.round(v * 100)}%` : `$${(v / 1e9).toFixed(to < 1e11 ? 1 : 0)}B`;
   return <span ref={ref}>{text}</span>;
 }

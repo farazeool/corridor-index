@@ -2,6 +2,7 @@ import { Calculator } from "@/components/Calculator";
 import { CorridorArcs } from "@/components/CorridorArcs";
 import { CountUp } from "@/components/CountUp";
 import { Reveal } from "@/components/Reveal";
+import { Ticker } from "@/components/Ticker";
 import { CorridorTable } from "@/components/CorridorTable";
 import { Dumbbell } from "@/components/Dumbbell";
 import { Pill } from "@/components/Pill";
@@ -18,15 +19,6 @@ const testedCount = tested.length;
 const top = [...tested].sort((a, b) => (b.volume ?? 0) - (a.volume ?? 0)).slice(0, 18);
 const kwPk = get("KWT", "PAK"), aeIn = get("ARE", "IND"), saBd = get("SAU", "BGD"), usMx = get("USA", "MEX");
 
-function Stat({ value, label, href }: { value: string; label: string; href: string }) {
-  return (
-    <a href={href} className="block border-t border-rule-strong pt-4 group">
-      <p className="display text-4xl sm:text-5xl font-semibold tabular-nums">{value}</p>
-      <p className="mt-1 text-sm text-ink-soft group-hover:text-ink">{label}</p>
-    </a>
-  );
-}
-
 function PassFail({ ok }: { ok: boolean }) {
   return (
     <span className={`shrink-0 rounded-full border px-2.5 py-0.5 text-xs font-semibold ${ok ? "bg-wins-wash text-wins border-wins/40" : "bg-loses-wash text-loses border-loses/40"}`}>
@@ -35,11 +27,11 @@ function PassFail({ ok }: { ok: boolean }) {
   );
 }
 
-function Section({ id, kicker, title, children }: { id: string; kicker: string; title: string; children: React.ReactNode }) {
+function Section({ id, n, kicker, title, children }: { id: string; n: string; kicker: string; title: string; children: React.ReactNode }) {
   return (
     <section id={id} className="mt-32 sm:mt-40 scroll-mt-20">
       <Reveal>
-        <p className="eyebrow flex items-center gap-3"><span className="inline-block h-px w-8 bg-blue" />{kicker}</p>
+        <p className="eyebrow flex items-center gap-3"><span className="secnum">{n}</span><span className="inline-block h-px w-8 bg-blue" />{kicker}</p>
         <h2 className="display mt-4 text-4xl sm:text-6xl font-semibold max-w-4xl leading-[1.02]">{title}</h2>
       </Reveal>
       <Reveal delay={120} className="mt-10">{children}</Reveal>
@@ -54,7 +46,7 @@ export default function Home() {
       {/* 0. Hero */}
       <section className="relative -mx-4 sm:-mx-6 px-4 sm:px-6 pt-16 sm:pt-24 pb-10 min-h-[86vh] flex flex-col justify-center overflow-hidden">
         <div className="absolute inset-x-0 top-[22%] bottom-0 -z-10 opacity-60 sm:opacity-75"><CorridorArcs corridors={T.corridors} /></div>
-        <p className="eyebrow rise" style={{ animationDelay: "60ms" }}>An investment thesis for NEAR · NEAR HACKATHON</p>
+        <p className="badge rise" style={{ animationDelay: "60ms" }}><i />Investment Thesis · NEAR HACKATHON</p>
         <h1 className="display rise mt-5 font-extrabold leading-[0.88] text-[clamp(4rem,13vw,11rem)]" style={{ animationDelay: "160ms" }}>
           Corridor <span className="accent font-normal text-blue">Index</span>
         </h1>
@@ -79,10 +71,12 @@ export default function Home() {
         </div>
       </section>
 
+      <div className="-mx-4 sm:-mx-6"><Ticker corridors={T.corridors} names={names} /></div>
+
       {/* 1. Calculator */}
       <section id="calculator" className="mt-16 scroll-mt-20">
         <Reveal>
-          <p className="eyebrow flex items-center gap-3"><span className="inline-block h-px w-8 bg-blue" />Try a corridor</p>
+          <p className="eyebrow flex items-center gap-3"><span className="secnum">01</span><span className="inline-block h-px w-8 bg-blue" />Try a corridor</p>
           <h2 className="display mt-4 text-4xl sm:text-6xl font-semibold max-w-4xl leading-[1.02]">Send $200. See who keeps <span className="accent font-normal">more.</span></h2>
           <p className="mt-5 max-w-3xl prose-thesis">
             Most NEAR theses measure the chain from the inside. This one tests it against a real market: what a family receives today, from the
@@ -95,11 +89,26 @@ export default function Home() {
       </section>
 
       {/* 2. Answer */}
-      <Section id="answer" kicker="The answer" title={`NEAR's route is cheaper for ${share(S.winShare)} of the money we could test, but the token earns little from it.`}>
-        <div className="grid gap-6 sm:grid-cols-3">
-          <Stat value={`${S.byVerdict.wins.corridors} of ${testedCount}`} label={`corridors where NEAR wins, carrying ${usdB(S.byVerdict.wins.volume)} a year`} href="#corridors" />
-          <Stat value={usdB(S.familiesKeepUsd)} label="a year families would keep if every winning corridor switched" href="#corridors" />
-          <Stat value={share(S.adoption.find((a) => a.share === 0.1)!.revenueVsNewSupply, 1)} label="of NEAR's yearly new supply, paid by protocol revenue at 10% adoption" href="#near" />
+      <Section id="answer" n="02" kicker="The answer" title={`NEAR's route is cheaper for ${share(S.winShare)} of the money we could test, but the token earns little from it.`}>
+        <div className="grid gap-4 md:grid-cols-6">
+          <a href="#corridors" className="card lift p-7 md:col-span-3 md:row-span-2 flex flex-col justify-between min-h-[15rem] relative overflow-hidden">
+            <div className="absolute -right-16 -top-16 h-56 w-56 rounded-full bg-[radial-gradient(circle,rgba(61,220,151,0.22),transparent_70%)]" aria-hidden />
+            <p className="eyebrow">Where NEAR is cheaper</p>
+            <div>
+              <p className="display text-6xl sm:text-7xl font-semibold text-wins"><CountUp to={S.winShare} format="pct" /></p>
+              <p className="mt-2 text-ink-soft">of the money we could test: {S.byVerdict.wins.corridors} of {testedCount} corridors, {usdB(S.byVerdict.wins.volume)} a year.</p>
+            </div>
+          </a>
+          <a href="#corridors" className="card lift p-6 md:col-span-3">
+            <p className="eyebrow">Families would keep</p>
+            <p className="display mt-3 text-4xl font-semibold"><CountUp to={S.familiesKeepUsd} format="usdB" /> <span className="text-ink-soft text-xl font-normal">a year</span></p>
+            <p className="mt-1 text-sm text-muted">if every winning corridor switched to NEAR</p>
+          </a>
+          <a href="#near" className="card lift p-6 md:col-span-3">
+            <p className="eyebrow">What reaches NEAR</p>
+            <p className="display mt-3 text-4xl font-semibold text-blue">{share(S.adoption.find((a) => a.share === 0.1)!.revenueVsNewSupply, 1)}</p>
+            <p className="mt-1 text-sm text-muted">of NEAR&apos;s yearly new supply, paid by protocol revenue at 10% adoption</p>
+          </a>
         </div>
         <div className="mt-10 grid gap-10 lg:grid-cols-[1fr_340px]">
           <div className="prose-thesis">
@@ -142,7 +151,7 @@ export default function Home() {
       </Section>
 
       {/* 3. Story */}
-      <Section id="story" kicker="Four corridors" title="The same $200 tells four different stories.">
+      <Section id="story" n="03" kicker="Four corridors" title="The same $200 tells four different stories.">
         <ol className="grid gap-5 md:grid-cols-2">
           {[
             { c: kwPk, head: "Already cheap. NEAR loses.", body: `The median provider charges ${pct(kwPk.benchmark)}: below zero, because some exchange houses give a better rate than the market. Buying dollars in Kuwait and selling them in Pakistan costs NEAR's route ${pct(kwPk.nearLo)}–${pct(kwPk.nearHi)}. Where competition is already fierce, a new rail adds nothing.` },
@@ -150,7 +159,7 @@ export default function Home() {
             { c: saBd, head: "Expensive, and closed.", body: `Saudi Arabia → Bangladesh costs ${pct(saBd.benchmark)} online, one of the worst Gulf corridors, and NEAR would cost ${pct(saBd.nearLo)}–${pct(saBd.nearHi)}. But Bangladesh bans crypto. The corridors where NEAR could help most are often the ones where it is not allowed.` },
             { c: usMx, head: "The world's largest corridor. NEAR wins.", body: `${usdB(usMx.volume ?? 0)} a year goes from the US to Mexico. Online providers charge ${pct(usMx.benchmark)}; NEAR's route ${pct(usMx.nearLo)}–${pct(usMx.nearHi)}, because buying dollars costs nothing in the US and Mexico's peer-to-peer dollar price sits at the official rate.` },
           ].map(({ c, head, body }, i) => (
-            <Reveal as="li" key={i} delay={i * 110} className="card p-7">
+            <Reveal as="li" key={i} delay={i * 110} className="card lift p-7">
               <div className="flex items-center justify-between gap-3">
                 <p className="text-sm text-muted">{names[c.from]} → {names[c.to]}</p>
                 <Pill verdict={c.verdict} />
@@ -163,7 +172,7 @@ export default function Home() {
       </Section>
 
       {/* 4 + 5. Corridors */}
-      <Section id="corridors" kicker="Every corridor" title={`NEAR is cheaper in ${S.byVerdict.wins.corridors} of the ${testedCount} corridors we could test.`}>
+      <Section id="corridors" n="04" kicker="Every corridor" title={`NEAR is cheaper in ${S.byVerdict.wins.corridors} of the ${testedCount} corridors we could test.`}>
         <div className="card p-5 sm:p-6">
           <p className="font-semibold">Cost of sending $200: today <span className="inline-block w-2.5 h-2.5 rounded-full align-middle" style={{ background: "var(--incumbent)" }} /> vs through NEAR <span className="inline-block w-5 h-2.5 rounded-full align-middle bg-blue" /></p>
           <p className="text-sm text-muted">The {top.length} largest tested corridors by money sent. The dot at the right edge is the verdict.</p>
@@ -177,7 +186,7 @@ export default function Home() {
       </Section>
 
       {/* 6. For NEAR */}
-      <Section id="near" kicker="Is it worth it for NEAR?" title="Useful for families long before it is meaningful for the token.">
+      <Section id="near" n="05" kicker="Is it worth it for NEAR?" title="Useful for families long before it is meaningful for the token.">
         <div className="grid gap-8 lg:grid-cols-[1fr_1fr]">
           <WorthIt winVolume={S.byVerdict.wins.volume} revRate={S.intents.revRate} feeRate={S.intents.feeRate} revenueToday={S.intents.revenue1yUsd} feesToday={S.intents.fees1yUsd} newSupplyUsd={S.near.newSupplyUsd} killShare={k.revenue.threshold} />
           <div className="prose-thesis">
@@ -199,7 +208,7 @@ export default function Home() {
       </Section>
 
       {/* 7. Bear case */}
-      <Section id="bear" kicker="What could make this wrong" title="The bear case, in full.">
+      <Section id="bear" n="06" kicker="What could make this wrong" title="The bear case, in full.">
         <ul className="grid gap-x-10 gap-y-6 md:grid-cols-2">
           {[
             ["Cash in and out is the weak link.", "The route depends on peer-to-peer markets: strangers, bank transfers that can be frozen, fraud. We price the top five public ads only; at scale, fills get worse. The stress-test slider shows how fast the wins shrink."],
@@ -218,7 +227,7 @@ export default function Home() {
       </Section>
 
       {/* 8. Method */}
-      <Section id="method" kicker="Method and re-run" title="Every number comes from a public source and one command.">
+      <Section id="method" n="07" kicker="Method and re-run" title="Every number comes from a public source and one command.">
         <div className="card p-5 sm:p-6">
           <pre className="num text-sm overflow-x-auto">{`git clone ${REPO_URL}\ncd corridor-index && npm install\nnpm run fetch    # pulls every source below into data/raw\nnpm run thesis   # rebuilds data/thesis.json and prints the verdict`}</pre>
         </div>
