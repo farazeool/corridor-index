@@ -123,7 +123,7 @@ export default function About() {
             <p><span className="text-ink font-semibold">Code:</span> <a className="link" href={REPO_URL}>{REPO_URL.replace("https://", "")}</a></p>
             <p><span className="text-ink font-semibold">Data:</span> <a className="link" href="/data/thesis.json">thesis.json</a> · <a className="link" href="/data/corridors.csv">corridors.csv</a></p>
             <p><span className="text-ink font-semibold">Our other entry:</span> <a className="link" href="https://passpot.vercel.app">Passpot</a>, a rotating savings circle on NEAR (Social Money).</p>
-            <p><span className="text-ink font-semibold">AI assistance:</span> code, data pipeline and copy were written with Claude (Anthropic), directed and checked by the authors.</p>
+            <p><span className="text-ink font-semibold">AI assistance:</span> code, data pipeline and copy were written with an AI coding assistant, directed and checked by the authors.</p>
             <p><span className="text-ink font-semibold">Not investment advice.</span> Numbers come from public sources and can be wrong; check them yourself with one command.</p>
           </div>
         </div>

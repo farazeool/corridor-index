@@ -127,7 +127,7 @@ npm run dev      # the site, on http://localhost:3000
 
 Next.js 16, React 19, Tailwind CSS 4, SheetJS (`xlsx`) for the World Bank and CGD workbooks, Instrument Sans, Newsreader and IBM Plex Mono (via Fontsource). Data from the World Bank, the Center for Global Development, NEAR Intents, Binance P2P, ExchangeRate-API, DefiLlama and NEAR RPC.
 
-**AI assistance:** the code, the data pipeline and the copy were written with Claude (Anthropic) as a coding assistant, directed and checked by the authors.
+**AI assistance:** the code, the data pipeline and the copy were written with an AI coding assistant, directed and checked by the authors.
 
 **Our other NEAR HACKATHON project:** [Passpot](https://github.com/farazeool/Passpot), a rotating savings circle on NEAR (Social Money and Real-World Money tracks).
 
