@@ -12,6 +12,8 @@ import { REPO_URL } from "@/lib/site";
 import { Progress } from "@/components/Progress";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://corridor-index-zibj.vercel.app"),
+  twitter: { card: "summary_large_image" },
   title: "Corridor Index: where NEAR wins at sending money home",
   description:
     "A re-runnable investment thesis for NEAR: 348 remittance corridors, World Bank prices, live NEAR Intents quotes and peer-to-peer cash-in and cash-out costs. Where NEAR is cheaper, where it isn't, and whether it matters for the token.",
