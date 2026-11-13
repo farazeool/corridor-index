@@ -514,7 +514,14 @@
    "avg": 13.29,
    "median": 13.29,
    "min": 9.94,
-   "digitalAvg": null
+   "digitalAvg": null,
+   "at500": {
+    "providers": 2,
+    "avg": 13.43,
+    "median": 13.43,
+    "min": 9.94,
+    "digitalAvg": null
+   }
   },
   {
    "from": "ARE",
@@ -523,7 +530,14 @@
    "avg": 3.45,
    "median": 2.97,
    "min": 2.7,
-   "digitalAvg": 2.7
+   "digitalAvg": 2.7,
+   "at500": {
+    "providers": 3,
+    "avg": 2.86,
+    "median": 3.12,
+    "min": 2.06,
+    "digitalAvg": 2.06
+   }
   },
   {
    "from": "ARE",
@@ -532,7 +546,14 @@
    "avg": 3.72,
    "median": 3.05,
    "min": 0.77,
-   "digitalAvg": 5.76
+   "digitalAvg": 5.76,
+   "at500": {
+    "providers": 24,
+    "avg": 2.19,
+    "median": 1.92,
+    "min": 0.63,
+    "digitalAvg": 3.35
+   }
   },
   {
    "from": "ARE",
@@ -541,7 +562,14 @@
    "avg": 3.7,
    "median": 2.91,
    "min": 0.5,
-   "digitalAvg": 5.34
+   "digitalAvg": 5.34,
+   "at500": {
+    "providers": 16,
+    "avg": 2.13,
+    "median": 1.57,
+    "min": 0.5,
+    "digitalAvg": 3.71
+   }
   },
   {
    "from": "ARE",
@@ -550,7 +578,14 @@
    "avg": 2.7,
    "median": 2.61,
    "min": 0.25,
-   "digitalAvg": 3.25
+   "digitalAvg": 3.25,
+   "at500": {
+    "providers": 18,
+    "avg": 1.56,
+    "median": 1.26,
+    "min": 0.25,
+    "digitalAvg": 2.59
+   }
   },
   {
    "from": "ARE",
@@ -559,7 +594,14 @@
    "avg": 3.41,
    "median": 2.98,
    "min": 0.94,
-   "digitalAvg": 4.3
+   "digitalAvg": 4.3,
+   "at500": {
+    "providers": 17,
+    "avg": 2.17,
+    "median": 1.77,
+    "min": 0.45,
+    "digitalAvg": 2.99
+   }
   },
   {
    "from": "ARE",
@@ -568,7 +610,14 @@
    "avg": 2.17,
    "median": 0.63,
    "min": -0.49,
-   "digitalAvg": 3.68
+   "digitalAvg": 3.68,
+   "at500": {
+    "providers": 17,
+    "avg": 1.53,
+    "median": 0.63,
+    "min": -0.49,
+    "digitalAvg": 3.01
+   }
   },
   {
    "from": "ARE",
@@ -577,7 +626,14 @@
    "avg": 3.04,
    "median": 3.43,
    "min": 0.81,
-   "digitalAvg": 3.11
+   "digitalAvg": 3.11,
+   "at500": {
+    "providers": 21,
+    "avg": 1.61,
+    "median": 1.47,
+    "min": 0.57,
+    "digitalAvg": 2.63
+   }
   },
   {
    "from": "ARE",
@@ -586,7 +642,14 @@
    "avg": 7.53,
    "median": 4.93,
    "min": 2.97,
-   "digitalAvg": null
+   "digitalAvg": null,
+   "at500": {
+    "providers": 6,
+    "avg": 5.62,
+    "median": 2.83,
+    "min": 2.26,
+    "digitalAvg": null
+   }
   },
   {
    "from": "ARE",
@@ -595,7 +658,14 @@
    "avg": 7.72,
    "median": 7.15,
    "min": 5.98,
-   "digitalAvg": 9.13
+   "digitalAvg": 9.13,
+   "at500": {
+    "providers": 9,
+    "avg": 6.53,
+    "median": 5.94,
+    "min": 4.95,
+    "digitalAvg": 8.26
+   }
   },
   {
    "from": "ARE",
@@ -604,7 +674,14 @@
    "avg": 4.55,
    "median": 4.92,
    "min": 1.89,
-   "digitalAvg": 4
+   "digitalAvg": 4,
+   "at500": {
+    "providers": 8,
+    "avg": 3,
+    "median": 2.83,
+    "min": 1.25,
+    "digitalAvg": 3.37
+   }
   },
   {
    "from": "ARE",
@@ -613,7 +690,14 @@
    "avg": 5.16,
    "median": 5.24,
    "min": 4.35,
-   "digitalAvg": 5.13
+   "digitalAvg": 5.13,
+   "at500": {
+    "providers": 6,
+    "avg": 3.06,
+    "median": 3.07,
+    "min": 1.88,
+    "digitalAvg": 4.49
+   }
   },
   {
    "from": "ARE",
@@ -622,7 +706,14 @@
    "avg": 25.58,
    "median": 32.86,
    "min": 2.97,
-   "digitalAvg": null
+   "digitalAvg": null,
+   "at500": {
+    "providers": 4,
+    "avg": 23.93,
+    "median": 30.57,
+    "min": 3.12,
+    "digitalAvg": null
+   }
   },
   {
    "from": "AUS",
@@ -631,7 +722,14 @@
    "avg": 4.35,
    "median": 3.69,
    "min": -3.17,
-   "digitalAvg": 3.55
+   "digitalAvg": 3.55,
+   "at500": {
+    "providers": 26,
+    "avg": 3.26,
+    "median": 2.82,
+    "min": -3.61,
+    "digitalAvg": 2.87
+   }
   },
   {
    "from": "AUS",
@@ -640,7 +738,14 @@
    "avg": 3.28,
    "median": 2.87,
    "min": 0.7,
-   "digitalAvg": 3.24
+   "digitalAvg": 3.24,
+   "at500": {
+    "providers": 19,
+    "avg": 2.46,
+    "median": 2.18,
+    "min": 0.28,
+    "digitalAvg": 2.43
+   }
   },
   {
    "from": "AUS",
@@ -649,7 +754,14 @@
    "avg": 4.04,
    "median": 3.04,
    "min": 1,
-   "digitalAvg": 3.34
+   "digitalAvg": 3.34,
+   "at500": {
+    "providers": 23,
+    "avg": 2.33,
+    "median": 1.88,
+    "min": 0.74,
+    "digitalAvg": 2.11
+   }
   },
   {
    "from": "AUS",
@@ -658,7 +770,14 @@
    "avg": 3.6,
    "median": 2.97,
    "min": 1.59,
-   "digitalAvg": 3.59
+   "digitalAvg": 3.59,
+   "at500": {
+    "providers": 11,
+    "avg": 2.73,
+    "median": 2.1,
+    "min": 0.09,
+    "digitalAvg": 2.75
+   }
   },
   {
    "from": "AUS",
@@ -667,7 +786,14 @@
    "avg": 5.5,
    "median": 4.99,
    "min": 2.36,
-   "digitalAvg": 4.66
+   "digitalAvg": 4.66,
+   "at500": {
+    "providers": 20,
+    "avg": 4.31,
+    "median": 4.39,
+    "min": 2.36,
+    "digitalAvg": 4.03
+   }
   },
   {
    "from": "AUS",
@@ -676,7 +802,14 @@
    "avg": 6.15,
    "median": 3.43,
    "min": -2.22,
-   "digitalAvg": 4.03
+   "digitalAvg": 4.03,
+   "at500": {
+    "providers": 36,
+    "avg": 3.53,
+    "median": 2.4,
+    "min": -2.37,
+    "digitalAvg": 2.47
+   }
   },
   {
    "from": "AUS",
@@ -685,7 +818,14 @@
    "avg": 3.31,
    "median": 3.3,
    "min": 0.11,
-   "digitalAvg": 3.39
+   "digitalAvg": 3.39,
+   "at500": {
+    "providers": 18,
+    "avg": 2.34,
+    "median": 2.72,
+    "min": 0.11,
+    "digitalAvg": 2.5
+   }
   },
   {
    "from": "AUS",
@@ -694,7 +834,14 @@
    "avg": 10.67,
    "median": 7.84,
    "min": 2.39,
-   "digitalAvg": 5.84
+   "digitalAvg": 5.84,
+   "at500": {
+    "providers": 33,
+    "avg": 6.08,
+    "median": 5.14,
+    "min": 1.34,
+    "digitalAvg": 3.96
+   }
   },
   {
    "from": "AUS",
@@ -703,7 +850,14 @@
    "avg": 3.65,
    "median": 3.06,
    "min": 0.8,
-   "digitalAvg": 3.32
+   "digitalAvg": 3.32,
+   "at500": {
+    "providers": 20,
+    "avg": 2.73,
+    "median": 2.41,
+    "min": 0.61,
+    "digitalAvg": 2.52
+   }
   },
   {
    "from": "AUS",
@@ -712,7 +866,14 @@
    "avg": 2.61,
    "median": 2.41,
    "min": 0.48,
-   "digitalAvg": 2.77
+   "digitalAvg": 2.77,
+   "at500": {
+    "providers": 34,
+    "avg": 1.47,
+    "median": 2.01,
+    "min": -1.94,
+    "digitalAvg": 2.04
+   }
   },
   {
    "from": "AUS",
@@ -721,7 +882,14 @@
    "avg": 1.77,
    "median": 1.89,
    "min": -1.53,
-   "digitalAvg": 1.62
+   "digitalAvg": 1.62,
+   "at500": {
+    "providers": 25,
+    "avg": 0.93,
+    "median": 0.77,
+    "min": -1.53,
+    "digitalAvg": 0.85
+   }
   },
   {
    "from": "AUS",
@@ -730,7 +898,14 @@
    "avg": 4.2,
    "median": 3.68,
    "min": 1.52,
-   "digitalAvg": 3.73
+   "digitalAvg": 3.73,
+   "at500": {
+    "providers": 19,
+    "avg": 3.24,
+    "median": 2.78,
+    "min": 1.03,
+    "digitalAvg": 3.01
+   }
   },
   {
    "from": "AUS",
@@ -739,7 +914,14 @@
    "avg": 7.65,
    "median": 6.62,
    "min": 0.92,
-   "digitalAvg": 6.66
+   "digitalAvg": 6.66,
+   "at500": {
+    "providers": 16,
+    "avg": 6.07,
+    "median": 5.73,
+    "min": 0.92,
+    "digitalAvg": 5.85
+   }
   },
   {
    "from": "AUS",
@@ -748,7 +930,14 @@
    "avg": 5.01,
    "median": 3.96,
    "min": 0.17,
-   "digitalAvg": 3.88
+   "digitalAvg": 3.88,
+   "at500": {
+    "providers": 18,
+    "avg": 3.68,
+    "median": 2.91,
+    "min": 0.19,
+    "digitalAvg": 3.09
+   }
   },
   {
    "from": "AUS",
@@ -757,7 +946,14 @@
    "avg": 12.77,
    "median": 8.63,
    "min": 5.72,
-   "digitalAvg": 9
+   "digitalAvg": 9,
+   "at500": {
+    "providers": 14,
+    "avg": 9.28,
+    "median": 7.43,
+    "min": 5.72,
+    "digitalAvg": 7.85
+   }
   },
   {
    "from": "AUS",
@@ -766,7 +962,14 @@
    "avg": 5.93,
    "median": 5.88,
    "min": -0.54,
-   "digitalAvg": 4.52
+   "digitalAvg": 4.52,
+   "at500": {
+    "providers": 15,
+    "avg": 4.26,
+    "median": 4.95,
+    "min": -2.04,
+    "digitalAvg": 3.67
+   }
   },
   {
    "from": "AUT",
@@ -775,7 +978,14 @@
    "avg": 6.64,
    "median": 6.65,
    "min": 2.68,
-   "digitalAvg": 6.16
+   "digitalAvg": 6.16,
+   "at500": {
+    "providers": 17,
+    "avg": 4.26,
+    "median": 4.53,
+    "min": 1.84,
+    "digitalAvg": 4.28
+   }
   },
   {
    "from": "AUT",
@@ -784,7 +994,14 @@
    "avg": 2.78,
    "median": 2.85,
    "min": 0,
-   "digitalAvg": 2.85
+   "digitalAvg": 2.85,
+   "at500": {
+    "providers": 20,
+    "avg": 1.4,
+    "median": 1.31,
+    "min": 0,
+    "digitalAvg": 1.46
+   }
   },
   {
    "from": "AUT",
@@ -793,7 +1010,14 @@
    "avg": 4.42,
    "median": 3.97,
    "min": 0.83,
-   "digitalAvg": 4.68
+   "digitalAvg": 4.68,
+   "at500": {
+    "providers": 19,
+    "avg": 3.1,
+    "median": 2.28,
+    "min": 0.62,
+    "digitalAvg": 3.36
+   }
   },
   {
    "from": "AUT",
@@ -802,7 +1026,14 @@
    "avg": 5.3,
    "median": 4.9,
    "min": 3.57,
-   "digitalAvg": 4.65
+   "digitalAvg": 4.65,
+   "at500": {
+    "providers": 17,
+    "avg": 3.3,
+    "median": 3.21,
+    "min": 2.32,
+    "digitalAvg": 3.19
+   }
   },
   {
    "from": "AUT",
@@ -811,7 +1042,14 @@
    "avg": 3.94,
    "median": 3.57,
    "min": 0.54,
-   "digitalAvg": 3.41
+   "digitalAvg": 3.41,
+   "at500": {
+    "providers": 37,
+    "avg": 2.5,
+    "median": 2.4,
+    "min": 0.49,
+    "digitalAvg": 2.39
+   }
   },
   {
    "from": "AUT",
@@ -820,7 +1058,14 @@
    "avg": 4.36,
    "median": 4.72,
    "min": 0,
-   "digitalAvg": 3.71
+   "digitalAvg": 3.71,
+   "at500": {
+    "providers": 20,
+    "avg": 2.14,
+    "median": 2.17,
+    "min": 0,
+    "digitalAvg": 1.92
+   }
   },
   {
    "from": "BEL",
@@ -829,7 +1074,14 @@
    "avg": 3.15,
    "median": 3.26,
    "min": 1.36,
-   "digitalAvg": 3.19
+   "digitalAvg": 3.19,
+   "at500": {
+    "providers": 15,
+    "avg": 2.38,
+    "median": 2.04,
+    "min": 1.01,
+    "digitalAvg": 2.43
+   }
   },
   {
    "from": "BEL",
@@ -838,7 +1090,14 @@
    "avg": 3.86,
    "median": 3.69,
    "min": 1.18,
-   "digitalAvg": 3.49
+   "digitalAvg": 3.49,
+   "at500": {
+    "providers": 22,
+    "avg": 2.77,
+    "median": 2.85,
+    "min": 1.08,
+    "digitalAvg": 2.64
+   }
   },
   {
    "from": "BEL",
@@ -847,7 +1106,14 @@
    "avg": 4.22,
    "median": 4.06,
    "min": 2.05,
-   "digitalAvg": 4.02
+   "digitalAvg": 4.02,
+   "at500": {
+    "providers": 21,
+    "avg": 3,
+    "median": 2.37,
+    "min": 1.21,
+    "digitalAvg": 2.83
+   }
   },
   {
    "from": "BEL",
@@ -856,7 +1122,14 @@
    "avg": 1.29,
    "median": 1.29,
    "min": 1.09,
-   "digitalAvg": 1.29
+   "digitalAvg": 1.29,
+   "at500": {
+    "providers": 6,
+    "avg": 1.29,
+    "median": 1.29,
+    "min": 1.09,
+    "digitalAvg": 1.29
+   }
   },
   {
    "from": "BHR",
@@ -865,7 +1138,14 @@
    "avg": 6.2,
    "median": 6.12,
    "min": 5.73,
-   "digitalAvg": 6.46
+   "digitalAvg": 6.46,
+   "at500": {
+    "providers": 11,
+    "avg": 5.19,
+    "median": 5.23,
+    "min": 4.77,
+    "digitalAvg": 5.48
+   }
   },
   {
    "from": "BHR",
@@ -874,7 +1154,14 @@
    "avg": 0.92,
    "median": 0.6,
    "min": -0.46,
-   "digitalAvg": 2.13
+   "digitalAvg": 2.13,
+   "at500": {
+    "providers": 7,
+    "avg": 0.44,
+    "median": 0.47,
+    "min": -0.46,
+    "digitalAvg": 1.46
+   }
   },
   {
    "from": "BHR",
@@ -883,7 +1170,14 @@
    "avg": 2.17,
    "median": 2.44,
    "min": 0.24,
-   "digitalAvg": 1.32
+   "digitalAvg": 1.32,
+   "at500": {
+    "providers": 10,
+    "avg": 1.07,
+    "median": 1.07,
+    "min": 0.24,
+    "digitalAvg": 0.66
+   }
   },
   {
    "from": "BHR",
@@ -892,7 +1186,14 @@
    "avg": 3.25,
    "median": 2.76,
    "min": 2.41,
-   "digitalAvg": 2.71
+   "digitalAvg": 2.71,
+   "at500": {
+    "providers": 5,
+    "avg": 2.3,
+    "median": 1.28,
+    "min": 1.14,
+    "digitalAvg": 2.05
+   }
   },
   {
    "from": "BRA",
@@ -901,7 +1202,14 @@
    "avg": 22.59,
    "median": 18.69,
    "min": 5.79,
-   "digitalAvg": 22.96
+   "digitalAvg": 22.96,
+   "at500": {
+    "providers": 8,
+    "avg": 21.84,
+    "median": 18.43,
+    "min": 5.31,
+    "digitalAvg": 21.91
+   }
   },
   {
    "from": "BRA",
@@ -910,7 +1218,14 @@
    "avg": 7.1,
    "median": 5.35,
    "min": 1.98,
-   "digitalAvg": 4.94
+   "digitalAvg": 4.94,
+   "at500": {
+    "providers": 10,
+    "avg": 6.55,
+    "median": 5.1,
+    "min": 1.98,
+    "digitalAvg": 4.14
+   }
   },
   {
    "from": "BRA",
@@ -919,7 +1234,14 @@
    "avg": 8.18,
    "median": 6.43,
    "min": 2.74,
-   "digitalAvg": 6.53
+   "digitalAvg": 6.53,
+   "at500": {
+    "providers": 10,
+    "avg": 8.04,
+    "median": 6.18,
+    "min": 2.75,
+    "digitalAvg": 6.01
+   }
   },
   {
    "from": "CAN",
@@ -928,7 +1250,14 @@
    "avg": 6,
    "median": 5.2,
    "min": 0.86,
-   "digitalAvg": 4.46
+   "digitalAvg": 4.46,
+   "at500": {
+    "providers": 21,
+    "avg": 4.63,
+    "median": 3.98,
+    "min": 0.86,
+    "digitalAvg": 3.86
+   }
   },
   {
    "from": "CAN",
@@ -937,7 +1266,14 @@
    "avg": 3.15,
    "median": 3.06,
    "min": 0.96,
-   "digitalAvg": 3.1
+   "digitalAvg": 3.1,
+   "at500": {
+    "providers": 13,
+    "avg": 2.24,
+    "median": 2.55,
+    "min": 0.96,
+    "digitalAvg": 2.31
+   }
   },
   {
    "from": "CAN",
@@ -946,7 +1282,14 @@
    "avg": 5.69,
    "median": 5.22,
    "min": 2.1,
-   "digitalAvg": 5.37
+   "digitalAvg": 5.37,
+   "at500": {
+    "providers": 15,
+    "avg": 4.54,
+    "median": 4.02,
+    "min": 2.1,
+    "digitalAvg": 4.32
+   }
   },
   {
    "from": "CAN",
@@ -955,7 +1298,14 @@
    "avg": 5.03,
    "median": 4.77,
    "min": 1.94,
-   "digitalAvg": 4.59
+   "digitalAvg": 4.59,
+   "at500": {
+    "providers": 16,
+    "avg": 4.08,
+    "median": 3.77,
+    "min": 1.94,
+    "digitalAvg": 3.73
+   }
   },
   {
    "from": "CAN",
@@ -964,7 +1314,14 @@
    "avg": 6.2,
    "median": 4.15,
    "min": 2.1,
-   "digitalAvg": 4.94
+   "digitalAvg": 4.94,
+   "at500": {
+    "providers": 19,
+    "avg": 4.8,
+    "median": 3.92,
+    "min": 1.45,
+    "digitalAvg": 4.06
+   }
   },
   {
    "from": "CAN",
@@ -973,7 +1330,14 @@
    "avg": 6.58,
    "median": 4.33,
    "min": 2.1,
-   "digitalAvg": 4.8
+   "digitalAvg": 4.8,
+   "at500": {
+    "providers": 17,
+    "avg": 4.74,
+    "median": 3.62,
+    "min": 2.07,
+    "digitalAvg": 3.88
+   }
   },
   {
    "from": "CAN",
@@ -982,7 +1346,14 @@
    "avg": 3.55,
    "median": 3.32,
    "min": 0.58,
-   "digitalAvg": 3
+   "digitalAvg": 3,
+   "at500": {
+    "providers": 37,
+    "avg": 1.91,
+    "median": 1.82,
+    "min": -0.02,
+    "digitalAvg": 1.82
+   }
   },
   {
    "from": "CAN",
@@ -991,7 +1362,14 @@
    "avg": 4.28,
    "median": 2.58,
    "min": 0.86,
-   "digitalAvg": 2.57
+   "digitalAvg": 2.57,
+   "at500": {
+    "providers": 32,
+    "avg": 2.69,
+    "median": 2.1,
+    "min": 0.74,
+    "digitalAvg": 1.94
+   }
   },
   {
    "from": "CAN",
@@ -1000,7 +1378,14 @@
    "avg": 4.73,
    "median": 4.36,
    "min": 1.28,
-   "digitalAvg": 4.92
+   "digitalAvg": 4.92,
+   "at500": {
+    "providers": 19,
+    "avg": 4.01,
+    "median": 4.01,
+    "min": -1.22,
+    "digitalAvg": 4.52
+   }
   },
   {
    "from": "CAN",
@@ -1009,7 +1394,14 @@
    "avg": 5.83,
    "median": 5.58,
    "min": 1.7,
-   "digitalAvg": 4.41
+   "digitalAvg": 4.41,
+   "at500": {
+    "providers": 14,
+    "avg": 3.95,
+    "median": 4,
+    "min": 1.35,
+    "digitalAvg": 3.34
+   }
   },
   {
    "from": "CAN",
@@ -1018,7 +1410,14 @@
    "avg": 5.42,
    "median": 5.07,
    "min": -2.3,
-   "digitalAvg": 3.95
+   "digitalAvg": 3.95,
+   "at500": {
+    "providers": 21,
+    "avg": 3.64,
+    "median": 3.76,
+    "min": -2.3,
+    "digitalAvg": 2.89
+   }
   },
   {
    "from": "CAN",
@@ -1027,7 +1426,14 @@
    "avg": 8.35,
    "median": 9.09,
    "min": 4.16,
-   "digitalAvg": 7.77
+   "digitalAvg": 7.77,
+   "at500": {
+    "providers": 10,
+    "avg": 6.83,
+    "median": 8.18,
+    "min": 2.66,
+    "digitalAvg": 6.34
+   }
   },
   {
    "from": "CAN",
@@ -1036,7 +1442,14 @@
    "avg": 5.78,
    "median": 5.39,
    "min": 2.1,
-   "digitalAvg": 4.9
+   "digitalAvg": 4.9,
+   "at500": {
+    "providers": 13,
+    "avg": 4.52,
+    "median": 3.87,
+    "min": 2.1,
+    "digitalAvg": 3.83
+   }
   },
   {
    "from": "CAN",
@@ -1045,7 +1458,14 @@
    "avg": 9.43,
    "median": 6.05,
    "min": 2.1,
-   "digitalAvg": 5.83
+   "digitalAvg": 5.83,
+   "at500": {
+    "providers": 8,
+    "avg": 6.15,
+    "median": 4.04,
+    "min": 2.1,
+    "digitalAvg": 4.36
+   }
   },
   {
    "from": "CAN",
@@ -1054,7 +1474,14 @@
    "avg": 4.75,
    "median": 5.42,
    "min": 2.65,
-   "digitalAvg": 4.6
+   "digitalAvg": 4.6,
+   "at500": {
+    "providers": 9,
+    "avg": 3.46,
+    "median": 3.61,
+    "min": 0.85,
+    "digitalAvg": 3.44
+   }
   },
   {
    "from": "CHE",
@@ -1063,7 +1490,14 @@
    "avg": 5.27,
    "median": 4.79,
    "min": 2.28,
-   "digitalAvg": 5.07
+   "digitalAvg": 5.07,
+   "at500": {
+    "providers": 17,
+    "avg": 3.71,
+    "median": 3.67,
+    "min": 0.81,
+    "digitalAvg": 3.53
+   }
   },
   {
    "from": "CHE",
@@ -1072,7 +1506,14 @@
    "avg": 3.81,
    "median": 3.12,
    "min": 0.63,
-   "digitalAvg": 3.14
+   "digitalAvg": 3.14,
+   "at500": {
+    "providers": 13,
+    "avg": 2.82,
+    "median": 1.63,
+    "min": 0.63,
+    "digitalAvg": 2.24
+   }
   },
   {
    "from": "CHE",
@@ -1081,7 +1522,14 @@
    "avg": 5.62,
    "median": 5.78,
    "min": 3.25,
-   "digitalAvg": 4.85
+   "digitalAvg": 4.85,
+   "at500": {
+    "providers": 9,
+    "avg": 4,
+    "median": 4.29,
+    "min": 1.76,
+    "digitalAvg": 3.41
+   }
   },
   {
    "from": "CHE",
@@ -1090,7 +1538,14 @@
    "avg": 7.11,
    "median": 7.71,
    "min": 5.36,
-   "digitalAvg": 6.48
+   "digitalAvg": 6.48,
+   "at500": {
+    "providers": 7,
+    "avg": 5.13,
+    "median": 5.07,
+    "min": 3.34,
+    "digitalAvg": 4.76
+   }
   },
   {
    "from": "CHE",
@@ -1099,7 +1554,14 @@
    "avg": 12.87,
    "median": 8.51,
    "min": 5.72,
-   "digitalAvg": 9.86
+   "digitalAvg": 9.86,
+   "at500": {
+    "providers": 11,
+    "avg": 7.14,
+    "median": 7.02,
+    "min": 3.34,
+    "digitalAvg": 6.06
+   }
   },
   {
    "from": "CHL",
@@ -1108,7 +1570,14 @@
    "avg": 4.93,
    "median": 4.62,
    "min": 4.25,
-   "digitalAvg": null
+   "digitalAvg": null,
+   "at500": {
+    "providers": 7,
+    "avg": 4.72,
+    "median": 4.56,
+    "min": 3.41,
+    "digitalAvg": null
+   }
   },
   {
    "from": "CIV",
@@ -1117,7 +1586,14 @@
    "avg": 6.17,
    "median": 3.23,
    "min": 1.5,
-   "digitalAvg": 1.5
+   "digitalAvg": 1.5,
+   "at500": {
+    "providers": 7,
+    "avg": 3.25,
+    "median": 2.57,
+    "min": 1.5,
+    "digitalAvg": 1.5
+   }
   },
   {
    "from": "CMR",
@@ -1126,7 +1602,14 @@
    "avg": 4.38,
    "median": 4.38,
    "min": 4.13,
-   "digitalAvg": null
+   "digitalAvg": null,
+   "at500": {
+    "providers": 2,
+    "avg": 4.36,
+    "median": 4.36,
+    "min": 4.12,
+    "digitalAvg": null
+   }
   },
   {
    "from": "CRI",
@@ -1135,7 +1618,14 @@
    "avg": 6.86,
    "median": 2.75,
    "min": 2.75,
-   "digitalAvg": 5
+   "digitalAvg": 5,
+   "at500": {
+    "providers": 9,
+    "avg": 4.09,
+    "median": 3.25,
+    "min": 2,
+    "digitalAvg": 2
+   }
   },
   {
    "from": "CZE",
@@ -1144,7 +1634,14 @@
    "avg": 6.18,
    "median": 3.74,
    "min": 0.8,
-   "digitalAvg": 4.66
+   "digitalAvg": 4.66,
+   "at500": {
+    "providers": 15,
+    "avg": 4.23,
+    "median": 3.37,
+    "min": 0.8,
+    "digitalAvg": 3.19
+   }
   },
   {
    "from": "CZE",
@@ -1153,7 +1650,14 @@
    "avg": 6.36,
    "median": 4.26,
    "min": 1.55,
-   "digitalAvg": 4.96
+   "digitalAvg": 4.96,
+   "at500": {
+    "providers": 16,
+    "avg": 4.13,
+    "median": 3.87,
+    "min": 1.02,
+    "digitalAvg": 3.56
+   }
   },
   {
    "from": "DEU",
@@ -1162,7 +1666,14 @@
    "avg": 2.85,
    "median": 1.51,
    "min": -0.18,
-   "digitalAvg": 2.65
+   "digitalAvg": 2.65,
+   "at500": {
+    "providers": 33,
+    "avg": 2.43,
+    "median": 1.49,
+    "min": -0.18,
+    "digitalAvg": 2.28
+   }
   },
   {
    "from": "DEU",
@@ -1171,7 +1682,14 @@
    "avg": 3.58,
    "median": 3.56,
    "min": 0,
-   "digitalAvg": 3.54
+   "digitalAvg": 3.54,
+   "at500": {
+    "providers": 25,
+    "avg": 2.07,
+    "median": 2.15,
+    "min": 0,
+    "digitalAvg": 2.05
+   }
   },
   {
    "from": "DEU",
@@ -1180,7 +1698,14 @@
    "avg": 4.9,
    "median": 4.35,
    "min": 1.96,
-   "digitalAvg": 3.84
+   "digitalAvg": 3.84,
+   "at500": {
+    "providers": 22,
+    "avg": 2.86,
+    "median": 2.65,
+    "min": 1.13,
+    "digitalAvg": 2.39
+   }
   },
   {
    "from": "DEU",
@@ -1189,7 +1714,14 @@
    "avg": 4.45,
    "median": 2.9,
    "min": 0.76,
-   "digitalAvg": 4.08
+   "digitalAvg": 4.08,
+   "at500": {
+    "providers": 33,
+    "avg": 3.9,
+    "median": 1.92,
+    "min": 0.76,
+    "digitalAvg": 3.58
+   }
   },
   {
    "from": "DEU",
@@ -1198,7 +1730,14 @@
    "avg": 3.14,
    "median": 3.56,
    "min": 0,
-   "digitalAvg": 3.75
+   "digitalAvg": 3.75,
+   "at500": {
+    "providers": 20,
+    "avg": 1.93,
+    "median": 2.03,
+    "min": 0,
+    "digitalAvg": 2.42
+   }
   },
   {
    "from": "DEU",
@@ -1207,7 +1746,14 @@
    "avg": 7.18,
    "median": 6.07,
    "min": 2.05,
-   "digitalAvg": 6.39
+   "digitalAvg": 6.39,
+   "at500": {
+    "providers": 18,
+    "avg": 5.72,
+    "median": 4.2,
+    "min": 1.69,
+    "digitalAvg": 5.14
+   }
   },
   {
    "from": "DEU",
@@ -1216,7 +1762,14 @@
    "avg": 6.78,
    "median": 2.06,
    "min": 1.35,
-   "digitalAvg": 3.78
+   "digitalAvg": 3.78,
+   "at500": {
+    "providers": 27,
+    "avg": 3.49,
+    "median": 1.28,
+    "min": 0.73,
+    "digitalAvg": 2.29
+   }
   },
   {
    "from": "DEU",
@@ -1225,7 +1778,14 @@
    "avg": 4.11,
    "median": 3.88,
    "min": 2.24,
-   "digitalAvg": 3.72
+   "digitalAvg": 3.72,
+   "at500": {
+    "providers": 33,
+    "avg": 3.11,
+    "median": 2.87,
+    "min": 1.36,
+    "digitalAvg": 2.73
+   }
   },
   {
    "from": "DEU",
@@ -1234,7 +1794,14 @@
    "avg": 4.66,
    "median": 3.5,
    "min": 2.76,
-   "digitalAvg": 3.15
+   "digitalAvg": 3.15,
+   "at500": {
+    "providers": 13,
+    "avg": 2.99,
+    "median": 2.12,
+    "min": 1.13,
+    "digitalAvg": 1.92
+   }
   },
   {
    "from": "DEU",
@@ -1243,7 +1810,14 @@
    "avg": 3.2,
    "median": 2.79,
    "min": 0,
-   "digitalAvg": 3.36
+   "digitalAvg": 3.36,
+   "at500": {
+    "providers": 51,
+    "avg": 2.13,
+    "median": 1.53,
+    "min": 0,
+    "digitalAvg": 2.34
+   }
   },
   {
    "from": "DEU",
@@ -1252,7 +1826,14 @@
    "avg": 6.65,
    "median": 2.92,
    "min": 2.12,
-   "digitalAvg": 3.25
+   "digitalAvg": 3.25,
+   "at500": {
+    "providers": 21,
+    "avg": 3.94,
+    "median": 2.66,
+    "min": 1.86,
+    "digitalAvg": 2.48
+   }
   },
   {
    "from": "DEU",
@@ -1261,7 +1842,14 @@
    "avg": 4.01,
    "median": 3,
    "min": 1.74,
-   "digitalAvg": 3.71
+   "digitalAvg": 3.71,
+   "at500": {
+    "providers": 30,
+    "avg": 2.46,
+    "median": 2.08,
+    "min": 1.13,
+    "digitalAvg": 2.38
+   }
   },
   {
    "from": "DEU",
@@ -1270,7 +1858,14 @@
    "avg": 3.49,
    "median": 2.79,
    "min": 0,
-   "digitalAvg": 2.84
+   "digitalAvg": 2.84,
+   "at500": {
+    "providers": 19,
+    "avg": 2.46,
+    "median": 2.24,
+    "min": 0,
+    "digitalAvg": 2.1
+   }
   },
   {
    "from": "DEU",
@@ -1279,7 +1874,14 @@
    "avg": 3.85,
    "median": 2.68,
    "min": 1.34,
-   "digitalAvg": 3.56
+   "digitalAvg": 3.56,
+   "at500": {
+    "providers": 35,
+    "avg": 2.77,
+    "median": 1.96,
+    "min": 1.18,
+    "digitalAvg": 2.49
+   }
   },
   {
    "from": "DEU",
@@ -1288,7 +1890,14 @@
    "avg": 9.85,
    "median": 7.61,
    "min": 5.9,
-   "digitalAvg": 6.77
+   "digitalAvg": 6.77,
+   "at500": {
+    "providers": 8,
+    "avg": 7.82,
+    "median": 6.22,
+    "min": 3.79,
+    "digitalAvg": 5.51
+   }
   },
   {
    "from": "DEU",
@@ -1297,7 +1906,14 @@
    "avg": 2.47,
    "median": 1.78,
    "min": 0,
-   "digitalAvg": 2.48
+   "digitalAvg": 2.48,
+   "at500": {
+    "providers": 17,
+    "avg": 1.45,
+    "median": 1.16,
+    "min": 0,
+    "digitalAvg": 1.59
+   }
   },
   {
    "from": "DEU",
@@ -1306,7 +1922,14 @@
    "avg": 2.99,
    "median": 2.58,
    "min": 0,
-   "digitalAvg": 2.99
+   "digitalAvg": 2.99,
+   "at500": {
+    "providers": 19,
+    "avg": 2.13,
+    "median": 2.58,
+    "min": 0,
+    "digitalAvg": 2.13
+   }
   },
   {
    "from": "DEU",
@@ -1315,7 +1938,14 @@
    "avg": 9.38,
    "median": 8.31,
    "min": 3.07,
-   "digitalAvg": 6.18
+   "digitalAvg": 6.18,
+   "at500": {
+    "providers": 16,
+    "avg": 6.1,
+    "median": 6.13,
+    "min": 2.23,
+    "digitalAvg": 4.51
+   }
   },
   {
    "from": "DEU",
@@ -1324,7 +1954,14 @@
    "avg": 5.49,
    "median": 4.32,
    "min": 3,
-   "digitalAvg": 3.86
+   "digitalAvg": 3.86,
+   "at500": {
+    "providers": 5,
+    "avg": 4.43,
+    "median": 2.63,
+    "min": 2.19,
+    "digitalAvg": 2.61
+   }
   },
   {
    "from": "DEU",
@@ -1333,7 +1970,14 @@
    "avg": 3.46,
    "median": 2.88,
    "min": 1.45,
-   "digitalAvg": 2.48
+   "digitalAvg": 2.48,
+   "at500": {
+    "providers": 15,
+    "avg": 2.07,
+    "median": 1.77,
+    "min": 0.9,
+    "digitalAvg": 1.36
+   }
   },
   {
    "from": "DEU",
@@ -1342,7 +1986,14 @@
    "avg": 4.4,
    "median": 4.28,
    "min": 0.3,
-   "digitalAvg": 3.2
+   "digitalAvg": 3.2,
+   "at500": {
+    "providers": 12,
+    "avg": 2.32,
+    "median": 2.32,
+    "min": 0.3,
+    "digitalAvg": 1.76
+   }
   },
   {
    "from": "DEU",
@@ -1351,7 +2002,14 @@
    "avg": 8.61,
    "median": 7.73,
    "min": 6.68,
-   "digitalAvg": 7.22
+   "digitalAvg": 7.22,
+   "at500": {
+    "providers": 5,
+    "avg": 7.19,
+    "median": 6.04,
+    "min": 4.99,
+    "digitalAvg": 5.53
+   }
   },
   {
    "from": "DEU",
@@ -1360,7 +2018,14 @@
    "avg": 5.58,
    "median": 4.58,
    "min": 3.21,
-   "digitalAvg": 4.01
+   "digitalAvg": 4.01,
+   "at500": {
+    "providers": 6,
+    "avg": 3.75,
+    "median": 3.18,
+    "min": 2.52,
+    "digitalAvg": 2.97
+   }
   },
   {
    "from": "DEU",
@@ -1369,7 +2034,14 @@
    "avg": 4.07,
    "median": 3.56,
    "min": 0,
-   "digitalAvg": 1.78
+   "digitalAvg": 1.78,
+   "at500": {
+    "providers": 7,
+    "avg": 2.44,
+    "median": 2.03,
+    "min": 0,
+    "digitalAvg": 1.01
+   }
   },
   {
    "from": "DOM",
@@ -1378,7 +2050,14 @@
    "avg": 7.68,
    "median": 7.91,
    "min": 6.71,
-   "digitalAvg": null
+   "digitalAvg": null,
+   "at500": {
+    "providers": 3,
+    "avg": 7.52,
+    "median": 7.92,
+    "min": 6.71,
+    "digitalAvg": null
+   }
   },
   {
    "from": "ESP",
@@ -1387,7 +2066,14 @@
    "avg": 15.8,
    "median": 13.34,
    "min": 3.76,
-   "digitalAvg": 11.23
+   "digitalAvg": 11.23,
+   "at500": {
+    "providers": 12,
+    "avg": 13.16,
+    "median": 9.65,
+    "min": 2.49,
+    "digitalAvg": 9.78
+   }
   },
   {
    "from": "ESP",
@@ -1396,7 +2082,14 @@
    "avg": 4.18,
    "median": 4.14,
    "min": 0.76,
-   "digitalAvg": 4.29
+   "digitalAvg": 4.29,
+   "at500": {
+    "providers": 18,
+    "avg": 2.63,
+    "median": 2.68,
+    "min": 0.76,
+    "digitalAvg": 2.8
+   }
   },
   {
    "from": "ESP",
@@ -1405,7 +2098,14 @@
    "avg": 5.86,
    "median": 3.68,
    "min": 1.79,
-   "digitalAvg": 4.35
+   "digitalAvg": 4.35,
+   "at500": {
+    "providers": 14,
+    "avg": 3.25,
+    "median": 2.41,
+    "min": 0.95,
+    "digitalAvg": 2.73
+   }
   },
   {
    "from": "ESP",
@@ -1414,7 +2114,14 @@
    "avg": 6.29,
    "median": 3.8,
    "min": 1.79,
-   "digitalAvg": 5.52
+   "digitalAvg": 5.52,
+   "at500": {
+    "providers": 22,
+    "avg": 4.05,
+    "median": 2.69,
+    "min": 1.58,
+    "digitalAvg": 3.88
+   }
   },
   {
    "from": "ESP",
@@ -1423,7 +2130,14 @@
    "avg": 2.88,
    "median": 3.48,
    "min": 0.71,
-   "digitalAvg": 2.84
+   "digitalAvg": 2.84,
+   "at500": {
+    "providers": 18,
+    "avg": 1.78,
+    "median": 2,
+    "min": 0.71,
+    "digitalAvg": 1.79
+   }
   },
   {
    "from": "ESP",
@@ -1432,7 +2146,14 @@
    "avg": 5.48,
    "median": 4.62,
    "min": 1.69,
-   "digitalAvg": 4.63
+   "digitalAvg": 4.63,
+   "at500": {
+    "providers": 22,
+    "avg": 3.14,
+    "median": 2.66,
+    "min": 1.1,
+    "digitalAvg": 2.93
+   }
   },
   {
    "from": "ESP",
@@ -1441,7 +2162,14 @@
    "avg": 7.06,
    "median": 4.12,
    "min": 2.16,
-   "digitalAvg": 3.95
+   "digitalAvg": 3.95,
+   "at500": {
+    "providers": 15,
+    "avg": 3.69,
+    "median": 2.4,
+    "min": 1.32,
+    "digitalAvg": 2.4
+   }
   },
   {
    "from": "ESP",
@@ -1450,7 +2178,14 @@
    "avg": 4.75,
    "median": 2.87,
    "min": 1.49,
-   "digitalAvg": 4.62
+   "digitalAvg": 4.62,
+   "at500": {
+    "providers": 19,
+    "avg": 3.07,
+    "median": 2.3,
+    "min": 0.9,
+    "digitalAvg": 3.02
+   }
   },
   {
    "from": "ESP",
@@ -1459,7 +2194,14 @@
    "avg": 3.63,
    "median": 3.09,
    "min": 1.68,
-   "digitalAvg": 3.54
+   "digitalAvg": 3.54,
+   "at500": {
+    "providers": 15,
+    "avg": 2.24,
+    "median": 1.83,
+    "min": 1.26,
+    "digitalAvg": 2.24
+   }
   },
   {
    "from": "ESP",
@@ -1468,7 +2210,14 @@
    "avg": 5.32,
    "median": 5.14,
    "min": 3.75,
-   "digitalAvg": 5.32
+   "digitalAvg": 5.32,
+   "at500": {
+    "providers": 12,
+    "avg": 3.73,
+    "median": 3.61,
+    "min": 2.32,
+    "digitalAvg": 3.73
+   }
   },
   {
    "from": "ESP",
@@ -1477,7 +2226,14 @@
    "avg": 4.18,
    "median": 4.41,
    "min": 2.44,
-   "digitalAvg": 4.18
+   "digitalAvg": 4.18,
+   "at500": {
+    "providers": 13,
+    "avg": 2.46,
+    "median": 2.58,
+    "min": 1.17,
+    "digitalAvg": 2.46
+   }
   },
   {
    "from": "ESP",
@@ -1486,7 +2242,14 @@
    "avg": 5.07,
    "median": 5.09,
    "min": 1.64,
-   "digitalAvg": 5.38
+   "digitalAvg": 5.38,
+   "at500": {
+    "providers": 13,
+    "avg": 3.07,
+    "median": 2.99,
+    "min": 1.05,
+    "digitalAvg": 3.33
+   }
   },
   {
    "from": "ESP",
@@ -1495,7 +2258,14 @@
    "avg": 2.91,
    "median": 2.88,
    "min": 1.26,
-   "digitalAvg": 2.94
+   "digitalAvg": 2.94,
+   "at500": {
+    "providers": 23,
+    "avg": 1.62,
+    "median": 1.72,
+    "min": 0.84,
+    "digitalAvg": 1.6
+   }
   },
   {
    "from": "FRA",
@@ -1504,7 +2274,14 @@
    "avg": 3.08,
    "median": 2.32,
    "min": 1.26,
-   "digitalAvg": 2.77
+   "digitalAvg": 2.77,
+   "at500": {
+    "providers": 20,
+    "avg": 2.45,
+    "median": 1.9,
+    "min": 1.26,
+    "digitalAvg": 2.22
+   }
   },
   {
    "from": "FRA",
@@ -1513,7 +2290,14 @@
    "avg": 4.48,
    "median": 4.05,
    "min": 1.05,
-   "digitalAvg": 4.54
+   "digitalAvg": 4.54,
+   "at500": {
+    "providers": 19,
+    "avg": 2.94,
+    "median": 2.36,
+    "min": 0.63,
+    "digitalAvg": 2.98
+   }
   },
   {
    "from": "FRA",
@@ -1522,7 +2306,14 @@
    "avg": 6.33,
    "median": 3.47,
    "min": 1.4,
-   "digitalAvg": 4.02
+   "digitalAvg": 4.02,
+   "at500": {
+    "providers": 28,
+    "avg": 3.34,
+    "median": 2.25,
+    "min": 0.61,
+    "digitalAvg": 2.2
+   }
   },
   {
    "from": "FRA",
@@ -1531,7 +2322,14 @@
    "avg": 7.39,
    "median": 3.6,
    "min": 1.46,
-   "digitalAvg": 4.66
+   "digitalAvg": 4.66,
+   "at500": {
+    "providers": 39,
+    "avg": 4.08,
+    "median": 2.49,
+    "min": 0.85,
+    "digitalAvg": 3.03
+   }
   },
   {
    "from": "FRA",
@@ -1540,7 +2338,14 @@
    "avg": 5.3,
    "median": 3.02,
    "min": 1.96,
-   "digitalAvg": 4.5
+   "digitalAvg": 4.5,
+   "at500": {
+    "providers": 18,
+    "avg": 3.72,
+    "median": 1.78,
+    "min": 1.2,
+    "digitalAvg": 3.07
+   }
   },
   {
    "from": "FRA",
@@ -1549,7 +2354,14 @@
    "avg": 5.08,
    "median": 4.67,
    "min": 2.37,
-   "digitalAvg": 4.31
+   "digitalAvg": 4.31,
+   "at500": {
+    "providers": 11,
+    "avg": 3.89,
+    "median": 2.98,
+    "min": 1.1,
+    "digitalAvg": 2.96
+   }
   },
   {
    "from": "FRA",
@@ -1558,7 +2370,14 @@
    "avg": 5.5,
    "median": 4.08,
    "min": 0.61,
-   "digitalAvg": 3.71
+   "digitalAvg": 3.71,
+   "at500": {
+    "providers": 18,
+    "avg": 3.78,
+    "median": 3.4,
+    "min": -0.03,
+    "digitalAvg": 2.82
+   }
   },
   {
    "from": "FRA",
@@ -1567,7 +2386,14 @@
    "avg": 4.05,
    "median": 3.93,
    "min": 1.03,
-   "digitalAvg": 4.17
+   "digitalAvg": 4.17,
+   "at500": {
+    "providers": 21,
+    "avg": 3.37,
+    "median": 3.34,
+    "min": 0.38,
+    "digitalAvg": 3.54
+   }
   },
   {
    "from": "FRA",
@@ -1576,7 +2402,14 @@
    "avg": 3.78,
    "median": 3.14,
    "min": 2.75,
-   "digitalAvg": 3.53
+   "digitalAvg": 3.53,
+   "at500": {
+    "providers": 11,
+    "avg": 3.4,
+    "median": 3.23,
+    "min": 1.45,
+    "digitalAvg": 3.2
+   }
   },
   {
    "from": "FRA",
@@ -1585,7 +2418,14 @@
    "avg": 4.86,
    "median": 4.7,
    "min": 4.1,
-   "digitalAvg": 4.61
+   "digitalAvg": 4.61,
+   "at500": {
+    "providers": 8,
+    "avg": 3.36,
+    "median": 3.01,
+    "min": 2.41,
+    "digitalAvg": 2.93
+   }
   },
   {
    "from": "FRA",
@@ -1594,7 +2434,14 @@
    "avg": 5.31,
    "median": 4.63,
    "min": 2.94,
-   "digitalAvg": 4.62
+   "digitalAvg": 4.62,
+   "at500": {
+    "providers": 14,
+    "avg": 4.42,
+    "median": 3.65,
+    "min": 2.5,
+    "digitalAvg": 3.68
+   }
   },
   {
    "from": "FRA",
@@ -1603,7 +2450,14 @@
    "avg": 2.41,
    "median": 2.84,
    "min": 0.91,
-   "digitalAvg": 2.15
+   "digitalAvg": 2.15,
+   "at500": {
+    "providers": 17,
+    "avg": 1.27,
+    "median": 1.15,
+    "min": 0.21,
+    "digitalAvg": 1.04
+   }
   },
   {
    "from": "FRA",
@@ -1612,7 +2466,14 @@
    "avg": 8.05,
    "median": 5.39,
    "min": 4.89,
-   "digitalAvg": 7.06
+   "digitalAvg": 7.06,
+   "at500": {
+    "providers": 11,
+    "avg": 5.45,
+    "median": 3.28,
+    "min": 3.2,
+    "digitalAvg": 4.82
+   }
   },
   {
    "from": "FRA",
@@ -1621,7 +2482,14 @@
    "avg": 3.36,
    "median": 3.22,
    "min": 2.48,
-   "digitalAvg": 3.06
+   "digitalAvg": 3.06,
+   "at500": {
+    "providers": 11,
+    "avg": 2.3,
+    "median": 2.27,
+    "min": 1.15,
+    "digitalAvg": 1.89
+   }
   },
   {
    "from": "FRA",
@@ -1630,7 +2498,14 @@
    "avg": 2.88,
    "median": 2.86,
    "min": 1.23,
-   "digitalAvg": 2.53
+   "digitalAvg": 2.53,
+   "at500": {
+    "providers": 9,
+    "avg": 1.61,
+    "median": 1.46,
+    "min": 0.38,
+    "digitalAvg": 1.26
+   }
   },
   {
    "from": "GBR",
@@ -1639,7 +2514,14 @@
    "avg": 1.96,
    "median": 1.01,
    "min": -0.12,
-   "digitalAvg": 1.83
+   "digitalAvg": 1.83,
+   "at500": {
+    "providers": 31,
+    "avg": 1.26,
+    "median": 0.64,
+    "min": -0.12,
+    "digitalAvg": 1.19
+   }
   },
   {
    "from": "GBR",
@@ -1648,7 +2530,14 @@
    "avg": 5.52,
    "median": 4.43,
    "min": 3.52,
-   "digitalAvg": 4.7
+   "digitalAvg": 4.7,
+   "at500": {
+    "providers": 18,
+    "avg": 4.28,
+    "median": 3.66,
+    "min": 2.71,
+    "digitalAvg": 3.65
+   }
   },
   {
    "from": "GBR",
@@ -1657,7 +2546,14 @@
    "avg": 4.34,
    "median": 3.47,
    "min": 2.03,
-   "digitalAvg": 3.45
+   "digitalAvg": 3.45,
+   "at500": {
+    "providers": 19,
+    "avg": 3.52,
+    "median": 2.32,
+    "min": 1.03,
+    "digitalAvg": 2.48
+   }
   },
   {
    "from": "GBR",
@@ -1666,7 +2562,14 @@
    "avg": 2.9,
    "median": 2.03,
    "min": 0.77,
-   "digitalAvg": 2.27
+   "digitalAvg": 2.27,
+   "at500": {
+    "providers": 22,
+    "avg": 1.97,
+    "median": 1.34,
+    "min": 0.27,
+    "digitalAvg": 1.45
+   }
   },
   {
    "from": "GBR",
@@ -1675,7 +2578,14 @@
    "avg": 7.95,
    "median": 7.06,
    "min": 4.75,
-   "digitalAvg": 6.07
+   "digitalAvg": 6.07,
+   "at500": {
+    "providers": 10,
+    "avg": 6.07,
+    "median": 5.06,
+    "min": 3.8,
+    "digitalAvg": 4.52
+   }
   },
   {
    "from": "GBR",
@@ -1684,7 +2594,14 @@
    "avg": 5.11,
    "median": 5.07,
    "min": 2.41,
-   "digitalAvg": 5.4
+   "digitalAvg": 5.4,
+   "at500": {
+    "providers": 32,
+    "avg": 4.23,
+    "median": 4.15,
+    "min": 2.41,
+    "digitalAvg": 4.47
+   }
   },
   {
    "from": "GBR",
@@ -1693,7 +2610,14 @@
    "avg": 6.29,
    "median": 5.99,
    "min": 1.32,
-   "digitalAvg": 4.15
+   "digitalAvg": 4.15,
+   "at500": {
+    "providers": 22,
+    "avg": 4.43,
+    "median": 3.99,
+    "min": 0.75,
+    "digitalAvg": 2.98
+   }
   },
   {
    "from": "GBR",
@@ -1702,7 +2626,14 @@
    "avg": 3.86,
    "median": 2.45,
    "min": 0.85,
-   "digitalAvg": 3.48
+   "digitalAvg": 3.48,
+   "at500": {
+    "providers": 29,
+    "avg": 2.97,
+    "median": 1.45,
+    "min": 0.8,
+    "digitalAvg": 2.79
+   }
   },
   {
    "from": "GBR",
@@ -1711,7 +2642,14 @@
    "avg": 4.27,
    "median": 3.57,
    "min": 0.72,
-   "digitalAvg": 3.9
+   "digitalAvg": 3.9,
+   "at500": {
+    "providers": 23,
+    "avg": 2.75,
+    "median": 2.09,
+    "min": 0.72,
+    "digitalAvg": 2.41
+   }
   },
   {
    "from": "GBR",
@@ -1720,7 +2658,14 @@
    "avg": 1.91,
    "median": 2.06,
    "min": 0.15,
-   "digitalAvg": 1.99
+   "digitalAvg": 1.99,
+   "at500": {
+    "providers": 28,
+    "avg": 1.12,
+    "median": 0.99,
+    "min": 0.15,
+    "digitalAvg": 1.16
+   }
   },
   {
    "from": "GBR",
@@ -1729,7 +2674,14 @@
    "avg": 3.43,
    "median": 2.65,
    "min": 0.38,
-   "digitalAvg": 2.94
+   "digitalAvg": 2.94,
+   "at500": {
+    "providers": 27,
+    "avg": 2.63,
+    "median": 1.77,
+    "min": 0.38,
+    "digitalAvg": 2.26
+   }
   },
   {
    "from": "GBR",
@@ -1738,7 +2690,14 @@
    "avg": 3.06,
    "median": 2.11,
    "min": 1.13,
-   "digitalAvg": 2.64
+   "digitalAvg": 2.64,
+   "at500": {
+    "providers": 29,
+    "avg": 1.82,
+    "median": 1.53,
+    "min": 0.68,
+    "digitalAvg": 1.62
+   }
   },
   {
    "from": "GBR",
@@ -1747,7 +2706,14 @@
    "avg": 2.39,
    "median": 2.51,
    "min": -1.43,
-   "digitalAvg": 2.46
+   "digitalAvg": 2.46,
+   "at500": {
+    "providers": 29,
+    "avg": 1.22,
+    "median": 1.05,
+    "min": -1.93,
+    "digitalAvg": 1.27
+   }
   },
   {
    "from": "GBR",
@@ -1756,7 +2722,14 @@
    "avg": 3.33,
    "median": 3.13,
    "min": 0.44,
-   "digitalAvg": 3.01
+   "digitalAvg": 3.01,
+   "at500": {
+    "providers": 38,
+    "avg": 2,
+    "median": 1.8,
+    "min": 0.44,
+    "digitalAvg": 1.84
+   }
   },
   {
    "from": "GBR",
@@ -1765,7 +2738,14 @@
    "avg": 4.88,
    "median": 4.32,
    "min": 1.08,
-   "digitalAvg": 4.24
+   "digitalAvg": 4.24,
+   "at500": {
+    "providers": 24,
+    "avg": 4.35,
+    "median": 3.98,
+    "min": 1.08,
+    "digitalAvg": 3.81
+   }
   },
   {
    "from": "GBR",
@@ -1774,7 +2754,14 @@
    "avg": 4.64,
    "median": 4.4,
    "min": 1.27,
-   "digitalAvg": 4.12
+   "digitalAvg": 4.12,
+   "at500": {
+    "providers": 34,
+    "avg": 3.66,
+    "median": 3.9,
+    "min": 0.92,
+    "digitalAvg": 3.2
+   }
   },
   {
    "from": "GBR",
@@ -1783,7 +2770,14 @@
    "avg": 3.95,
    "median": 3.22,
    "min": 0.73,
-   "digitalAvg": 3.38
+   "digitalAvg": 3.38,
+   "at500": {
+    "providers": 25,
+    "avg": 2.62,
+    "median": 1.73,
+    "min": 0.73,
+    "digitalAvg": 2.11
+   }
   },
   {
    "from": "GBR",
@@ -1792,7 +2786,14 @@
    "avg": 6.39,
    "median": 5.78,
    "min": 2.07,
-   "digitalAvg": 5.89
+   "digitalAvg": 5.89,
+   "at500": {
+    "providers": 24,
+    "avg": 4.64,
+    "median": 4.01,
+    "min": 1.6,
+    "digitalAvg": 4.16
+   }
   },
   {
    "from": "GBR",
@@ -1801,7 +2802,14 @@
    "avg": 5.7,
    "median": 4.96,
    "min": 1.99,
-   "digitalAvg": 4.35
+   "digitalAvg": 4.35,
+   "at500": {
+    "providers": 15,
+    "avg": 4.07,
+    "median": 3.96,
+    "min": 0.99,
+    "digitalAvg": 3.11
+   }
   },
   {
    "from": "GBR",
@@ -1810,7 +2818,14 @@
    "avg": 6.7,
    "median": 6.37,
    "min": 3.89,
-   "digitalAvg": 5.43
+   "digitalAvg": 5.43,
+   "at500": {
+    "providers": 17,
+    "avg": 6.12,
+    "median": 6.37,
+    "min": 2.4,
+    "digitalAvg": 4.69
+   }
   },
   {
    "from": "GBR",
@@ -1819,7 +2834,14 @@
    "avg": 5.04,
    "median": 4.7,
    "min": 1.63,
-   "digitalAvg": 4.64
+   "digitalAvg": 4.64,
+   "at500": {
+    "providers": 23,
+    "avg": 4.02,
+    "median": 3.7,
+    "min": 0.14,
+    "digitalAvg": 3.68
+   }
   },
   {
    "from": "GBR",
@@ -1828,7 +2850,14 @@
    "avg": 10.56,
    "median": 8.05,
    "min": 7.54,
-   "digitalAvg": 7.8
+   "digitalAvg": 7.8,
+   "at500": {
+    "providers": 3,
+    "avg": 8.08,
+    "median": 5.55,
+    "min": 5.54,
+    "digitalAvg": 5.55
+   }
   },
   {
    "from": "GBR",
@@ -1837,7 +2866,14 @@
    "avg": 2.66,
    "median": 1.75,
    "min": 0.18,
-   "digitalAvg": 1.77
+   "digitalAvg": 1.77,
+   "at500": {
+    "providers": 30,
+    "avg": 2,
+    "median": 1.29,
+    "min": 0.18,
+    "digitalAvg": 1.4
+   }
   },
   {
    "from": "GBR",
@@ -1846,7 +2882,14 @@
    "avg": 3.12,
    "median": 2.84,
    "min": 0.95,
-   "digitalAvg": 2.65
+   "digitalAvg": 2.65,
+   "at500": {
+    "providers": 24,
+    "avg": 2.17,
+    "median": 1.51,
+    "min": 0.7,
+    "digitalAvg": 1.83
+   }
   },
   {
    "from": "GBR",
@@ -1855,7 +2898,14 @@
    "avg": 7.43,
    "median": 3,
    "min": 1.76,
-   "digitalAvg": 6.87
+   "digitalAvg": 6.87,
+   "at500": {
+    "providers": 23,
+    "avg": 6.75,
+    "median": 3,
+    "min": 1.76,
+    "digitalAvg": 6.29
+   }
   },
   {
    "from": "GBR",
@@ -1864,7 +2914,14 @@
    "avg": 8.42,
    "median": 6.93,
    "min": 4.19,
-   "digitalAvg": 5.76
+   "digitalAvg": 5.76,
+   "at500": {
+    "providers": 12,
+    "avg": 7.01,
+    "median": 5.14,
+    "min": 3.19,
+    "digitalAvg": 4.14
+   }
   },
   {
    "from": "GBR",
@@ -1873,7 +2930,14 @@
    "avg": 5.84,
    "median": 4.92,
    "min": 1.77,
-   "digitalAvg": 4.29
+   "digitalAvg": 4.29,
+   "at500": {
+    "providers": 30,
+    "avg": 4.5,
+    "median": 3.53,
+    "min": 1.32,
+    "digitalAvg": 3.01
+   }
   },
   {
    "from": "GBR",
@@ -1882,7 +2946,14 @@
    "avg": 4.24,
    "median": 1.38,
    "min": -0.03,
-   "digitalAvg": 4.01
+   "digitalAvg": 4.01,
+   "at500": {
+    "providers": 37,
+    "avg": 3.79,
+    "median": 1.38,
+    "min": -0.03,
+    "digitalAvg": 3.66
+   }
   },
   {
    "from": "GBR",
@@ -1891,7 +2962,14 @@
    "avg": 12.06,
    "median": 11.87,
    "min": 8.05,
-   "digitalAvg": 11.88
+   "digitalAvg": 11.88,
+   "at500": {
+    "providers": 22,
+    "avg": 10.9,
+    "median": 9.87,
+    "min": 7.55,
+    "digitalAvg": 10.86
+   }
   },
   {
    "from": "GBR",
@@ -1900,7 +2978,14 @@
    "avg": 4.45,
    "median": 4.86,
    "min": -1.27,
-   "digitalAvg": 4.92
+   "digitalAvg": 4.92,
+   "at500": {
+    "providers": 20,
+    "avg": 2.84,
+    "median": 3.13,
+    "min": -1.27,
+    "digitalAvg": 3.2
+   }
   },
   {
    "from": "GBR",
@@ -1909,7 +2994,14 @@
    "avg": 4.67,
    "median": 4.34,
    "min": 0.72,
-   "digitalAvg": 3.63
+   "digitalAvg": 3.63,
+   "at500": {
+    "providers": 25,
+    "avg": 3.22,
+    "median": 2.85,
+    "min": 0.66,
+    "digitalAvg": 2.43
+   }
   },
   {
    "from": "GBR",
@@ -1918,7 +3010,14 @@
    "avg": 5.04,
    "median": 4.38,
    "min": 1.64,
-   "digitalAvg": 4.57
+   "digitalAvg": 4.57,
+   "at500": {
+    "providers": 25,
+    "avg": 3.57,
+    "median": 3.38,
+    "min": 1.04,
+    "digitalAvg": 3.16
+   }
   },
   {
    "from": "GBR",
@@ -1927,7 +3026,14 @@
    "avg": 4.34,
    "median": 3.11,
    "min": 2.28,
-   "digitalAvg": 3.77
+   "digitalAvg": 3.77,
+   "at500": {
+    "providers": 21,
+    "avg": 2.89,
+    "median": 2.11,
+    "min": 1.78,
+    "digitalAvg": 2.45
+   }
   },
   {
    "from": "GHA",
@@ -1936,7 +3042,14 @@
    "avg": 13.29,
    "median": 13.74,
    "min": 12.02,
-   "digitalAvg": 12.82
+   "digitalAvg": 12.82,
+   "at500": {
+    "providers": 7,
+    "avg": 9.96,
+    "median": 9.29,
+    "min": 8.74,
+    "digitalAvg": 12.82
+   }
   },
   {
    "from": "IND",
@@ -1945,7 +3058,14 @@
    "avg": 6.84,
    "median": 6.38,
    "min": 4.37,
-   "digitalAvg": 6.58
+   "digitalAvg": 6.58,
+   "at500": {
+    "providers": 8,
+    "avg": 3.38,
+    "median": 3.02,
+    "min": 2.07,
+    "digitalAvg": 3.29
+   }
   },
   {
    "from": "IND",
@@ -1954,7 +3074,14 @@
    "avg": 3.14,
    "median": 1.65,
    "min": 0.45,
-   "digitalAvg": 5.32
+   "digitalAvg": 5.32,
+   "at500": {
+    "providers": 21,
+    "avg": 1.53,
+    "median": 0.67,
+    "min": 0.22,
+    "digitalAvg": 2.67
+   }
   },
   {
    "from": "ISR",
@@ -1963,7 +3090,14 @@
    "avg": 13.13,
    "median": 13.47,
    "min": 8.93,
-   "digitalAvg": null
+   "digitalAvg": null,
+   "at500": {
+    "providers": 3,
+    "avg": 8.76,
+    "median": 6.73,
+    "min": 5.67,
+    "digitalAvg": null
+   }
   },
   {
    "from": "ITA",
@@ -1972,7 +3106,14 @@
    "avg": 6.51,
    "median": 3.08,
    "min": 0.85,
-   "digitalAvg": 3.87
+   "digitalAvg": 3.87,
+   "at500": {
+    "providers": 21,
+    "avg": 3.97,
+    "median": 2.51,
+    "min": -0.42,
+    "digitalAvg": 3
+   }
   },
   {
    "from": "ITA",
@@ -1981,7 +3122,14 @@
    "avg": 4.55,
    "median": 2.32,
    "min": 0.74,
-   "digitalAvg": 2.71
+   "digitalAvg": 2.71,
+   "at500": {
+    "providers": 18,
+    "avg": 2.8,
+    "median": 1.72,
+    "min": 0.74,
+    "digitalAvg": 2.07
+   }
   },
   {
    "from": "ITA",
@@ -1990,7 +3138,14 @@
    "avg": 4.44,
    "median": 2.54,
    "min": -0.95,
-   "digitalAvg": 2.09
+   "digitalAvg": 2.09,
+   "at500": {
+    "providers": 33,
+    "avg": 2.29,
+    "median": 1.52,
+    "min": -1.37,
+    "digitalAvg": 1.26
+   }
   },
   {
    "from": "ITA",
@@ -1999,7 +3154,14 @@
    "avg": 11.76,
    "median": 5.1,
    "min": 0.06,
-   "digitalAvg": 5.87
+   "digitalAvg": 5.87,
+   "at500": {
+    "providers": 26,
+    "avg": 5.98,
+    "median": 3.91,
+    "min": 0.1,
+    "digitalAvg": 3.93
+   }
   },
   {
    "from": "ITA",
@@ -2008,7 +3170,14 @@
    "avg": 9.02,
    "median": 6.15,
    "min": 1.82,
-   "digitalAvg": 4.64
+   "digitalAvg": 4.64,
+   "at500": {
+    "providers": 21,
+    "avg": 4.9,
+    "median": 3.86,
+    "min": 1.4,
+    "digitalAvg": 3.19
+   }
   },
   {
    "from": "ITA",
@@ -2017,7 +3186,14 @@
    "avg": 5.85,
    "median": 4.07,
    "min": 0.78,
-   "digitalAvg": 3.39
+   "digitalAvg": 3.39,
+   "at500": {
+    "providers": 15,
+    "avg": 3.54,
+    "median": 2.48,
+    "min": 0.78,
+    "digitalAvg": 2.46
+   }
   },
   {
    "from": "ITA",
@@ -2026,7 +3202,14 @@
    "avg": 4.49,
    "median": 4.43,
    "min": -7.44,
-   "digitalAvg": 4.07
+   "digitalAvg": 4.07,
+   "at500": {
+    "providers": 20,
+    "avg": 3.38,
+    "median": 3.49,
+    "min": -7.44,
+    "digitalAvg": 2.89
+   }
   },
   {
    "from": "ITA",
@@ -2035,7 +3218,14 @@
    "avg": 7.9,
    "median": 2.83,
    "min": 0.41,
-   "digitalAvg": 2.28
+   "digitalAvg": 2.28,
+   "at500": {
+    "providers": 27,
+    "avg": 3.41,
+    "median": 1.14,
+    "min": -0.01,
+    "digitalAvg": 1.1
+   }
   },
   {
    "from": "ITA",
@@ -2044,7 +3234,14 @@
    "avg": 5.48,
    "median": 4.27,
    "min": -0.12,
-   "digitalAvg": 4.18
+   "digitalAvg": 4.18,
+   "at500": {
+    "providers": 23,
+    "avg": 3.59,
+    "median": 2.68,
+    "min": -0.54,
+    "digitalAvg": 3.19
+   }
   },
   {
    "from": "ITA",
@@ -2053,7 +3250,14 @@
    "avg": 8.13,
    "median": 2.82,
    "min": 1.58,
-   "digitalAvg": 4.15
+   "digitalAvg": 4.15,
+   "at500": {
+    "providers": 24,
+    "avg": 3.99,
+    "median": 1.94,
+    "min": 1.16,
+    "digitalAvg": 2.4
+   }
   },
   {
    "from": "ITA",
@@ -2062,7 +3266,14 @@
    "avg": 4.77,
    "median": 2.9,
    "min": 1.25,
-   "digitalAvg": 3.08
+   "digitalAvg": 3.08,
+   "at500": {
+    "providers": 31,
+    "avg": 2.76,
+    "median": 2.14,
+    "min": 0.72,
+    "digitalAvg": 2.2
+   }
   },
   {
    "from": "ITA",
@@ -2071,7 +3282,14 @@
    "avg": 5.22,
    "median": 2.5,
    "min": 1.66,
-   "digitalAvg": 3.03
+   "digitalAvg": 3.03,
+   "at500": {
+    "providers": 27,
+    "avg": 3.08,
+    "median": 1.66,
+    "min": 0.04,
+    "digitalAvg": 2.26
+   }
   },
   {
    "from": "ITA",
@@ -2080,7 +3298,14 @@
    "avg": 9.44,
    "median": 3.56,
    "min": 0.71,
-   "digitalAvg": 2.97
+   "digitalAvg": 2.97,
+   "at500": {
+    "providers": 17,
+    "avg": 4.42,
+    "median": 2.17,
+    "min": 0.75,
+    "digitalAvg": 1.81
+   }
   },
   {
    "from": "ITA",
@@ -2089,7 +3314,14 @@
    "avg": 7.21,
    "median": 3.39,
    "min": -1.12,
-   "digitalAvg": 2.9
+   "digitalAvg": 2.9,
+   "at500": {
+    "providers": 29,
+    "avg": 3.74,
+    "median": 2.5,
+    "min": -1.72,
+    "digitalAvg": 2.04
+   }
   },
   {
    "from": "ITA",
@@ -2098,7 +3330,14 @@
    "avg": 3.97,
    "median": 2.33,
    "min": -0.82,
-   "digitalAvg": 1.82
+   "digitalAvg": 1.82,
+   "at500": {
+    "providers": 19,
+    "avg": 2.12,
+    "median": 1.26,
+    "min": -1.24,
+    "digitalAvg": 1.1
+   }
   },
   {
    "from": "ITA",
@@ -2107,7 +3346,14 @@
    "avg": 13.05,
    "median": 5.51,
    "min": 0.71,
-   "digitalAvg": 3.67
+   "digitalAvg": 3.67,
+   "at500": {
+    "providers": 17,
+    "avg": 6.3,
+    "median": 4.49,
+    "min": 0.75,
+    "digitalAvg": 2.98
+   }
   },
   {
    "from": "ITA",
@@ -2116,7 +3362,14 @@
    "avg": 12.6,
    "median": 5.14,
    "min": 2.85,
-   "digitalAvg": 3.03
+   "digitalAvg": 3.03,
+   "at500": {
+    "providers": 8,
+    "avg": 6.09,
+    "median": 3.9,
+    "min": 1.5,
+    "digitalAvg": 1.84
+   }
   },
   {
    "from": "ITA",
@@ -2125,7 +3378,14 @@
    "avg": 16.25,
    "median": 11.01,
    "min": 2.85,
-   "digitalAvg": 3.21
+   "digitalAvg": 3.21,
+   "at500": {
+    "providers": 12,
+    "avg": 6.8,
+    "median": 4.83,
+    "min": 1.45,
+    "digitalAvg": 1.71
+   }
   },
   {
    "from": "ITA",
@@ -2134,7 +3394,14 @@
    "avg": 9.55,
    "median": 6.63,
    "min": 2.98,
-   "digitalAvg": 7.62
+   "digitalAvg": 7.62,
+   "at500": {
+    "providers": 30,
+    "avg": 6.34,
+    "median": 5.46,
+    "min": 2.56,
+    "digitalAvg": 5.89
+   }
   },
   {
    "from": "JOR",
@@ -2143,7 +3410,14 @@
    "avg": 2.3,
    "median": 1.85,
    "min": 1.29,
-   "digitalAvg": null
+   "digitalAvg": null,
+   "at500": {
+    "providers": 13,
+    "avg": 1.06,
+    "median": 0.99,
+    "min": 0.43,
+    "digitalAvg": null
+   }
   },
   {
    "from": "JOR",
@@ -2152,7 +3426,14 @@
    "avg": 3.55,
    "median": 3.06,
    "min": 1.43,
-   "digitalAvg": null
+   "digitalAvg": null,
+   "at500": {
+    "providers": 12,
+    "avg": 1.42,
+    "median": 1.22,
+    "min": 0.57,
+    "digitalAvg": null
+   }
   },
   {
    "from": "JOR",
@@ -2161,7 +3442,14 @@
    "avg": 7.42,
    "median": 7.38,
    "min": 4.14,
-   "digitalAvg": null
+   "digitalAvg": null,
+   "at500": {
+    "providers": 9,
+    "avg": 6.56,
+    "median": 6.52,
+    "min": 3.28,
+    "digitalAvg": null
+   }
   },
   {
    "from": "JPN",
@@ -2170,7 +3458,14 @@
    "avg": 18.48,
    "median": 8.63,
    "min": 3.57,
-   "digitalAvg": 15.34
+   "digitalAvg": 15.34,
+   "at500": {
+    "providers": 15,
+    "avg": 8.61,
+    "median": 4.21,
+    "min": 1.96,
+    "digitalAvg": 7.59
+   }
   },
   {
    "from": "JPN",
@@ -2179,7 +3474,14 @@
    "avg": 8.72,
    "median": 5.37,
    "min": 1.22,
-   "digitalAvg": 8.15
+   "digitalAvg": 8.15,
+   "at500": {
+    "providers": 22,
+    "avg": 4.48,
+    "median": 3.36,
+    "min": 1.11,
+    "digitalAvg": 4.53
+   }
   },
   {
    "from": "JPN",
@@ -2188,7 +3490,14 @@
    "avg": 5.63,
    "median": 4.59,
    "min": 2.19,
-   "digitalAvg": 6.09
+   "digitalAvg": 6.09,
+   "at500": {
+    "providers": 18,
+    "avg": 3.07,
+    "median": 2.48,
+    "min": 1.41,
+    "digitalAvg": 3.43
+   }
   },
   {
    "from": "JPN",
@@ -2197,7 +3506,14 @@
    "avg": 8.33,
    "median": 5.47,
    "min": 2.66,
-   "digitalAvg": 7.52
+   "digitalAvg": 7.52,
+   "at500": {
+    "providers": 12,
+    "avg": 4.43,
+    "median": 3.62,
+    "min": 1.67,
+    "digitalAvg": 4.36
+   }
   },
   {
    "from": "JPN",
@@ -2206,7 +3522,14 @@
    "avg": 12.88,
    "median": 5.41,
    "min": 2.06,
-   "digitalAvg": 12.79
+   "digitalAvg": 12.79,
+   "at500": {
+    "providers": 45,
+    "avg": 6.53,
+    "median": 3.82,
+    "min": 1.41,
+    "digitalAvg": 6.62
+   }
   },
   {
    "from": "JPN",
@@ -2215,7 +3538,14 @@
    "avg": 3.7,
    "median": 2.74,
    "min": 2.19,
-   "digitalAvg": 5.73
+   "digitalAvg": 5.73,
+   "at500": {
+    "providers": 18,
+    "avg": 2.05,
+    "median": 1.48,
+    "min": 1.23,
+    "digitalAvg": 2.99
+   }
   },
   {
    "from": "JPN",
@@ -2224,7 +3554,14 @@
    "avg": 8.35,
    "median": 7.41,
    "min": 2.36,
-   "digitalAvg": 8.39
+   "digitalAvg": 8.39,
+   "at500": {
+    "providers": 12,
+    "avg": 5.31,
+    "median": 4.97,
+    "min": 1.74,
+    "digitalAvg": 5.72
+   }
   },
   {
    "from": "KEN",
@@ -2233,7 +3570,14 @@
    "avg": 7.46,
    "median": 5.37,
    "min": 2.85,
-   "digitalAvg": 5.25
+   "digitalAvg": 5.25,
+   "at500": {
+    "providers": 12,
+    "avg": 5.5,
+    "median": 5.12,
+    "min": 2.92,
+    "digitalAvg": 4.8
+   }
   },
   {
    "from": "KEN",
@@ -2242,7 +3586,14 @@
    "avg": 12.75,
    "median": 11.81,
    "min": 2.85,
-   "digitalAvg": 11.8
+   "digitalAvg": 11.8,
+   "at500": {
+    "providers": 27,
+    "avg": 7.17,
+    "median": 5.81,
+    "min": 2.92,
+    "digitalAvg": 6.94
+   }
   },
   {
    "from": "KEN",
@@ -2251,7 +3602,14 @@
    "avg": 13.43,
    "median": 15.14,
    "min": 2.46,
-   "digitalAvg": 13.4
+   "digitalAvg": 13.4,
+   "at500": {
+    "providers": 24,
+    "avg": 7.27,
+    "median": 7.14,
+    "min": 1.74,
+    "digitalAvg": 7.39
+   }
   },
   {
    "from": "KEN",
@@ -2260,7 +3618,14 @@
    "avg": 13.41,
    "median": 13.48,
    "min": 0.46,
-   "digitalAvg": 12.78
+   "digitalAvg": 12.78,
+   "at500": {
+    "providers": 26,
+    "avg": 7.61,
+    "median": 7.14,
+    "min": 0.46,
+    "digitalAvg": 7.91
+   }
   },
   {
    "from": "KOR",
@@ -2269,7 +3634,14 @@
    "avg": 5.15,
    "median": 4.43,
    "min": 2.01,
-   "digitalAvg": 3.96
+   "digitalAvg": 3.96,
+   "at500": {
+    "providers": 26,
+    "avg": 2.89,
+    "median": 2.44,
+    "min": 1.39,
+    "digitalAvg": 2.4
+   }
   },
   {
    "from": "KOR",
@@ -2278,7 +3650,14 @@
    "avg": 5.84,
    "median": 6.19,
    "min": 3.08,
-   "digitalAvg": 4.44
+   "digitalAvg": 4.44,
+   "at500": {
+    "providers": 22,
+    "avg": 3.18,
+    "median": 2.99,
+    "min": 1.84,
+    "digitalAvg": 2.71
+   }
   },
   {
    "from": "KWT",
@@ -2287,7 +3666,14 @@
    "avg": 6.63,
    "median": 6.53,
    "min": 5.96,
-   "digitalAvg": 7.01
+   "digitalAvg": 7.01,
+   "at500": {
+    "providers": 28,
+    "avg": 5.62,
+    "median": 5.44,
+    "min": 4.81,
+    "digitalAvg": 6
+   }
   },
   {
    "from": "KWT",
@@ -2296,7 +3682,14 @@
    "avg": 3.33,
    "median": 3.36,
    "min": 2.83,
-   "digitalAvg": 3.2
+   "digitalAvg": 3.2,
+   "at500": {
+    "providers": 25,
+    "avg": 2.02,
+    "median": 2.05,
+    "min": 1.52,
+    "digitalAvg": 1.91
+   }
   },
   {
    "from": "KWT",
@@ -2305,7 +3698,14 @@
    "avg": 2.37,
    "median": 2.42,
    "min": 1.65,
-   "digitalAvg": 2.26
+   "digitalAvg": 2.26,
+   "at500": {
+    "providers": 30,
+    "avg": 1.35,
+    "median": 1.33,
+    "min": 0.87,
+    "digitalAvg": 1.26
+   }
   },
   {
    "from": "KWT",
@@ -2314,7 +3714,14 @@
    "avg": 3.89,
    "median": 3.62,
    "min": 2.73,
-   "digitalAvg": 4.48
+   "digitalAvg": 4.48,
+   "at500": {
+    "providers": 22,
+    "avg": 2.38,
+    "median": 2.04,
+    "min": 1.42,
+    "digitalAvg": 2.95
+   }
   },
   {
    "from": "KWT",
@@ -2323,7 +3730,14 @@
    "avg": 0.35,
    "median": -0.39,
    "min": -1.49,
-   "digitalAvg": 0.98
+   "digitalAvg": 0.98,
+   "at500": {
+    "providers": 21,
+    "avg": 0.4,
+    "median": 1.42,
+    "min": -1.49,
+    "digitalAvg": 1.28
+   }
   },
   {
    "from": "KWT",
@@ -2332,7 +3746,14 @@
    "avg": 2.94,
    "median": 2.96,
    "min": 2.21,
-   "digitalAvg": 2.86
+   "digitalAvg": 2.86,
+   "at500": {
+    "providers": 30,
+    "avg": 1.86,
+    "median": 1.87,
+    "min": 1.12,
+    "digitalAvg": 1.79
+   }
   },
   {
    "from": "MYS",
@@ -2341,7 +3762,14 @@
    "avg": 3.81,
    "median": 2.8,
    "min": 2.06,
-   "digitalAvg": 2.86
+   "digitalAvg": 2.86,
+   "at500": {
+    "providers": 16,
+    "avg": 2.66,
+    "median": 1.85,
+    "min": 1.07,
+    "digitalAvg": 1.77
+   }
   },
   {
    "from": "MYS",
@@ -2350,7 +3778,14 @@
    "avg": 7.51,
    "median": 6.41,
    "min": 5.05,
-   "digitalAvg": 6.59
+   "digitalAvg": 6.59,
+   "at500": {
+    "providers": 30,
+    "avg": 6.3,
+    "median": 5.48,
+    "min": 4.19,
+    "digitalAvg": 5.64
+   }
   },
   {
    "from": "MYS",
@@ -2359,7 +3794,14 @@
    "avg": 4.8,
    "median": 3.4,
    "min": 1.29,
-   "digitalAvg": 3.98
+   "digitalAvg": 3.98,
+   "at500": {
+    "providers": 36,
+    "avg": 3.46,
+    "median": 2.07,
+    "min": 0.55,
+    "digitalAvg": 2.92
+   }
   },
   {
    "from": "MYS",
@@ -2368,7 +3810,14 @@
    "avg": 3.33,
    "median": 2.08,
    "min": 1.24,
-   "digitalAvg": 2.92
+   "digitalAvg": 2.92,
+   "at500": {
+    "providers": 17,
+    "avg": 2.44,
+    "median": 1.15,
+    "min": 0.78,
+    "digitalAvg": 2
+   }
   },
   {
    "from": "MYS",
@@ -2377,7 +3826,14 @@
    "avg": 2.76,
    "median": 2.31,
    "min": 1.92,
-   "digitalAvg": 2.86
+   "digitalAvg": 2.86,
+   "at500": {
+    "providers": 14,
+    "avg": 1.97,
+    "median": 1.64,
+    "min": 1.06,
+    "digitalAvg": 2.12
+   }
   },
   {
    "from": "MYS",
@@ -2386,7 +3842,14 @@
    "avg": 3.92,
    "median": 2.75,
    "min": 1.27,
-   "digitalAvg": 2.75
+   "digitalAvg": 2.75,
+   "at500": {
+    "providers": 37,
+    "avg": 2.53,
+    "median": 1.37,
+    "min": 0.74,
+    "digitalAvg": 1.71
+   }
   },
   {
    "from": "MYS",
@@ -2395,7 +3858,14 @@
    "avg": 4.67,
    "median": 4.04,
    "min": 2.17,
-   "digitalAvg": 3.76
+   "digitalAvg": 3.76,
+   "at500": {
+    "providers": 14,
+    "avg": 3.32,
+    "median": 2.89,
+    "min": 1.39,
+    "digitalAvg": 2.87
+   }
   },
   {
    "from": "MYS",
@@ -2404,7 +3874,14 @@
    "avg": 0.24,
    "median": 0.27,
    "min": -0.05,
-   "digitalAvg": 0.2
+   "digitalAvg": 0.2,
+   "at500": {
+    "providers": 7,
+    "avg": -0.56,
+    "median": -0.52,
+    "min": -1.14,
+    "digitalAvg": -0.73
+   }
   },
   {
    "from": "MYS",
@@ -2413,7 +3890,14 @@
    "avg": 4.69,
    "median": 5.22,
    "min": 2.43,
-   "digitalAvg": 4.88
+   "digitalAvg": 4.88,
+   "at500": {
+    "providers": 11,
+    "avg": 2.77,
+    "median": 3.25,
+    "min": 1.24,
+    "digitalAvg": 2.88
+   }
   },
   {
    "from": "NLD",
@@ -2422,7 +3906,14 @@
    "avg": 2.84,
    "median": 3.54,
    "min": 0.25,
-   "digitalAvg": 2.66
+   "digitalAvg": 2.66,
+   "at500": {
+    "providers": 21,
+    "avg": 1.88,
+    "median": 1.95,
+    "min": 0.25,
+    "digitalAvg": 1.79
+   }
   },
   {
    "from": "NLD",
@@ -2431,7 +3922,14 @@
    "avg": 4.91,
    "median": 4.23,
    "min": 1.84,
-   "digitalAvg": 3.65
+   "digitalAvg": 3.65,
+   "at500": {
+    "providers": 29,
+    "avg": 3.19,
+    "median": 2.88,
+    "min": 1.42,
+    "digitalAvg": 2.55
+   }
   },
   {
    "from": "NLD",
@@ -2440,7 +3938,14 @@
    "avg": 5.04,
    "median": 5.15,
    "min": 0.68,
-   "digitalAvg": 3.44
+   "digitalAvg": 3.44,
+   "at500": {
+    "providers": 30,
+    "avg": 3.54,
+    "median": 3.43,
+    "min": 0.68,
+    "digitalAvg": 2.86
+   }
   },
   {
    "from": "NLD",
@@ -2449,7 +3954,14 @@
    "avg": 4.29,
    "median": 3.25,
    "min": 2.32,
-   "digitalAvg": 3.12
+   "digitalAvg": 3.12,
+   "at500": {
+    "providers": 23,
+    "avg": 2.67,
+    "median": 2.41,
+    "min": 1.72,
+    "digitalAvg": 2.2
+   }
   },
   {
    "from": "NLD",
@@ -2458,7 +3970,14 @@
    "avg": 8.14,
    "median": 5,
    "min": 2.5,
-   "digitalAvg": 4.26
+   "digitalAvg": 4.26,
+   "at500": {
+    "providers": 23,
+    "avg": 4.35,
+    "median": 3.16,
+    "min": 1.66,
+    "digitalAvg": 2.79
+   }
   },
   {
    "from": "NLD",
@@ -2467,7 +3986,14 @@
    "avg": 5.57,
    "median": 4.21,
    "min": 0.98,
-   "digitalAvg": 4.01
+   "digitalAvg": 4.01,
+   "at500": {
+    "providers": 25,
+    "avg": 3.37,
+    "median": 3.23,
+    "min": -0.35,
+    "digitalAvg": 3.06
+   }
   },
   {
    "from": "NLD",
@@ -2476,7 +4002,14 @@
    "avg": 8.86,
    "median": 5.68,
    "min": 3.84,
-   "digitalAvg": 6.63
+   "digitalAvg": 6.63,
+   "at500": {
+    "providers": 15,
+    "avg": 4.42,
+    "median": 3.61,
+    "min": 2.15,
+    "digitalAvg": 3.72
+   }
   },
   {
    "from": "NLD",
@@ -2485,7 +4018,14 @@
    "avg": 6.09,
    "median": 6.92,
    "min": 4.28,
-   "digitalAvg": 6.09
+   "digitalAvg": 6.09,
+   "at500": {
+    "providers": 9,
+    "avg": 5.81,
+    "median": 6.92,
+    "min": 3.44,
+    "digitalAvg": 5.81
+   }
   },
   {
    "from": "NOR",
@@ -2494,7 +4034,14 @@
    "avg": 3.12,
    "median": 2.07,
    "min": 0.7,
-   "digitalAvg": 2.39
+   "digitalAvg": 2.39,
+   "at500": {
+    "providers": 38,
+    "avg": 2.3,
+    "median": 1.96,
+    "min": -1.09,
+    "digitalAvg": 1.74
+   }
   },
   {
    "from": "NOR",
@@ -2503,7 +4050,14 @@
    "avg": 4.06,
    "median": 3.41,
    "min": -0.01,
-   "digitalAvg": 3
+   "digitalAvg": 3,
+   "at500": {
+    "providers": 31,
+    "avg": 2.81,
+    "median": 2.2,
+    "min": -0.01,
+    "digitalAvg": 1.97
+   }
   },
   {
    "from": "NZL",
@@ -2512,7 +4066,14 @@
    "avg": 3.5,
    "median": 3.92,
    "min": 1,
-   "digitalAvg": 3.22
+   "digitalAvg": 3.22,
+   "at500": {
+    "providers": 28,
+    "avg": 2.42,
+    "median": 2.55,
+    "min": 0.27,
+    "digitalAvg": 2.22
+   }
   },
   {
    "from": "NZL",
@@ -2521,7 +4082,14 @@
    "avg": 7.89,
    "median": 6.2,
    "min": 2.77,
-   "digitalAvg": 6.4
+   "digitalAvg": 6.4,
+   "at500": {
+    "providers": 27,
+    "avg": 5.67,
+    "median": 4.62,
+    "min": 1.62,
+    "digitalAvg": 5.16
+   }
   },
   {
    "from": "NZL",
@@ -2530,7 +4098,14 @@
    "avg": 6.66,
    "median": 6.6,
    "min": 0.74,
-   "digitalAvg": 5.97
+   "digitalAvg": 5.97,
+   "at500": {
+    "providers": 34,
+    "avg": 4.67,
+    "median": 4.96,
+    "min": -0.41,
+    "digitalAvg": 4.87
+   }
   },
   {
    "from": "NZL",
@@ -2539,7 +4114,14 @@
    "avg": 6.5,
    "median": 4.79,
    "min": 2.37,
-   "digitalAvg": 4.24
+   "digitalAvg": 4.24,
+   "at500": {
+    "providers": 32,
+    "avg": 4.06,
+    "median": 3.56,
+    "min": 1.22,
+    "digitalAvg": 3.15
+   }
   },
   {
    "from": "NZL",
@@ -2548,7 +4130,14 @@
    "avg": 11.22,
    "median": 9.55,
    "min": 6.54,
-   "digitalAvg": 9.3
+   "digitalAvg": 9.3,
+   "at500": {
+    "providers": 14,
+    "avg": 8.17,
+    "median": 8.46,
+    "min": 5.39,
+    "digitalAvg": 7.87
+   }
   },
   {
    "from": "NZL",
@@ -2557,7 +4146,14 @@
    "avg": 6.59,
    "median": 5.74,
    "min": 1.39,
-   "digitalAvg": 4.87
+   "digitalAvg": 4.87,
+   "at500": {
+    "providers": 28,
+    "avg": 4.17,
+    "median": 4.46,
+    "min": 0.87,
+    "digitalAvg": 3.59
+   }
   },
   {
    "from": "NZL",
@@ -2566,7 +4162,14 @@
    "avg": 4.05,
    "median": 1.5,
    "min": 0.34,
-   "digitalAvg": 2.19
+   "digitalAvg": 2.19,
+   "at500": {
+    "providers": 29,
+    "avg": 2.27,
+    "median": 1,
+    "min": 0.3,
+    "digitalAvg": 1.4
+   }
   },
   {
    "from": "NZL",
@@ -2575,7 +4178,14 @@
    "avg": 4.68,
    "median": 3.36,
    "min": 0.47,
-   "digitalAvg": 2.91
+   "digitalAvg": 2.91,
+   "at500": {
+    "providers": 33,
+    "avg": 2.77,
+    "median": 1.54,
+    "min": 0.24,
+    "digitalAvg": 2.05
+   }
   },
   {
    "from": "OMN",
@@ -2584,7 +4194,14 @@
    "avg": 3.11,
    "median": 3.32,
    "min": 2.14,
-   "digitalAvg": null
+   "digitalAvg": null,
+   "at500": {
+    "providers": 5,
+    "avg": 1.51,
+    "median": 1.63,
+    "min": 0.88,
+    "digitalAvg": null
+   }
   },
   {
    "from": "OMN",
@@ -2593,7 +4210,14 @@
    "avg": 8.05,
    "median": 8.22,
    "min": 6.7,
-   "digitalAvg": null
+   "digitalAvg": null,
+   "at500": {
+    "providers": 9,
+    "avg": 6.36,
+    "median": 6.53,
+    "min": 5.01,
+    "digitalAvg": null
+   }
   },
   {
    "from": "OMN",
@@ -2602,7 +4226,14 @@
    "avg": 3.31,
    "median": 3.28,
    "min": 3.11,
-   "digitalAvg": null
+   "digitalAvg": null,
+   "at500": {
+    "providers": 9,
+    "avg": 1.62,
+    "median": 1.59,
+    "min": 1.42,
+    "digitalAvg": null
+   }
   },
   {
    "from": "OMN",
@@ -2611,7 +4242,14 @@
    "avg": 3.3,
    "median": 3.15,
    "min": 2.37,
-   "digitalAvg": null
+   "digitalAvg": null,
+   "at500": {
+    "providers": 11,
+    "avg": 1.49,
+    "median": 1.46,
+    "min": 1.11,
+    "digitalAvg": null
+   }
   },
   {
    "from": "OMN",
@@ -2620,7 +4258,14 @@
    "avg": 3.01,
    "median": 3.68,
    "min": 0.94,
-   "digitalAvg": null
+   "digitalAvg": null,
+   "at500": {
+    "providers": 4,
+    "avg": 1.74,
+    "median": 1.99,
+    "min": 0.94,
+    "digitalAvg": null
+   }
   },
   {
    "from": "OMN",
@@ -2629,7 +4274,14 @@
    "avg": 2.84,
    "median": 2.88,
    "min": 2.7,
-   "digitalAvg": null
+   "digitalAvg": null,
+   "at500": {
+    "providers": 4,
+    "avg": 1.15,
+    "median": 1.19,
+    "min": 1.01,
+    "digitalAvg": null
+   }
   },
   {
    "from": "POL",
@@ -2638,7 +4290,14 @@
    "avg": 3.73,
    "median": 3.01,
    "min": 0.1,
-   "digitalAvg": 2.92
+   "digitalAvg": 2.92,
+   "at500": {
+    "providers": 22,
+    "avg": 2.65,
+    "median": 2.55,
+    "min": 0.1,
+    "digitalAvg": 2.2
+   }
   },
   {
    "from": "PRT",
@@ -2647,7 +4306,14 @@
    "avg": 3.52,
    "median": 3.3,
    "min": 3.24,
-   "digitalAvg": 3.52
+   "digitalAvg": 3.52,
+   "at500": {
+    "providers": 6,
+    "avg": 1.98,
+    "median": 2.16,
+    "min": 1.6,
+    "digitalAvg": 1.98
+   }
   },
   {
    "from": "PRT",
@@ -2656,7 +4322,14 @@
    "avg": 4.33,
    "median": 3.07,
    "min": 1.8,
-   "digitalAvg": 4.33
+   "digitalAvg": 4.33,
+   "at500": {
+    "providers": 15,
+    "avg": 3.28,
+    "median": 2.16,
+    "min": 1.8,
+    "digitalAvg": 3.28
+   }
   },
   {
    "from": "PRT",
@@ -2665,7 +4338,14 @@
    "avg": 5.3,
    "median": 5.41,
    "min": 1.69,
-   "digitalAvg": 5.3
+   "digitalAvg": 5.3,
+   "at500": {
+    "providers": 11,
+    "avg": 4.08,
+    "median": 3.58,
+    "min": 1.31,
+    "digitalAvg": 4.08
+   }
   },
   {
    "from": "QAT",
@@ -2674,7 +4354,14 @@
    "avg": 5.63,
    "median": 6.18,
    "min": 2.53,
-   "digitalAvg": 5.42
+   "digitalAvg": 5.42,
+   "at500": {
+    "providers": 6,
+    "avg": 4.54,
+    "median": 4.6,
+    "min": 2.12,
+    "digitalAvg": 4.6
+   }
   },
   {
    "from": "QAT",
@@ -2683,7 +4370,14 @@
    "avg": 2.51,
    "median": 2.62,
    "min": 0.81,
-   "digitalAvg": 2.29
+   "digitalAvg": 2.29,
+   "at500": {
+    "providers": 6,
+    "avg": 1.52,
+    "median": 1.59,
+    "min": 0.81,
+    "digitalAvg": 1.88
+   }
   },
   {
    "from": "QAT",
@@ -2692,7 +4386,14 @@
    "avg": 2.5,
    "median": 2.98,
    "min": 1.33,
-   "digitalAvg": 1.82
+   "digitalAvg": 1.82,
+   "at500": {
+    "providers": 7,
+    "avg": 1.37,
+    "median": 1.35,
+    "min": 0.92,
+    "digitalAvg": 1.21
+   }
   },
   {
    "from": "QAT",
@@ -2701,7 +4402,14 @@
    "avg": 3.87,
    "median": 3.62,
    "min": 2.46,
-   "digitalAvg": 2.46
+   "digitalAvg": 2.46,
+   "at500": {
+    "providers": 5,
+    "avg": 2.45,
+    "median": 2.07,
+    "min": 2.05,
+    "digitalAvg": 2.05
+   }
   },
   {
    "from": "QAT",
@@ -2710,7 +4418,14 @@
    "avg": 1.33,
    "median": 0.45,
    "min": -0.32,
-   "digitalAvg": 3.86
+   "digitalAvg": 3.86,
+   "at500": {
+    "providers": 6,
+    "avg": 0.78,
+    "median": 0.45,
+    "min": -0.32,
+    "digitalAvg": 2.22
+   }
   },
   {
    "from": "QAT",
@@ -2719,7 +4434,14 @@
    "avg": 23.2,
    "median": 33.69,
    "min": 2.23,
-   "digitalAvg": 33.69
+   "digitalAvg": 33.69,
+   "at500": {
+    "providers": 3,
+    "avg": 21.7,
+    "median": 32.05,
+    "min": 1,
+    "digitalAvg": 32.05
+   }
   },
   {
    "from": "QAT",
@@ -2728,7 +4450,14 @@
    "avg": 7.18,
    "median": 7.15,
    "min": 6.72,
-   "digitalAvg": 7.7
+   "digitalAvg": 7.7,
+   "at500": {
+    "providers": 4,
+    "avg": 5.54,
+    "median": 5.51,
+    "min": 5.08,
+    "digitalAvg": 6.06
+   }
   },
   {
    "from": "QAT",
@@ -2737,7 +4466,14 @@
    "avg": 2.34,
    "median": 2.9,
    "min": 0.71,
-   "digitalAvg": 1.87
+   "digitalAvg": 1.87,
+   "at500": {
+    "providers": 6,
+    "avg": 0.91,
+    "median": 1.26,
+    "min": -0.11,
+    "digitalAvg": 0.64
+   }
   },
   {
    "from": "QAT",
@@ -2746,7 +4482,14 @@
    "avg": 4,
    "median": 3.56,
    "min": 3.14,
-   "digitalAvg": 6.55
+   "digitalAvg": 6.55,
+   "at500": {
+    "providers": 6,
+    "avg": 2.19,
+    "median": 1.67,
+    "min": 1.5,
+    "digitalAvg": 4.91
+   }
   },
   {
    "from": "RWA",
@@ -2755,7 +4498,14 @@
    "avg": 22.56,
    "median": 15.19,
    "min": 2.38,
-   "digitalAvg": 4.76
+   "digitalAvg": 4.76,
+   "at500": {
+    "providers": 7,
+    "avg": 13.48,
+    "median": 12.49,
+    "min": 2.25,
+    "digitalAvg": 4.67
+   }
   },
   {
    "from": "SAU",
@@ -2764,7 +4514,14 @@
    "avg": 5.9,
    "median": 4.93,
    "min": 4.38,
-   "digitalAvg": 6.38
+   "digitalAvg": 6.38,
+   "at500": {
+    "providers": 3,
+    "avg": 4.03,
+    "median": 3.37,
+    "min": 2.64,
+    "digitalAvg": 4.37
+   }
   },
   {
    "from": "SAU",
@@ -2773,7 +4530,14 @@
    "avg": 3.51,
    "median": 3.74,
    "min": 2.88,
-   "digitalAvg": 3.61
+   "digitalAvg": 3.61,
+   "at500": {
+    "providers": 10,
+    "avg": 2.15,
+    "median": 2.27,
+    "min": 1.59,
+    "digitalAvg": 2.27
+   }
   },
   {
    "from": "SAU",
@@ -2782,7 +4546,14 @@
    "avg": 2.7,
    "median": 2.4,
    "min": 2.3,
-   "digitalAvg": 3.01
+   "digitalAvg": 3.01,
+   "at500": {
+    "providers": 8,
+    "avg": 1.26,
+    "median": 0.96,
+    "min": 0.92,
+    "digitalAvg": 1.58
+   }
   },
   {
    "from": "SAU",
@@ -2791,7 +4562,14 @@
    "avg": 3.26,
    "median": 3.14,
    "min": 3.05,
-   "digitalAvg": 3.12
+   "digitalAvg": 3.12,
+   "at500": {
+    "providers": 9,
+    "avg": 1.9,
+    "median": 1.78,
+    "min": 1.63,
+    "digitalAvg": 1.78
+   }
   },
   {
    "from": "SAU",
@@ -2800,7 +4578,14 @@
    "avg": 5.02,
    "median": 3.68,
    "min": 3.12,
-   "digitalAvg": 3.42
+   "digitalAvg": 3.42,
+   "at500": {
+    "providers": 11,
+    "avg": 2.73,
+    "median": 2.17,
+    "min": 1.56,
+    "digitalAvg": 2
+   }
   },
   {
    "from": "SAU",
@@ -2809,7 +4594,14 @@
    "avg": 10.2,
    "median": 8.29,
    "min": 7.15,
-   "digitalAvg": 7.23
+   "digitalAvg": 7.23,
+   "at500": {
+    "providers": 9,
+    "avg": 7.28,
+    "median": 6.73,
+    "min": 5.89,
+    "digitalAvg": 5.89
+   }
   },
   {
    "from": "SAU",
@@ -2818,7 +4610,14 @@
    "avg": 7.03,
    "median": 5.15,
    "min": 4.28,
-   "digitalAvg": 6.48
+   "digitalAvg": 6.48,
+   "at500": {
+    "providers": 12,
+    "avg": 4.41,
+    "median": 3.64,
+    "min": 2.72,
+    "digitalAvg": 4.81
+   }
   },
   {
    "from": "SAU",
@@ -2827,7 +4626,14 @@
    "avg": 5.59,
    "median": 3.56,
    "min": 3.14,
-   "digitalAvg": 3.4
+   "digitalAvg": 3.4,
+   "at500": {
+    "providers": 12,
+    "avg": 3.07,
+    "median": 2.24,
+    "min": 1.76,
+    "digitalAvg": 2.05
+   }
   },
   {
    "from": "SAU",
@@ -2836,7 +4642,14 @@
    "avg": 3.82,
    "median": 2.76,
    "min": 2.56,
-   "digitalAvg": 3.04
+   "digitalAvg": 3.04,
+   "at500": {
+    "providers": 10,
+    "avg": 1.99,
+    "median": 1.49,
+    "min": 1.18,
+    "digitalAvg": 1.7
+   }
   },
   {
    "from": "SAU",
@@ -2845,7 +4658,14 @@
    "avg": 5.02,
    "median": 3.06,
    "min": 1.44,
-   "digitalAvg": 2.3
+   "digitalAvg": 2.3,
+   "at500": {
+    "providers": 12,
+    "avg": 2.82,
+    "median": 1.9,
+    "min": 1.44,
+    "digitalAvg": 1.92
+   }
   },
   {
    "from": "SAU",
@@ -2854,7 +4674,14 @@
    "avg": 7.85,
    "median": 8.66,
    "min": 5.62,
-   "digitalAvg": 7.45
+   "digitalAvg": 7.45,
+   "at500": {
+    "providers": 3,
+    "avg": 6.26,
+    "median": 7.28,
+    "min": 4.06,
+    "digitalAvg": 5.74
+   }
   },
   {
    "from": "SAU",
@@ -2863,7 +4690,14 @@
    "avg": 5.15,
    "median": 3.44,
    "min": 2.63,
-   "digitalAvg": 3.52
+   "digitalAvg": 3.52,
+   "at500": {
+    "providers": 12,
+    "avg": 2.62,
+    "median": 1.97,
+    "min": 1.36,
+    "digitalAvg": 2.17
+   }
   },
   {
    "from": "SAU",
@@ -2872,7 +4706,14 @@
    "avg": 5.76,
    "median": 5.76,
    "min": 4.86,
-   "digitalAvg": 6.65
+   "digitalAvg": 6.65,
+   "at500": {
+    "providers": 2,
+    "avg": 4.29,
+    "median": 4.29,
+    "min": 3.3,
+    "digitalAvg": 5.27
+   }
   },
   {
    "from": "SAU",
@@ -2881,7 +4722,14 @@
    "avg": 5.57,
    "median": 5.57,
    "min": 5.52,
-   "digitalAvg": 5.52
+   "digitalAvg": 5.52,
+   "at500": {
+    "providers": 2,
+    "avg": 3.87,
+    "median": 3.87,
+    "min": 3.68,
+    "digitalAvg": 3.68
+   }
   },
   {
    "from": "SAU",
@@ -2890,7 +4738,14 @@
    "avg": 13.44,
    "median": 4.75,
    "min": 3.21,
-   "digitalAvg": 18.55
+   "digitalAvg": 18.55,
+   "at500": {
+    "providers": 3,
+    "avg": 12,
+    "median": 3.37,
+    "min": 1.65,
+    "digitalAvg": 17.17
+   }
   },
   {
    "from": "SAU",
@@ -2899,7 +4754,14 @@
    "avg": 8.88,
    "median": 8.88,
    "min": 8.88,
-   "digitalAvg": null
+   "digitalAvg": null,
+   "at500": {
+    "providers": 1,
+    "avg": 7.32,
+    "median": 7.32,
+    "min": 7.32,
+    "digitalAvg": null
+   }
   },
   {
    "from": "SAU",
@@ -2908,7 +4770,14 @@
    "avg": 4.83,
    "median": 4.83,
    "min": 4.83,
-   "digitalAvg": null
+   "digitalAvg": null,
+   "at500": {
+    "providers": 1,
+    "avg": 3.27,
+    "median": 3.27,
+    "min": 3.27,
+    "digitalAvg": null
+   }
   },
   {
    "from": "SEN",
@@ -2917,7 +4786,14 @@
    "avg": 25.7,
    "median": 27.96,
    "min": 1.5,
-   "digitalAvg": 1.5
+   "digitalAvg": 1.5,
+   "at500": {
+    "providers": 6,
+    "avg": 10.54,
+    "median": 11.31,
+    "min": 1.5,
+    "digitalAvg": 1.5
+   }
   },
   {
    "from": "SGP",
@@ -2926,7 +4802,14 @@
    "avg": 5.14,
    "median": 4.81,
    "min": 1.05,
-   "digitalAvg": 5
+   "digitalAvg": 5,
+   "at500": {
+    "providers": 14,
+    "avg": 3.67,
+    "median": 3.42,
+    "min": 1.05,
+    "digitalAvg": 3.76
+   }
   },
   {
    "from": "SGP",
@@ -2935,7 +4818,14 @@
    "avg": 2.92,
    "median": 2.72,
    "min": 0.5,
-   "digitalAvg": 3.29
+   "digitalAvg": 3.29,
+   "at500": {
+    "providers": 28,
+    "avg": 2.18,
+    "median": 1.69,
+    "min": 0.5,
+    "digitalAvg": 2.52
+   }
   },
   {
    "from": "SGP",
@@ -2944,7 +4834,14 @@
    "avg": 6.54,
    "median": 6.14,
    "min": 3.37,
-   "digitalAvg": 7.34
+   "digitalAvg": 7.34,
+   "at500": {
+    "providers": 23,
+    "avg": 5.71,
+    "median": 5.61,
+    "min": 2.23,
+    "digitalAvg": 6.74
+   }
   },
   {
    "from": "SGP",
@@ -2953,7 +4850,14 @@
    "avg": 3.9,
    "median": 4.03,
    "min": 0.94,
-   "digitalAvg": 3.92
+   "digitalAvg": 3.92,
+   "at500": {
+    "providers": 15,
+    "avg": 3.19,
+    "median": 2.9,
+    "min": 0.92,
+    "digitalAvg": 3.33
+   }
   },
   {
    "from": "SGP",
@@ -2962,7 +4866,14 @@
    "avg": 4.59,
    "median": 4.41,
    "min": 0.65,
-   "digitalAvg": 3.21
+   "digitalAvg": 3.21,
+   "at500": {
+    "providers": 30,
+    "avg": 3.17,
+    "median": 2.4,
+    "min": 0.45,
+    "digitalAvg": 2.56
+   }
   },
   {
    "from": "SGP",
@@ -2971,7 +4882,14 @@
    "avg": 3.26,
    "median": 1.52,
    "min": 1.26,
-   "digitalAvg": 2.45
+   "digitalAvg": 2.45,
+   "at500": {
+    "providers": 12,
+    "avg": 3.14,
+    "median": 1.52,
+    "min": 0.88,
+    "digitalAvg": 2.37
+   }
   },
   {
    "from": "SGP",
@@ -2980,7 +4898,14 @@
    "avg": 3.16,
    "median": 2.32,
    "min": 0.76,
-   "digitalAvg": 3.92
+   "digitalAvg": 3.92,
+   "at500": {
+    "providers": 38,
+    "avg": 2.08,
+    "median": 1.32,
+    "min": 0.65,
+    "digitalAvg": 2.73
+   }
   },
   {
    "from": "SGP",
@@ -2989,7 +4914,14 @@
    "avg": 4.49,
    "median": 4.34,
    "min": 1.01,
-   "digitalAvg": 4.69
+   "digitalAvg": 4.69,
+   "at500": {
+    "providers": 19,
+    "avg": 3.53,
+    "median": 2.88,
+    "min": 0.79,
+    "digitalAvg": 3.86
+   }
   },
   {
    "from": "SGP",
@@ -2998,7 +4930,14 @@
    "avg": 3.23,
    "median": 2.62,
    "min": 0.56,
-   "digitalAvg": 3.41
+   "digitalAvg": 3.41,
+   "at500": {
+    "providers": 31,
+    "avg": 2.1,
+    "median": 1.5,
+    "min": 0.56,
+    "digitalAvg": 2.63
+   }
   },
   {
    "from": "SWE",
@@ -3007,7 +4946,14 @@
    "avg": 7.23,
    "median": 4.65,
    "min": 2.61,
-   "digitalAvg": 7.23
+   "digitalAvg": 7.23,
+   "at500": {
+    "providers": 17,
+    "avg": 4.26,
+    "median": 3.59,
+    "min": 1.53,
+    "digitalAvg": 4.26
+   }
   },
   {
    "from": "SWE",
@@ -3016,7 +4962,14 @@
    "avg": 7.29,
    "median": 2.92,
    "min": 0.72,
-   "digitalAvg": 4.08
+   "digitalAvg": 4.08,
+   "at500": {
+    "providers": 25,
+    "avg": 3.76,
+    "median": 2.1,
+    "min": 0.72,
+    "digitalAvg": 2.36
+   }
   },
   {
    "from": "SWE",
@@ -3025,7 +4978,14 @@
    "avg": 5.31,
    "median": 4.67,
    "min": 3.56,
-   "digitalAvg": 5.31
+   "digitalAvg": 5.31,
+   "at500": {
+    "providers": 8,
+    "avg": 4.16,
+    "median": 3.99,
+    "min": 2.14,
+    "digitalAvg": 4.16
+   }
   },
   {
    "from": "SWE",
@@ -3034,7 +4994,14 @@
    "avg": 6.79,
    "median": 7.26,
    "min": 5.84,
-   "digitalAvg": 6.79
+   "digitalAvg": 6.79,
+   "at500": {
+    "providers": 9,
+    "avg": 6.44,
+    "median": 7.26,
+    "min": 4.8,
+    "digitalAvg": 6.44
+   }
   },
   {
    "from": "THA",
@@ -3043,7 +5010,14 @@
    "avg": 12.78,
    "median": 17.23,
    "min": 2.51,
-   "digitalAvg": 8.94
+   "digitalAvg": 8.94,
+   "at500": {
+    "providers": 17,
+    "avg": 7.09,
+    "median": 8.03,
+    "min": 2.37,
+    "digitalAvg": 5.75
+   }
   },
   {
    "from": "THA",
@@ -3052,7 +5026,14 @@
    "avg": 12.81,
    "median": 12.47,
    "min": 2.45,
-   "digitalAvg": 9.1
+   "digitalAvg": 9.1,
+   "at500": {
+    "providers": 16,
+    "avg": 7.55,
+    "median": 6.12,
+    "min": 2.31,
+    "digitalAvg": 6.15
+   }
   },
   {
    "from": "THA",
@@ -3061,7 +5042,14 @@
    "avg": 12.59,
    "median": 11.76,
    "min": 0.72,
-   "digitalAvg": 10.34
+   "digitalAvg": 10.34,
+   "at500": {
+    "providers": 21,
+    "avg": 7.15,
+    "median": 6.66,
+    "min": 0.58,
+    "digitalAvg": 6.4
+   }
   },
   {
    "from": "THA",
@@ -3070,7 +5058,14 @@
    "avg": 9.87,
    "median": 5.1,
    "min": 2.5,
-   "digitalAvg": 8.38
+   "digitalAvg": 8.38,
+   "at500": {
+    "providers": 22,
+    "avg": 4.91,
+    "median": 4.52,
+    "min": 1.43,
+    "digitalAvg": 4.67
+   }
   },
   {
    "from": "THA",
@@ -3079,7 +5074,14 @@
    "avg": 11.49,
    "median": 15.52,
    "min": 2.74,
-   "digitalAvg": 10.66
+   "digitalAvg": 10.66,
+   "at500": {
+    "providers": 16,
+    "avg": 5.66,
+    "median": 6.47,
+    "min": 2.29,
+    "digitalAvg": 6.05
+   }
   },
   {
    "from": "THA",
@@ -3088,7 +5090,14 @@
    "avg": 10.38,
    "median": 14.83,
    "min": -0.89,
-   "digitalAvg": 8.05
+   "digitalAvg": 8.05,
+   "at500": {
+    "providers": 14,
+    "avg": 4.56,
+    "median": 6.58,
+    "min": -1.03,
+    "digitalAvg": 3.66
+   }
   },
   {
    "from": "THA",
@@ -3097,7 +5106,14 @@
    "avg": 11.33,
    "median": 12.32,
    "min": 2.3,
-   "digitalAvg": 9.68
+   "digitalAvg": 9.68,
+   "at500": {
+    "providers": 22,
+    "avg": 6.3,
+    "median": 6.83,
+    "min": 2.16,
+    "digitalAvg": 6.31
+   }
   },
   {
    "from": "TUR",
@@ -3106,7 +5122,14 @@
    "avg": 118.19,
    "median": 113.63,
    "min": 13.2,
-   "digitalAvg": 108.3
+   "digitalAvg": 108.3,
+   "at500": {
+    "providers": 11,
+    "avg": 49.72,
+    "median": 47.97,
+    "min": 9.1,
+    "digitalAvg": 45.2
+   }
   },
   {
    "from": "TZA",
@@ -3115,7 +5138,14 @@
    "avg": 59.99,
    "median": 83.17,
    "min": 0.72,
-   "digitalAvg": 45.23
+   "digitalAvg": 45.23,
+   "at500": {
+    "providers": 12,
+    "avg": 32.01,
+    "median": 42.95,
+    "min": 0.72,
+    "digitalAvg": 25.11
+   }
   },
   {
    "from": "TZA",
@@ -3124,7 +5154,14 @@
    "avg": 45.11,
    "median": 42.61,
    "min": 7.81,
-   "digitalAvg": 11.39
+   "digitalAvg": 11.39,
+   "at500": {
+    "providers": 6,
+    "avg": 27.68,
+    "median": 27.95,
+    "min": 4.76,
+    "digitalAvg": 11.35
+   }
   },
   {
    "from": "TZA",
@@ -3133,7 +5170,14 @@
    "avg": 62.68,
    "median": 75.07,
    "min": 1.3,
-   "digitalAvg": 74.24
+   "digitalAvg": 74.24,
+   "at500": {
+    "providers": 10,
+    "avg": 32.91,
+    "median": 38.58,
+    "min": 1.3,
+    "digitalAvg": 34.25
+   }
   },
   {
    "from": "USA",
@@ -3142,7 +5186,14 @@
    "avg": 7.61,
    "median": 7.53,
    "min": 5.17,
-   "digitalAvg": 7.41
+   "digitalAvg": 7.41,
+   "at500": {
+    "providers": 24,
+    "avg": 6.66,
+    "median": 6.15,
+    "min": 4.87,
+    "digitalAvg": 6.58
+   }
   },
   {
    "from": "USA",
@@ -3151,7 +5202,14 @@
    "avg": 5.97,
    "median": 5.65,
    "min": 2.83,
-   "digitalAvg": 5.64
+   "digitalAvg": 5.64,
+   "at500": {
+    "providers": 24,
+    "avg": 3.97,
+    "median": 3.58,
+    "min": 1.2,
+    "digitalAvg": 3.9
+   }
   },
   {
    "from": "USA",
@@ -3160,7 +5218,14 @@
    "avg": 4.54,
    "median": 4.48,
    "min": -2.44,
-   "digitalAvg": 4.38
+   "digitalAvg": 4.38,
+   "at500": {
+    "providers": 45,
+    "avg": 3.06,
+    "median": 3.04,
+    "min": -2.44,
+    "digitalAvg": 3.01
+   }
   },
   {
    "from": "USA",
@@ -3169,7 +5234,14 @@
    "avg": 2.72,
    "median": 2.47,
    "min": -0.49,
-   "digitalAvg": 2.15
+   "digitalAvg": 2.15,
+   "at500": {
+    "providers": 31,
+    "avg": 1.69,
+    "median": 1.36,
+    "min": -0.49,
+    "digitalAvg": 1.55
+   }
   },
   {
    "from": "USA",
@@ -3178,7 +5250,14 @@
    "avg": 4.13,
    "median": 3.97,
    "min": 1.95,
-   "digitalAvg": 4.05
+   "digitalAvg": 4.05,
+   "at500": {
+    "providers": 20,
+    "avg": 2.45,
+    "median": 1.95,
+    "min": 1,
+    "digitalAvg": 2.72
+   }
   },
   {
    "from": "USA",
@@ -3187,7 +5266,14 @@
    "avg": 3.5,
    "median": 3.04,
    "min": 1,
-   "digitalAvg": 3.28
+   "digitalAvg": 3.28,
+   "at500": {
+    "providers": 44,
+    "avg": 1.95,
+    "median": 1.78,
+    "min": 0.4,
+    "digitalAvg": 1.91
+   }
   },
   {
    "from": "USA",
@@ -3196,7 +5282,14 @@
    "avg": 7.47,
    "median": 6.03,
    "min": 0.75,
-   "digitalAvg": 5.11
+   "digitalAvg": 5.11,
+   "at500": {
+    "providers": 26,
+    "avg": 4.62,
+    "median": 4.7,
+    "min": 0.46,
+    "digitalAvg": 3.78
+   }
   },
   {
    "from": "USA",
@@ -3205,7 +5298,14 @@
    "avg": 4.45,
    "median": 3.53,
    "min": 1.1,
-   "digitalAvg": 3.97
+   "digitalAvg": 3.97,
+   "at500": {
+    "providers": 19,
+    "avg": 3.55,
+    "median": 2.95,
+    "min": 1.1,
+    "digitalAvg": 3.35
+   }
   },
   {
    "from": "USA",
@@ -3214,7 +5314,14 @@
    "avg": 5.27,
    "median": 5.81,
    "min": 0,
-   "digitalAvg": 5.19
+   "digitalAvg": 5.19,
+   "at500": {
+    "providers": 34,
+    "avg": 3.27,
+    "median": 2.99,
+    "min": 0,
+    "digitalAvg": 3.3
+   }
   },
   {
    "from": "USA",
@@ -3223,7 +5330,14 @@
    "avg": 5.42,
    "median": 4.95,
    "min": 1.72,
-   "digitalAvg": 5.15
+   "digitalAvg": 5.15,
+   "at500": {
+    "providers": 19,
+    "avg": 4.01,
+    "median": 3.58,
+    "min": 1.12,
+    "digitalAvg": 3.9
+   }
   },
   {
    "from": "USA",
@@ -3232,7 +5346,14 @@
    "avg": 5.63,
    "median": 4.89,
    "min": 1.18,
-   "digitalAvg": 5.45
+   "digitalAvg": 5.45,
+   "at500": {
+    "providers": 32,
+    "avg": 4.52,
+    "median": 3.95,
+    "min": 1.18,
+    "digitalAvg": 4.49
+   }
   },
   {
    "from": "USA",
@@ -3241,7 +5362,14 @@
    "avg": 4.18,
    "median": 3.98,
    "min": -2.12,
-   "digitalAvg": 4.05
+   "digitalAvg": 4.05,
+   "at500": {
+    "providers": 29,
+    "avg": 2.86,
+    "median": 2.67,
+    "min": -2.12,
+    "digitalAvg": 2.89
+   }
   },
   {
    "from": "USA",
@@ -3250,7 +5378,14 @@
    "avg": 3.99,
    "median": 3.83,
    "min": 1.5,
-   "digitalAvg": 3.58
+   "digitalAvg": 3.58,
+   "at500": {
+    "providers": 31,
+    "avg": 2.72,
+    "median": 2.61,
+    "min": 1.41,
+    "digitalAvg": 2.79
+   }
   },
   {
    "from": "USA",
@@ -3259,7 +5394,14 @@
    "avg": 5.36,
    "median": 5.26,
    "min": 2.77,
-   "digitalAvg": 5.19
+   "digitalAvg": 5.19,
+   "at500": {
+    "providers": 16,
+    "avg": 3.89,
+    "median": 3.24,
+    "min": 1.8,
+    "digitalAvg": 3.79
+   }
   },
   {
    "from": "USA",
@@ -3268,7 +5410,14 @@
    "avg": 6.62,
    "median": 3.56,
    "min": 1.85,
-   "digitalAvg": 4.85
+   "digitalAvg": 4.85,
+   "at500": {
+    "providers": 22,
+    "avg": 3.73,
+    "median": 2.91,
+    "min": 1.25,
+    "digitalAvg": 3.33
+   }
   },
   {
    "from": "USA",
@@ -3277,7 +5426,14 @@
    "avg": 4.96,
    "median": 4.27,
    "min": -2.65,
-   "digitalAvg": 5.13
+   "digitalAvg": 5.13,
+   "at500": {
+    "providers": 38,
+    "avg": 3.18,
+    "median": 2.71,
+    "min": -2.65,
+    "digitalAvg": 3.32
+   }
   },
   {
    "from": "USA",
@@ -3286,7 +5442,14 @@
    "avg": 5.71,
    "median": 5.47,
    "min": -0.53,
-   "digitalAvg": 5.27
+   "digitalAvg": 5.27,
+   "at500": {
+    "providers": 23,
+    "avg": 3.96,
+    "median": 3.81,
+    "min": -0.53,
+    "digitalAvg": 3.66
+   }
   },
   {
    "from": "USA",
@@ -3295,7 +5458,14 @@
    "avg": 3.68,
    "median": 2.75,
    "min": -0.53,
-   "digitalAvg": 3.44
+   "digitalAvg": 3.44,
+   "at500": {
+    "providers": 45,
+    "avg": 2.51,
+    "median": 1.88,
+    "min": -0.53,
+    "digitalAvg": 2.43
+   }
   },
   {
    "from": "USA",
@@ -3304,7 +5474,14 @@
    "avg": 4.26,
    "median": 4.48,
    "min": -0.29,
-   "digitalAvg": 3.89
+   "digitalAvg": 3.89,
+   "at500": {
+    "providers": 39,
+    "avg": 3.44,
+    "median": 3.41,
+    "min": -1.49,
+    "digitalAvg": 3.26
+   }
   },
   {
    "from": "USA",
@@ -3313,7 +5490,14 @@
    "avg": 4.41,
    "median": 4.64,
    "min": 0.86,
-   "digitalAvg": 4.09
+   "digitalAvg": 4.09,
+   "at500": {
+    "providers": 21,
+    "avg": 3.3,
+    "median": 2.86,
+    "min": 0.86,
+    "digitalAvg": 3.18
+   }
   },
   {
    "from": "USA",
@@ -3322,7 +5506,14 @@
    "avg": 3.81,
    "median": 2.63,
    "min": 0.45,
-   "digitalAvg": 3.24
+   "digitalAvg": 3.24,
+   "at500": {
+    "providers": 25,
+    "avg": 2.94,
+    "median": 2.51,
+    "min": 0.45,
+    "digitalAvg": 2.63
+   }
   },
   {
    "from": "USA",
@@ -3331,7 +5522,14 @@
    "avg": 4.52,
    "median": 3.96,
    "min": 0.58,
-   "digitalAvg": 4.56
+   "digitalAvg": 4.56,
+   "at500": {
+    "providers": 57,
+    "avg": 2.92,
+    "median": 2.86,
+    "min": -0.31,
+    "digitalAvg": 3.07
+   }
   },
   {
    "from": "USA",
@@ -3340,7 +5538,14 @@
    "avg": 4.38,
    "median": 4,
    "min": 3,
-   "digitalAvg": 3.83
+   "digitalAvg": 3.83,
+   "at500": {
+    "providers": 8,
+    "avg": 3.36,
+    "median": 3,
+    "min": 1.2,
+    "digitalAvg": 3.08
+   }
   },
   {
    "from": "USA",
@@ -3349,7 +5554,14 @@
    "avg": 3.14,
    "median": 3,
    "min": -9.85,
-   "digitalAvg": 1.97
+   "digitalAvg": 1.97,
+   "at500": {
+    "providers": 18,
+    "avg": 1.94,
+    "median": 1.93,
+    "min": -10.47,
+    "digitalAvg": 1.07
+   }
   },
   {
    "from": "USA",
@@ -3358,7 +5570,14 @@
    "avg": 4.7,
    "median": 5,
    "min": 1,
-   "digitalAvg": 4.27
+   "digitalAvg": 4.27,
+   "at500": {
+    "providers": 16,
+    "avg": 2.5,
+    "median": 2.3,
+    "min": 0.4,
+    "digitalAvg": 2.58
+   }
   },
   {
    "from": "USA",
@@ -3367,7 +5586,14 @@
    "avg": 11.28,
    "median": 6.5,
    "min": 2.5,
-   "digitalAvg": 6
+   "digitalAvg": 6,
+   "at500": {
+    "providers": 16,
+    "avg": 5.28,
+    "median": 5.25,
+    "min": 1,
+    "digitalAvg": 3.76
+   }
   },
   {
    "from": "USA",
@@ -3376,7 +5602,14 @@
    "avg": 8.1,
    "median": 7.35,
    "min": 3.4,
-   "digitalAvg": 7.84
+   "digitalAvg": 7.84,
+   "at500": {
+    "providers": 19,
+    "avg": 6.45,
+    "median": 6.25,
+    "min": 2.5,
+    "digitalAvg": 6.37
+   }
   },
   {
    "from": "USA",
@@ -3385,7 +5618,14 @@
    "avg": 7.15,
    "median": 6.95,
    "min": 4.5,
-   "digitalAvg": 6.97
+   "digitalAvg": 6.97,
+   "at500": {
+    "providers": 16,
+    "avg": 4.82,
+    "median": 4.49,
+    "min": 1.8,
+    "digitalAvg": 4.71
+   }
   },
   {
    "from": "USA",
@@ -3394,7 +5634,14 @@
    "avg": 6.06,
    "median": 6.36,
    "min": -2.25,
-   "digitalAvg": 6.06
+   "digitalAvg": 6.06,
+   "at500": {
+    "providers": 19,
+    "avg": 4.52,
+    "median": 4.86,
+    "min": -2.25,
+    "digitalAvg": 4.75
+   }
   },
   {
    "from": "USA",
@@ -3403,7 +5650,14 @@
    "avg": 5.36,
    "median": 6,
    "min": 0.49,
-   "digitalAvg": 5.26
+   "digitalAvg": 5.26,
+   "at500": {
+    "providers": 19,
+    "avg": 3.09,
+    "median": 3,
+    "min": 0.2,
+    "digitalAvg": 3.18
+   }
   },
   {
    "from": "USA",
@@ -3412,7 +5666,14 @@
    "avg": 4.37,
    "median": 4.35,
    "min": -0.13,
-   "digitalAvg": 3.72
+   "digitalAvg": 3.72,
+   "at500": {
+    "providers": 30,
+    "avg": 3.37,
+    "median": 3.27,
+    "min": -0.13,
+    "digitalAvg": 2.92
+   }
   },
   {
    "from": "USA",
@@ -3421,7 +5682,14 @@
    "avg": 8.81,
    "median": 5.5,
    "min": 4.22,
-   "digitalAvg": 5.82
+   "digitalAvg": 5.82,
+   "at500": {
+    "providers": 14,
+    "avg": 5.51,
+    "median": 4.23,
+    "min": 2.8,
+    "digitalAvg": 4.44
+   }
   },
   {
    "from": "USA",
@@ -3430,7 +5698,14 @@
    "avg": 5.11,
    "median": 4.1,
    "min": 0.22,
-   "digitalAvg": 5.24
+   "digitalAvg": 5.24,
+   "at500": {
+    "providers": 23,
+    "avg": 3.45,
+    "median": 3.42,
+    "min": 0.22,
+    "digitalAvg": 3.38
+   }
   },
   {
    "from": "USA",
@@ -3439,7 +5714,14 @@
    "avg": 3.92,
    "median": 3.25,
    "min": 0,
-   "digitalAvg": 3.95
+   "digitalAvg": 3.95,
+   "at500": {
+    "providers": 30,
+    "avg": 2.41,
+    "median": 1.85,
+    "min": 0.98,
+    "digitalAvg": 2.64
+   }
   },
   {
    "from": "USA",
@@ -3448,7 +5730,14 @@
    "avg": 4.1,
    "median": 3,
    "min": 2.45,
-   "digitalAvg": 3.95
+   "digitalAvg": 3.95,
+   "at500": {
+    "providers": 13,
+    "avg": 2.75,
+    "median": 1.98,
+    "min": 1,
+    "digitalAvg": 2.96
+   }
   },
   {
    "from": "USA",
@@ -3457,7 +5746,14 @@
    "avg": 4.65,
    "median": 4,
    "min": 2,
-   "digitalAvg": 5.39
+   "digitalAvg": 5.39,
+   "at500": {
+    "providers": 21,
+    "avg": 2.77,
+    "median": 1.98,
+    "min": 1,
+    "digitalAvg": 3.37
+   }
   },
   {
    "from": "USA",
@@ -3466,7 +5762,14 @@
    "avg": 5.26,
    "median": 5.45,
    "min": 2,
-   "digitalAvg": 4.94
+   "digitalAvg": 4.94,
+   "at500": {
+    "providers": 19,
+    "avg": 3.56,
+    "median": 2.88,
+    "min": 0,
+    "digitalAvg": 3.57
+   }
   },
   {
    "from": "USA",
@@ -3475,7 +5778,14 @@
    "avg": 3.92,
    "median": 3,
    "min": 2,
-   "digitalAvg": 3.43
+   "digitalAvg": 3.43,
+   "at500": {
+    "providers": 12,
+    "avg": 2.3,
+    "median": 1.8,
+    "min": 0.8,
+    "digitalAvg": 2.2
+   }
   },
   {
    "from": "USA",
@@ -3484,7 +5794,14 @@
    "avg": 9.18,
    "median": 8.88,
    "min": 6.87,
-   "digitalAvg": 8.18
+   "digitalAvg": 8.18,
+   "at500": {
+    "providers": 6,
+    "avg": 7.08,
+    "median": 6.66,
+    "min": 5.92,
+    "digitalAvg": 6.87
+   }
   },
   {
    "from": "USA",
@@ -3493,7 +5810,14 @@
    "avg": 6.55,
    "median": 6.9,
    "min": 4.5,
-   "digitalAvg": 7.39
+   "digitalAvg": 7.39,
+   "at500": {
+    "providers": 7,
+    "avg": 4.89,
+    "median": 4.9,
+    "min": 2.1,
+    "digitalAvg": 6.19
+   }
   },
   {
    "from": "USA",
@@ -3502,7 +5826,14 @@
    "avg": 8.75,
    "median": 7.75,
    "min": 2.5,
-   "digitalAvg": 8.75
+   "digitalAvg": 8.75,
+   "at500": {
+    "providers": 4,
+    "avg": 8.18,
+    "median": 6,
+    "min": 2,
+    "digitalAvg": 8.18
+   }
   },
   {
    "from": "USA",
@@ -3511,7 +5842,14 @@
    "avg": 5.6,
    "median": 6,
    "min": 4,
-   "digitalAvg": null
+   "digitalAvg": null,
+   "at500": {
+    "providers": 5,
+    "avg": 5.12,
+    "median": 6,
+    "min": 1.6,
+    "digitalAvg": null
+   }
   },
   {
    "from": "ZAF",
@@ -3520,7 +5858,14 @@
    "avg": 14.65,
    "median": 8.26,
    "min": 3.46,
-   "digitalAvg": 5.79
+   "digitalAvg": 5.79,
+   "at500": {
+    "providers": 17,
+    "avg": 8.4,
+    "median": 6.53,
+    "min": 2.19,
+    "digitalAvg": 5.15
+   }
   },
   {
    "from": "ZAF",
@@ -3529,7 +5874,14 @@
    "avg": 16.45,
    "median": 10.29,
    "min": 5.57,
-   "digitalAvg": 13.72
+   "digitalAvg": 13.72,
+   "at500": {
+    "providers": 27,
+    "avg": 10.08,
+    "median": 9.28,
+    "min": 4.27,
+    "digitalAvg": 9.64
+   }
   },
   {
    "from": "ZAF",
@@ -3538,7 +5890,14 @@
    "avg": 23.88,
    "median": 31.95,
    "min": 3.76,
-   "digitalAvg": 9.43
+   "digitalAvg": 9.43,
+   "at500": {
+    "providers": 11,
+    "avg": 11.06,
+    "median": 13.14,
+    "min": 3.76,
+    "digitalAvg": 5.66
+   }
   },
   {
    "from": "ZAF",
@@ -3547,7 +5906,14 @@
    "avg": 10.29,
    "median": 5.79,
    "min": 2.72,
-   "digitalAvg": 8.85
+   "digitalAvg": 8.85,
+   "at500": {
+    "providers": 30,
+    "avg": 6.76,
+    "median": 4.83,
+    "min": 4.01,
+    "digitalAvg": 6.71
+   }
   },
   {
    "from": "ZAF",
@@ -3556,7 +5922,14 @@
    "avg": 31.48,
    "median": 32.94,
    "min": -3,
-   "digitalAvg": 44.03
+   "digitalAvg": 44.03,
+   "at500": {
+    "providers": 23,
+    "avg": 25.34,
+    "median": 13.29,
+    "min": -3.82,
+    "digitalAvg": 40.9
+   }
   },
   {
    "from": "ZAF",
@@ -3565,7 +5938,14 @@
    "avg": 14.7,
    "median": 11.24,
    "min": 4.87,
-   "digitalAvg": 11.03
+   "digitalAvg": 11.03,
+   "at500": {
+    "providers": 34,
+    "avg": 9.92,
+    "median": 11.06,
+    "min": 4.87,
+    "digitalAvg": 8.75
+   }
   },
   {
    "from": "ZAF",
@@ -3574,7 +5954,14 @@
    "avg": 16.39,
    "median": 8.07,
    "min": 5.29,
-   "digitalAvg": 6.51
+   "digitalAvg": 6.51,
+   "at500": {
+    "providers": 15,
+    "avg": 8.52,
+    "median": 8.07,
+    "min": 3.15,
+    "digitalAvg": 5.97
+   }
   },
   {
    "from": "ZAF",
@@ -3583,7 +5970,14 @@
    "avg": 17.3,
    "median": 13.74,
    "min": 6.13,
-   "digitalAvg": 11.84
+   "digitalAvg": 11.84,
+   "at500": {
+    "providers": 16,
+    "avg": 9.71,
+    "median": 9.27,
+    "min": 5.38,
+    "digitalAvg": 8.65
+   }
   },
   {
    "from": "ZAF",
@@ -3592,7 +5986,14 @@
    "avg": 12.49,
    "median": 10.28,
    "min": 5.15,
-   "digitalAvg": 8.36
+   "digitalAvg": 8.36,
+   "at500": {
+    "providers": 40,
+    "avg": 8.48,
+    "median": 8.74,
+    "min": 4.62,
+    "digitalAvg": 6.92
+   }
   },
   {
    "from": "ZAF",
@@ -3601,7 +6002,14 @@
    "avg": 10.62,
    "median": 7.05,
    "min": 3.44,
-   "digitalAvg": 7.79
+   "digitalAvg": 7.79,
+   "at500": {
+    "providers": 33,
+    "avg": 6.37,
+    "median": 5.86,
+    "min": 2.35,
+    "digitalAvg": 5.58
+   }
   },
   {
    "from": "ZAF",
@@ -3610,7 +6018,14 @@
    "avg": 11.25,
    "median": 10.58,
    "min": 0,
-   "digitalAvg": 7.58
+   "digitalAvg": 7.58,
+   "at500": {
+    "providers": 11,
+    "avg": 5.82,
+    "median": 4.4,
+    "min": 0,
+    "digitalAvg": 5.92
+   }
   },
   {
    "from": "ZAF",
@@ -3619,7 +6034,14 @@
    "avg": 11.62,
    "median": 10.95,
    "min": 0,
-   "digitalAvg": 6.26
+   "digitalAvg": 6.26,
+   "at500": {
+    "providers": 9,
+    "avg": 4.99,
+    "median": 4.4,
+    "min": 0,
+    "digitalAvg": 3.49
+   }
   },
   {
    "from": "ZAF",
@@ -3628,7 +6050,14 @@
    "avg": 21.39,
    "median": 22.21,
    "min": 6.12,
-   "digitalAvg": 13.47
+   "digitalAvg": 13.47,
+   "at500": {
+    "providers": 13,
+    "avg": 10.08,
+    "median": 9.54,
+    "min": 4.82,
+    "digitalAvg": 7.87
+   }
   },
   {
    "from": "FRA",
@@ -3637,7 +6066,14 @@
    "avg": 45.13,
    "median": 45.13,
    "min": 45.13,
-   "digitalAvg": null
+   "digitalAvg": null,
+   "at500": {
+    "providers": 1,
+    "avg": 18.39,
+    "median": 18.39,
+    "min": 18.39,
+    "digitalAvg": null
+   }
   }
  ]
 }
