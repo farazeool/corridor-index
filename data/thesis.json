@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-13T07:30:26.697Z",
+ "builtAt": "2026-11-13T18:02:48.285Z",
  "rules": {
   "amountUsd": 200,
   "executionBufferPct": 1,
@@ -719,6 +719,7 @@
   }
  },
  "summary": {
+  "at500": null,
   "corridors": 348,
   "pricedVolume": 543140000000,
   "testedVolume": 390528000000,

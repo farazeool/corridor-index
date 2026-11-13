@@ -77,3 +77,15 @@ test("kill criteria and sizing are computed from the winning volume", () => {
   assert.ok(Math.abs(at10.revenueUsd - 10e9 * (9e6 / 30e9)) < 1);
   assert.ok(Math.abs(s.kill.revenue.value - at10.revenueUsd / newSupplyUsd) < 1e-12);
 });
+
+test("the $500 test uses the $500 prices and the $500 quote", () => {
+  const b = base();
+  b.rpw.corridors[0].at500 = { providers: 10, avg: 3, median: 2.5, min: 0.5, digitalAvg: 2 };
+  const out = build(b);
+  const um = by(out, "USA", "MEX");
+  assert.equal(um.at500.benchmark, 2);
+  assert.ok(Math.abs(um.at500.nearLo - 0.1) < 1e-9); // $500 quote: 499.5 out of 500
+  assert.equal(um.at500.verdict, "wins");
+  assert.equal(by(out, "KWT", "PAK").at500, undefined);
+  assert.ok(out.summary.at500.winShare > 0);
+});

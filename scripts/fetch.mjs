@@ -35,7 +35,15 @@ async function prices() {
   const rows = XLSX.utils.sheet_to_json(wb.Sheets["Dataset (from Q2 2016)"], { header: 1, defval: null });
   const h = rows[0];
   const col = (name) => h.indexOf(name);
-  const [P, S, SN, D, DN, DR, AP, COST] = ["period", "source_code", "source_name", "destination_code", "destination_name", "destination_region", "access point", "cc1 total cost %"].map(col);
+  const [P, S, SN, D, DN, DR, AP, COST, COST500] = ["period", "source_code", "source_name", "destination_code", "destination_name", "destination_region", "access point", "cc1 total cost %", "cc2 total cost %"].map(col);
+  // cc1 = sending the equivalent of US$200, cc2 = US$500.
+  const stats = (g, C) => {
+    const rows = g.filter((r) => typeof r[C] === "number");
+    if (!rows.length) return null;
+    const v = rows.map((r) => r[C]);
+    const dig = rows.filter((r) => /Internet|Mobile/.test(r[AP])).map((r) => r[C]);
+    return { providers: v.length, avg: r2(v.reduce((a, b) => a + b, 0) / v.length), median: r2(median(v)), min: r2(Math.min(...v)), digitalAvg: dig.length ? r2(dig.reduce((a, b) => a + b, 0) / dig.length) : null };
+  };
   const body = rows.slice(1).filter((r) => typeof r[COST] === "number");
   const period = [...new Set(body.map((r) => r[P]))].sort().at(-1);
   const latest = body.filter((r) => r[P] === period);
@@ -56,6 +64,7 @@ async function prices() {
       from: g[0][S], to: g[0][D], providers: v.length,
       avg: r2(v.reduce((a, b) => a + b, 0) / v.length), median: r2(median(v)), min: r2(Math.min(...v)),
       digitalAvg: dig.length ? r2(dig.reduce((a, b) => a + b, 0) / dig.length) : null,
+      at500: stats(g, COST500),
     };
   });
   const globalAverage = r2(latest.reduce((a, r) => a + r[COST], 0) / latest.length);
