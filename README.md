@@ -49,7 +49,7 @@ The site and [`data/thesis.json`](data/thesis.json) always show the latest daily
 
 <p align="center"><img src="docs/calculator.png" alt="The calculator: $200 from the UAE to India arrives as $193.90 with a typical provider and about $196.56 to $198.56 through NEAR Intents, so NEAR wins" width="860"></p>
 
-1. Open https://corridor-index-zibj.vercel.app. You see a calculator set to **Kuwait → Pakistan**, with a red **NEAR loses** pill: the median provider already charges −0.39% (World Bank, Q3 2025), and NEAR's route costs more than that.
+1. Open https://corridor-index-zibj.vercel.app and click **Try a corridor**. You see a calculator set to **Kuwait → Pakistan**, with a red **NEAR loses** pill: the median provider already charges −0.39% (World Bank, Q3 2025), and NEAR's route costs more than that.
 2. Click **UAE → India**. You see **NEAR wins**: about $196–$198 arrives through NEAR against $193.90 today, the cost broken into cash in, NEAR Intents and cash out, and how much more the family keeps per $200. Below it is a live NEAR Intents quote, fetched from the 1Click API when the page loads.
 3. Scroll to **Every corridor** and drag the **stress-test** slider from 1.0 to 3.0 points. You see the count of winning corridors and the share of tested money fall as NEAR is given a worse deal. That is the bear case, made adjustable.
 4. Click **Crypto illegal** or **Can't test**. You see every corridor that was left out, with the reason.
