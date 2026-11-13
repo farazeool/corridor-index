@@ -1,4 +1,7 @@
 import { Calculator } from "@/components/Calculator";
+import { CorridorArcs } from "@/components/CorridorArcs";
+import { CountUp } from "@/components/CountUp";
+import { Reveal } from "@/components/Reveal";
 import { CorridorTable } from "@/components/CorridorTable";
 import { Dumbbell } from "@/components/Dumbbell";
 import { Pill } from "@/components/Pill";
@@ -17,8 +20,8 @@ const kwPk = get("KWT", "PAK"), aeIn = get("ARE", "IND"), saBd = get("SAU", "BGD
 
 function Stat({ value, label, href }: { value: string; label: string; href: string }) {
   return (
-    <a href={href} className="block border-t-2 border-ink pt-3 group">
-      <p className="text-3xl sm:text-4xl font-semibold tracking-tight tabular-nums">{value}</p>
+    <a href={href} className="block border-t border-rule-strong pt-4 group">
+      <p className="display text-4xl sm:text-5xl font-semibold tabular-nums">{value}</p>
       <p className="mt-1 text-sm text-ink-soft group-hover:text-ink">{label}</p>
     </a>
   );
@@ -34,10 +37,12 @@ function PassFail({ ok }: { ok: boolean }) {
 
 function Section({ id, kicker, title, children }: { id: string; kicker: string; title: string; children: React.ReactNode }) {
   return (
-    <section id={id} className="mt-24 scroll-mt-8">
-      <p className="eyebrow">{kicker}</p>
-      <h2 className="mt-2 text-3xl sm:text-4xl font-semibold tracking-tight max-w-3xl">{title}</h2>
-      <div className="mt-8">{children}</div>
+    <section id={id} className="mt-32 sm:mt-40 scroll-mt-20">
+      <Reveal>
+        <p className="eyebrow flex items-center gap-3"><span className="inline-block h-px w-8 bg-blue" />{kicker}</p>
+        <h2 className="display mt-4 text-4xl sm:text-6xl font-semibold max-w-4xl leading-[1.02]">{title}</h2>
+      </Reveal>
+      <Reveal delay={120} className="mt-10">{children}</Reveal>
     </section>
   );
 }
@@ -45,21 +50,48 @@ function Section({ id, kicker, title, children }: { id: string; kicker: string; 
 export default function Home() {
   const k = S.kill;
   return (
-    <div className="mx-auto max-w-[1120px] px-4 sm:px-6">
-      {/* 1. Calculator */}
-      <section className="pt-12 sm:pt-16">
-        <p className="eyebrow">An investment thesis for NEAR · Investment Thesis track</p>
-        <h1 className="mt-3 text-4xl sm:text-6xl font-semibold tracking-tight max-w-4xl leading-[1.05]">
-          Where NEAR actually wins at sending money home.
+    <div className="mx-auto max-w-[1180px] px-4 sm:px-6">
+      {/* 0. Hero */}
+      <section className="relative -mx-4 sm:-mx-6 px-4 sm:px-6 pt-16 sm:pt-24 pb-10 min-h-[86vh] flex flex-col justify-center overflow-hidden">
+        <div className="absolute inset-x-0 top-[22%] bottom-0 -z-10 opacity-60 sm:opacity-75"><CorridorArcs corridors={T.corridors} /></div>
+        <p className="eyebrow rise" style={{ animationDelay: "60ms" }}>An investment thesis for NEAR · NEAR HACKATHON</p>
+        <h1 className="display rise mt-5 font-extrabold leading-[0.88] text-[clamp(4rem,13vw,11rem)]" style={{ animationDelay: "160ms" }}>
+          Corridor <span className="accent font-normal text-blue">Index</span>
         </h1>
-        <p className="mt-5 max-w-3xl prose-thesis">
-          Most NEAR theses measure the chain from the inside. This one tests it against a real market: the{" "}
-          {usdB(S.pricedVolume)} a year that migrants send home across {S.corridors} corridors the World Bank prices.
-          Pick a corridor and compare what a family receives today with what they would receive through NEAR Intents.
+        <p className="rise mt-6 max-w-2xl text-xl sm:text-2xl text-ink-soft leading-snug" style={{ animationDelay: "320ms" }}>
+          Where NEAR actually wins at sending money home, tested against{" "}
+          <span className="text-ink">{usdB(S.pricedVolume)}</span> a year of real remittances.
         </p>
-        <div className="mt-8">
-          <Calculator corridors={T.corridors} names={names} legPct={T.intents.legMedianPct} legSeconds={T.intents.legMedianSeconds} buffer={T.rules.executionBufferPct} />
+        <div className="rise mt-9 flex flex-wrap gap-3" style={{ animationDelay: "460ms" }}>
+          <a href="#calculator" className="btn btn-primary !px-5 !py-2.5">Try a corridor</a>
+          <a href="#answer" className="btn !px-5 !py-2.5">Read the verdict</a>
         </div>
+        <div className="rise mt-14 grid max-w-3xl grid-cols-3 gap-6" style={{ animationDelay: "620ms" }}>
+          <div><p className="display text-3xl sm:text-5xl font-semibold"><CountUp to={S.corridors} format="int" /></p><p className="mt-1 text-xs sm:text-sm text-muted">corridors priced by the World Bank</p></div>
+          <div><p className="display text-3xl sm:text-5xl font-semibold text-wins"><CountUp to={S.winShare} format="pct" /></p><p className="mt-1 text-xs sm:text-sm text-muted">of tested money where NEAR is cheaper</p></div>
+          <div><p className="display text-3xl sm:text-5xl font-semibold"><CountUp to={S.byVerdict.wins.volume} format="usdB" /></p><p className="mt-1 text-xs sm:text-sm text-muted">a year in corridors NEAR wins</p></div>
+        </div>
+        <div className="rise mt-10 flex flex-wrap gap-x-5 gap-y-2 text-xs text-muted" style={{ animationDelay: "760ms" }}>
+          {(["wins", "close", "loses", "illegal"] as const).map((v) => (
+            <span key={v} className="flex items-center gap-2"><span className="h-0.5 w-5 rounded" style={{ background: `var(--${v === "illegal" ? "law" : v})` }} />{{ wins: "NEAR cheaper", close: "too close", loses: "NEAR dearer", illegal: "crypto illegal" }[v]}</span>
+          ))}
+          <span>The 22 largest corridors, drawn from where the money is sent to where it lands.</span>
+        </div>
+      </section>
+
+      {/* 1. Calculator */}
+      <section id="calculator" className="mt-16 scroll-mt-20">
+        <Reveal>
+          <p className="eyebrow flex items-center gap-3"><span className="inline-block h-px w-8 bg-blue" />Try a corridor</p>
+          <h2 className="display mt-4 text-4xl sm:text-6xl font-semibold max-w-4xl leading-[1.02]">Send $200. See who keeps <span className="accent font-normal">more.</span></h2>
+          <p className="mt-5 max-w-3xl prose-thesis">
+            Most NEAR theses measure the chain from the inside. This one tests it against a real market: what a family receives today, from the
+            World Bank&apos;s price survey, against what it would receive if the money went through NEAR Intents, cash in and cash out included.
+          </p>
+        </Reveal>
+        <Reveal delay={120} className="mt-10">
+          <Calculator corridors={T.corridors} names={names} legPct={T.intents.legMedianPct} legSeconds={T.intents.legMedianSeconds} buffer={T.rules.executionBufferPct} />
+        </Reveal>
       </section>
 
       {/* 2. Answer */}
@@ -118,14 +150,14 @@ export default function Home() {
             { c: saBd, head: "Expensive, and closed.", body: `Saudi Arabia → Bangladesh costs ${pct(saBd.benchmark)} online, one of the worst Gulf corridors, and NEAR would cost ${pct(saBd.nearLo)}–${pct(saBd.nearHi)}. But Bangladesh bans crypto. The corridors where NEAR could help most are often the ones where it is not allowed.` },
             { c: usMx, head: "The world's largest corridor. NEAR wins.", body: `${usdB(usMx.volume ?? 0)} a year goes from the US to Mexico. Online providers charge ${pct(usMx.benchmark)}; NEAR's route ${pct(usMx.nearLo)}–${pct(usMx.nearHi)}, because buying dollars costs nothing in the US and Mexico's peer-to-peer dollar price sits at the official rate.` },
           ].map(({ c, head, body }, i) => (
-            <li key={i} className="card p-6">
+            <Reveal as="li" key={i} delay={i * 110} className="card p-7">
               <div className="flex items-center justify-between gap-3">
                 <p className="text-sm text-muted">{names[c.from]} → {names[c.to]}</p>
                 <Pill verdict={c.verdict} />
               </div>
-              <p className="mt-3 text-xl font-semibold">{head}</p>
+              <p className="display mt-4 text-2xl font-semibold">{head}</p>
               <p className="mt-2 prose-thesis !text-base">{body}</p>
-            </li>
+            </Reveal>
           ))}
         </ol>
       </Section>
@@ -177,8 +209,8 @@ export default function Home() {
             ["The volumes are modelled.", "Corridor sizes come from the Center for Global Development's 2024 bilateral matrix, which allocates each country's total by migrant stocks. The authors call it indicative, not observed."],
             ["Little of it reaches the token.", "Fees mostly pay solvers and integrators. Even large adoption adds single-digit percentages of NEAR's yearly new supply."],
           ].map(([h, b]) => (
-            <li key={h} className="border-t border-rule pt-4">
-              <p className="font-semibold">{h}</p>
+            <li key={h} className="border-t border-rule-strong pt-5">
+              <p className="display text-lg font-semibold">{h}</p>
               <p className="mt-1.5 text-ink-soft">{b}</p>
             </li>
           ))}

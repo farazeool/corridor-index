@@ -66,7 +66,7 @@ export function Calculator({
       </div>
 
       <div className="mt-6 grid gap-4 md:grid-cols-[1fr_1fr_auto] md:items-stretch">
-        <div className="rounded-xl border border-rule p-4">
+        <div className="rounded-2xl border border-rule bg-[rgba(255,255,255,0.02)] p-5">
           <p className="text-sm font-semibold">{c.benchmarkKind === "online providers" ? "Online providers today" : "A typical provider today"}</p>
           <p className="num mt-2 text-3xl">{usd(today)}</p>
           <p className="mt-1 text-sm text-ink-soft">arrives · cost <span className="num">{pct(c.benchmark)}</span></p>
@@ -74,7 +74,7 @@ export function Calculator({
             World Bank, Q3 2025, {c.providers} providers checked. Cheapest: <span className="num">{pct(c.min)}</span>.
           </p>
         </div>
-        <div className="rounded-xl border-2 border-blue p-4">
+        <div className="rounded-2xl border border-blue/60 bg-blue-wash p-5 shadow-[0_0_60px_-20px_var(--blue)]">
           <p className="text-sm font-semibold">Through NEAR Intents</p>
           {tested ? (
             <>

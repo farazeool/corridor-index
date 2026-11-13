@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/calculator.png" alt="The Corridor Index calculator: sending $200 from the UAE to India arrives as $193.90 with a typical provider and $196.52 to $198.52 through NEAR Intents, so NEAR wins" width="900">
+  <img src="docs/hero.jpg" alt="Corridor Index: the 22 largest remittance corridors drawn as arcs, coloured by whether NEAR is cheaper, with the headline numbers" width="900">
 </p>
 
 Most NEAR theses measure the chain from the inside: transactions, NEAR Intents volume, fees against inflation. This one tests NEAR against a real market. Migrants send about $900 billion home every year. For each of the 348 corridors the World Bank prices, it compares what a family receives today with what it would receive if the money went through NEAR Intents, including the cost of turning local cash into dollars and back again.
@@ -46,6 +46,8 @@ The site and [`data/thesis.json`](data/thesis.json) always show the latest daily
 2. At 10% adoption of the winning corridors, NEAR Intents protocol revenue must cover at least **5%** of NEAR's yearly new supply. Result: **7.2%**, passes, narrowly.
 
 ## Try it (do X, see Y)
+
+<p align="center"><img src="docs/calculator.png" alt="The calculator: $200 from the UAE to India arrives as $193.90 with a typical provider and about $196.56 to $198.56 through NEAR Intents, so NEAR wins" width="860"></p>
 
 1. Open https://corridor-index.vercel.app. You see a calculator set to **Kuwait → Pakistan**, with a red **NEAR loses** pill: the median provider already charges −0.39% (World Bank, Q3 2025), and NEAR's route costs more than that.
 2. Click **UAE → India**. You see **NEAR wins**: about $196–$198 arrives through NEAR against $193.90 today, the cost broken into cash in, NEAR Intents and cash out, and how much more the family keeps per $200. Below it is a live NEAR Intents quote, fetched from the 1Click API when the page loads.

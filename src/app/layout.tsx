@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import "@fontsource/instrument-sans/400.css";
-import "@fontsource/instrument-sans/600.css";
-import "@fontsource/instrument-sans/700.css";
-import "@fontsource/newsreader/400.css";
-import "@fontsource/newsreader/400-italic.css";
-import "@fontsource/newsreader/600.css";
+import "@fontsource-variable/inter";
+import "@fontsource/bricolage-grotesque/600.css";
+import "@fontsource/bricolage-grotesque/700.css";
+import "@fontsource/bricolage-grotesque/800.css";
+import "@fontsource/instrument-serif/400.css";
+import "@fontsource/instrument-serif/400-italic.css";
 import "@fontsource/ibm-plex-mono/400.css";
 import "@fontsource/ibm-plex-mono/500.css";
 import "./globals.css";
@@ -20,11 +20,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className="min-h-dvh flex flex-col">
+        <div className="grade" aria-hidden />
+        <div className="grain" aria-hidden />
         <div className="stripe" aria-hidden />
-        <header className="border-b border-rule">
-          <div className="mx-auto max-w-[1120px] px-4 sm:px-6 h-14 flex items-center gap-6">
-            <a href="/" className="font-semibold tracking-tight text-[1.05rem] whitespace-nowrap">
-              Corridor<span className="text-blue"> Index</span>
+        <header className="sticky top-0 z-40 border-b border-rule bg-[rgba(10,11,13,0.72)] backdrop-blur-xl">
+          <div className="mx-auto max-w-[1180px] px-4 sm:px-6 h-14 flex items-center gap-6">
+            <a href="/" className="flex items-center gap-2 font-semibold text-sm whitespace-nowrap" aria-label="Corridor Index, home">
+              <img src="/icon.svg" alt="" width={22} height={22} className="rounded-[5px]" />
+              <span className="hidden sm:inline text-ink-soft">Corridor Index</span>
             </a>
             <nav className="ml-auto flex gap-4 sm:gap-5 text-sm text-ink-soft whitespace-nowrap">
               <a href="#answer" className="hover:text-ink hidden sm:inline">Answer</a>
@@ -36,8 +39,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
         <main className="flex-1">{children}</main>
-        <footer className="border-t border-rule mt-24">
-          <div className="mx-auto max-w-[1120px] px-4 sm:px-6 py-8 text-sm text-muted flex flex-wrap gap-x-6 gap-y-2">
+        <footer className="border-t border-rule mt-32">
+          <div className="mx-auto max-w-[1180px] px-4 sm:px-6 py-8 text-sm text-muted flex flex-wrap gap-x-6 gap-y-2">
             <span>Corridor Index · an investment thesis built at NEAR HACKATHON. Not investment advice.</span>
             <a className="link" href="/data/thesis.json">All numbers (JSON)</a>
             <a className="link" href="/data/corridors.csv">Corridors (CSV)</a>
