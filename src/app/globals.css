@@ -131,6 +131,10 @@ table thead { background: rgba(255,255,255,0.03); }
 .reveal { opacity: 0; transform: translateY(28px); filter: blur(6px); transition: opacity .9s cubic-bezier(.2,.7,.2,1), transform .9s cubic-bezier(.2,.7,.2,1), filter .9s; }
 .reveal.in { opacity: 1; transform: none; filter: none; }
 
+/* A paper plane crosses from today's box to NEAR's box whenever the corridor changes. */
+.flight-plane { offset-path: path("M 70 80 C 260 20, 450 20, 650 80"); offset-rotate: auto; animation: fly 1.4s cubic-bezier(.45,0,.2,1) both; opacity: 0; }
+@keyframes fly { 0% { offset-distance: 0%; opacity: 0; } 12% { opacity: 1; } 85% { opacity: 1; } 100% { offset-distance: 100%; opacity: 0; } }
+
 /* Hero corridors */
 @keyframes draw { from { stroke-dashoffset: var(--len); } to { stroke-dashoffset: 0; } }
 @keyframes travel { from { offset-distance: 0%; opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } to { offset-distance: 100%; opacity: 0; } }
@@ -145,5 +149,6 @@ table thead { background: rgba(255,255,255,0.03); }
 @media (prefers-reduced-motion: reduce) {
   .reveal, .rise { opacity: 1; transform: none; filter: none; animation: none; transition: none; }
   .arc { stroke-dashoffset: 0; animation: none; }
-  .dot-pulse, .marquee { animation: none; }
+  .dot-pulse, .marquee, .flight-plane { animation: none; }
+  .flight-plane { opacity: 0; }
 }

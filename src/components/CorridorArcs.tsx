@@ -18,6 +18,8 @@ export function CorridorArcs({ corridors }: { corridors: Corridor[] }) {
     .filter((c) => COLOR[c.verdict] && AT[c.from] && AT[c.to] && c.volume)
     .sort((a, b) => (b.volume ?? 0) - (a.volume ?? 0))
     .slice(0, 22);
+  // Paper planes fly the five largest corridors where NEAR wins.
+  const planes = new Set(arcs.filter((c) => c.verdict === "wins").slice(0, 5).map((c) => c.id));
   const places = [...new Set(arcs.flatMap((c) => [c.from, c.to]))];
   const grid = [];
   for (let lon = -110; lon <= 140; lon += 10) for (let lat = 55; lat >= -35; lat -= 10) grid.push(P([lon, lat]));
@@ -41,7 +43,14 @@ export function CorridorArcs({ corridors }: { corridors: Corridor[] }) {
             <g key={c.id}>
               <path d={d} pathLength={1} className="arc" fill="none" stroke={COLOR[c.verdict]} strokeOpacity={0.75} strokeWidth={w}
                 style={{ ["--len" as string]: 1, animationDelay: `${300 + i * 90}ms` } as React.CSSProperties} />
-              <circle r={2.2} fill={COLOR[c.verdict]} style={{ offsetPath: `path("${d}")`, animation: `travel ${5 + (i % 5)}s linear ${2 + i * 0.4}s infinite`, opacity: 0 } as React.CSSProperties} />
+              {c.verdict === "wins" && planes.has(c.id) ? (
+                <g style={{ offsetPath: `path("${d}")`, offsetRotate: "auto", animation: `travel ${7 + (i % 4)}s cubic-bezier(.45,0,.55,1) ${2.6 + i * 0.5}s infinite`, opacity: 0 } as React.CSSProperties}>
+                  <g transform="scale(1.9)"><path d="M9 0 -7 -6 -3.5 0 -7 6Z" fill="var(--blue)" />
+                  <path d="M9 0 -3.5 0 -7 6Z" fill="#b8862f" /></g>
+                </g>
+              ) : (
+                <circle r={2.2} fill={COLOR[c.verdict]} style={{ offsetPath: `path("${d}")`, animation: `travel ${5 + (i % 5)}s linear ${2 + i * 0.4}s infinite`, opacity: 0 } as React.CSSProperties} />
+              )}
             </g>
           );
         })}

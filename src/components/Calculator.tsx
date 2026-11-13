@@ -22,6 +22,14 @@ export function Calculator({
   const [from, setFrom] = useState("KWT");
   const [to, setTo] = useState("PAK");
   const [live, setLive] = useState<Live | null>(null);
+  const [copied, setCopied] = useState(false);
+
+  // Read a shared corridor from the address (?from=ARE&to=IND) and keep the address in step.
+  useEffect(() => {
+    const q = new URLSearchParams(location.search);
+    const f = q.get("from")?.toUpperCase(), t = q.get("to")?.toUpperCase();
+    if (f && t && corridors.some((c) => c.from === f && c.to === t)) { setFrom(f); setTo(t); }
+  }, [corridors]);
 
   useEffect(() => {
     let off = false;
@@ -35,6 +43,20 @@ export function Calculator({
     [corridors, from, names],
   );
   const c = corridors.find((x) => x.from === from && x.to === to) ?? corridors.find((x) => x.from === from)!;
+
+  useEffect(() => {
+    const u = new URL(location.href);
+    if (u.searchParams.get("from") === c.from && u.searchParams.get("to") === c.to) return;
+    if (c.from === "KWT" && c.to === "PAK" && !u.searchParams.get("from")) return;
+    u.searchParams.set("from", c.from); u.searchParams.set("to", c.to);
+    history.replaceState(null, "", u.pathname + u.search + "#calculator");
+  }, [c.from, c.to]);
+
+  const share = async () => {
+    const u = new URL(location.href);
+    u.searchParams.set("from", c.from); u.searchParams.set("to", c.to); u.hash = "calculator";
+    try { await navigator.clipboard.writeText(u.toString()); setCopied(true); setTimeout(() => setCopied(false), 1800); } catch { /* clipboard blocked */ }
+  };
 
   const today = 200 * (1 - c.benchmark / 100);
   const tested = c.nearLo != null;
@@ -57,15 +79,19 @@ export function Calculator({
           </select>
         </label>
       </div>
-      <div className="mt-3 flex flex-wrap gap-2">
+      <div className="mt-3 flex flex-wrap items-center gap-2">
         {PRESETS.map(([f, t, label]) => (
           <button key={label} className="btn !py-1 !text-xs" aria-pressed={from === f && c.to === t} onClick={() => { setFrom(f); setTo(t); }}>
             {label}
           </button>
         ))}
+        <button className="btn !py-1 !text-xs ml-auto" onClick={share} aria-live="polite">{copied ? "Link copied" : "Copy link to this corridor"}</button>
       </div>
 
-      <div className="mt-6 grid gap-4 md:grid-cols-[1fr_1fr_auto] md:items-stretch">
+      <div className="relative mt-6 grid gap-4 md:grid-cols-[1fr_1fr_auto] md:items-stretch">
+        <svg key={c.id} className="flight pointer-events-none absolute left-0 top-0 hidden md:block h-full w-full overflow-visible" aria-hidden>
+          <g className="flight-plane"><path d="M11 0 -8 -7 -4 0 -8 7Z" fill="var(--blue)" /><path d="M11 0 -4 0 -8 7Z" fill="#b8862f" /></g>
+        </svg>
         <div className="rounded-2xl border border-rule bg-[rgba(255,255,255,0.02)] p-5">
           <p className="text-sm font-semibold">{c.benchmarkKind === "online providers" ? "Online providers today" : "A typical provider today"}</p>
           <p className="num mt-2 text-3xl">{usd(today)}</p>
