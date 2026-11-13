@@ -22,31 +22,33 @@ Most NEAR theses measure the chain from the inside: transactions, NEAR Intents v
 - **Live site:** https://corridor-index.vercel.app
 - **All numbers:** [`data/thesis.json`](data/thesis.json) · [`public/data/corridors.csv`](public/data/corridors.csv)
 
-## The answer (snapshot of 13 Nov 2026)
+## The answer (first live run, 13 Nov 2026)
+
+The site and [`data/thesis.json`](data/thesis.json) always show the latest daily run; the numbers below are from the first one.
 
 | | |
 | --- | --- |
 | Corridors priced by the World Bank | 348, carrying $543B a year |
-| Corridors we could test | 105, carrying $339B a year |
-| **NEAR is cheaper** | **77 corridors, $262B a year (77% of tested money)** |
-| Too close to call | 11 corridors, $39B |
-| NEAR is more expensive | 17 corridors, $38B (for example Kuwait → Pakistan and UAE → Pakistan) |
-| Crypto illegal at one end | 38 corridors, $71B (for example anything to Bangladesh, Egypt, Nepal, Morocco) |
-| Can't test (no public peer-to-peer market) | 205 corridors, $134B |
-| Money families would keep if every winning corridor switched | $5.0B a year |
-| NEAR Intents protocol revenue if 10% of winning corridors switched | about $8M a year, **6.6%** of NEAR's yearly new supply ($115M) |
+| Corridors we could test | 187, carrying $391B a year |
+| **NEAR is cheaper** | **127 corridors, $289B a year (74% of tested money)** |
+| Too close to call | 14 corridors, $51B |
+| NEAR is more expensive | 46 corridors, $51B (for example Kuwait → Pakistan and UAE → Pakistan) |
+| Crypto illegal at one end | 46 corridors, $73B (for example anything to Bangladesh, Egypt, Nepal, Morocco) |
+| Can't test (no public peer-to-peer market) | 115 corridors, $80B |
+| Money families would keep if every winning corridor switched | $5.6B a year |
+| NEAR Intents protocol revenue if 10% of winning corridors switched | about $8M a year, **7.2%** of NEAR's yearly new supply ($116M) |
 
-**Thesis:** NEAR's route is genuinely cheaper for most of the money we can test, so remittances could multiply NEAR Intents' usage many times over: the winning corridors carry 8× what Intents moved in the last year. But only a small share of what users pay reaches the NEAR protocol, so remittances make NEAR *useful* long before they make the token *scarce*.
+**Thesis:** NEAR's route is genuinely cheaper for most of the money we can test, so remittances could multiply NEAR Intents' usage many times over: the winning corridors carry about 9× what Intents moved in the last year. But only a small share of what users pay reaches the NEAR protocol, so remittances make NEAR *useful* long before they make the token *scarce*.
 
 **Kill criteria, written before the data was pulled** (both re-check on every run):
 
-1. NEAR must win at least **25%** of the tested money. Result: **77%**, passes.
-2. At 10% adoption of the winning corridors, NEAR Intents protocol revenue must cover at least **5%** of NEAR's yearly new supply. Result: **6.6%**, passes, narrowly.
+1. NEAR must win at least **25%** of the tested money. Result: **74%**, passes.
+2. At 10% adoption of the winning corridors, NEAR Intents protocol revenue must cover at least **5%** of NEAR's yearly new supply. Result: **7.2%**, passes, narrowly.
 
 ## Try it (do X, see Y)
 
-1. Open https://corridor-index.vercel.app. You see a calculator set to **Kuwait → Pakistan**, with a red **NEAR loses** pill: the median provider already charges −0.39%, and NEAR's route costs 1.00–2.00%.
-2. Click **UAE → India**. You see **NEAR wins**: $196.52–$198.52 arrives through NEAR against $193.90 today, and a line saying the family keeps at least $2.61 more per $200. Below it is a live NEAR Intents quote, fetched from the 1Click API when the page loads.
+1. Open https://corridor-index.vercel.app. You see a calculator set to **Kuwait → Pakistan**, with a red **NEAR loses** pill: the median provider already charges −0.39% (World Bank, Q3 2025), and NEAR's route costs more than that.
+2. Click **UAE → India**. You see **NEAR wins**: about $196–$198 arrives through NEAR against $193.90 today, the cost broken into cash in, NEAR Intents and cash out, and how much more the family keeps per $200. Below it is a live NEAR Intents quote, fetched from the 1Click API when the page loads.
 3. Scroll to **Every corridor** and drag the **stress-test** slider from 1.0 to 3.0 points. You see the count of winning corridors and the share of tested money fall as NEAR is given a worse deal. That is the bear case, made adjustable.
 4. Click **Crypto illegal** or **Can't test**. You see every corridor that was left out, with the reason.
 5. In **Is it worth it for NEAR?**, drag the adoption slider. You see the extra protocol revenue next to today's Intents revenue and NEAR's yearly new supply.
