@@ -134,7 +134,7 @@
    "region": "ECA"
   },
   "TUR": {
-   "name": "T\u00fcrkiye",
+   "name": "Türkiye",
    "region": ""
   },
   "KSV": {
@@ -222,7 +222,7 @@
    "region": ""
   },
   "CIV": {
-   "name": "C\u00f4te d'Ivoire",
+   "name": "Côte d'Ivoire",
    "region": "SSA"
   },
   "MLI": {
@@ -604,7 +604,7 @@
    "avg": 4.55,
    "median": 4.92,
    "min": 1.89,
-   "digitalAvg": 4.0
+   "digitalAvg": 4
   },
   {
    "from": "ARE",
@@ -648,7 +648,7 @@
    "providers": 23,
    "avg": 4.04,
    "median": 3.04,
-   "min": 1.0,
+   "min": 1,
    "digitalAvg": 3.34
   },
   {
@@ -757,7 +757,7 @@
    "avg": 12.77,
    "median": 8.63,
    "min": 5.72,
-   "digitalAvg": 9.0
+   "digitalAvg": 9
   },
   {
    "from": "AUS",
@@ -783,7 +783,7 @@
    "providers": 20,
    "avg": 2.78,
    "median": 2.85,
-   "min": 0.0,
+   "min": 0,
    "digitalAvg": 2.85
   },
   {
@@ -819,7 +819,7 @@
    "providers": 20,
    "avg": 4.36,
    "median": 4.72,
-   "min": 0.0,
+   "min": 0,
    "digitalAvg": 3.71
   },
   {
@@ -925,7 +925,7 @@
    "from": "CAN",
    "to": "KEN",
    "providers": 21,
-   "avg": 6.0,
+   "avg": 6,
    "median": 5.2,
    "min": 0.86,
    "digitalAvg": 4.46
@@ -982,7 +982,7 @@
    "avg": 3.55,
    "median": 3.32,
    "min": 0.58,
-   "digitalAvg": 3.0
+   "digitalAvg": 3
   },
   {
    "from": "CAN",
@@ -1135,7 +1135,7 @@
    "avg": 6.86,
    "median": 2.75,
    "min": 2.75,
-   "digitalAvg": 5.0
+   "digitalAvg": 5
   },
   {
    "from": "CZE",
@@ -1170,7 +1170,7 @@
    "providers": 25,
    "avg": 3.58,
    "median": 3.56,
-   "min": 0.0,
+   "min": 0,
    "digitalAvg": 3.54
   },
   {
@@ -1197,7 +1197,7 @@
    "providers": 20,
    "avg": 3.14,
    "median": 3.56,
-   "min": 0.0,
+   "min": 0,
    "digitalAvg": 3.75
   },
   {
@@ -1242,7 +1242,7 @@
    "providers": 51,
    "avg": 3.2,
    "median": 2.79,
-   "min": 0.0,
+   "min": 0,
    "digitalAvg": 3.36
   },
   {
@@ -1259,7 +1259,7 @@
    "to": "TUR",
    "providers": 30,
    "avg": 4.01,
-   "median": 3.0,
+   "median": 3,
    "min": 1.74,
    "digitalAvg": 3.71
   },
@@ -1269,7 +1269,7 @@
    "providers": 19,
    "avg": 3.49,
    "median": 2.79,
-   "min": 0.0,
+   "min": 0,
    "digitalAvg": 2.84
   },
   {
@@ -1296,7 +1296,7 @@
    "providers": 17,
    "avg": 2.47,
    "median": 1.78,
-   "min": 0.0,
+   "min": 0,
    "digitalAvg": 2.48
   },
   {
@@ -1305,7 +1305,7 @@
    "providers": 19,
    "avg": 2.99,
    "median": 2.58,
-   "min": 0.0,
+   "min": 0,
    "digitalAvg": 2.99
   },
   {
@@ -1323,7 +1323,7 @@
    "providers": 5,
    "avg": 5.49,
    "median": 4.32,
-   "min": 3.0,
+   "min": 3,
    "digitalAvg": 3.86
   },
   {
@@ -1368,7 +1368,7 @@
    "providers": 7,
    "avg": 4.07,
    "median": 3.56,
-   "min": 0.0,
+   "min": 0,
    "digitalAvg": 1.78
   },
   {
@@ -1853,7 +1853,7 @@
    "to": "RWA",
    "providers": 23,
    "avg": 7.43,
-   "median": 3.0,
+   "median": 3,
    "min": 1.76,
    "digitalAvg": 6.87
   },
@@ -2456,7 +2456,7 @@
    "to": "TUR",
    "providers": 23,
    "avg": 8.14,
-   "median": 5.0,
+   "median": 5,
    "min": 2.5,
    "digitalAvg": 4.26
   },
@@ -2503,7 +2503,7 @@
    "avg": 4.06,
    "median": 3.41,
    "min": -0.01,
-   "digitalAvg": 3.0
+   "digitalAvg": 3
   },
   {
    "from": "NZL",
@@ -2511,7 +2511,7 @@
    "providers": 28,
    "avg": 3.5,
    "median": 3.92,
-   "min": 1.0,
+   "min": 1,
    "digitalAvg": 3.22
   },
   {
@@ -2743,7 +2743,7 @@
    "from": "QAT",
    "to": "NPL",
    "providers": 6,
-   "avg": 4.0,
+   "avg": 4,
    "median": 3.56,
    "min": 3.14,
    "digitalAvg": 6.55
@@ -2926,7 +2926,7 @@
    "avg": 5.14,
    "median": 4.81,
    "min": 1.05,
-   "digitalAvg": 5.0
+   "digitalAvg": 5
   },
   {
    "from": "SGP",
@@ -3186,7 +3186,7 @@
    "providers": 46,
    "avg": 3.5,
    "median": 3.04,
-   "min": 1.0,
+   "min": 1,
    "digitalAvg": 3.28
   },
   {
@@ -3213,7 +3213,7 @@
    "providers": 35,
    "avg": 5.27,
    "median": 5.81,
-   "min": 0.0,
+   "min": 0,
    "digitalAvg": 5.19
   },
   {
@@ -3338,8 +3338,8 @@
    "to": "SSD",
    "providers": 8,
    "avg": 4.38,
-   "median": 4.0,
-   "min": 3.0,
+   "median": 4,
+   "min": 3,
    "digitalAvg": 3.83
   },
   {
@@ -3347,7 +3347,7 @@
    "to": "ETH",
    "providers": 19,
    "avg": 3.14,
-   "median": 3.0,
+   "median": 3,
    "min": -9.85,
    "digitalAvg": 1.97
   },
@@ -3356,8 +3356,8 @@
    "to": "HTI",
    "providers": 16,
    "avg": 4.7,
-   "median": 5.0,
-   "min": 1.0,
+   "median": 5,
+   "min": 1,
    "digitalAvg": 4.27
   },
   {
@@ -3367,7 +3367,7 @@
    "avg": 11.28,
    "median": 6.5,
    "min": 2.5,
-   "digitalAvg": 6.0
+   "digitalAvg": 6
   },
   {
    "from": "USA",
@@ -3401,7 +3401,7 @@
    "to": "LBR",
    "providers": 20,
    "avg": 5.36,
-   "median": 6.0,
+   "median": 6,
    "min": 0.49,
    "digitalAvg": 5.26
   },
@@ -3438,7 +3438,7 @@
    "providers": 31,
    "avg": 3.92,
    "median": 3.25,
-   "min": 0.0,
+   "min": 0,
    "digitalAvg": 3.95
   },
   {
@@ -3446,7 +3446,7 @@
    "to": "PAN",
    "providers": 14,
    "avg": 4.1,
-   "median": 3.0,
+   "median": 3,
    "min": 2.45,
    "digitalAvg": 3.95
   },
@@ -3455,8 +3455,8 @@
    "to": "PER",
    "providers": 21,
    "avg": 4.65,
-   "median": 4.0,
-   "min": 2.0,
+   "median": 4,
+   "min": 2,
    "digitalAvg": 5.39
   },
   {
@@ -3465,7 +3465,7 @@
    "providers": 20,
    "avg": 5.26,
    "median": 5.45,
-   "min": 2.0,
+   "min": 2,
    "digitalAvg": 4.94
   },
   {
@@ -3473,8 +3473,8 @@
    "to": "YEM",
    "providers": 12,
    "avg": 3.92,
-   "median": 3.0,
-   "min": 2.0,
+   "median": 3,
+   "min": 2,
    "digitalAvg": 3.43
   },
   {
@@ -3509,8 +3509,8 @@
    "to": "SOM",
    "providers": 5,
    "avg": 5.6,
-   "median": 6.0,
-   "min": 4.0,
+   "median": 6,
+   "min": 4,
    "digitalAvg": null
   },
   {
@@ -3555,7 +3555,7 @@
    "providers": 23,
    "avg": 31.48,
    "median": 32.94,
-   "min": -3.0,
+   "min": -3,
    "digitalAvg": 44.03
   },
   {
@@ -3609,7 +3609,7 @@
    "providers": 11,
    "avg": 11.25,
    "median": 10.58,
-   "min": 0.0,
+   "min": 0,
    "digitalAvg": 7.58
   },
   {
@@ -3618,7 +3618,7 @@
    "providers": 9,
    "avg": 11.62,
    "median": 10.95,
-   "min": 0.0,
+   "min": 0,
    "digitalAvg": 6.26
   },
   {

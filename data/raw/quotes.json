@@ -1,159 +1,159 @@
 {
  "source": "NEAR Intents 1Click API, POST https://1click.chaindefuser.com/v0/quote with dry: true (no funds move)",
- "at": "2026-11-13T07:05:00Z",
+ "at": "2026-11-13T07:29:30.008Z",
  "rows": [
   {
    "from": "USDC@base",
    "to": "USDT@tron",
-   "amountIn": 200.0,
-   "amountOut": 199.298689,
+   "amountIn": 200,
+   "amountOut": 199.294389,
    "seconds": 90
   },
   {
    "from": "USDC@base",
    "to": "USDT@tron",
-   "amountIn": 500.0,
-   "amountOut": 499.380771,
+   "amountIn": 500,
+   "amountOut": 499.506666,
    "seconds": 90
   },
   {
    "from": "USDC@eth",
    "to": "USDT@tron",
-   "amountIn": 200.0,
-   "amountOut": 199.298676,
+   "amountIn": 200,
+   "amountOut": 199.295856,
    "seconds": 100
   },
   {
    "from": "USDC@eth",
    "to": "USDT@tron",
-   "amountIn": 500.0,
-   "amountOut": 499.524192,
+   "amountIn": 500,
+   "amountOut": 499.508152,
    "seconds": 100
   },
   {
    "from": "USDC@arb",
    "to": "USDT@tron",
-   "amountIn": 200.0,
-   "amountOut": 199.30428,
+   "amountIn": 200,
+   "amountOut": 199.299642,
    "seconds": 80
   },
   {
    "from": "USDC@arb",
    "to": "USDT@tron",
-   "amountIn": 500.0,
-   "amountOut": 499.532852,
-   "seconds": 80
+   "amountIn": 500,
+   "amountOut": 498.904242,
+   "seconds": 82
   },
   {
    "from": "USDC@sol",
    "to": "USDT@tron",
-   "amountIn": 200.0,
-   "amountOut": 199.301242,
+   "amountIn": 200,
+   "amountOut": 199.295896,
    "seconds": 75
   },
   {
    "from": "USDC@sol",
    "to": "USDT@tron",
-   "amountIn": 500.0,
-   "amountOut": 499.354767,
-   "seconds": 77
+   "amountIn": 500,
+   "amountOut": 499.513675,
+   "seconds": 75
   },
   {
    "from": "USDC@base",
    "to": "USDT@bsc",
-   "amountIn": 200.0,
-   "amountOut": 200.11739977116846,
+   "amountIn": 200,
+   "amountOut": 200.1124434062044,
    "seconds": 38
   },
   {
    "from": "USDC@base",
    "to": "USDT@bsc",
-   "amountIn": 500.0,
-   "amountOut": 500.30848050010417,
+   "amountIn": 500,
+   "amountOut": 500.2994427057564,
    "seconds": 38
   },
   {
    "from": "USDC@sol",
    "to": "USDT@bsc",
-   "amountIn": 200.0,
-   "amountOut": 200.11378683725707,
+   "amountIn": 200,
+   "amountOut": 200.11781080437987,
    "seconds": 23
   },
   {
    "from": "USDC@sol",
    "to": "USDT@bsc",
-   "amountIn": 500.0,
-   "amountOut": 500.2994416577802,
+   "amountIn": 500,
+   "amountOut": 500.3056693043211,
    "seconds": 23
   },
   {
    "from": "USDT@tron",
    "to": "USDT@bsc",
-   "amountIn": 200.0,
-   "amountOut": 199.94962506767322,
+   "amountIn": 200,
+   "amountOut": 199.94956807342965,
    "seconds": 83
   },
   {
    "from": "USDT@tron",
    "to": "USDT@bsc",
-   "amountIn": 500.0,
-   "amountOut": 499.8890311573643,
+   "amountIn": 500,
+   "amountOut": 499.9364914636286,
    "seconds": 83
   },
   {
    "from": "USDC@base",
    "to": "USDC@sol",
-   "amountIn": 200.0,
-   "amountOut": 199.949627,
+   "amountIn": 200,
+   "amountOut": 199.954368,
    "seconds": 32
   },
   {
    "from": "USDC@base",
    "to": "USDC@sol",
-   "amountIn": 500.0,
-   "amountOut": 499.894533,
+   "amountIn": 500,
+   "amountOut": 499.895868,
    "seconds": 32
   },
   {
    "from": "USDT@tron",
    "to": "USDC@sol",
-   "amountIn": 200.0,
-   "amountOut": 199.774705,
+   "amountIn": 200,
+   "amountOut": 199.786396,
    "seconds": 77
   },
   {
    "from": "USDT@tron",
    "to": "USDC@sol",
-   "amountIn": 500.0,
-   "amountOut": 499.378561,
-   "seconds": 79
+   "amountIn": 500,
+   "amountOut": 499.449843,
+   "seconds": 77
   },
   {
    "from": "USDC@pol",
    "to": "USDT@tron",
-   "amountIn": 200.0,
-   "amountOut": 199.23289,
-   "seconds": 92
+   "amountIn": 200,
+   "amountOut": 199.274006,
+   "seconds": 90
   },
   {
    "from": "USDC@pol",
    "to": "USDT@tron",
-   "amountIn": 500.0,
-   "amountOut": 499.35461,
-   "seconds": 92
+   "amountIn": 500,
+   "amountOut": 499.462988,
+   "seconds": 90
   },
   {
    "from": "USDT@eth",
    "to": "USDT@tron",
-   "amountIn": 200.0,
-   "amountOut": 199.111347,
+   "amountIn": 200,
+   "amountOut": 199.131743,
    "seconds": 100
   },
   {
    "from": "USDT@eth",
    "to": "USDT@tron",
-   "amountIn": 500.0,
-   "amountOut": 499.072571,
+   "amountIn": 500,
+   "amountOut": 499.073085,
    "seconds": 100
   }
  ]
