@@ -7,6 +7,7 @@ export type Corridor = {
   benchmark: number; benchmarkKind: string; onRamp: number | null; offRamp: number | null; offRampPremium: number | null;
   law: "ok" | "banking-ban" | "illegal"; nearLo?: number; nearHi?: number; verdict: Verdict; reason?: string;
   keepPer200?: number; beatsCheapest?: boolean;
+  at500?: { benchmark: number; benchmarkKind: string; min: number; providers: number; nearLo?: number; nearHi?: number; verdict: Verdict; keep?: number };
 };
 export type Thesis = Omit<typeof thesis, "corridors"> & { corridors: Corridor[] };
 export const T = thesis as unknown as Thesis;

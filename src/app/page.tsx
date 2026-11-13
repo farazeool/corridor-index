@@ -65,7 +65,7 @@ export default function Home() {
           </p>
         </Reveal>
         <Reveal delay={120} className="mt-10">
-          <Calculator corridors={T.corridors} names={names} legPct={T.intents.legMedianPct} legSeconds={T.intents.legMedianSeconds} buffer={T.rules.executionBufferPct} />
+          <Calculator corridors={T.corridors} names={names} legPct={T.intents.legMedianPct} legPct500={S.at500?.legMedianPct ?? null} legSeconds={T.intents.legMedianSeconds} buffer={T.rules.executionBufferPct} />
         </Reveal>
       </section>
 
@@ -107,6 +107,13 @@ export default function Home() {
               {S.byVerdict.illegal.corridors} corridors ({usdB(S.byVerdict.illegal.volume)} a year) crypto is illegal at one end, and{" "}
               {S.byVerdict.untested.corridors} more ({usdB(S.byVerdict.untested.volume)}) have no public peer-to-peer market to test against.
             </p>
+            {S.at500 && (
+              <p>
+                <strong>Bigger transfers are a harder test.</strong> At $500, fixed fees weigh less for banks and exchange houses, and NEAR is
+                cheaper for {share(S.at500.winShare)} of the tested money instead of {share(S.winShare)}. Switch the calculator to $500 to see it
+                corridor by corridor.
+              </p>
+            )}
             <p>
               <strong>The bear case holds on value.</strong> Most of what users pay goes to solvers and integrators, not to NEAR. If a tenth of
               the winning corridors' money moved to NEAR Intents, protocol revenue would rise by about{" "}

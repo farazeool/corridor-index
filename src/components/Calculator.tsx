@@ -17,8 +17,9 @@ const PRESETS: [string, string, string][] = [
 ];
 
 export function Calculator({
-  corridors, names, legPct, legSeconds, buffer,
-}: { corridors: Corridor[]; names: Record<string, string>; legPct: number; legSeconds: number; buffer: number }) {
+  corridors, names, legPct, legPct500, legSeconds, buffer,
+}: { corridors: Corridor[]; names: Record<string, string>; legPct: number; legPct500: number | null; legSeconds: number; buffer: number }) {
+  const [amount, setAmount] = useState<200 | 500>(200);
   const [from, setFrom] = useState("KWT");
   const [to, setTo] = useState("PAK");
   const [live, setLive] = useState<Live | null>(null);
@@ -58,16 +59,29 @@ export function Calculator({
     try { await navigator.clipboard.writeText(u.toString()); setCopied(true); setTimeout(() => setCopied(false), 1800); } catch { /* clipboard blocked */ }
   };
 
-  const today = 200 * (1 - c.benchmark / 100);
-  const tested = c.nearLo != null;
-  const nearBest = tested ? 200 * (1 - c.nearLo! / 100) : null;
-  const nearWorst = tested ? 200 * (1 - c.nearHi! / 100) : null;
+  // The same corridor at US$200 or US$500 (World Bank prices both).
+  const big = amount === 500 && c.at500 ? c.at500 : null;
+  const v = {
+    benchmark: big ? big.benchmark : c.benchmark,
+    benchmarkKind: big ? big.benchmarkKind : c.benchmarkKind,
+    min: big ? big.min : c.min,
+    providers: big ? big.providers : c.providers,
+    nearLo: big ? big.nearLo : c.nearLo,
+    nearHi: big ? big.nearHi : c.nearHi,
+    verdict: big ? big.verdict : c.verdict,
+    keep: big ? big.keep : c.keepPer200,
+    leg: amount === 500 && legPct500 != null ? legPct500 : legPct,
+  };
+  const today = amount * (1 - v.benchmark / 100);
+  const tested = v.nearLo != null;
+  const nearBest = tested ? amount * (1 - v.nearLo! / 100) : null;
+  const nearWorst = tested ? amount * (1 - v.nearHi! / 100) : null;
 
   return (
     <div className="card p-5 sm:p-7">
       <div className="flex flex-wrap items-end gap-3">
         <label className="grow basis-40">
-          <span className="eyebrow">Send $200 from</span>
+          <span className="eyebrow">Send ${amount} from</span>
           <select className="field mt-1" value={from} onChange={(e) => { setFrom(e.target.value); const first = corridors.find((x) => x.from === e.target.value); if (first) setTo(first.to); }}>
             {senders.map((s) => <option key={s} value={s}>{names[s]}</option>)}
           </select>
@@ -79,6 +93,12 @@ export function Calculator({
           </select>
         </label>
       </div>
+      <div className="mt-4 flex items-center gap-2" role="group" aria-label="Amount">
+        <span className="text-xs text-muted mr-1">Amount</span>
+        {([200, 500] as const).map((a) => (
+          <button key={a} className="btn !py-1 !text-xs" aria-pressed={amount === a} onClick={() => setAmount(a)} disabled={a === 500 && !c.at500}>${a}</button>
+        ))}
+      </div>
       <div className="mt-3 flex flex-wrap items-center gap-2">
         {PRESETS.map(([f, t, label]) => (
           <button key={label} className="btn !py-1 !text-xs" aria-pressed={from === f && c.to === t} onClick={() => { setFrom(f); setTo(t); }}>
@@ -89,15 +109,15 @@ export function Calculator({
       </div>
 
       <div className="relative mt-6 grid gap-4 md:grid-cols-[1fr_1fr_auto] md:items-stretch">
-        <svg key={c.id} className="flight pointer-events-none absolute left-0 top-0 hidden md:block h-full w-full overflow-visible" aria-hidden>
+        <svg key={c.id + amount} className="flight pointer-events-none absolute left-0 top-0 hidden md:block h-full w-full overflow-visible" aria-hidden>
           <g className="flight-plane"><path d="M11 0 -8 -7 -4 0 -8 7Z" fill="var(--blue)" /><path d="M11 0 -4 0 -8 7Z" fill="#b8862f" /></g>
         </svg>
         <div className="rounded-2xl border border-rule bg-[rgba(255,255,255,0.02)] p-5">
-          <p className="text-sm font-semibold">{c.benchmarkKind === "online providers" ? "Online providers today" : "A typical provider today"}</p>
+          <p className="text-sm font-semibold">{v.benchmarkKind === "online providers" ? "Online providers today" : "A typical provider today"}</p>
           <p className="num mt-2 text-3xl">{usd(today)}</p>
-          <p className="mt-1 text-sm text-ink-soft">arrives · cost <span className="num">{pct(c.benchmark)}</span></p>
+          <p className="mt-1 text-sm text-ink-soft">arrives · cost <span className="num">{pct(v.benchmark)}</span></p>
           <p className="mt-3 text-xs text-muted">
-            World Bank, Q3 2025, {c.providers} providers checked. Cheapest: <span className="num">{pct(c.min)}</span>.
+            World Bank, Q3 2025, {v.providers} providers checked for ${amount}. Cheapest: <span className="num">{pct(v.min)}</span>.
           </p>
         </div>
         <div className="rounded-2xl border border-blue/60 bg-blue-wash p-5 shadow-[0_0_60px_-20px_var(--blue)]">
@@ -105,10 +125,10 @@ export function Calculator({
           {tested ? (
             <>
               <p className="num mt-2 text-3xl">{usd(nearWorst!)}<span className="text-ink-soft text-xl"> – {usd(nearBest!)}</span></p>
-              <p className="mt-1 text-sm text-ink-soft">arrives · cost <span className="num">{pct(c.nearLo)}–{pct(c.nearHi)}</span></p>
+              <p className="mt-1 text-sm text-ink-soft">arrives · cost <span className="num">{pct(v.nearLo)}–{pct(v.nearHi)}</span></p>
               <ul className="mt-3 space-y-1 text-xs text-muted">
                 <li>Cash in ({c.sendCur} → USDT, P2P): <span className="num">{pct(Math.max(0, c.onRamp ?? 0))}</span></li>
-                <li>Move across chains (NEAR Intents): <span className="num">{pct(legPct)}</span>, ~{Math.round(legSeconds)} s</li>
+                <li>Move across chains (NEAR Intents): <span className="num">{pct(v.leg)}</span>, ~{Math.round(legSeconds)} s</li>
                 <li>Cash out (USDT → {c.recvCur}, P2P): <span className="num">{pct(Math.max(0, c.offRamp ?? 0))}</span>{(c.offRampPremium ?? 0) > 0 && <> (sells {pct(c.offRampPremium)} above the official rate; not counted)</>}</li>
                 <li>Allowance for worse fills and fees: <span className="num">{pct(buffer, 1)}</span></li>
               </ul>
@@ -118,9 +138,9 @@ export function Calculator({
           )}
         </div>
         <div className="flex md:flex-col items-center justify-center gap-2 md:px-2">
-          <Pill verdict={c.verdict} size="lg" />
+          <Pill verdict={v.verdict} size="lg" />
           {c.law === "banking-ban" && <span className="text-xs text-law text-center max-w-[9rem]">Banks may not touch crypto at one end</span>}
-          {c.verdict === "wins" && c.keepPer200 != null && <span className="text-xs text-wins text-center max-w-[9rem]">Family keeps at least <span className="num">{usd(c.keepPer200)}</span> more</span>}
+          {v.verdict === "wins" && v.keep != null && <span className="text-xs text-wins text-center max-w-[9rem]">Family keeps at least <span className="num">{usd(v.keep)}</span> more</span>}
         </div>
       </div>
 

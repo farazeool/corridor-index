@@ -38,6 +38,8 @@ The site and [`data/thesis.json`](data/thesis.json) always show the latest daily
 | Money families would keep if every winning corridor switched | $5.6B a year |
 | NEAR Intents protocol revenue if 10% of winning corridors switched | about $8M a year, **7.2%** of NEAR's yearly new supply ($116M) |
 
+**At $500 instead of $200**, fixed fees weigh less for incumbents and NEAR is cheaper for 61% of the tested money (101 corridors). The calculator has a $200 / $500 switch.
+
 **Thesis:** NEAR's route is genuinely cheaper for most of the money we can test, so remittances could multiply NEAR Intents' usage many times over: the winning corridors carry about 9× what Intents moved in the last year. But only a small share of what users pay reaches the NEAR protocol, so remittances make NEAR *useful* long before they make the token *scarce*.
 
 **Kill criteria, written before the data was pulled** (both re-check on every run):
@@ -78,7 +80,7 @@ cd corridor-index
 npm install
 npm run fetch    # pulls every source below into data/raw (needs internet)
 npm run thesis   # rebuilds data/thesis.json and prints the verdict
-npm test         # 6 tests of the rules
+npm test         # 7 tests of the rules
 npm run dev      # the site, on http://localhost:3000
 ```
 
