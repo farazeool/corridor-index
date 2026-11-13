@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+/* Corridor Index: an airmail envelope. Warm paper, ink-black type, one airmail blue.
+   Verdict colours appear only on verdicts. */
+:root {
+  color-scheme: light;
+  --paper: #faf7f0;
+  --paper-deep: #f1ece1;
+  --card: #fffdf8;
+  --ink: #17181c;
+  --ink-soft: #4a4c55;
+  --muted: #7a7c85;
+  --rule: #ddd6c8;
+  --rule-strong: #c9c0ae;
+  --blue: #1d3fbb;
+  --blue-wash: #e6ebfa;
+  --red: #b3261e;
+  --wins: #0e7a52;
+  --wins-wash: #e3f2ea;
+  --close: #a86a00;
+  --close-wash: #f7edd8;
+  --loses: #b3261e;
+  --loses-wash: #f7e1de;
+  --law: #5b4a8a;
+  --law-wash: #ece8f5;
+  --none: #7a7c85;
+  --none-wash: #ecebe6;
+  --incumbent: #8d8f98;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --paper: #121317;
+    --paper-deep: #1b1d22;
+    --card: #17191e;
+    --ink: #f3f1ea;
+    --ink-soft: #c7c5be;
+    --muted: #93959d;
+    --rule: #2c2f36;
+    --rule-strong: #3b3f48;
+    --blue: #8aa2ff;
+    --blue-wash: #1c2344;
+    --red: #f07a70;
+    --wins: #4cc794;
+    --wins-wash: #12291f;
+    --close: #e0a640;
+    --close-wash: #2c2312;
+    --loses: #f07a70;
+    --loses-wash: #321816;
+    --law: #b4a4e8;
+    --law-wash: #231f33;
+    --none: #93959d;
+    --none-wash: #22242a;
+    --incumbent: #6f727b;
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-deep: var(--paper-deep);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-muted: var(--muted);
+  --color-rule: var(--rule);
+  --color-rule-strong: var(--rule-strong);
+  --color-blue: var(--blue);
+  --color-blue-wash: var(--blue-wash);
+  --color-wins: var(--wins);
+  --color-wins-wash: var(--wins-wash);
+  --color-close: var(--close);
+  --color-close-wash: var(--close-wash);
+  --color-loses: var(--loses);
+  --color-loses-wash: var(--loses-wash);
+  --color-law: var(--law);
+  --color-law-wash: var(--law-wash);
+  --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Newsreader", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+html { background: var(--paper); }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+::selection { background: var(--blue-wash); }
+
+.stripe {
+  height: 6px;
+  background: repeating-linear-gradient(-45deg, var(--blue) 0 14px, transparent 14px 22px, var(--red) 22px 36px, transparent 36px 44px);
+}
+.num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.prose-thesis { font-family: var(--font-serif); font-size: 1.1875rem; line-height: 1.6; color: var(--ink-soft); }
+.prose-thesis p + p { margin-top: 1em; }
+.prose-thesis strong { color: var(--ink); font-weight: 600; }
+.link { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.link:hover { text-decoration-thickness: 2px; }
+.eyebrow { font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
+.card { background: var(--card); border: 1px solid var(--rule); border-radius: 14px; }
+.field {
+  background: var(--card); border: 1px solid var(--rule-strong); border-radius: 8px;
+  padding: 0.5rem 0.75rem; font: inherit; color: var(--ink); width: 100%;
+}
+.field:focus { outline: 2px solid var(--blue); outline-offset: 1px; }
+.btn {
+  display: inline-flex; align-items: center; gap: 0.4rem; border-radius: 999px; padding: 0.45rem 0.9rem;
+  font-weight: 600; font-size: 0.875rem; border: 1px solid var(--rule-strong); background: var(--card); color: var(--ink);
+}
+.btn:hover { border-color: var(--ink); }
+.btn[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+input[type="range"] { accent-color: var(--blue); width: 100%; }
+details > summary { cursor: pointer; list-style: none; }
+details > summary::-webkit-details-marker { display: none; }

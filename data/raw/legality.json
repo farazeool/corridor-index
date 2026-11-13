@@ -1,0 +1,25 @@
+{
+ "source": "https://en.wikipedia.org/wiki/Legality_of_cryptocurrency_by_country_or_territory",
+ "pageLastEdited": "2026-08-21",
+ "fetchedAt": "2026-11-13",
+ "illegal": [
+  "AFG",
+  "DZA",
+  "BGD",
+  "CHN",
+  "EGY",
+  "MAR",
+  "NPL"
+ ],
+ "bankingBan": [
+  "BOL",
+  "KHM",
+  "COL",
+  "JOR",
+  "NAM",
+  "NGA",
+  "QAT",
+  "SAU"
+ ],
+ "note": "Countries in our 348 corridors that the page lists as Illegal or as a Banking ban. Everything else is Legal, Regulated, partly restricted (legal to hold, not as payment) or not listed."
+}

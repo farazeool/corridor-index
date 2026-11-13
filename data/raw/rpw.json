@@ -1,0 +1,3643 @@
+{
+ "source": "World Bank, Remittance Prices Worldwide, rpw_dataset_2011_2025_q3.xlsx (sheet \"Dataset (from Q2 2016)\"), column \"cc1 total cost %\" (sending the equivalent of US$200)",
+ "url": "https://datacatalog.worldbank.org/search/dataset/0037898/Remittance-Prices-Worldwide",
+ "file": "https://datacatalogfiles.worldbank.org/ddh-published/0037898/DR0095523/rpw_dataset_2011_2025_q3.xlsx",
+ "period": "2025_3Q",
+ "globalAverage": 6.36,
+ "countries": {
+  "AGO": {
+   "name": "Angola",
+   "region": "SSA"
+  },
+  "NAM": {
+   "name": "Namibia",
+   "region": "SSA"
+  },
+  "ARE": {
+   "name": "United Arab Emirates",
+   "region": ""
+  },
+  "SSD": {
+   "name": "South Sudan",
+   "region": "SSA"
+  },
+  "IND": {
+   "name": "India",
+   "region": "SA"
+  },
+  "EGY": {
+   "name": "Egypt",
+   "region": "MENAAP"
+  },
+  "LKA": {
+   "name": "Sri Lanka",
+   "region": "SA"
+  },
+  "NPL": {
+   "name": "Nepal",
+   "region": "SA"
+  },
+  "PAK": {
+   "name": "Pakistan",
+   "region": "MENAAP"
+  },
+  "PHL": {
+   "name": "Philippines",
+   "region": "EAP"
+  },
+  "YEM": {
+   "name": "Yemen",
+   "region": "MENAAP"
+  },
+  "BGD": {
+   "name": "Bangladesh",
+   "region": "SA"
+  },
+  "IDN": {
+   "name": "Indonesia",
+   "region": "EAP"
+  },
+  "JOR": {
+   "name": "Jordan",
+   "region": "MENAAP"
+  },
+  "SDN": {
+   "name": "Sudan",
+   "region": "SSA"
+  },
+  "AUS": {
+   "name": "Australia",
+   "region": ""
+  },
+  "FJI": {
+   "name": "Fiji",
+   "region": "EAP"
+  },
+  "SOM": {
+   "name": "Somalia",
+   "region": "SSA"
+  },
+  "ZWE": {
+   "name": "Zimbabwe",
+   "region": "SSA"
+  },
+  "CHN": {
+   "name": "China",
+   "region": "EAP"
+  },
+  "LBN": {
+   "name": "Lebanon",
+   "region": "MENAAP"
+  },
+  "MYS": {
+   "name": "Malaysia",
+   "region": "EAP"
+  },
+  "THA": {
+   "name": "Thailand",
+   "region": "EAP"
+  },
+  "TON": {
+   "name": "Tonga",
+   "region": "EAP"
+  },
+  "VNM": {
+   "name": "Vietnam",
+   "region": "EAP"
+  },
+  "VUT": {
+   "name": "Vanuatu",
+   "region": "EAP"
+  },
+  "WSM": {
+   "name": "Samoa",
+   "region": "EAP"
+  },
+  "AUT": {
+   "name": "Austria",
+   "region": ""
+  },
+  "BIH": {
+   "name": "Bosnia and Herzegovina",
+   "region": "ECA"
+  },
+  "HRV": {
+   "name": "Croatia",
+   "region": ""
+  },
+  "HUN": {
+   "name": "Hungary",
+   "region": "ECA"
+  },
+  "SRB": {
+   "name": "Serbia",
+   "region": "ECA"
+  },
+  "TUR": {
+   "name": "T\u00fcrkiye",
+   "region": ""
+  },
+  "KSV": {
+   "name": "Kosovo",
+   "region": "ECA"
+  },
+  "BEL": {
+   "name": "Belgium",
+   "region": ""
+  },
+  "COD": {
+   "name": "DR Congo",
+   "region": "SSA"
+  },
+  "MAR": {
+   "name": "Morocco",
+   "region": "MENAAP"
+  },
+  "DZA": {
+   "name": "Algeria",
+   "region": "MENAAP"
+  },
+  "BHR": {
+   "name": "Bahrain",
+   "region": ""
+  },
+  "BRA": {
+   "name": "Brazil",
+   "region": "LAC"
+  },
+  "BOL": {
+   "name": "Bolivia",
+   "region": "LAC"
+  },
+  "PER": {
+   "name": "Peru",
+   "region": "LAC"
+  },
+  "PRY": {
+   "name": "Paraguay",
+   "region": "LAC"
+  },
+  "CAN": {
+   "name": "Canada",
+   "region": ""
+  },
+  "KEN": {
+   "name": "Kenya",
+   "region": "SSA"
+  },
+  "NGA": {
+   "name": "Nigeria",
+   "region": "SSA"
+  },
+  "JAM": {
+   "name": "Jamaica",
+   "region": "LAC"
+  },
+  "RWA": {
+   "name": "Rwanda",
+   "region": "SSA"
+  },
+  "GHA": {
+   "name": "Ghana",
+   "region": "SSA"
+  },
+  "GUY": {
+   "name": "Guyana",
+   "region": "LAC"
+  },
+  "HTI": {
+   "name": "Haiti",
+   "region": "LAC"
+  },
+  "CHE": {
+   "name": "Switzerland",
+   "region": ""
+  },
+  "ALB": {
+   "name": "Albania",
+   "region": "ECA"
+  },
+  "CHL": {
+   "name": "Chile",
+   "region": ""
+  },
+  "CIV": {
+   "name": "C\u00f4te d'Ivoire",
+   "region": "SSA"
+  },
+  "MLI": {
+   "name": "Mali",
+   "region": "SSA"
+  },
+  "CMR": {
+   "name": "Cameroon",
+   "region": "SSA"
+  },
+  "CRI": {
+   "name": "Costa Rica",
+   "region": "LAC"
+  },
+  "NIC": {
+   "name": "Nicaragua",
+   "region": "LAC"
+  },
+  "CZE": {
+   "name": "Czechia",
+   "region": ""
+  },
+  "UKR": {
+   "name": "Ukraine",
+   "region": "ECA"
+  },
+  "DEU": {
+   "name": "Germany",
+   "region": ""
+  },
+  "BGR": {
+   "name": "Bulgaria",
+   "region": "ECA"
+  },
+  "MDA": {
+   "name": "Moldova",
+   "region": "ECA"
+  },
+  "ROU": {
+   "name": "Romania",
+   "region": "ECA"
+  },
+  "KGZ": {
+   "name": "Kyrgyzstan",
+   "region": "ECA"
+  },
+  "TJK": {
+   "name": "Tajikistan",
+   "region": "ECA"
+  },
+  "TGO": {
+   "name": "Togo",
+   "region": "SSA"
+  },
+  "AFG": {
+   "name": "Afghanistan",
+   "region": "MENAAP"
+  },
+  "MKD": {
+   "name": "North Macedonia",
+   "region": "ECA"
+  },
+  "DOM": {
+   "name": "Dominican Republic",
+   "region": "LAC"
+  },
+  "ESP": {
+   "name": "Spain",
+   "region": ""
+  },
+  "HND": {
+   "name": "Honduras",
+   "region": "LAC"
+  },
+  "COL": {
+   "name": "Colombia",
+   "region": "LAC"
+  },
+  "ECU": {
+   "name": "Ecuador",
+   "region": "LAC"
+  },
+  "FRA": {
+   "name": "France",
+   "region": ""
+  },
+  "TUN": {
+   "name": "Tunisia",
+   "region": "MENAAP"
+  },
+  "COM": {
+   "name": "Comoros",
+   "region": "SSA"
+  },
+  "MDG": {
+   "name": "Madagascar",
+   "region": "SSA"
+  },
+  "SEN": {
+   "name": "Senegal",
+   "region": ""
+  },
+  "GBR": {
+   "name": "United Kingdom",
+   "region": ""
+  },
+  "SLE": {
+   "name": "Sierra Leone",
+   "region": "SSA"
+  },
+  "ETH": {
+   "name": "Ethiopia",
+   "region": "SSA"
+  },
+  "TZA": {
+   "name": "Tanzania",
+   "region": "SSA"
+  },
+  "UGA": {
+   "name": "Uganda",
+   "region": "SSA"
+  },
+  "ZAF": {
+   "name": "South Africa",
+   "region": ""
+  },
+  "POL": {
+   "name": "Poland",
+   "region": ""
+  },
+  "ERI": {
+   "name": "Eritrea",
+   "region": "SSA"
+  },
+  "GMB": {
+   "name": "The Gambia",
+   "region": "SSA"
+  },
+  "LTU": {
+   "name": "Lithuania",
+   "region": ""
+  },
+  "ZMB": {
+   "name": "Zambia",
+   "region": "SSA"
+  },
+  "ISR": {
+   "name": "Israel",
+   "region": ""
+  },
+  "ITA": {
+   "name": "Italy",
+   "region": ""
+  },
+  "PSE": {
+   "name": "West Bank and Gaza",
+   "region": "MENAAP"
+  },
+  "SYR": {
+   "name": "Syria",
+   "region": "MENAAP"
+  },
+  "JPN": {
+   "name": "Japan",
+   "region": ""
+  },
+  "KOR": {
+   "name": "South Korea",
+   "region": ""
+  },
+  "KWT": {
+   "name": "Kuwait",
+   "region": ""
+  },
+  "MMR": {
+   "name": "Myanmar",
+   "region": "EAP"
+  },
+  "NLD": {
+   "name": "Netherlands",
+   "region": ""
+  },
+  "SUR": {
+   "name": "Suriname",
+   "region": "LAC"
+  },
+  "NOR": {
+   "name": "Norway",
+   "region": ""
+  },
+  "NZL": {
+   "name": "New Zealand",
+   "region": ""
+  },
+  "OMN": {
+   "name": "Oman",
+   "region": ""
+  },
+  "PRT": {
+   "name": "Portugal",
+   "region": ""
+  },
+  "CPV": {
+   "name": "Cabo Verde",
+   "region": "SSA"
+  },
+  "MOZ": {
+   "name": "Mozambique",
+   "region": "SSA"
+  },
+  "QAT": {
+   "name": "Qatar",
+   "region": ""
+  },
+  "SAU": {
+   "name": "Saudi Arabia",
+   "region": ""
+  },
+  "SGP": {
+   "name": "Singapore",
+   "region": ""
+  },
+  "SWE": {
+   "name": "Sweden",
+   "region": ""
+  },
+  "KHM": {
+   "name": "Cambodia",
+   "region": "EAP"
+  },
+  "LAO": {
+   "name": "Laos",
+   "region": "EAP"
+  },
+  "USA": {
+   "name": "United States",
+   "region": ""
+  },
+  "MEX": {
+   "name": "Mexico",
+   "region": "LAC"
+  },
+  "SLV": {
+   "name": "El Salvador",
+   "region": "LAC"
+  },
+  "GTM": {
+   "name": "Guatemala",
+   "region": "LAC"
+  },
+  "ARM": {
+   "name": "Armenia",
+   "region": "ECA"
+  },
+  "LBR": {
+   "name": "Liberia",
+   "region": "SSA"
+  },
+  "PAN": {
+   "name": "Panama",
+   "region": "LAC"
+  },
+  "CUB": {
+   "name": "Cuba",
+   "region": "LAC"
+  },
+  "BWA": {
+   "name": "Botswana",
+   "region": "SSA"
+  },
+  "MWI": {
+   "name": "Malawi",
+   "region": "SSA"
+  },
+  "LSO": {
+   "name": "Lesotho",
+   "region": "SSA"
+  },
+  "SWZ": {
+   "name": "Eswatini",
+   "region": "SSA"
+  }
+ },
+ "corridors": [
+  {
+   "from": "AGO",
+   "to": "NAM",
+   "providers": 2,
+   "avg": 13.29,
+   "median": 13.29,
+   "min": 9.94,
+   "digitalAvg": null
+  },
+  {
+   "from": "ARE",
+   "to": "SSD",
+   "providers": 3,
+   "avg": 3.45,
+   "median": 2.97,
+   "min": 2.7,
+   "digitalAvg": 2.7
+  },
+  {
+   "from": "ARE",
+   "to": "IND",
+   "providers": 24,
+   "avg": 3.72,
+   "median": 3.05,
+   "min": 0.77,
+   "digitalAvg": 5.76
+  },
+  {
+   "from": "ARE",
+   "to": "EGY",
+   "providers": 16,
+   "avg": 3.7,
+   "median": 2.91,
+   "min": 0.5,
+   "digitalAvg": 5.34
+  },
+  {
+   "from": "ARE",
+   "to": "LKA",
+   "providers": 18,
+   "avg": 2.7,
+   "median": 2.61,
+   "min": 0.25,
+   "digitalAvg": 3.25
+  },
+  {
+   "from": "ARE",
+   "to": "NPL",
+   "providers": 17,
+   "avg": 3.41,
+   "median": 2.98,
+   "min": 0.94,
+   "digitalAvg": 4.3
+  },
+  {
+   "from": "ARE",
+   "to": "PAK",
+   "providers": 17,
+   "avg": 2.17,
+   "median": 0.63,
+   "min": -0.49,
+   "digitalAvg": 3.68
+  },
+  {
+   "from": "ARE",
+   "to": "PHL",
+   "providers": 21,
+   "avg": 3.04,
+   "median": 3.43,
+   "min": 0.81,
+   "digitalAvg": 3.11
+  },
+  {
+   "from": "ARE",
+   "to": "YEM",
+   "providers": 6,
+   "avg": 7.53,
+   "median": 4.93,
+   "min": 2.97,
+   "digitalAvg": null
+  },
+  {
+   "from": "ARE",
+   "to": "BGD",
+   "providers": 9,
+   "avg": 7.72,
+   "median": 7.15,
+   "min": 5.98,
+   "digitalAvg": 9.13
+  },
+  {
+   "from": "ARE",
+   "to": "IDN",
+   "providers": 8,
+   "avg": 4.55,
+   "median": 4.92,
+   "min": 1.89,
+   "digitalAvg": 4.0
+  },
+  {
+   "from": "ARE",
+   "to": "JOR",
+   "providers": 6,
+   "avg": 5.16,
+   "median": 5.24,
+   "min": 4.35,
+   "digitalAvg": 5.13
+  },
+  {
+   "from": "ARE",
+   "to": "SDN",
+   "providers": 4,
+   "avg": 25.58,
+   "median": 32.86,
+   "min": 2.97,
+   "digitalAvg": null
+  },
+  {
+   "from": "AUS",
+   "to": "FJI",
+   "providers": 26,
+   "avg": 4.35,
+   "median": 3.69,
+   "min": -3.17,
+   "digitalAvg": 3.55
+  },
+  {
+   "from": "AUS",
+   "to": "IDN",
+   "providers": 19,
+   "avg": 3.28,
+   "median": 2.87,
+   "min": 0.7,
+   "digitalAvg": 3.24
+  },
+  {
+   "from": "AUS",
+   "to": "LKA",
+   "providers": 23,
+   "avg": 4.04,
+   "median": 3.04,
+   "min": 1.0,
+   "digitalAvg": 3.34
+  },
+  {
+   "from": "AUS",
+   "to": "SOM",
+   "providers": 11,
+   "avg": 3.6,
+   "median": 2.97,
+   "min": 1.59,
+   "digitalAvg": 3.59
+  },
+  {
+   "from": "AUS",
+   "to": "ZWE",
+   "providers": 20,
+   "avg": 5.5,
+   "median": 4.99,
+   "min": 2.36,
+   "digitalAvg": 4.66
+  },
+  {
+   "from": "AUS",
+   "to": "IND",
+   "providers": 36,
+   "avg": 6.15,
+   "median": 3.43,
+   "min": -2.22,
+   "digitalAvg": 4.03
+  },
+  {
+   "from": "AUS",
+   "to": "CHN",
+   "providers": 18,
+   "avg": 3.31,
+   "median": 3.3,
+   "min": 0.11,
+   "digitalAvg": 3.39
+  },
+  {
+   "from": "AUS",
+   "to": "LBN",
+   "providers": 33,
+   "avg": 10.67,
+   "median": 7.84,
+   "min": 2.39,
+   "digitalAvg": 5.84
+  },
+  {
+   "from": "AUS",
+   "to": "MYS",
+   "providers": 20,
+   "avg": 3.65,
+   "median": 3.06,
+   "min": 0.8,
+   "digitalAvg": 3.32
+  },
+  {
+   "from": "AUS",
+   "to": "PHL",
+   "providers": 34,
+   "avg": 2.61,
+   "median": 2.41,
+   "min": 0.48,
+   "digitalAvg": 2.77
+  },
+  {
+   "from": "AUS",
+   "to": "PAK",
+   "providers": 25,
+   "avg": 1.77,
+   "median": 1.89,
+   "min": -1.53,
+   "digitalAvg": 1.62
+  },
+  {
+   "from": "AUS",
+   "to": "THA",
+   "providers": 19,
+   "avg": 4.2,
+   "median": 3.68,
+   "min": 1.52,
+   "digitalAvg": 3.73
+  },
+  {
+   "from": "AUS",
+   "to": "TON",
+   "providers": 16,
+   "avg": 7.65,
+   "median": 6.62,
+   "min": 0.92,
+   "digitalAvg": 6.66
+  },
+  {
+   "from": "AUS",
+   "to": "VNM",
+   "providers": 18,
+   "avg": 5.01,
+   "median": 3.96,
+   "min": 0.17,
+   "digitalAvg": 3.88
+  },
+  {
+   "from": "AUS",
+   "to": "VUT",
+   "providers": 14,
+   "avg": 12.77,
+   "median": 8.63,
+   "min": 5.72,
+   "digitalAvg": 9.0
+  },
+  {
+   "from": "AUS",
+   "to": "WSM",
+   "providers": 15,
+   "avg": 5.93,
+   "median": 5.88,
+   "min": -0.54,
+   "digitalAvg": 4.52
+  },
+  {
+   "from": "AUT",
+   "to": "BIH",
+   "providers": 17,
+   "avg": 6.64,
+   "median": 6.65,
+   "min": 2.68,
+   "digitalAvg": 6.16
+  },
+  {
+   "from": "AUT",
+   "to": "HRV",
+   "providers": 20,
+   "avg": 2.78,
+   "median": 2.85,
+   "min": 0.0,
+   "digitalAvg": 2.85
+  },
+  {
+   "from": "AUT",
+   "to": "HUN",
+   "providers": 19,
+   "avg": 4.42,
+   "median": 3.97,
+   "min": 0.83,
+   "digitalAvg": 4.68
+  },
+  {
+   "from": "AUT",
+   "to": "SRB",
+   "providers": 17,
+   "avg": 5.3,
+   "median": 4.9,
+   "min": 3.57,
+   "digitalAvg": 4.65
+  },
+  {
+   "from": "AUT",
+   "to": "TUR",
+   "providers": 37,
+   "avg": 3.94,
+   "median": 3.57,
+   "min": 0.54,
+   "digitalAvg": 3.41
+  },
+  {
+   "from": "AUT",
+   "to": "KSV",
+   "providers": 20,
+   "avg": 4.36,
+   "median": 4.72,
+   "min": 0.0,
+   "digitalAvg": 3.71
+  },
+  {
+   "from": "BEL",
+   "to": "COD",
+   "providers": 15,
+   "avg": 3.15,
+   "median": 3.26,
+   "min": 1.36,
+   "digitalAvg": 3.19
+  },
+  {
+   "from": "BEL",
+   "to": "MAR",
+   "providers": 22,
+   "avg": 3.86,
+   "median": 3.69,
+   "min": 1.18,
+   "digitalAvg": 3.49
+  },
+  {
+   "from": "BEL",
+   "to": "TUR",
+   "providers": 21,
+   "avg": 4.22,
+   "median": 4.06,
+   "min": 2.05,
+   "digitalAvg": 4.02
+  },
+  {
+   "from": "BEL",
+   "to": "DZA",
+   "providers": 6,
+   "avg": 1.29,
+   "median": 1.29,
+   "min": 1.09,
+   "digitalAvg": 1.29
+  },
+  {
+   "from": "BHR",
+   "to": "BGD",
+   "providers": 11,
+   "avg": 6.2,
+   "median": 6.12,
+   "min": 5.73,
+   "digitalAvg": 6.46
+  },
+  {
+   "from": "BHR",
+   "to": "PAK",
+   "providers": 7,
+   "avg": 0.92,
+   "median": 0.6,
+   "min": -0.46,
+   "digitalAvg": 2.13
+  },
+  {
+   "from": "BHR",
+   "to": "IND",
+   "providers": 10,
+   "avg": 2.17,
+   "median": 2.44,
+   "min": 0.24,
+   "digitalAvg": 1.32
+  },
+  {
+   "from": "BHR",
+   "to": "EGY",
+   "providers": 5,
+   "avg": 3.25,
+   "median": 2.76,
+   "min": 2.41,
+   "digitalAvg": 2.71
+  },
+  {
+   "from": "BRA",
+   "to": "BOL",
+   "providers": 8,
+   "avg": 22.59,
+   "median": 18.69,
+   "min": 5.79,
+   "digitalAvg": 22.96
+  },
+  {
+   "from": "BRA",
+   "to": "PER",
+   "providers": 10,
+   "avg": 7.1,
+   "median": 5.35,
+   "min": 1.98,
+   "digitalAvg": 4.94
+  },
+  {
+   "from": "BRA",
+   "to": "PRY",
+   "providers": 10,
+   "avg": 8.18,
+   "median": 6.43,
+   "min": 2.74,
+   "digitalAvg": 6.53
+  },
+  {
+   "from": "CAN",
+   "to": "KEN",
+   "providers": 21,
+   "avg": 6.0,
+   "median": 5.2,
+   "min": 0.86,
+   "digitalAvg": 4.46
+  },
+  {
+   "from": "CAN",
+   "to": "NGA",
+   "providers": 13,
+   "avg": 3.15,
+   "median": 3.06,
+   "min": 0.96,
+   "digitalAvg": 3.1
+  },
+  {
+   "from": "CAN",
+   "to": "JAM",
+   "providers": 15,
+   "avg": 5.69,
+   "median": 5.22,
+   "min": 2.1,
+   "digitalAvg": 5.37
+  },
+  {
+   "from": "CAN",
+   "to": "RWA",
+   "providers": 16,
+   "avg": 5.03,
+   "median": 4.77,
+   "min": 1.94,
+   "digitalAvg": 4.59
+  },
+  {
+   "from": "CAN",
+   "to": "VNM",
+   "providers": 19,
+   "avg": 6.2,
+   "median": 4.15,
+   "min": 2.1,
+   "digitalAvg": 4.94
+  },
+  {
+   "from": "CAN",
+   "to": "ZWE",
+   "providers": 17,
+   "avg": 6.58,
+   "median": 4.33,
+   "min": 2.1,
+   "digitalAvg": 4.8
+  },
+  {
+   "from": "CAN",
+   "to": "PHL",
+   "providers": 37,
+   "avg": 3.55,
+   "median": 3.32,
+   "min": 0.58,
+   "digitalAvg": 3.0
+  },
+  {
+   "from": "CAN",
+   "to": "IND",
+   "providers": 32,
+   "avg": 4.28,
+   "median": 2.58,
+   "min": 0.86,
+   "digitalAvg": 2.57
+  },
+  {
+   "from": "CAN",
+   "to": "PAK",
+   "providers": 19,
+   "avg": 4.73,
+   "median": 4.36,
+   "min": 1.28,
+   "digitalAvg": 4.92
+  },
+  {
+   "from": "CAN",
+   "to": "CHN",
+   "providers": 14,
+   "avg": 5.83,
+   "median": 5.58,
+   "min": 1.7,
+   "digitalAvg": 4.41
+  },
+  {
+   "from": "CAN",
+   "to": "GHA",
+   "providers": 21,
+   "avg": 5.42,
+   "median": 5.07,
+   "min": -2.3,
+   "digitalAvg": 3.95
+  },
+  {
+   "from": "CAN",
+   "to": "GUY",
+   "providers": 10,
+   "avg": 8.35,
+   "median": 9.09,
+   "min": 4.16,
+   "digitalAvg": 7.77
+  },
+  {
+   "from": "CAN",
+   "to": "HTI",
+   "providers": 13,
+   "avg": 5.78,
+   "median": 5.39,
+   "min": 2.1,
+   "digitalAvg": 4.9
+  },
+  {
+   "from": "CAN",
+   "to": "LBN",
+   "providers": 8,
+   "avg": 9.43,
+   "median": 6.05,
+   "min": 2.1,
+   "digitalAvg": 5.83
+  },
+  {
+   "from": "CAN",
+   "to": "LKA",
+   "providers": 9,
+   "avg": 4.75,
+   "median": 5.42,
+   "min": 2.65,
+   "digitalAvg": 4.6
+  },
+  {
+   "from": "CHE",
+   "to": "LKA",
+   "providers": 17,
+   "avg": 5.27,
+   "median": 4.79,
+   "min": 2.28,
+   "digitalAvg": 5.07
+  },
+  {
+   "from": "CHE",
+   "to": "HUN",
+   "providers": 13,
+   "avg": 3.81,
+   "median": 3.12,
+   "min": 0.63,
+   "digitalAvg": 3.14
+  },
+  {
+   "from": "CHE",
+   "to": "SRB",
+   "providers": 9,
+   "avg": 5.62,
+   "median": 5.78,
+   "min": 3.25,
+   "digitalAvg": 4.85
+  },
+  {
+   "from": "CHE",
+   "to": "ALB",
+   "providers": 7,
+   "avg": 7.11,
+   "median": 7.71,
+   "min": 5.36,
+   "digitalAvg": 6.48
+  },
+  {
+   "from": "CHE",
+   "to": "KSV",
+   "providers": 11,
+   "avg": 12.87,
+   "median": 8.51,
+   "min": 5.72,
+   "digitalAvg": 9.86
+  },
+  {
+   "from": "CHL",
+   "to": "PER",
+   "providers": 7,
+   "avg": 4.93,
+   "median": 4.62,
+   "min": 4.25,
+   "digitalAvg": null
+  },
+  {
+   "from": "CIV",
+   "to": "MLI",
+   "providers": 7,
+   "avg": 6.17,
+   "median": 3.23,
+   "min": 1.5,
+   "digitalAvg": 1.5
+  },
+  {
+   "from": "CMR",
+   "to": "NGA",
+   "providers": 2,
+   "avg": 4.38,
+   "median": 4.38,
+   "min": 4.13,
+   "digitalAvg": null
+  },
+  {
+   "from": "CRI",
+   "to": "NIC",
+   "providers": 9,
+   "avg": 6.86,
+   "median": 2.75,
+   "min": 2.75,
+   "digitalAvg": 5.0
+  },
+  {
+   "from": "CZE",
+   "to": "UKR",
+   "providers": 15,
+   "avg": 6.18,
+   "median": 3.74,
+   "min": 0.8,
+   "digitalAvg": 4.66
+  },
+  {
+   "from": "CZE",
+   "to": "VNM",
+   "providers": 16,
+   "avg": 6.36,
+   "median": 4.26,
+   "min": 1.55,
+   "digitalAvg": 4.96
+  },
+  {
+   "from": "DEU",
+   "to": "NGA",
+   "providers": 33,
+   "avg": 2.85,
+   "median": 1.51,
+   "min": -0.18,
+   "digitalAvg": 2.65
+  },
+  {
+   "from": "DEU",
+   "to": "BGR",
+   "providers": 25,
+   "avg": 3.58,
+   "median": 3.56,
+   "min": 0.0,
+   "digitalAvg": 3.54
+  },
+  {
+   "from": "DEU",
+   "to": "BIH",
+   "providers": 22,
+   "avg": 4.9,
+   "median": 4.35,
+   "min": 1.96,
+   "digitalAvg": 3.84
+  },
+  {
+   "from": "DEU",
+   "to": "GHA",
+   "providers": 33,
+   "avg": 4.45,
+   "median": 2.9,
+   "min": 0.76,
+   "digitalAvg": 4.08
+  },
+  {
+   "from": "DEU",
+   "to": "HRV",
+   "providers": 20,
+   "avg": 3.14,
+   "median": 3.56,
+   "min": 0.0,
+   "digitalAvg": 3.75
+  },
+  {
+   "from": "DEU",
+   "to": "HUN",
+   "providers": 18,
+   "avg": 7.18,
+   "median": 6.07,
+   "min": 2.05,
+   "digitalAvg": 6.39
+  },
+  {
+   "from": "DEU",
+   "to": "IND",
+   "providers": 27,
+   "avg": 6.78,
+   "median": 2.06,
+   "min": 1.35,
+   "digitalAvg": 3.78
+  },
+  {
+   "from": "DEU",
+   "to": "MAR",
+   "providers": 33,
+   "avg": 4.11,
+   "median": 3.88,
+   "min": 2.24,
+   "digitalAvg": 3.72
+  },
+  {
+   "from": "DEU",
+   "to": "MDA",
+   "providers": 13,
+   "avg": 4.66,
+   "median": 3.5,
+   "min": 2.76,
+   "digitalAvg": 3.15
+  },
+  {
+   "from": "DEU",
+   "to": "ROU",
+   "providers": 51,
+   "avg": 3.2,
+   "median": 2.79,
+   "min": 0.0,
+   "digitalAvg": 3.36
+  },
+  {
+   "from": "DEU",
+   "to": "THA",
+   "providers": 21,
+   "avg": 6.65,
+   "median": 2.92,
+   "min": 2.12,
+   "digitalAvg": 3.25
+  },
+  {
+   "from": "DEU",
+   "to": "TUR",
+   "providers": 30,
+   "avg": 4.01,
+   "median": 3.0,
+   "min": 1.74,
+   "digitalAvg": 3.71
+  },
+  {
+   "from": "DEU",
+   "to": "UKR",
+   "providers": 19,
+   "avg": 3.49,
+   "median": 2.79,
+   "min": 0.0,
+   "digitalAvg": 2.84
+  },
+  {
+   "from": "DEU",
+   "to": "VNM",
+   "providers": 35,
+   "avg": 3.85,
+   "median": 2.68,
+   "min": 1.34,
+   "digitalAvg": 3.56
+  },
+  {
+   "from": "DEU",
+   "to": "KGZ",
+   "providers": 8,
+   "avg": 9.85,
+   "median": 7.61,
+   "min": 5.9,
+   "digitalAvg": 6.77
+  },
+  {
+   "from": "DEU",
+   "to": "SRB",
+   "providers": 17,
+   "avg": 2.47,
+   "median": 1.78,
+   "min": 0.0,
+   "digitalAvg": 2.48
+  },
+  {
+   "from": "DEU",
+   "to": "TJK",
+   "providers": 19,
+   "avg": 2.99,
+   "median": 2.58,
+   "min": 0.0,
+   "digitalAvg": 2.99
+  },
+  {
+   "from": "DEU",
+   "to": "CHN",
+   "providers": 16,
+   "avg": 9.38,
+   "median": 8.31,
+   "min": 3.07,
+   "digitalAvg": 6.18
+  },
+  {
+   "from": "DEU",
+   "to": "LBN",
+   "providers": 5,
+   "avg": 5.49,
+   "median": 4.32,
+   "min": 3.0,
+   "digitalAvg": 3.86
+  },
+  {
+   "from": "DEU",
+   "to": "TGO",
+   "providers": 15,
+   "avg": 3.46,
+   "median": 2.88,
+   "min": 1.45,
+   "digitalAvg": 2.48
+  },
+  {
+   "from": "DEU",
+   "to": "KSV",
+   "providers": 12,
+   "avg": 4.4,
+   "median": 4.28,
+   "min": 0.3,
+   "digitalAvg": 3.2
+  },
+  {
+   "from": "DEU",
+   "to": "AFG",
+   "providers": 5,
+   "avg": 8.61,
+   "median": 7.73,
+   "min": 6.68,
+   "digitalAvg": 7.22
+  },
+  {
+   "from": "DEU",
+   "to": "ALB",
+   "providers": 6,
+   "avg": 5.58,
+   "median": 4.58,
+   "min": 3.21,
+   "digitalAvg": 4.01
+  },
+  {
+   "from": "DEU",
+   "to": "MKD",
+   "providers": 7,
+   "avg": 4.07,
+   "median": 3.56,
+   "min": 0.0,
+   "digitalAvg": 1.78
+  },
+  {
+   "from": "DOM",
+   "to": "HTI",
+   "providers": 3,
+   "avg": 7.68,
+   "median": 7.91,
+   "min": 6.71,
+   "digitalAvg": null
+  },
+  {
+   "from": "ESP",
+   "to": "BOL",
+   "providers": 12,
+   "avg": 15.8,
+   "median": 13.34,
+   "min": 3.76,
+   "digitalAvg": 11.23
+  },
+  {
+   "from": "ESP",
+   "to": "BRA",
+   "providers": 18,
+   "avg": 4.18,
+   "median": 4.14,
+   "min": 0.76,
+   "digitalAvg": 4.29
+  },
+  {
+   "from": "ESP",
+   "to": "HND",
+   "providers": 14,
+   "avg": 5.86,
+   "median": 3.68,
+   "min": 1.79,
+   "digitalAvg": 4.35
+  },
+  {
+   "from": "ESP",
+   "to": "MAR",
+   "providers": 22,
+   "avg": 6.29,
+   "median": 3.8,
+   "min": 1.79,
+   "digitalAvg": 5.52
+  },
+  {
+   "from": "ESP",
+   "to": "NGA",
+   "providers": 18,
+   "avg": 2.88,
+   "median": 3.48,
+   "min": 0.71,
+   "digitalAvg": 2.84
+  },
+  {
+   "from": "ESP",
+   "to": "COL",
+   "providers": 22,
+   "avg": 5.48,
+   "median": 4.62,
+   "min": 1.69,
+   "digitalAvg": 4.63
+  },
+  {
+   "from": "ESP",
+   "to": "ECU",
+   "providers": 15,
+   "avg": 7.06,
+   "median": 4.12,
+   "min": 2.16,
+   "digitalAvg": 3.95
+  },
+  {
+   "from": "ESP",
+   "to": "ROU",
+   "providers": 19,
+   "avg": 4.75,
+   "median": 2.87,
+   "min": 1.49,
+   "digitalAvg": 4.62
+  },
+  {
+   "from": "ESP",
+   "to": "PER",
+   "providers": 15,
+   "avg": 3.63,
+   "median": 3.09,
+   "min": 1.68,
+   "digitalAvg": 3.54
+  },
+  {
+   "from": "ESP",
+   "to": "CHN",
+   "providers": 12,
+   "avg": 5.32,
+   "median": 5.14,
+   "min": 3.75,
+   "digitalAvg": 5.32
+  },
+  {
+   "from": "ESP",
+   "to": "BGR",
+   "providers": 13,
+   "avg": 4.18,
+   "median": 4.41,
+   "min": 2.44,
+   "digitalAvg": 4.18
+  },
+  {
+   "from": "ESP",
+   "to": "DOM",
+   "providers": 13,
+   "avg": 5.07,
+   "median": 5.09,
+   "min": 1.64,
+   "digitalAvg": 5.38
+  },
+  {
+   "from": "ESP",
+   "to": "PHL",
+   "providers": 23,
+   "avg": 2.91,
+   "median": 2.88,
+   "min": 1.26,
+   "digitalAvg": 2.94
+  },
+  {
+   "from": "FRA",
+   "to": "CMR",
+   "providers": 20,
+   "avg": 3.08,
+   "median": 2.32,
+   "min": 1.26,
+   "digitalAvg": 2.77
+  },
+  {
+   "from": "FRA",
+   "to": "CHN",
+   "providers": 19,
+   "avg": 4.48,
+   "median": 4.05,
+   "min": 1.05,
+   "digitalAvg": 4.54
+  },
+  {
+   "from": "FRA",
+   "to": "IND",
+   "providers": 28,
+   "avg": 6.33,
+   "median": 3.47,
+   "min": 1.4,
+   "digitalAvg": 4.02
+  },
+  {
+   "from": "FRA",
+   "to": "MAR",
+   "providers": 39,
+   "avg": 7.39,
+   "median": 3.6,
+   "min": 1.46,
+   "digitalAvg": 4.66
+  },
+  {
+   "from": "FRA",
+   "to": "VNM",
+   "providers": 18,
+   "avg": 5.3,
+   "median": 3.02,
+   "min": 1.96,
+   "digitalAvg": 4.5
+  },
+  {
+   "from": "FRA",
+   "to": "LBN",
+   "providers": 11,
+   "avg": 5.08,
+   "median": 4.67,
+   "min": 2.37,
+   "digitalAvg": 4.31
+  },
+  {
+   "from": "FRA",
+   "to": "TUN",
+   "providers": 18,
+   "avg": 5.5,
+   "median": 4.08,
+   "min": 0.61,
+   "digitalAvg": 3.71
+  },
+  {
+   "from": "FRA",
+   "to": "CIV",
+   "providers": 21,
+   "avg": 4.05,
+   "median": 3.93,
+   "min": 1.03,
+   "digitalAvg": 4.17
+  },
+  {
+   "from": "FRA",
+   "to": "COM",
+   "providers": 11,
+   "avg": 3.78,
+   "median": 3.14,
+   "min": 2.75,
+   "digitalAvg": 3.53
+  },
+  {
+   "from": "FRA",
+   "to": "HTI",
+   "providers": 8,
+   "avg": 4.86,
+   "median": 4.7,
+   "min": 4.1,
+   "digitalAvg": 4.61
+  },
+  {
+   "from": "FRA",
+   "to": "MDG",
+   "providers": 14,
+   "avg": 5.31,
+   "median": 4.63,
+   "min": 2.94,
+   "digitalAvg": 4.62
+  },
+  {
+   "from": "FRA",
+   "to": "SEN",
+   "providers": 17,
+   "avg": 2.41,
+   "median": 2.84,
+   "min": 0.91,
+   "digitalAvg": 2.15
+  },
+  {
+   "from": "FRA",
+   "to": "SRB",
+   "providers": 11,
+   "avg": 8.05,
+   "median": 5.39,
+   "min": 4.89,
+   "digitalAvg": 7.06
+  },
+  {
+   "from": "FRA",
+   "to": "TGO",
+   "providers": 11,
+   "avg": 3.36,
+   "median": 3.22,
+   "min": 2.48,
+   "digitalAvg": 3.06
+  },
+  {
+   "from": "FRA",
+   "to": "MLI",
+   "providers": 9,
+   "avg": 2.88,
+   "median": 2.86,
+   "min": 1.23,
+   "digitalAvg": 2.53
+  },
+  {
+   "from": "GBR",
+   "to": "NGA",
+   "providers": 31,
+   "avg": 1.96,
+   "median": 1.01,
+   "min": -0.12,
+   "digitalAvg": 1.83
+  },
+  {
+   "from": "GBR",
+   "to": "SLE",
+   "providers": 18,
+   "avg": 5.52,
+   "median": 4.43,
+   "min": 3.52,
+   "digitalAvg": 4.7
+  },
+  {
+   "from": "GBR",
+   "to": "ETH",
+   "providers": 19,
+   "avg": 4.34,
+   "median": 3.47,
+   "min": 2.03,
+   "digitalAvg": 3.45
+  },
+  {
+   "from": "GBR",
+   "to": "NPL",
+   "providers": 22,
+   "avg": 2.9,
+   "median": 2.03,
+   "min": 0.77,
+   "digitalAvg": 2.27
+  },
+  {
+   "from": "GBR",
+   "to": "SSD",
+   "providers": 10,
+   "avg": 7.95,
+   "median": 7.06,
+   "min": 4.75,
+   "digitalAvg": 6.07
+  },
+  {
+   "from": "GBR",
+   "to": "BGD",
+   "providers": 32,
+   "avg": 5.11,
+   "median": 5.07,
+   "min": 2.41,
+   "digitalAvg": 5.4
+  },
+  {
+   "from": "GBR",
+   "to": "BGR",
+   "providers": 22,
+   "avg": 6.29,
+   "median": 5.99,
+   "min": 1.32,
+   "digitalAvg": 4.15
+  },
+  {
+   "from": "GBR",
+   "to": "BRA",
+   "providers": 29,
+   "avg": 3.86,
+   "median": 2.45,
+   "min": 0.85,
+   "digitalAvg": 3.48
+  },
+  {
+   "from": "GBR",
+   "to": "CHN",
+   "providers": 23,
+   "avg": 4.27,
+   "median": 3.57,
+   "min": 0.72,
+   "digitalAvg": 3.9
+  },
+  {
+   "from": "GBR",
+   "to": "IND",
+   "providers": 28,
+   "avg": 1.91,
+   "median": 2.06,
+   "min": 0.15,
+   "digitalAvg": 1.99
+  },
+  {
+   "from": "GBR",
+   "to": "KEN",
+   "providers": 27,
+   "avg": 3.43,
+   "median": 2.65,
+   "min": 0.38,
+   "digitalAvg": 2.94
+  },
+  {
+   "from": "GBR",
+   "to": "LKA",
+   "providers": 29,
+   "avg": 3.06,
+   "median": 2.11,
+   "min": 1.13,
+   "digitalAvg": 2.64
+  },
+  {
+   "from": "GBR",
+   "to": "PAK",
+   "providers": 29,
+   "avg": 2.39,
+   "median": 2.51,
+   "min": -1.43,
+   "digitalAvg": 2.46
+  },
+  {
+   "from": "GBR",
+   "to": "PHL",
+   "providers": 38,
+   "avg": 3.33,
+   "median": 3.13,
+   "min": 0.44,
+   "digitalAvg": 3.01
+  },
+  {
+   "from": "GBR",
+   "to": "TZA",
+   "providers": 24,
+   "avg": 4.88,
+   "median": 4.32,
+   "min": 1.08,
+   "digitalAvg": 4.24
+  },
+  {
+   "from": "GBR",
+   "to": "UGA",
+   "providers": 34,
+   "avg": 4.64,
+   "median": 4.4,
+   "min": 1.27,
+   "digitalAvg": 4.12
+  },
+  {
+   "from": "GBR",
+   "to": "VNM",
+   "providers": 25,
+   "avg": 3.95,
+   "median": 3.22,
+   "min": 0.73,
+   "digitalAvg": 3.38
+  },
+  {
+   "from": "GBR",
+   "to": "ZAF",
+   "providers": 24,
+   "avg": 6.39,
+   "median": 5.78,
+   "min": 2.07,
+   "digitalAvg": 5.89
+  },
+  {
+   "from": "GBR",
+   "to": "LBN",
+   "providers": 15,
+   "avg": 5.7,
+   "median": 4.96,
+   "min": 1.99,
+   "digitalAvg": 4.35
+  },
+  {
+   "from": "GBR",
+   "to": "SOM",
+   "providers": 17,
+   "avg": 6.7,
+   "median": 6.37,
+   "min": 3.89,
+   "digitalAvg": 5.43
+  },
+  {
+   "from": "GBR",
+   "to": "ZWE",
+   "providers": 23,
+   "avg": 5.04,
+   "median": 4.7,
+   "min": 1.63,
+   "digitalAvg": 4.64
+  },
+  {
+   "from": "GBR",
+   "to": "AFG",
+   "providers": 3,
+   "avg": 10.56,
+   "median": 8.05,
+   "min": 7.54,
+   "digitalAvg": 7.8
+  },
+  {
+   "from": "GBR",
+   "to": "POL",
+   "providers": 30,
+   "avg": 2.66,
+   "median": 1.75,
+   "min": 0.18,
+   "digitalAvg": 1.77
+  },
+  {
+   "from": "GBR",
+   "to": "ROU",
+   "providers": 24,
+   "avg": 3.12,
+   "median": 2.84,
+   "min": 0.95,
+   "digitalAvg": 2.65
+  },
+  {
+   "from": "GBR",
+   "to": "RWA",
+   "providers": 23,
+   "avg": 7.43,
+   "median": 3.0,
+   "min": 1.76,
+   "digitalAvg": 6.87
+  },
+  {
+   "from": "GBR",
+   "to": "ERI",
+   "providers": 12,
+   "avg": 8.42,
+   "median": 6.93,
+   "min": 4.19,
+   "digitalAvg": 5.76
+  },
+  {
+   "from": "GBR",
+   "to": "ALB",
+   "providers": 30,
+   "avg": 5.84,
+   "median": 4.92,
+   "min": 1.77,
+   "digitalAvg": 4.29
+  },
+  {
+   "from": "GBR",
+   "to": "GHA",
+   "providers": 37,
+   "avg": 4.24,
+   "median": 1.38,
+   "min": -0.03,
+   "digitalAvg": 4.01
+  },
+  {
+   "from": "GBR",
+   "to": "GMB",
+   "providers": 22,
+   "avg": 12.06,
+   "median": 11.87,
+   "min": 8.05,
+   "digitalAvg": 11.88
+  },
+  {
+   "from": "GBR",
+   "to": "JAM",
+   "providers": 20,
+   "avg": 4.45,
+   "median": 4.86,
+   "min": -1.27,
+   "digitalAvg": 4.92
+  },
+  {
+   "from": "GBR",
+   "to": "LTU",
+   "providers": 25,
+   "avg": 4.67,
+   "median": 4.34,
+   "min": 0.72,
+   "digitalAvg": 3.63
+  },
+  {
+   "from": "GBR",
+   "to": "THA",
+   "providers": 25,
+   "avg": 5.04,
+   "median": 4.38,
+   "min": 1.64,
+   "digitalAvg": 4.57
+  },
+  {
+   "from": "GBR",
+   "to": "ZMB",
+   "providers": 21,
+   "avg": 4.34,
+   "median": 3.11,
+   "min": 2.28,
+   "digitalAvg": 3.77
+  },
+  {
+   "from": "GHA",
+   "to": "NGA",
+   "providers": 7,
+   "avg": 13.29,
+   "median": 13.74,
+   "min": 12.02,
+   "digitalAvg": 12.82
+  },
+  {
+   "from": "IND",
+   "to": "LKA",
+   "providers": 8,
+   "avg": 6.84,
+   "median": 6.38,
+   "min": 4.37,
+   "digitalAvg": 6.58
+  },
+  {
+   "from": "IND",
+   "to": "NPL",
+   "providers": 21,
+   "avg": 3.14,
+   "median": 1.65,
+   "min": 0.45,
+   "digitalAvg": 5.32
+  },
+  {
+   "from": "ISR",
+   "to": "MAR",
+   "providers": 3,
+   "avg": 13.13,
+   "median": 13.47,
+   "min": 8.93,
+   "digitalAvg": null
+  },
+  {
+   "from": "ITA",
+   "to": "BRA",
+   "providers": 21,
+   "avg": 6.51,
+   "median": 3.08,
+   "min": 0.85,
+   "digitalAvg": 3.87
+  },
+  {
+   "from": "ITA",
+   "to": "NGA",
+   "providers": 18,
+   "avg": 4.55,
+   "median": 2.32,
+   "min": 0.74,
+   "digitalAvg": 2.71
+  },
+  {
+   "from": "ITA",
+   "to": "PHL",
+   "providers": 33,
+   "avg": 4.44,
+   "median": 2.54,
+   "min": -0.95,
+   "digitalAvg": 2.09
+  },
+  {
+   "from": "ITA",
+   "to": "UKR",
+   "providers": 26,
+   "avg": 11.76,
+   "median": 5.1,
+   "min": 0.06,
+   "digitalAvg": 5.87
+  },
+  {
+   "from": "ITA",
+   "to": "EGY",
+   "providers": 21,
+   "avg": 9.02,
+   "median": 6.15,
+   "min": 1.82,
+   "digitalAvg": 4.64
+  },
+  {
+   "from": "ITA",
+   "to": "CHN",
+   "providers": 15,
+   "avg": 5.85,
+   "median": 4.07,
+   "min": 0.78,
+   "digitalAvg": 3.39
+  },
+  {
+   "from": "ITA",
+   "to": "ETH",
+   "providers": 20,
+   "avg": 4.49,
+   "median": 4.43,
+   "min": -7.44,
+   "digitalAvg": 4.07
+  },
+  {
+   "from": "ITA",
+   "to": "SEN",
+   "providers": 27,
+   "avg": 7.9,
+   "median": 2.83,
+   "min": 0.41,
+   "digitalAvg": 2.28
+  },
+  {
+   "from": "ITA",
+   "to": "TUN",
+   "providers": 23,
+   "avg": 5.48,
+   "median": 4.27,
+   "min": -0.12,
+   "digitalAvg": 4.18
+  },
+  {
+   "from": "ITA",
+   "to": "ECU",
+   "providers": 24,
+   "avg": 8.13,
+   "median": 2.82,
+   "min": 1.58,
+   "digitalAvg": 4.15
+  },
+  {
+   "from": "ITA",
+   "to": "ROU",
+   "providers": 31,
+   "avg": 4.77,
+   "median": 2.9,
+   "min": 1.25,
+   "digitalAvg": 3.08
+  },
+  {
+   "from": "ITA",
+   "to": "LKA",
+   "providers": 27,
+   "avg": 5.22,
+   "median": 2.5,
+   "min": 1.66,
+   "digitalAvg": 3.03
+  },
+  {
+   "from": "ITA",
+   "to": "MDA",
+   "providers": 17,
+   "avg": 9.44,
+   "median": 3.56,
+   "min": 0.71,
+   "digitalAvg": 2.97
+  },
+  {
+   "from": "ITA",
+   "to": "MAR",
+   "providers": 29,
+   "avg": 7.21,
+   "median": 3.39,
+   "min": -1.12,
+   "digitalAvg": 2.9
+  },
+  {
+   "from": "ITA",
+   "to": "IND",
+   "providers": 19,
+   "avg": 3.97,
+   "median": 2.33,
+   "min": -0.82,
+   "digitalAvg": 1.82
+  },
+  {
+   "from": "ITA",
+   "to": "ALB",
+   "providers": 17,
+   "avg": 13.05,
+   "median": 5.51,
+   "min": 0.71,
+   "digitalAvg": 3.67
+  },
+  {
+   "from": "ITA",
+   "to": "KSV",
+   "providers": 8,
+   "avg": 12.6,
+   "median": 5.14,
+   "min": 2.85,
+   "digitalAvg": 3.03
+  },
+  {
+   "from": "ITA",
+   "to": "SRB",
+   "providers": 12,
+   "avg": 16.25,
+   "median": 11.01,
+   "min": 2.85,
+   "digitalAvg": 3.21
+  },
+  {
+   "from": "ITA",
+   "to": "BGD",
+   "providers": 30,
+   "avg": 9.55,
+   "median": 6.63,
+   "min": 2.98,
+   "digitalAvg": 7.62
+  },
+  {
+   "from": "JOR",
+   "to": "EGY",
+   "providers": 13,
+   "avg": 2.3,
+   "median": 1.85,
+   "min": 1.29,
+   "digitalAvg": null
+  },
+  {
+   "from": "JOR",
+   "to": "PSE",
+   "providers": 12,
+   "avg": 3.55,
+   "median": 3.06,
+   "min": 1.43,
+   "digitalAvg": null
+  },
+  {
+   "from": "JOR",
+   "to": "SYR",
+   "providers": 9,
+   "avg": 7.42,
+   "median": 7.38,
+   "min": 4.14,
+   "digitalAvg": null
+  },
+  {
+   "from": "JPN",
+   "to": "CHN",
+   "providers": 15,
+   "avg": 18.48,
+   "median": 8.63,
+   "min": 3.57,
+   "digitalAvg": 15.34
+  },
+  {
+   "from": "JPN",
+   "to": "IND",
+   "providers": 22,
+   "avg": 8.72,
+   "median": 5.37,
+   "min": 1.22,
+   "digitalAvg": 8.15
+  },
+  {
+   "from": "JPN",
+   "to": "IDN",
+   "providers": 18,
+   "avg": 5.63,
+   "median": 4.59,
+   "min": 2.19,
+   "digitalAvg": 6.09
+  },
+  {
+   "from": "JPN",
+   "to": "THA",
+   "providers": 12,
+   "avg": 8.33,
+   "median": 5.47,
+   "min": 2.66,
+   "digitalAvg": 7.52
+  },
+  {
+   "from": "JPN",
+   "to": "PHL",
+   "providers": 45,
+   "avg": 12.88,
+   "median": 5.41,
+   "min": 2.06,
+   "digitalAvg": 12.79
+  },
+  {
+   "from": "JPN",
+   "to": "VNM",
+   "providers": 18,
+   "avg": 3.7,
+   "median": 2.74,
+   "min": 2.19,
+   "digitalAvg": 5.73
+  },
+  {
+   "from": "JPN",
+   "to": "BRA",
+   "providers": 12,
+   "avg": 8.35,
+   "median": 7.41,
+   "min": 2.36,
+   "digitalAvg": 8.39
+  },
+  {
+   "from": "KEN",
+   "to": "RWA",
+   "providers": 12,
+   "avg": 7.46,
+   "median": 5.37,
+   "min": 2.85,
+   "digitalAvg": 5.25
+  },
+  {
+   "from": "KEN",
+   "to": "UGA",
+   "providers": 27,
+   "avg": 12.75,
+   "median": 11.81,
+   "min": 2.85,
+   "digitalAvg": 11.8
+  },
+  {
+   "from": "KEN",
+   "to": "SSD",
+   "providers": 24,
+   "avg": 13.43,
+   "median": 15.14,
+   "min": 2.46,
+   "digitalAvg": 13.4
+  },
+  {
+   "from": "KEN",
+   "to": "TZA",
+   "providers": 26,
+   "avg": 13.41,
+   "median": 13.48,
+   "min": 0.46,
+   "digitalAvg": 12.78
+  },
+  {
+   "from": "KOR",
+   "to": "VNM",
+   "providers": 26,
+   "avg": 5.15,
+   "median": 4.43,
+   "min": 2.01,
+   "digitalAvg": 3.96
+  },
+  {
+   "from": "KOR",
+   "to": "CHN",
+   "providers": 22,
+   "avg": 5.84,
+   "median": 6.19,
+   "min": 3.08,
+   "digitalAvg": 4.44
+  },
+  {
+   "from": "KWT",
+   "to": "BGD",
+   "providers": 28,
+   "avg": 6.63,
+   "median": 6.53,
+   "min": 5.96,
+   "digitalAvg": 7.01
+  },
+  {
+   "from": "KWT",
+   "to": "EGY",
+   "providers": 25,
+   "avg": 3.33,
+   "median": 3.36,
+   "min": 2.83,
+   "digitalAvg": 3.2
+  },
+  {
+   "from": "KWT",
+   "to": "IND",
+   "providers": 30,
+   "avg": 2.37,
+   "median": 2.42,
+   "min": 1.65,
+   "digitalAvg": 2.26
+  },
+  {
+   "from": "KWT",
+   "to": "JOR",
+   "providers": 22,
+   "avg": 3.89,
+   "median": 3.62,
+   "min": 2.73,
+   "digitalAvg": 4.48
+  },
+  {
+   "from": "KWT",
+   "to": "PAK",
+   "providers": 21,
+   "avg": 0.35,
+   "median": -0.39,
+   "min": -1.49,
+   "digitalAvg": 0.98
+  },
+  {
+   "from": "KWT",
+   "to": "PHL",
+   "providers": 30,
+   "avg": 2.94,
+   "median": 2.96,
+   "min": 2.21,
+   "digitalAvg": 2.86
+  },
+  {
+   "from": "MYS",
+   "to": "VNM",
+   "providers": 16,
+   "avg": 3.81,
+   "median": 2.8,
+   "min": 2.06,
+   "digitalAvg": 2.86
+  },
+  {
+   "from": "MYS",
+   "to": "BGD",
+   "providers": 30,
+   "avg": 7.51,
+   "median": 6.41,
+   "min": 5.05,
+   "digitalAvg": 6.59
+  },
+  {
+   "from": "MYS",
+   "to": "IDN",
+   "providers": 36,
+   "avg": 4.8,
+   "median": 3.4,
+   "min": 1.29,
+   "digitalAvg": 3.98
+  },
+  {
+   "from": "MYS",
+   "to": "IND",
+   "providers": 17,
+   "avg": 3.33,
+   "median": 2.08,
+   "min": 1.24,
+   "digitalAvg": 2.92
+  },
+  {
+   "from": "MYS",
+   "to": "NPL",
+   "providers": 14,
+   "avg": 2.76,
+   "median": 2.31,
+   "min": 1.92,
+   "digitalAvg": 2.86
+  },
+  {
+   "from": "MYS",
+   "to": "PHL",
+   "providers": 37,
+   "avg": 3.92,
+   "median": 2.75,
+   "min": 1.27,
+   "digitalAvg": 2.75
+  },
+  {
+   "from": "MYS",
+   "to": "THA",
+   "providers": 14,
+   "avg": 4.67,
+   "median": 4.04,
+   "min": 2.17,
+   "digitalAvg": 3.76
+  },
+  {
+   "from": "MYS",
+   "to": "MMR",
+   "providers": 7,
+   "avg": 0.24,
+   "median": 0.27,
+   "min": -0.05,
+   "digitalAvg": 0.2
+  },
+  {
+   "from": "MYS",
+   "to": "CHN",
+   "providers": 11,
+   "avg": 4.69,
+   "median": 5.22,
+   "min": 2.43,
+   "digitalAvg": 4.88
+  },
+  {
+   "from": "NLD",
+   "to": "NGA",
+   "providers": 21,
+   "avg": 2.84,
+   "median": 3.54,
+   "min": 0.25,
+   "digitalAvg": 2.66
+  },
+  {
+   "from": "NLD",
+   "to": "DOM",
+   "providers": 29,
+   "avg": 4.91,
+   "median": 4.23,
+   "min": 1.84,
+   "digitalAvg": 3.65
+  },
+  {
+   "from": "NLD",
+   "to": "GHA",
+   "providers": 30,
+   "avg": 5.04,
+   "median": 5.15,
+   "min": 0.68,
+   "digitalAvg": 3.44
+  },
+  {
+   "from": "NLD",
+   "to": "IDN",
+   "providers": 23,
+   "avg": 4.29,
+   "median": 3.25,
+   "min": 2.32,
+   "digitalAvg": 3.12
+  },
+  {
+   "from": "NLD",
+   "to": "TUR",
+   "providers": 23,
+   "avg": 8.14,
+   "median": 5.0,
+   "min": 2.5,
+   "digitalAvg": 4.26
+  },
+  {
+   "from": "NLD",
+   "to": "MAR",
+   "providers": 25,
+   "avg": 5.57,
+   "median": 4.21,
+   "min": 0.98,
+   "digitalAvg": 4.01
+  },
+  {
+   "from": "NLD",
+   "to": "SUR",
+   "providers": 15,
+   "avg": 8.86,
+   "median": 5.68,
+   "min": 3.84,
+   "digitalAvg": 6.63
+  },
+  {
+   "from": "NLD",
+   "to": "SOM",
+   "providers": 9,
+   "avg": 6.09,
+   "median": 6.92,
+   "min": 4.28,
+   "digitalAvg": 6.09
+  },
+  {
+   "from": "NOR",
+   "to": "PAK",
+   "providers": 41,
+   "avg": 3.12,
+   "median": 2.07,
+   "min": 0.7,
+   "digitalAvg": 2.39
+  },
+  {
+   "from": "NOR",
+   "to": "POL",
+   "providers": 31,
+   "avg": 4.06,
+   "median": 3.41,
+   "min": -0.01,
+   "digitalAvg": 3.0
+  },
+  {
+   "from": "NZL",
+   "to": "CHN",
+   "providers": 28,
+   "avg": 3.5,
+   "median": 3.92,
+   "min": 1.0,
+   "digitalAvg": 3.22
+  },
+  {
+   "from": "NZL",
+   "to": "TON",
+   "providers": 27,
+   "avg": 7.89,
+   "median": 6.2,
+   "min": 2.77,
+   "digitalAvg": 6.4
+  },
+  {
+   "from": "NZL",
+   "to": "WSM",
+   "providers": 34,
+   "avg": 6.66,
+   "median": 6.6,
+   "min": 0.74,
+   "digitalAvg": 5.97
+  },
+  {
+   "from": "NZL",
+   "to": "FJI",
+   "providers": 32,
+   "avg": 6.5,
+   "median": 4.79,
+   "min": 2.37,
+   "digitalAvg": 4.24
+  },
+  {
+   "from": "NZL",
+   "to": "VUT",
+   "providers": 14,
+   "avg": 11.22,
+   "median": 9.55,
+   "min": 6.54,
+   "digitalAvg": 9.3
+  },
+  {
+   "from": "NZL",
+   "to": "VNM",
+   "providers": 28,
+   "avg": 6.59,
+   "median": 5.74,
+   "min": 1.39,
+   "digitalAvg": 4.87
+  },
+  {
+   "from": "NZL",
+   "to": "PHL",
+   "providers": 29,
+   "avg": 4.05,
+   "median": 1.5,
+   "min": 0.34,
+   "digitalAvg": 2.19
+  },
+  {
+   "from": "NZL",
+   "to": "IND",
+   "providers": 33,
+   "avg": 4.68,
+   "median": 3.36,
+   "min": 0.47,
+   "digitalAvg": 2.91
+  },
+  {
+   "from": "OMN",
+   "to": "NPL",
+   "providers": 5,
+   "avg": 3.11,
+   "median": 3.32,
+   "min": 2.14,
+   "digitalAvg": null
+  },
+  {
+   "from": "OMN",
+   "to": "BGD",
+   "providers": 9,
+   "avg": 8.05,
+   "median": 8.22,
+   "min": 6.7,
+   "digitalAvg": null
+  },
+  {
+   "from": "OMN",
+   "to": "LKA",
+   "providers": 9,
+   "avg": 3.31,
+   "median": 3.28,
+   "min": 3.11,
+   "digitalAvg": null
+  },
+  {
+   "from": "OMN",
+   "to": "IND",
+   "providers": 11,
+   "avg": 3.3,
+   "median": 3.15,
+   "min": 2.37,
+   "digitalAvg": null
+  },
+  {
+   "from": "OMN",
+   "to": "PAK",
+   "providers": 4,
+   "avg": 3.01,
+   "median": 3.68,
+   "min": 0.94,
+   "digitalAvg": null
+  },
+  {
+   "from": "OMN",
+   "to": "JOR",
+   "providers": 4,
+   "avg": 2.84,
+   "median": 2.88,
+   "min": 2.7,
+   "digitalAvg": null
+  },
+  {
+   "from": "POL",
+   "to": "UKR",
+   "providers": 22,
+   "avg": 3.73,
+   "median": 3.01,
+   "min": 0.1,
+   "digitalAvg": 2.92
+  },
+  {
+   "from": "PRT",
+   "to": "CPV",
+   "providers": 6,
+   "avg": 3.52,
+   "median": 3.3,
+   "min": 3.24,
+   "digitalAvg": 3.52
+  },
+  {
+   "from": "PRT",
+   "to": "MOZ",
+   "providers": 15,
+   "avg": 4.33,
+   "median": 3.07,
+   "min": 1.8,
+   "digitalAvg": 4.33
+  },
+  {
+   "from": "PRT",
+   "to": "BRA",
+   "providers": 11,
+   "avg": 5.3,
+   "median": 5.41,
+   "min": 1.69,
+   "digitalAvg": 5.3
+  },
+  {
+   "from": "QAT",
+   "to": "EGY",
+   "providers": 6,
+   "avg": 5.63,
+   "median": 6.18,
+   "min": 2.53,
+   "digitalAvg": 5.42
+  },
+  {
+   "from": "QAT",
+   "to": "PHL",
+   "providers": 6,
+   "avg": 2.51,
+   "median": 2.62,
+   "min": 0.81,
+   "digitalAvg": 2.29
+  },
+  {
+   "from": "QAT",
+   "to": "IND",
+   "providers": 7,
+   "avg": 2.5,
+   "median": 2.98,
+   "min": 1.33,
+   "digitalAvg": 1.82
+  },
+  {
+   "from": "QAT",
+   "to": "JOR",
+   "providers": 5,
+   "avg": 3.87,
+   "median": 3.62,
+   "min": 2.46,
+   "digitalAvg": 2.46
+  },
+  {
+   "from": "QAT",
+   "to": "PAK",
+   "providers": 6,
+   "avg": 1.33,
+   "median": 0.45,
+   "min": -0.32,
+   "digitalAvg": 3.86
+  },
+  {
+   "from": "QAT",
+   "to": "SDN",
+   "providers": 3,
+   "avg": 23.2,
+   "median": 33.69,
+   "min": 2.23,
+   "digitalAvg": 33.69
+  },
+  {
+   "from": "QAT",
+   "to": "BGD",
+   "providers": 4,
+   "avg": 7.18,
+   "median": 7.15,
+   "min": 6.72,
+   "digitalAvg": 7.7
+  },
+  {
+   "from": "QAT",
+   "to": "LKA",
+   "providers": 6,
+   "avg": 2.34,
+   "median": 2.9,
+   "min": 0.71,
+   "digitalAvg": 1.87
+  },
+  {
+   "from": "QAT",
+   "to": "NPL",
+   "providers": 6,
+   "avg": 4.0,
+   "median": 3.56,
+   "min": 3.14,
+   "digitalAvg": 6.55
+  },
+  {
+   "from": "RWA",
+   "to": "KEN",
+   "providers": 7,
+   "avg": 22.56,
+   "median": 15.19,
+   "min": 2.38,
+   "digitalAvg": 4.76
+  },
+  {
+   "from": "SAU",
+   "to": "MMR",
+   "providers": 3,
+   "avg": 5.9,
+   "median": 4.93,
+   "min": 4.38,
+   "digitalAvg": 6.38
+  },
+  {
+   "from": "SAU",
+   "to": "IDN",
+   "providers": 10,
+   "avg": 3.51,
+   "median": 3.74,
+   "min": 2.88,
+   "digitalAvg": 3.61
+  },
+  {
+   "from": "SAU",
+   "to": "YEM",
+   "providers": 8,
+   "avg": 2.7,
+   "median": 2.4,
+   "min": 2.3,
+   "digitalAvg": 3.01
+  },
+  {
+   "from": "SAU",
+   "to": "LKA",
+   "providers": 9,
+   "avg": 3.26,
+   "median": 3.14,
+   "min": 3.05,
+   "digitalAvg": 3.12
+  },
+  {
+   "from": "SAU",
+   "to": "NPL",
+   "providers": 11,
+   "avg": 5.02,
+   "median": 3.68,
+   "min": 3.12,
+   "digitalAvg": 3.42
+  },
+  {
+   "from": "SAU",
+   "to": "BGD",
+   "providers": 9,
+   "avg": 10.2,
+   "median": 8.29,
+   "min": 7.15,
+   "digitalAvg": 7.23
+  },
+  {
+   "from": "SAU",
+   "to": "JOR",
+   "providers": 12,
+   "avg": 7.03,
+   "median": 5.15,
+   "min": 4.28,
+   "digitalAvg": 6.48
+  },
+  {
+   "from": "SAU",
+   "to": "IND",
+   "providers": 12,
+   "avg": 5.59,
+   "median": 3.56,
+   "min": 3.14,
+   "digitalAvg": 3.4
+  },
+  {
+   "from": "SAU",
+   "to": "PHL",
+   "providers": 10,
+   "avg": 3.82,
+   "median": 2.76,
+   "min": 2.56,
+   "digitalAvg": 3.04
+  },
+  {
+   "from": "SAU",
+   "to": "PAK",
+   "providers": 12,
+   "avg": 5.02,
+   "median": 3.06,
+   "min": 1.44,
+   "digitalAvg": 2.3
+  },
+  {
+   "from": "SAU",
+   "to": "ETH",
+   "providers": 3,
+   "avg": 7.85,
+   "median": 8.66,
+   "min": 5.62,
+   "digitalAvg": 7.45
+  },
+  {
+   "from": "SAU",
+   "to": "EGY",
+   "providers": 12,
+   "avg": 5.15,
+   "median": 3.44,
+   "min": 2.63,
+   "digitalAvg": 3.52
+  },
+  {
+   "from": "SAU",
+   "to": "AFG",
+   "providers": 2,
+   "avg": 5.76,
+   "median": 5.76,
+   "min": 4.86,
+   "digitalAvg": 6.65
+  },
+  {
+   "from": "SAU",
+   "to": "LBN",
+   "providers": 2,
+   "avg": 5.57,
+   "median": 5.57,
+   "min": 5.52,
+   "digitalAvg": 5.52
+  },
+  {
+   "from": "SAU",
+   "to": "SDN",
+   "providers": 3,
+   "avg": 13.44,
+   "median": 4.75,
+   "min": 3.21,
+   "digitalAvg": 18.55
+  },
+  {
+   "from": "SAU",
+   "to": "SYR",
+   "providers": 1,
+   "avg": 8.88,
+   "median": 8.88,
+   "min": 8.88,
+   "digitalAvg": null
+  },
+  {
+   "from": "SAU",
+   "to": "SSD",
+   "providers": 1,
+   "avg": 4.83,
+   "median": 4.83,
+   "min": 4.83,
+   "digitalAvg": null
+  },
+  {
+   "from": "SEN",
+   "to": "MLI",
+   "providers": 6,
+   "avg": 25.7,
+   "median": 27.96,
+   "min": 1.5,
+   "digitalAvg": 1.5
+  },
+  {
+   "from": "SGP",
+   "to": "CHN",
+   "providers": 14,
+   "avg": 5.14,
+   "median": 4.81,
+   "min": 1.05,
+   "digitalAvg": 5.0
+  },
+  {
+   "from": "SGP",
+   "to": "IND",
+   "providers": 28,
+   "avg": 2.92,
+   "median": 2.72,
+   "min": 0.5,
+   "digitalAvg": 3.29
+  },
+  {
+   "from": "SGP",
+   "to": "BGD",
+   "providers": 23,
+   "avg": 6.54,
+   "median": 6.14,
+   "min": 3.37,
+   "digitalAvg": 7.34
+  },
+  {
+   "from": "SGP",
+   "to": "LKA",
+   "providers": 15,
+   "avg": 3.9,
+   "median": 4.03,
+   "min": 0.94,
+   "digitalAvg": 3.92
+  },
+  {
+   "from": "SGP",
+   "to": "MYS",
+   "providers": 30,
+   "avg": 4.59,
+   "median": 4.41,
+   "min": 0.65,
+   "digitalAvg": 3.21
+  },
+  {
+   "from": "SGP",
+   "to": "PAK",
+   "providers": 12,
+   "avg": 3.26,
+   "median": 1.52,
+   "min": 1.26,
+   "digitalAvg": 2.45
+  },
+  {
+   "from": "SGP",
+   "to": "PHL",
+   "providers": 38,
+   "avg": 3.16,
+   "median": 2.32,
+   "min": 0.76,
+   "digitalAvg": 3.92
+  },
+  {
+   "from": "SGP",
+   "to": "THA",
+   "providers": 19,
+   "avg": 4.49,
+   "median": 4.34,
+   "min": 1.01,
+   "digitalAvg": 4.69
+  },
+  {
+   "from": "SGP",
+   "to": "IDN",
+   "providers": 31,
+   "avg": 3.23,
+   "median": 2.62,
+   "min": 0.56,
+   "digitalAvg": 3.41
+  },
+  {
+   "from": "SWE",
+   "to": "CHN",
+   "providers": 17,
+   "avg": 7.23,
+   "median": 4.65,
+   "min": 2.61,
+   "digitalAvg": 7.23
+  },
+  {
+   "from": "SWE",
+   "to": "IND",
+   "providers": 25,
+   "avg": 7.29,
+   "median": 2.92,
+   "min": 0.72,
+   "digitalAvg": 4.08
+  },
+  {
+   "from": "SWE",
+   "to": "LBN",
+   "providers": 8,
+   "avg": 5.31,
+   "median": 4.67,
+   "min": 3.56,
+   "digitalAvg": 5.31
+  },
+  {
+   "from": "SWE",
+   "to": "SOM",
+   "providers": 9,
+   "avg": 6.79,
+   "median": 7.26,
+   "min": 5.84,
+   "digitalAvg": 6.79
+  },
+  {
+   "from": "THA",
+   "to": "CHN",
+   "providers": 17,
+   "avg": 12.78,
+   "median": 17.23,
+   "min": 2.51,
+   "digitalAvg": 8.94
+  },
+  {
+   "from": "THA",
+   "to": "IDN",
+   "providers": 16,
+   "avg": 12.81,
+   "median": 12.47,
+   "min": 2.45,
+   "digitalAvg": 9.1
+  },
+  {
+   "from": "THA",
+   "to": "IND",
+   "providers": 21,
+   "avg": 12.59,
+   "median": 11.76,
+   "min": 0.72,
+   "digitalAvg": 10.34
+  },
+  {
+   "from": "THA",
+   "to": "KHM",
+   "providers": 22,
+   "avg": 9.87,
+   "median": 5.1,
+   "min": 2.5,
+   "digitalAvg": 8.38
+  },
+  {
+   "from": "THA",
+   "to": "LAO",
+   "providers": 16,
+   "avg": 11.49,
+   "median": 15.52,
+   "min": 2.74,
+   "digitalAvg": 10.66
+  },
+  {
+   "from": "THA",
+   "to": "MMR",
+   "providers": 14,
+   "avg": 10.38,
+   "median": 14.83,
+   "min": -0.89,
+   "digitalAvg": 8.05
+  },
+  {
+   "from": "THA",
+   "to": "VNM",
+   "providers": 22,
+   "avg": 11.33,
+   "median": 12.32,
+   "min": 2.3,
+   "digitalAvg": 9.68
+  },
+  {
+   "from": "TUR",
+   "to": "BGR",
+   "providers": 11,
+   "avg": 118.19,
+   "median": 113.63,
+   "min": 13.2,
+   "digitalAvg": 108.3
+  },
+  {
+   "from": "TZA",
+   "to": "KEN",
+   "providers": 12,
+   "avg": 59.99,
+   "median": 83.17,
+   "min": 0.72,
+   "digitalAvg": 45.23
+  },
+  {
+   "from": "TZA",
+   "to": "RWA",
+   "providers": 6,
+   "avg": 45.11,
+   "median": 42.61,
+   "min": 7.81,
+   "digitalAvg": 11.39
+  },
+  {
+   "from": "TZA",
+   "to": "UGA",
+   "providers": 10,
+   "avg": 62.68,
+   "median": 75.07,
+   "min": 1.3,
+   "digitalAvg": 74.24
+  },
+  {
+   "from": "USA",
+   "to": "BGD",
+   "providers": 24,
+   "avg": 7.61,
+   "median": 7.53,
+   "min": 5.17,
+   "digitalAvg": 7.41
+  },
+  {
+   "from": "USA",
+   "to": "CRI",
+   "providers": 25,
+   "avg": 5.97,
+   "median": 5.65,
+   "min": 2.83,
+   "digitalAvg": 5.64
+  },
+  {
+   "from": "USA",
+   "to": "MEX",
+   "providers": 46,
+   "avg": 4.54,
+   "median": 4.48,
+   "min": -2.44,
+   "digitalAvg": 4.38
+  },
+  {
+   "from": "USA",
+   "to": "NGA",
+   "providers": 33,
+   "avg": 2.72,
+   "median": 2.47,
+   "min": -0.49,
+   "digitalAvg": 2.15
+  },
+  {
+   "from": "USA",
+   "to": "NIC",
+   "providers": 21,
+   "avg": 4.13,
+   "median": 3.97,
+   "min": 1.95,
+   "digitalAvg": 4.05
+  },
+  {
+   "from": "USA",
+   "to": "SLV",
+   "providers": 46,
+   "avg": 3.5,
+   "median": 3.04,
+   "min": 1.0,
+   "digitalAvg": 3.28
+  },
+  {
+   "from": "USA",
+   "to": "THA",
+   "providers": 27,
+   "avg": 7.47,
+   "median": 6.03,
+   "min": 0.75,
+   "digitalAvg": 5.11
+  },
+  {
+   "from": "USA",
+   "to": "UKR",
+   "providers": 20,
+   "avg": 4.45,
+   "median": 3.53,
+   "min": 1.1,
+   "digitalAvg": 3.97
+  },
+  {
+   "from": "USA",
+   "to": "VNM",
+   "providers": 35,
+   "avg": 5.27,
+   "median": 5.81,
+   "min": 0.0,
+   "digitalAvg": 5.19
+  },
+  {
+   "from": "USA",
+   "to": "ZAF",
+   "providers": 19,
+   "avg": 5.42,
+   "median": 4.95,
+   "min": 1.72,
+   "digitalAvg": 5.15
+  },
+  {
+   "from": "USA",
+   "to": "BRA",
+   "providers": 32,
+   "avg": 5.63,
+   "median": 4.89,
+   "min": 1.18,
+   "digitalAvg": 5.45
+  },
+  {
+   "from": "USA",
+   "to": "GTM",
+   "providers": 30,
+   "avg": 4.18,
+   "median": 3.98,
+   "min": -2.12,
+   "digitalAvg": 4.05
+  },
+  {
+   "from": "USA",
+   "to": "HND",
+   "providers": 32,
+   "avg": 3.99,
+   "median": 3.83,
+   "min": 1.5,
+   "digitalAvg": 3.58
+  },
+  {
+   "from": "USA",
+   "to": "EGY",
+   "providers": 16,
+   "avg": 5.36,
+   "median": 5.26,
+   "min": 2.77,
+   "digitalAvg": 5.19
+  },
+  {
+   "from": "USA",
+   "to": "CHN",
+   "providers": 22,
+   "avg": 6.62,
+   "median": 3.56,
+   "min": 1.85,
+   "digitalAvg": 4.85
+  },
+  {
+   "from": "USA",
+   "to": "COL",
+   "providers": 39,
+   "avg": 4.96,
+   "median": 4.27,
+   "min": -2.65,
+   "digitalAvg": 5.13
+  },
+  {
+   "from": "USA",
+   "to": "IDN",
+   "providers": 24,
+   "avg": 5.71,
+   "median": 5.47,
+   "min": -0.53,
+   "digitalAvg": 5.27
+  },
+  {
+   "from": "USA",
+   "to": "IND",
+   "providers": 46,
+   "avg": 3.68,
+   "median": 2.75,
+   "min": -0.53,
+   "digitalAvg": 3.44
+  },
+  {
+   "from": "USA",
+   "to": "KEN",
+   "providers": 40,
+   "avg": 4.26,
+   "median": 4.48,
+   "min": -0.29,
+   "digitalAvg": 3.89
+  },
+  {
+   "from": "USA",
+   "to": "NPL",
+   "providers": 22,
+   "avg": 4.41,
+   "median": 4.64,
+   "min": 0.86,
+   "digitalAvg": 4.09
+  },
+  {
+   "from": "USA",
+   "to": "PAK",
+   "providers": 25,
+   "avg": 3.81,
+   "median": 2.63,
+   "min": 0.45,
+   "digitalAvg": 3.24
+  },
+  {
+   "from": "USA",
+   "to": "PHL",
+   "providers": 58,
+   "avg": 4.52,
+   "median": 3.96,
+   "min": 0.58,
+   "digitalAvg": 4.56
+  },
+  {
+   "from": "USA",
+   "to": "SSD",
+   "providers": 8,
+   "avg": 4.38,
+   "median": 4.0,
+   "min": 3.0,
+   "digitalAvg": 3.83
+  },
+  {
+   "from": "USA",
+   "to": "ETH",
+   "providers": 19,
+   "avg": 3.14,
+   "median": 3.0,
+   "min": -9.85,
+   "digitalAvg": 1.97
+  },
+  {
+   "from": "USA",
+   "to": "HTI",
+   "providers": 16,
+   "avg": 4.7,
+   "median": 5.0,
+   "min": 1.0,
+   "digitalAvg": 4.27
+  },
+  {
+   "from": "USA",
+   "to": "LBN",
+   "providers": 16,
+   "avg": 11.28,
+   "median": 6.5,
+   "min": 2.5,
+   "digitalAvg": 6.0
+  },
+  {
+   "from": "USA",
+   "to": "GUY",
+   "providers": 21,
+   "avg": 8.1,
+   "median": 7.35,
+   "min": 3.4,
+   "digitalAvg": 7.84
+  },
+  {
+   "from": "USA",
+   "to": "ARM",
+   "providers": 16,
+   "avg": 7.15,
+   "median": 6.95,
+   "min": 4.5,
+   "digitalAvg": 6.97
+  },
+  {
+   "from": "USA",
+   "to": "JAM",
+   "providers": 20,
+   "avg": 6.06,
+   "median": 6.36,
+   "min": -2.25,
+   "digitalAvg": 6.06
+  },
+  {
+   "from": "USA",
+   "to": "LBR",
+   "providers": 20,
+   "avg": 5.36,
+   "median": 6.0,
+   "min": 0.49,
+   "digitalAvg": 5.26
+  },
+  {
+   "from": "USA",
+   "to": "GHA",
+   "providers": 31,
+   "avg": 4.37,
+   "median": 4.35,
+   "min": -0.13,
+   "digitalAvg": 3.72
+  },
+  {
+   "from": "USA",
+   "to": "CPV",
+   "providers": 14,
+   "avg": 8.81,
+   "median": 5.5,
+   "min": 4.22,
+   "digitalAvg": 5.82
+  },
+  {
+   "from": "USA",
+   "to": "DOM",
+   "providers": 27,
+   "avg": 5.11,
+   "median": 4.1,
+   "min": 0.22,
+   "digitalAvg": 5.24
+  },
+  {
+   "from": "USA",
+   "to": "ECU",
+   "providers": 31,
+   "avg": 3.92,
+   "median": 3.25,
+   "min": 0.0,
+   "digitalAvg": 3.95
+  },
+  {
+   "from": "USA",
+   "to": "PAN",
+   "providers": 14,
+   "avg": 4.1,
+   "median": 3.0,
+   "min": 2.45,
+   "digitalAvg": 3.95
+  },
+  {
+   "from": "USA",
+   "to": "PER",
+   "providers": 21,
+   "avg": 4.65,
+   "median": 4.0,
+   "min": 2.0,
+   "digitalAvg": 5.39
+  },
+  {
+   "from": "USA",
+   "to": "JOR",
+   "providers": 20,
+   "avg": 5.26,
+   "median": 5.45,
+   "min": 2.0,
+   "digitalAvg": 4.94
+  },
+  {
+   "from": "USA",
+   "to": "YEM",
+   "providers": 12,
+   "avg": 3.92,
+   "median": 3.0,
+   "min": 2.0,
+   "digitalAvg": 3.43
+  },
+  {
+   "from": "USA",
+   "to": "AFG",
+   "providers": 6,
+   "avg": 9.18,
+   "median": 8.88,
+   "min": 6.87,
+   "digitalAvg": 8.18
+  },
+  {
+   "from": "USA",
+   "to": "ERI",
+   "providers": 7,
+   "avg": 6.55,
+   "median": 6.9,
+   "min": 4.5,
+   "digitalAvg": 7.39
+  },
+  {
+   "from": "USA",
+   "to": "CUB",
+   "providers": 4,
+   "avg": 8.75,
+   "median": 7.75,
+   "min": 2.5,
+   "digitalAvg": 8.75
+  },
+  {
+   "from": "USA",
+   "to": "SOM",
+   "providers": 5,
+   "avg": 5.6,
+   "median": 6.0,
+   "min": 4.0,
+   "digitalAvg": null
+  },
+  {
+   "from": "ZAF",
+   "to": "NGA",
+   "providers": 17,
+   "avg": 14.65,
+   "median": 8.26,
+   "min": 3.46,
+   "digitalAvg": 5.79
+  },
+  {
+   "from": "ZAF",
+   "to": "BWA",
+   "providers": 27,
+   "avg": 16.45,
+   "median": 10.29,
+   "min": 5.57,
+   "digitalAvg": 13.72
+  },
+  {
+   "from": "ZAF",
+   "to": "CHN",
+   "providers": 11,
+   "avg": 23.88,
+   "median": 31.95,
+   "min": 3.76,
+   "digitalAvg": 9.43
+  },
+  {
+   "from": "ZAF",
+   "to": "MOZ",
+   "providers": 30,
+   "avg": 10.29,
+   "median": 5.79,
+   "min": 2.72,
+   "digitalAvg": 8.85
+  },
+  {
+   "from": "ZAF",
+   "to": "MWI",
+   "providers": 23,
+   "avg": 31.48,
+   "median": 32.94,
+   "min": -3.0,
+   "digitalAvg": 44.03
+  },
+  {
+   "from": "ZAF",
+   "to": "ZMB",
+   "providers": 34,
+   "avg": 14.7,
+   "median": 11.24,
+   "min": 4.87,
+   "digitalAvg": 11.03
+  },
+  {
+   "from": "ZAF",
+   "to": "IND",
+   "providers": 15,
+   "avg": 16.39,
+   "median": 8.07,
+   "min": 5.29,
+   "digitalAvg": 6.51
+  },
+  {
+   "from": "ZAF",
+   "to": "TZA",
+   "providers": 16,
+   "avg": 17.3,
+   "median": 13.74,
+   "min": 6.13,
+   "digitalAvg": 11.84
+  },
+  {
+   "from": "ZAF",
+   "to": "ZWE",
+   "providers": 40,
+   "avg": 12.49,
+   "median": 10.28,
+   "min": 5.15,
+   "digitalAvg": 8.36
+  },
+  {
+   "from": "ZAF",
+   "to": "KEN",
+   "providers": 33,
+   "avg": 10.62,
+   "median": 7.05,
+   "min": 3.44,
+   "digitalAvg": 7.79
+  },
+  {
+   "from": "ZAF",
+   "to": "LSO",
+   "providers": 11,
+   "avg": 11.25,
+   "median": 10.58,
+   "min": 0.0,
+   "digitalAvg": 7.58
+  },
+  {
+   "from": "ZAF",
+   "to": "SWZ",
+   "providers": 9,
+   "avg": 11.62,
+   "median": 10.95,
+   "min": 0.0,
+   "digitalAvg": 6.26
+  },
+  {
+   "from": "ZAF",
+   "to": "AGO",
+   "providers": 13,
+   "avg": 21.39,
+   "median": 22.21,
+   "min": 6.12,
+   "digitalAvg": 13.47
+  },
+  {
+   "from": "FRA",
+   "to": "DZA",
+   "providers": 1,
+   "avg": 45.13,
+   "median": 45.13,
+   "min": 45.13,
+   "digitalAvg": null
+  }
+ ]
+}
