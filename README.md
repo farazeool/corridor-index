@@ -53,7 +53,7 @@ The site and [`data/thesis.json`](data/thesis.json) always show the latest daily
 2. Click **UAE → India**. You see **NEAR wins**: about $196–$198 arrives through NEAR against $193.90 today, the cost broken into cash in, NEAR Intents and cash out, and how much more the family keeps per $200. Below it is a live NEAR Intents quote, fetched from the 1Click API when the page loads.
 3. Scroll to **Every corridor** and drag the **stress-test** slider from 1.0 to 3.0 points. You see the count of winning corridors and the share of tested money fall as NEAR is given a worse deal. That is the bear case, made adjustable.
 4. Click **Crypto illegal** or **Can't test**. You see every corridor that was left out, with the reason.
-5. In **Is it worth it for NEAR?**, drag the adoption slider. You see the extra protocol revenue next to today's Intents revenue and NEAR's yearly new supply.
+5. Click **About** (or **Read the rest**) and, in **Is it worth it for NEAR?**, drag the adoption slider. You see the extra protocol revenue next to today's Intents revenue and NEAR's yearly new supply.
 6. Click **Corridors (CSV)** in the footer. You get every corridor with its sources, ready for a spreadsheet.
 
 ## How every number is made
@@ -121,7 +121,7 @@ npm run dev      # the site, on http://localhost:3000
 | `scripts/fetch.mjs` | Pulls every source into `data/raw` |
 | `scripts/build.mjs` | Builds `data/thesis.json` and the public CSV from `data/raw` |
 | `test/model.test.mjs` | Tests of the rules |
-| `src/app` | The Next.js site; `src/app/api/quote` asks NEAR Intents for a live $200 quote |
+| `src/app` | The Next.js site: home (calculator, verdict, corridors), `/about` (value for NEAR, bear case, method), `/privacy`; `src/app/api/quote` asks NEAR Intents for a live $200 quote |
 
 ## Built with
 

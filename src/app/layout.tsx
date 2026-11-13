@@ -32,10 +32,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <span className="hidden sm:inline text-ink-soft">Corridor Index</span>
             </a>
             <nav className="ml-auto flex gap-4 sm:gap-5 text-sm text-ink-soft whitespace-nowrap">
-              <a href="#answer" className="hover:text-ink hidden sm:inline">Answer</a>
-              <a href="#corridors" className="hover:text-ink">Corridors</a>
-              <a href="#near" className="hover:text-ink">For NEAR</a>
-              <a href="#method" className="hover:text-ink hidden sm:inline">Method</a>
+              <a href="/#calculator" className="hover:text-ink hidden sm:inline">Calculator</a>
+              <a href="/#answer" className="hover:text-ink hidden sm:inline">Answer</a>
+              <a href="/#corridors" className="hover:text-ink">Corridors</a>
+              <a href="/about" className="hover:text-ink">About</a>
               {REPO_URL && <a href={REPO_URL} className="hover:text-ink">Code</a>}
             </nav>
           </div>
@@ -47,6 +47,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <a className="link" href="/data/thesis.json">All numbers (JSON)</a>
             <a className="link" href="/data/corridors.csv">Corridors (CSV)</a>
             {REPO_URL && <a className="link" href={REPO_URL}>Source and re-run</a>}
+            <a className="link" href="/about#method">Method</a>
+            <a className="link" href="/privacy">Privacy</a>
           </div>
         </footer>
       </body>
