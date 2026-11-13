@@ -127,7 +127,7 @@ npm run dev      # the site, on http://localhost:3000
 
 ## Built with
 
-Next.js 16, React 19, Tailwind CSS 4, SheetJS (`xlsx`) for the World Bank and CGD workbooks, Instrument Sans, Newsreader and IBM Plex Mono (via Fontsource). Data from the World Bank, the Center for Global Development, NEAR Intents, Binance P2P, ExchangeRate-API, DefiLlama and NEAR RPC.
+Next.js 16, React 19, Tailwind CSS 4, SheetJS (`xlsx`) for the World Bank and CGD workbooks, Bricolage Grotesque, Instrument Serif, Inter and IBM Plex Mono (via Fontsource). Data from the World Bank, the Center for Global Development, NEAR Intents, Binance P2P, ExchangeRate-API, DefiLlama and NEAR RPC.
 
 **AI assistance:** the code, the data pipeline and the copy were written with an AI coding assistant, directed and checked by the authors.
 
