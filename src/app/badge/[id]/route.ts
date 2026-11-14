@@ -16,7 +16,7 @@ export async function GET(_: Request, { params }: { params: Promise<{ id: string
   const left = `${country(c.from)} → ${country(c.to)}`;
   const right = VERDICT_LABEL[c.verdict] + (c.verdict === "wins" && c.keepPer200 ? ` · +$${c.keepPer200.toFixed(2)}/$200` : "");
   const w = (s: string) => Math.round(s.length * 6.6 + 20);
-  const lw = w(left) + 18, rw = w(right);
+  const lw = Math.round(left.length * 6.1 + 30), rw = w(right);
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${lw + rw}" height="22" role="img" aria-label="${esc(left)}: ${esc(right)}">
 <title>${esc(left)}: ${esc(right)} (Corridor Index)</title>
 <clipPath id="r"><rect width="${lw + rw}" height="22" rx="4"/></clipPath>
