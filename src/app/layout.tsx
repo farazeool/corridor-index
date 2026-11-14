@@ -10,6 +10,7 @@ import "@fontsource/ibm-plex-mono/500.css";
 import "./globals.css";
 import { REPO_URL } from "@/lib/site";
 import { Progress } from "@/components/Progress";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://corridor-index-zibj.vercel.app"),
@@ -21,13 +22,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: `try{var t=localStorage.getItem("ci.theme");if(t)document.documentElement.dataset.theme=t}catch(e){}` }} />
+      </head>
       <body className="min-h-dvh flex flex-col">
         <div className="grade" aria-hidden />
         <div className="grain" aria-hidden />
         <Progress />
         <div className="stripe" aria-hidden />
-        <header className="sticky top-0 z-40 border-b border-rule bg-[rgba(10,11,13,0.72)] backdrop-blur-xl">
+        <header className="sticky top-0 z-40 border-b border-rule bg-[rgb(var(--paper-rgb)/0.72)] backdrop-blur-xl">
           <div className="mx-auto max-w-[1180px] px-4 sm:px-6 h-14 flex items-center gap-6">
             <a href="/" className="flex items-center gap-2 font-semibold text-sm whitespace-nowrap" aria-label="Corridor Index, home">
               <img src="/icon.svg" alt="" width={22} height={22} className="rounded-[5px]" />
@@ -36,10 +40,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <nav className="ml-auto flex gap-4 sm:gap-5 text-sm text-ink-soft whitespace-nowrap">
               <a href="/#calculator" className="hover:text-ink hidden sm:inline">Calculator</a>
               <a href="/#answer" className="hover:text-ink hidden sm:inline">Answer</a>
+              <a href="/#map" className="hover:text-ink hidden sm:inline">Map</a>
               <a href="/#corridors" className="hover:text-ink">Corridors</a>
               <a href="/about" className="hover:text-ink">About</a>
               {REPO_URL && <a href={REPO_URL} className="hover:text-ink">Code</a>}
             </nav>
+            <ThemeToggle />
           </div>
         </header>
         <main className="flex-1">{children}</main>

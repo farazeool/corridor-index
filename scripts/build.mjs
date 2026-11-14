@@ -26,3 +26,24 @@ const lines = [cols.join(",")].concat(
   ),
 );
 writeFileSync(new URL("../public/data/corridors.csv", import.meta.url), lines.join("\n") + "\n");
+
+// One line per data run (keyed by when the NEAR Intents quotes were fetched), so the thesis can be followed over time.
+import { existsSync } from "node:fs";
+const histFile = new URL("../data/history.json", import.meta.url);
+const hist = existsSync(histFile) ? JSON.parse(readFileSync(histFile)) : [];
+export const historyRow = (t) => ({
+  at: t.sources.quotes.at,
+  winShare: t.summary.winShare,
+  winsCorridors: t.summary.byVerdict.wins.corridors,
+  winsVolume: t.summary.byVerdict.wins.volume,
+  revenueShare: t.summary.kill.revenue.value,
+  winShare500: t.summary.at500?.winShare ?? null,
+  intentsLegPct: t.intents.legMedianPct,
+  nearPriceUsd: t.summary.near.priceUsd,
+});
+const row = historyRow(out);
+if (!hist.some((h) => h.at === row.at)) hist.push(row);
+hist.sort((a, b) => a.at.localeCompare(b.at));
+writeFileSync(histFile, JSON.stringify(hist, null, 1));
+writeFileSync(new URL("../public/data/history.json", import.meta.url), JSON.stringify(hist, null, 1));
+console.log(`History: ${hist.length} runs`);

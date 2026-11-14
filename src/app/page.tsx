@@ -12,6 +12,9 @@ import { T, country, type Corridor } from "@/lib/data";
 import { dateUtc, pct, share, usd, usdB } from "@/lib/format";
 import { REPO_URL } from "@/lib/site";
 import { MIND } from "@/lib/mind";
+import { MAP } from "@/lib/mapdata";
+import { WorldMap } from "@/components/WorldMap";
+import { History } from "@/components/History";
 
 const S = T.summary;
 const names = Object.fromEntries(Object.keys(T.countries).map((k) => [k, country(k)]));
@@ -151,10 +154,20 @@ export default function Home() {
             </div>
           </aside>
         </div>
+        <div className="mt-12">
+          <p className="eyebrow">Run by run</p>
+          <h3 className="mt-2 font-display text-2xl sm:text-3xl font-bold">The verdict is re-tested every day, not written once.</h3>
+          <div className="mt-6"><History /></div>
+        </div>
       </Section>
 
-      {/* 3. Story */}
-      <Section id="story" n="03" kicker="Four corridors" title="The same $200 tells four different stories.">
+      {/* 3. Map */}
+      <Section id="map" n="03" kicker="The map" title="Where the money lands, and whether NEAR gets it there for less.">
+        <WorldMap to={MAP.to} from={MAP.from} />
+      </Section>
+
+      {/* 4. Story */}
+      <Section id="story" n="04" kicker="Four corridors" title="The same $200 tells four different stories.">
         <ol className="grid gap-5 md:grid-cols-2">
           {[
             { c: kwPk, head: "Already cheap. NEAR loses.", body: `The median provider charges ${pct(kwPk.benchmark)}: below zero, because some exchange houses give a better rate than the market. Buying dollars in Kuwait and selling them in Pakistan costs NEAR's route ${pct(kwPk.nearLo)}–${pct(kwPk.nearHi)}. Where competition is already fierce, a new rail adds nothing.` },
@@ -175,7 +188,7 @@ export default function Home() {
       </Section>
 
       {/* 4 + 5. Corridors */}
-      <Section id="corridors" n="04" kicker="Every corridor" title={`NEAR is cheaper in ${S.byVerdict.wins.corridors} of the ${testedCount} corridors we could test.`}>
+      <Section id="corridors" n="05" kicker="Every corridor" title={`NEAR is cheaper in ${S.byVerdict.wins.corridors} of the ${testedCount} corridors we could test.`}>
         <div className="card p-5 sm:p-6">
           <p className="font-semibold">Cost of sending $200: today <span className="inline-block w-2.5 h-2.5 rounded-full align-middle" style={{ background: "var(--incumbent)" }} /> vs through NEAR <span className="inline-block w-5 h-2.5 rounded-full align-middle bg-blue" /></p>
           <p className="text-sm text-muted">The {top.length} largest tested corridors by money sent. The dot at the right edge is the verdict.</p>

@@ -33,7 +33,7 @@ export function CorridorArcs({ corridors }: { corridors: Corridor[] }) {
         <mask id="m"><rect width={W} height={H} fill="url(#fade)" /></mask>
       </defs>
       <g mask="url(#m)">
-        {grid.map(([x, y], i) => <circle key={i} cx={x} cy={y} r={1} fill="rgba(255,255,255,0.12)" />)}
+        {grid.map(([x, y], i) => <circle key={i} cx={x} cy={y} r={1} fill="rgb(var(--tint) / 0.14)" />)}
         {arcs.map((c, i) => {
           const [x1, y1] = P(AT[c.from]); const [x2, y2] = P(AT[c.to]);
           const mx = (x1 + x2) / 2, my = (y1 + y2) / 2 - Math.min(160, Math.hypot(x2 - x1, y2 - y1) * 0.35);
@@ -46,7 +46,7 @@ export function CorridorArcs({ corridors }: { corridors: Corridor[] }) {
               {c.verdict === "wins" && planes.has(c.id) ? (
                 <g style={{ offsetPath: `path("${d}")`, offsetRotate: "auto", animation: `travel ${7 + (i % 4)}s cubic-bezier(.45,0,.55,1) ${2.6 + i * 0.5}s infinite`, opacity: 0 } as React.CSSProperties}>
                   <g transform="scale(1.9)"><path d="M9 0 -7 -6 -3.5 0 -7 6Z" fill="var(--blue)" />
-                  <path d="M9 0 -3.5 0 -7 6Z" fill="#b8862f" /></g>
+                  <path d="M9 0 -3.5 0 -7 6Z" fill="var(--blue-deep)" /></g>
                 </g>
               ) : (
                 <circle r={2.2} fill={COLOR[c.verdict]} style={{ offsetPath: `path("${d}")`, animation: `travel ${5 + (i % 5)}s linear ${2 + i * 0.4}s infinite`, opacity: 0 } as React.CSSProperties} />

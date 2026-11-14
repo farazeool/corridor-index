@@ -110,9 +110,9 @@ export function Calculator({
 
       <div className="relative mt-6 grid gap-4 md:grid-cols-[1fr_1fr_auto] md:items-stretch">
         <svg key={c.id + amount} className="flight pointer-events-none absolute left-0 top-0 hidden md:block h-full w-full overflow-visible" aria-hidden>
-          <g className="flight-plane"><path d="M11 0 -8 -7 -4 0 -8 7Z" fill="var(--blue)" /><path d="M11 0 -4 0 -8 7Z" fill="#b8862f" /></g>
+          <g className="flight-plane"><path d="M11 0 -8 -7 -4 0 -8 7Z" fill="var(--blue)" /><path d="M11 0 -4 0 -8 7Z" fill="var(--blue-deep)" /></g>
         </svg>
-        <div className="rounded-2xl border border-rule bg-[rgba(255,255,255,0.02)] p-5">
+        <div className="rounded-2xl border border-rule bg-[rgb(var(--tint)/0.02)] p-5">
           <p className="text-sm font-semibold">{v.benchmarkKind === "online providers" ? "Online providers today" : "A typical provider today"}</p>
           <p className="num mt-2 text-3xl">{usd(today)}</p>
           <p className="mt-1 text-sm text-ink-soft">arrives · cost <span className="num">{pct(v.benchmark)}</span></p>

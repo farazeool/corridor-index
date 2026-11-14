@@ -1,0 +1,32 @@
+[
+ {
+  "at": "2026-11-13T07:29:30.008Z",
+  "winShare": 0.7405768600458866,
+  "winsCorridors": 127,
+  "winsVolume": 289216000000,
+  "revenueShare": 0.07205498527047753,
+  "winShare500": null,
+  "intentsLegPct": 0.35,
+  "nearPriceUsd": 3.53044833
+ },
+ {
+  "at": "2026-11-13T18:03:54.637Z",
+  "winShare": 0.7359600335955424,
+  "winsCorridors": 132,
+  "winsVolume": 287413000000,
+  "revenueShare": 0.0722939113728437,
+  "winShare500": 0.6054316207800721,
+  "intentsLegPct": 0.38,
+  "nearPriceUsd": 3.4990232999999997
+ },
+ {
+  "at": "2026-11-14T13:38:34.723Z",
+  "winShare": 0.7294099270730908,
+  "winsCorridors": 128,
+  "winsVolume": 284855000000,
+  "revenueShare": 0.07449443535820816,
+  "winShare500": 0.6198480006555228,
+  "intentsLegPct": 0.38,
+  "nearPriceUsd": 3.324288495
+ }
+]

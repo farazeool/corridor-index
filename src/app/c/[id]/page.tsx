@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Pill } from "@/components/Pill";
+import { Embed } from "@/components/Embed";
 import { T, country } from "@/lib/data";
 import { pct, usd, usdB, VERDICT_LABEL } from "@/lib/format";
 
@@ -62,6 +63,7 @@ export default async function CorridorPage({ params }: { params: Promise<{ id: s
         <Link href={`/?from=${c.from}&to=${c.to}#calculator`} className="btn btn-primary">Open in the calculator</Link>
         <Link href="/#answer" className="btn">See the whole thesis</Link>
       </div>
+      <Embed id={c.id} label={`${country(c.from)} to ${country(c.to)}: ${VERDICT_LABEL[c.verdict]}`} />
       <p className="mt-8 text-xs text-muted">World Bank Remittance Prices Worldwide (Q3 2025); NEAR side from live NEAR Intents quotes and peer-to-peer markets. Not investment advice.</p>
     </div>
   );

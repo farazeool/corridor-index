@@ -55,10 +55,14 @@ Next to the kill criteria, the site shows **what would change the verdict**: how
 
 1. Open https://corridor-index-zibj.vercel.app and click **Try a corridor**. You see a calculator set to **Kuwait → Pakistan**, with a red **NEAR loses** pill: the median provider already charges −0.39% (World Bank, Q3 2025), and NEAR's route costs more than that.
 2. Click **UAE → India**. You see **NEAR wins**: about $196–$198 arrives through NEAR against $193.90 today, the cost broken into cash in, NEAR Intents and cash out, and how much more the family keeps per $200. Below it is a live NEAR Intents quote, fetched from the 1Click API when the page loads. Click **Share this corridor** and paste the link into X or WhatsApp: every corridor has its own page (`/c/areind`) with a preview image showing its verdict.
-3. Scroll to **Every corridor** and drag the **stress-test** slider from 1.0 to 3.0 points. You see the count of winning corridors and the share of tested money fall as NEAR is given a worse deal. That is the bear case, made adjustable.
-4. Click **Crypto illegal** or **Can't test**. You see every corridor that was left out, with the reason.
-5. Click **About** (or **Read the rest**) and, in **Is it worth it for NEAR?**, drag the adoption slider. You see the extra protocol revenue next to today's Intents revenue and NEAR's yearly new supply.
-6. Click **Corridors (CSV)** in the footer. You get every corridor with its sources, ready for a spreadsheet.
+3. Scroll to **The map** and click any coloured country, for example India. You see where its money comes from, how much of it NEAR would carry for less, and a link to each corridor. Switch to **Money sent from** to see it from the sender's side.
+4. Under **The answer**, **Run by run** shows the win share and the revenue test on every daily run so far, against their kill lines.
+5. Scroll to **Every corridor** and drag the **stress-test** slider from 1.0 to 3.0 points. You see the count of winning corridors and the share of tested money fall as NEAR is given a worse deal. That is the bear case, made adjustable.
+6. Click **Crypto illegal** or **Can't test**. You see every corridor that was left out, with the reason.
+7. Click **About** (or **Read the rest**) and, in **Is it worth it for NEAR?**, drag the adoption slider. You see the extra protocol revenue next to today's Intents revenue and NEAR's yearly new supply.
+8. Open any corridor page (for example `/c/areind`) and copy its **badge**: a live SVG verdict for a README or blog, re-made on every run.
+9. Click the sun icon in the header for the light theme.
+10. Click **Corridors (CSV)** in the footer. You get every corridor with its sources, ready for a spreadsheet.
 
 ## How every number is made
 
@@ -124,9 +128,10 @@ npm run dev      # the site, on http://localhost:3000
 | `lib/model.mjs` | The rules, the verdicts, the sizing and the kill criteria |
 | `src/lib/mind.ts` | How far each input must move before a kill criterion fails |
 | `scripts/fetch.mjs` | Pulls every source into `data/raw` |
-| `scripts/build.mjs` | Builds `data/thesis.json` and the public CSV from `data/raw` |
+| `scripts/build.mjs` | Builds `data/thesis.json`, the public CSV, and appends the run to `data/history.json` |
+| `scripts/world.mjs` | Builds the world map outlines (Natural Earth 1:110m via `world-atlas`) |
 | `test/model.test.mjs` | Tests of the rules |
-| `src/app` | The Next.js site: home (calculator, verdict, corridors), `/about` (value for NEAR, bear case, method), `/privacy`, `/c/<corridor>` (one page and share image per corridor); `src/app/api/quote` asks NEAR Intents for a live $200 quote |
+| `src/app` | The Next.js site: home (calculator, verdict, corridors), `/about` (value for NEAR, bear case, method), `/privacy`, `/c/<corridor>` (one page and share image per corridor), `/badge/<corridor>.svg` (embeddable verdict badge); `src/app/api/quote` asks NEAR Intents for a live $200 quote |
 
 ## Built with
 

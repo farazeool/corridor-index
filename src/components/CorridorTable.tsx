@@ -92,7 +92,7 @@ export function CorridorTable({ corridors, names, baseBuffer }: { corridors: Cor
           </thead>
           <tbody className="divide-y divide-rule">
             {(all ? shown : shown.slice(0, 25)).map((r) => (
-              <tr key={r.id} className="align-top hover:bg-[rgba(255,255,255,0.025)] transition-colors">
+              <tr key={r.id} className="align-top hover:bg-[rgb(var(--tint)/0.025)] transition-colors">
                 <td className="px-3 py-2.5"><Pill verdict={r.v} /></td>
                 <td className="px-3 py-2.5 font-medium min-w-[12rem]">{names[r.from]} → {names[r.to]}</td>
                 <td className="px-3 py-2.5 text-right num">{r.volume != null ? usdB(r.volume) : "–"}</td>
