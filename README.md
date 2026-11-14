@@ -45,6 +45,17 @@ Most NEAR theses measure the chain from the inside: transactions, NEAR Intents v
 
 <p align="center"><sub>Latest daily run, 14 Nov 2026. The site and <a href="data/thesis.json"><code>data/thesis.json</code></a> always show the newest run.</sub></p>
 
+## The position
+
+<p align="center"><img src="docs/position.jpg" alt="The position: long NEAR Intents usage, neutral on the NEAR token, with the lines that would change it" width="900"></p>
+
+| | Call | Changes when |
+| --- | --- | --- |
+| **NEAR Intents usage** | **Long** | Exit if NEAR wins less than 25% of the tested money (now 72.9%) or revenue at 10% adoption covers less than 5% of new supply (now 7.4%) |
+| **The NEAR token** | **Neutral** | Turn long when Intents protocol revenue reaches 15% of NEAR's yearly new supply (now 8.6%), or NEAR's cut of each swap reaches 5 basis points (now 2.9) |
+
+Watch: the cost of the NEAR Intents leg (0.38% for $200), the premium dollars fetch over the official rate in India (+12%: demand, and a regulatory risk), and the World Bank's next quarterly prices. The lines were set on 14 Nov 2026 and every value is recomputed on each daily run; the site shows them live.
+
 ### Live verdicts
 
 These badges come straight from the site and update with every daily run. Any corridor's badge can be embedded the same way.

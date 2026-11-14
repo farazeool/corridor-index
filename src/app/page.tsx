@@ -15,6 +15,7 @@ import { MIND } from "@/lib/mind";
 import { MAP } from "@/lib/mapdata";
 import { WorldMap } from "@/components/WorldMap";
 import { History } from "@/components/History";
+import { Position } from "@/components/Position";
 
 const S = T.summary;
 const names = Object.fromEntries(Object.keys(T.countries).map((k) => [k, country(k)]));
@@ -75,6 +76,7 @@ export default function Home() {
 
       {/* 2. Answer */}
       <Section id="answer" n="02" kicker="The answer" title={`NEAR's route is cheaper for ${share(S.winShare)} of the money we could test, but the token earns little from it.`}>
+        <div className="mb-6"><Position /></div>
         <div className="grid gap-4 md:grid-cols-6">
           <a href="#corridors" className="card lift p-7 md:col-span-3 md:row-span-2 flex flex-col justify-between min-h-[15rem] relative overflow-hidden">
             <div className="absolute -right-16 -top-16 h-56 w-56 rounded-full bg-[radial-gradient(circle,rgba(61,220,151,0.22),transparent_70%)]" aria-hidden />
