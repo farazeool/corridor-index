@@ -1,68 +1,114 @@
 <p align="center">
-  <img src="docs/icon.svg" width="72" alt="Corridor Index">
+  <img src="docs/icon.svg" width="76" alt="Corridor Index">
 </p>
 
 <h1 align="center">Corridor Index</h1>
 
-<p align="center"><b>Where NEAR actually wins at sending money home.</b> A re-runnable investment thesis for NEAR, built at NEAR HACKATHON for the <b>Investment Thesis</b> track.</p>
+<p align="center"><b>Where NEAR actually wins at sending money home.</b><br>A re-runnable investment thesis for NEAR, built at NEAR HACKATHON for the <b>Investment Thesis</b> track.</p>
 
 <p align="center">
-  <a href="https://corridor-index-near.vercel.app"><img alt="Live site" src="https://img.shields.io/badge/live-corridor--index--near.vercel.app-17181c"></a>
-  <a href="data/thesis.json"><img alt="348 corridors" src="https://img.shields.io/badge/corridors-348-1d3fbb"></a>
-  <a href="#how-every-number-is-made"><img alt="Re-run with one command" src="https://img.shields.io/badge/re--run-npm%20run%20thesis-0e7a52"></a>
-  <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-b3261e"></a>
+  <a href="https://corridor-index-near.vercel.app"><img alt="Live site" src="https://img.shields.io/badge/live-corridor--index--near.vercel.app-e8c27a?labelColor=17181c"></a>
+  <a href="https://github.com/farazeool/corridor-index/actions/workflows/rerun.yml"><img alt="Daily re-run" src="https://github.com/farazeool/corridor-index/actions/workflows/rerun.yml/badge.svg"></a>
+  <a href="data/thesis.json"><img alt="348 corridors" src="https://img.shields.io/badge/corridors-348-17181c"></a>
+  <a href="#tested"><img alt="Tests" src="https://img.shields.io/badge/tests-7%20unit%20%C2%B7%2048%20end--to--end-3ddc97?labelColor=17181c"></a>
+  <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-17181c"></a>
+</p>
+<p align="center">
+  <img alt="NEAR Intents" src="https://img.shields.io/badge/NEAR%20Intents-1Click%20API-00ec97?logo=near&logoColor=white&labelColor=17181c">
+  <img alt="Next.js 16" src="https://img.shields.io/badge/Next.js-16-white?logo=nextdotjs&logoColor=white&labelColor=17181c&color=444">
+  <img alt="React 19" src="https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=61dafb&labelColor=17181c">
+  <img alt="Tailwind CSS 4" src="https://img.shields.io/badge/Tailwind-4-38bdf8?logo=tailwindcss&logoColor=38bdf8&labelColor=17181c">
+  <img alt="World Bank data" src="https://img.shields.io/badge/data-World%20Bank%20%C2%B7%20CGD%20%C2%B7%20DefiLlama-e8c27a?labelColor=17181c">
 </p>
 
 <p align="center">
-  <img src="docs/hero.jpg" alt="Corridor Index: the 22 largest remittance corridors drawn as arcs, coloured by whether NEAR is cheaper, with the headline numbers" width="900">
+  <a href="https://corridor-index-near.vercel.app"><b>Open the live site</b></a> ·
+  <a href="#try-it-in-two-minutes"><b>Try it in two minutes</b></a> ·
+  <a href="#how-every-number-is-made"><b>How every number is made</b></a> ·
+  <a href="public/data/corridors.csv"><b>Every corridor (CSV)</b></a>
 </p>
 
-Most NEAR theses measure the chain from the inside: transactions, NEAR Intents volume, fees against inflation. This one tests NEAR against a real market. Migrants send about $900 billion home every year. For each of the 348 corridors the World Bank prices, it compares what a family receives today with what it would receive if the money went through NEAR Intents, including the cost of turning local cash into dollars and back again.
+<p align="center">
+  <a href="https://corridor-index-near.vercel.app"><img src="docs/hero.jpg" alt="Corridor Index: the 22 largest remittance corridors drawn as arcs, coloured by whether NEAR is cheaper, with the headline numbers" width="900"></a>
+</p>
 
-- **Live site:** https://corridor-index-near.vercel.app
-- **All numbers:** [`data/thesis.json`](data/thesis.json) · [`public/data/corridors.csv`](public/data/corridors.csv)
+Most NEAR theses measure the chain from the inside: transactions, NEAR Intents volume, fees against inflation. **This one tests NEAR against a real market.** Migrants send about $900 billion home every year. For each of the 348 corridors the World Bank prices, Corridor Index compares what a family receives today with what it would receive if the money went through NEAR Intents, including the cost of turning local cash into dollars and back again. Then it asks whether any of that reaches the NEAR token, and it re-runs every day.
 
-## The answer (first live run, 13 Nov 2026)
+<table>
+  <tr>
+    <td align="center" width="25%"><h2>73%</h2>of the tested money is cheaper to send through NEAR</td>
+    <td align="center" width="25%"><h2>$285B</h2>a year flows through the 128 corridors where NEAR wins</td>
+    <td align="center" width="25%"><h2>$5.9B</h2>a year families would keep if those corridors switched</td>
+    <td align="center" width="25%"><h2>7.4%</h2>of NEAR's new supply covered by protocol revenue at 10% adoption</td>
+  </tr>
+</table>
 
-The site and [`data/thesis.json`](data/thesis.json) always show the latest daily run; the numbers below are from the first one.
+<p align="center"><sub>Latest daily run, 14 Nov 2026. The site and <a href="data/thesis.json"><code>data/thesis.json</code></a> always show the newest run.</sub></p>
 
-| | |
+### Live verdicts
+
+These badges come straight from the site and update with every daily run. Any corridor's badge can be embedded the same way.
+
+<p>
+  <a href="https://corridor-index-near.vercel.app/c/usamex"><img src="https://corridor-index-near.vercel.app/badge/usamex.svg" alt="United States to Mexico"></a>
+  <a href="https://corridor-index-near.vercel.app/c/areind"><img src="https://corridor-index-near.vercel.app/badge/areind.svg" alt="United Arab Emirates to India"></a>
+  <a href="https://corridor-index-near.vercel.app/c/usaind"><img src="https://corridor-index-near.vercel.app/badge/usaind.svg" alt="United States to India"></a>
+  <a href="https://corridor-index-near.vercel.app/c/sauind"><img src="https://corridor-index-near.vercel.app/badge/sauind.svg" alt="Saudi Arabia to India"></a>
+  <a href="https://corridor-index-near.vercel.app/c/kwtpak"><img src="https://corridor-index-near.vercel.app/badge/kwtpak.svg" alt="Kuwait to Pakistan"></a>
+  <a href="https://corridor-index-near.vercel.app/c/saubgd"><img src="https://corridor-index-near.vercel.app/badge/saubgd.svg" alt="Saudi Arabia to Bangladesh"></a>
+</p>
+
+## The answer
+
+| | Latest run (14 Nov 2026) |
 | --- | --- |
 | Corridors priced by the World Bank | 348, carrying $543B a year |
 | Corridors we could test | 187, carrying $391B a year |
-| **NEAR is cheaper** | **127 corridors, $289B a year (74% of tested money)** |
-| Too close to call | 14 corridors, $51B |
-| NEAR is more expensive | 46 corridors, $51B (for example Kuwait → Pakistan and UAE → Pakistan) |
+| **NEAR is cheaper** | **128 corridors, $285B a year (72.9% of the tested money)** |
+| Too close to call | 15 corridors, $53B |
+| NEAR is more expensive | 44 corridors, $53B (for example Kuwait → Pakistan, UAE → Pakistan, Australia → India) |
 | Crypto illegal at one end | 46 corridors, $73B (for example anything to Bangladesh, Egypt, Nepal, Morocco) |
 | Can't test (no public peer-to-peer market) | 115 corridors, $80B |
-| Money families would keep if every winning corridor switched | $5.6B a year |
-| NEAR Intents protocol revenue if 10% of winning corridors switched | about $8M a year, **7.2%** of NEAR's yearly new supply ($116M) |
+| Money families would keep if every winning corridor switched | $5.9B a year |
+| NEAR Intents protocol revenue if 10% of winning corridors switched | about $8M a year, **7.4%** of NEAR's yearly new supply ($109M) |
+| At $500 instead of $200 | NEAR is cheaper for 62% of the tested money (108 corridors) |
 
-**At $500 instead of $200**, fixed fees weigh less for incumbents and NEAR is cheaper for 61% of the tested money (101 corridors). The calculator has a $200 / $500 switch.
+> **Thesis.** NEAR's route is genuinely cheaper for most of the money we can test, so remittances could multiply NEAR Intents' usage many times over: the winning corridors carry about 8.6× what Intents moved in the last year. But only a small share of what users pay reaches the NEAR protocol, so **remittances make NEAR useful long before they make the token scarce.**
 
-**Thesis:** NEAR's route is genuinely cheaper for most of the money we can test, so remittances could multiply NEAR Intents' usage many times over: the winning corridors carry about 9× what Intents moved in the last year. But only a small share of what users pay reaches the NEAR protocol, so remittances make NEAR *useful* long before they make the token *scarce*.
+**Kill criteria, written before the data was pulled.** Both re-check on every run, and the site says so if either fails.
 
-**Kill criteria, written before the data was pulled** (both re-check on every run):
+| Criterion | Line | Latest | |
+| --- | --- | --- | --- |
+| NEAR wins this share of the tested money | at least 25% | 72.9% | ✅ passes |
+| At 10% adoption, protocol revenue covers this share of NEAR's yearly new supply | at least 5% | 7.4% | ✅ passes, narrowly |
 
-1. NEAR must win at least **25%** of the tested money. Result: **74%**, passes.
-2. At 10% adoption of the winning corridors, NEAR Intents protocol revenue must cover at least **5%** of NEAR's yearly new supply. Result: **7.2%**, passes, narrowly.
+**What would change our mind** (shown next to the kill criteria, recomputed every run): NEAR's route costing **2.6** more percentage points breaks criterion 1; just **1.4** more points breaks criterion 2; so does the protocol keeping **33%** less of each swap, or NEAR trading above **$4.95** with revenue unchanged.
 
-Next to the kill criteria, the site shows **what would change the verdict**: how many extra percentage points of cost on NEAR's route (or price cuts by incumbents) break each criterion, how much less the protocol could keep per swap, and the NEAR price above which new supply outweighs the revenue.
+## What you can do on the site
 
-## Try it (do X, see Y)
+<table>
+  <tr>
+    <td width="50%"><img src="docs/calculator.jpg" alt="Calculator: UAE to India, NEAR wins"><br><b>Calculator.</b> Any of 348 corridors at $200 or $500: today's price, NEAR's route broken into cash in, NEAR Intents and cash out, a live 1Click quote, and the verdict.</td>
+    <td width="50%"><img src="docs/map.gif" alt="World map: hover and click countries to see where NEAR is cheaper"><br><b>World map.</b> Every country coloured by where its money lands. Hover for the numbers, click for its corridors, flip between money arriving and money sent.</td>
+  </tr>
+  <tr>
+    <td><img src="docs/kill.jpg" alt="Kill criteria and what would change my mind" width="340"><br><b>Kill criteria and what would change our mind.</b> Pass or fail, and exactly how far each input has to move to flip it.</td>
+    <td><img src="docs/history.jpg" alt="Run by run charts"><br><b>Run by run.</b> A GitHub Action re-tests the thesis daily; each run adds a point against the kill lines (<a href="data/history.json"><code>history.json</code></a>).<br><br><img src="docs/share-card.png" alt="Share card for United States to Mexico"><br><b>Share cards and badges.</b> Every corridor has its own page (<code>/c/usamex</code>), a preview image for X and WhatsApp, and an embeddable SVG badge.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="docs/light.jpg" alt="Light theme" width="49%"> <img src="docs/corridors.jpg" alt="The corridor chart" width="49%"><br><b>Light and dark themes</b>, and <b>every corridor</b> in one sortable, searchable table with a stress-test slider: the bear case, made adjustable.</td>
+  </tr>
+</table>
 
-<p align="center"><img src="docs/calculator.png" alt="The calculator: $200 from the UAE to India arrives as $193.90 with a typical provider and about $196.56 to $198.56 through NEAR Intents, so NEAR wins" width="860"></p>
+## Try it in two minutes
 
-1. Open https://corridor-index-near.vercel.app and click **Try a corridor**. You see a calculator set to **Kuwait → Pakistan**, with a red **NEAR loses** pill: the median provider already charges −0.39% (World Bank, Q3 2025), and NEAR's route costs more than that.
-2. Click **UAE → India**. You see **NEAR wins**: about $196–$198 arrives through NEAR against $193.90 today, the cost broken into cash in, NEAR Intents and cash out, and how much more the family keeps per $200. Below it is a live NEAR Intents quote, fetched from the 1Click API when the page loads. Click **Share this corridor** and paste the link into X or WhatsApp: every corridor has its own page (`/c/areind`) with a preview image showing its verdict.
-3. Scroll to **The map** and click any coloured country, for example India. You see where its money comes from, how much of it NEAR would carry for less, and a link to each corridor. Switch to **Money sent from** to see it from the sender's side.
-4. Under **The answer**, **Run by run** shows the win share and the revenue test on every daily run so far, against their kill lines.
-5. Scroll to **Every corridor** and drag the **stress-test** slider from 1.0 to 3.0 points. You see the count of winning corridors and the share of tested money fall as NEAR is given a worse deal. That is the bear case, made adjustable.
-6. Click **Crypto illegal** or **Can't test**. You see every corridor that was left out, with the reason.
-7. Click **About** (or **Read the rest**) and, in **Is it worth it for NEAR?**, drag the adoption slider. You see the extra protocol revenue next to today's Intents revenue and NEAR's yearly new supply.
-8. Open any corridor page (for example `/c/areind`) and copy its **badge**: a live SVG verdict for a README or blog, re-made on every run.
-9. Click the sun icon in the header for the light theme.
-10. Click **Corridors (CSV)** in the footer. You get every corridor with its sources, ready for a spreadsheet.
+1. Open **https://corridor-index-near.vercel.app** and click **Try a corridor**. The calculator opens on **Kuwait → Pakistan** with a red **NEAR loses**: the median provider already charges −0.39% (World Bank, Q3 2025), and NEAR's route costs more.
+2. Click **UAE → India**. **NEAR wins**: about $196–$198 arrives through NEAR against $193.90 today. Switch to **$500** to see the gap narrow. Click **Share this corridor** and paste the link anywhere: it unfurls with that corridor's verdict.
+3. Under **The answer**, read the kill criteria, **What would change my mind**, and **Run by run**.
+4. In **The map**, click India, then flip to **Money sent from** and click Saudi Arabia.
+5. In **Every corridor**, drag the **stress test** from 1.0 to 3.0 points and watch the winning share fall. Click **Crypto illegal** or **Can't test** to see what was left out, and why.
+6. Click **About**, and in **Is it worth it for NEAR?** drag the adoption slider.
+7. Open any corridor page, for example [`/c/areind`](https://corridor-index-near.vercel.app/c/areind), and copy its **badge**. Click the sun icon for the **light theme**.
 
 ## How every number is made
 
@@ -87,6 +133,8 @@ npm install
 npm run fetch    # pulls every source below into data/raw (needs internet)
 npm run thesis   # rebuilds data/thesis.json and prints the verdict
 npm test         # 7 tests of the rules
+npm run build && npm start   # then, in another terminal:
+BASE=http://localhost:3000 npm run e2e   # 48 end-to-end checks (needs Playwright)
 npm run dev      # the site, on http://localhost:3000
 ```
 
@@ -105,13 +153,18 @@ npm run dev      # the site, on http://localhost:3000
 ### The rules (`lib/model.mjs`)
 
 - **Today's cost** for a corridor is the *lower* of the median provider and the average online provider, so NEAR is always compared with the cheaper option.
-- **NEAR's cost** = the premium paid to buy USDT with the sender's currency + the median NEAR Intents quote for $200 (0.35%) + any discount when selling USDT for the receiver's currency.
+- **NEAR's cost** = the premium paid to buy USDT with the sender's currency + the median NEAR Intents quote for $200 (about 0.4%) + any discount when selling USDT for the receiver's currency.
 - When dollars sell *above* the official rate (India +12%, Pakistan +4%, Egypt +4% on 13 Nov), that premium is **ignored**, never counted as a gain. It is shown separately, as a sign of demand and a regulatory risk.
 - **NEAR wins** only if its cost plus a 1-point allowance (worse fills, network fees) is still below today's cost. **NEAR loses** if its cost is above today's even before the allowance. Anything in between is **too close to call**.
 - Corridors where crypto is illegal at either end, or where no public peer-to-peer market exists for one of the currencies, are **left out** of the verdict rather than guessed.
 - Value to NEAR uses **protocol revenue** (DefiLlama "revenue"), not total fees, because most fees go to solvers and integrators.
 
-<p align="center"><img src="docs/corridors.png" alt="The 18 largest tested corridors: cost today versus the NEAR route" width="900"></p>
+<p align="center"><img src="docs/corridors.jpg" alt="The 18 largest tested corridors: cost today versus the NEAR route" width="900"></p>
+
+## Tested
+
+- `npm test`: 7 unit tests of the rules in `lib/model.mjs` (verdict boundaries, the ignored off-ramp premium, the $500 test, the kill criteria).
+- `npm run e2e`: 48 end-to-end checks against the built site: every route and data file, the calculator, sharing, the $500 switch, the map, the stress test, tabs and search, the theme switch, corridor pages and badges, the About sliders, every internal link, mobile layout with no sideways scrolling, and no page errors. All 48 pass.
 
 ## Limits
 
@@ -126,18 +179,19 @@ npm run dev      # the site, on http://localhost:3000
 | Path | What it is |
 | --- | --- |
 | `lib/model.mjs` | The rules, the verdicts, the sizing and the kill criteria |
-| `src/lib/mind.ts` | How far each input must move before a kill criterion fails |
 | `scripts/fetch.mjs` | Pulls every source into `data/raw` |
 | `scripts/build.mjs` | Builds `data/thesis.json`, the public CSV, and appends the run to `data/history.json` |
 | `scripts/world.mjs` | Builds the world map outlines (Natural Earth 1:110m via `world-atlas`) |
-| `test/model.test.mjs` | Tests of the rules |
-| `src/app` | The Next.js site: home (calculator, verdict, corridors), `/about` (value for NEAR, bear case, method), `/privacy`, `/c/<corridor>` (one page and share image per corridor), `/badge/<corridor>.svg` (embeddable verdict badge); `src/app/api/quote` asks NEAR Intents for a live $200 quote |
+| `src/lib/mind.ts` | How far each input must move before a kill criterion fails |
+| `test/` | Unit tests of the rules and the end-to-end checks |
+| `src/app` | The Next.js site: home (calculator, answer, map, corridors), `/about` (value for NEAR, bear case, method), `/privacy`, `/c/<corridor>` (one page and share image per corridor), `/badge/<corridor>.svg` (embeddable verdict); `src/app/api/quote` asks NEAR Intents for a live $200 quote |
+| `.github/workflows/rerun.yml` | The daily re-run |
 
 ## Built with
 
-Next.js 16, React 19, Tailwind CSS 4, SheetJS (`xlsx`) for the World Bank and CGD workbooks, Bricolage Grotesque, Instrument Serif, Inter and IBM Plex Mono (via Fontsource). Data from the World Bank, the Center for Global Development, NEAR Intents, Binance P2P, ExchangeRate-API, DefiLlama and NEAR RPC.
+Next.js 16, React 19, Tailwind CSS 4, d3-geo and world-atlas for the map, SheetJS (`xlsx`) for the World Bank and CGD workbooks, Bricolage Grotesque, Instrument Serif, Inter and IBM Plex Mono (via Fontsource). Data from the World Bank, the Center for Global Development, NEAR Intents, Binance P2P, ExchangeRate-API, DefiLlama and NEAR RPC.
 
-**AI assistance:** the code, the data pipeline and the copy were written with an AI coding assistant, directed and checked by the authors.
+**AI assistance:** the code, the data pipeline, the copy and the demo video were written with an AI coding assistant, directed and checked by the authors. The video's voiceover uses the open-source Kokoro text-to-speech model.
 
 **Our other NEAR HACKATHON project:** [Passpot](https://github.com/farazeool/Passpot), a rotating savings circle on NEAR (Social Money and Real-World Money tracks).
 
