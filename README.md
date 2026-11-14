@@ -47,12 +47,14 @@ The site and [`data/thesis.json`](data/thesis.json) always show the latest daily
 1. NEAR must win at least **25%** of the tested money. Result: **74%**, passes.
 2. At 10% adoption of the winning corridors, NEAR Intents protocol revenue must cover at least **5%** of NEAR's yearly new supply. Result: **7.2%**, passes, narrowly.
 
+Next to the kill criteria, the site shows **what would change the verdict**: how many extra percentage points of cost on NEAR's route (or price cuts by incumbents) break each criterion, how much less the protocol could keep per swap, and the NEAR price above which new supply outweighs the revenue.
+
 ## Try it (do X, see Y)
 
 <p align="center"><img src="docs/calculator.png" alt="The calculator: $200 from the UAE to India arrives as $193.90 with a typical provider and about $196.56 to $198.56 through NEAR Intents, so NEAR wins" width="860"></p>
 
 1. Open https://corridor-index-zibj.vercel.app and click **Try a corridor**. You see a calculator set to **Kuwait → Pakistan**, with a red **NEAR loses** pill: the median provider already charges −0.39% (World Bank, Q3 2025), and NEAR's route costs more than that.
-2. Click **UAE → India**. You see **NEAR wins**: about $196–$198 arrives through NEAR against $193.90 today, the cost broken into cash in, NEAR Intents and cash out, and how much more the family keeps per $200. Below it is a live NEAR Intents quote, fetched from the 1Click API when the page loads.
+2. Click **UAE → India**. You see **NEAR wins**: about $196–$198 arrives through NEAR against $193.90 today, the cost broken into cash in, NEAR Intents and cash out, and how much more the family keeps per $200. Below it is a live NEAR Intents quote, fetched from the 1Click API when the page loads. Click **Share this corridor** and paste the link into X or WhatsApp: every corridor has its own page (`/c/areind`) with a preview image showing its verdict.
 3. Scroll to **Every corridor** and drag the **stress-test** slider from 1.0 to 3.0 points. You see the count of winning corridors and the share of tested money fall as NEAR is given a worse deal. That is the bear case, made adjustable.
 4. Click **Crypto illegal** or **Can't test**. You see every corridor that was left out, with the reason.
 5. Click **About** (or **Read the rest**) and, in **Is it worth it for NEAR?**, drag the adoption slider. You see the extra protocol revenue next to today's Intents revenue and NEAR's yearly new supply.
@@ -120,10 +122,11 @@ npm run dev      # the site, on http://localhost:3000
 | Path | What it is |
 | --- | --- |
 | `lib/model.mjs` | The rules, the verdicts, the sizing and the kill criteria |
+| `src/lib/mind.ts` | How far each input must move before a kill criterion fails |
 | `scripts/fetch.mjs` | Pulls every source into `data/raw` |
 | `scripts/build.mjs` | Builds `data/thesis.json` and the public CSV from `data/raw` |
 | `test/model.test.mjs` | Tests of the rules |
-| `src/app` | The Next.js site: home (calculator, verdict, corridors), `/about` (value for NEAR, bear case, method), `/privacy`; `src/app/api/quote` asks NEAR Intents for a live $200 quote |
+| `src/app` | The Next.js site: home (calculator, verdict, corridors), `/about` (value for NEAR, bear case, method), `/privacy`, `/c/<corridor>` (one page and share image per corridor); `src/app/api/quote` asks NEAR Intents for a live $200 quote |
 
 ## Built with
 

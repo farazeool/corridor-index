@@ -54,9 +54,9 @@ export function Calculator({
   }, [c.from, c.to]);
 
   const share = async () => {
-    const u = new URL(location.href);
-    u.searchParams.set("from", c.from); u.searchParams.set("to", c.to); u.hash = "calculator";
-    try { await navigator.clipboard.writeText(u.toString()); setCopied(true); setTimeout(() => setCopied(false), 1800); } catch { /* clipboard blocked */ }
+    // /c/<id> has its own preview image with this corridor's verdict, for X, WhatsApp and Telegram.
+    const u = `${location.origin}/c/${c.id}`;
+    try { await navigator.clipboard.writeText(u); setCopied(true); setTimeout(() => setCopied(false), 1800); } catch { /* clipboard blocked */ }
   };
 
   // The same corridor at US$200 or US$500 (World Bank prices both).
@@ -105,7 +105,7 @@ export function Calculator({
             {label}
           </button>
         ))}
-        <button className="btn !py-1 !text-xs ml-auto" onClick={share} aria-live="polite">{copied ? "Link copied" : "Copy link to this corridor"}</button>
+        <button className="btn !py-1 !text-xs ml-auto" onClick={share} aria-live="polite">{copied ? "Link copied" : "Share this corridor"}</button>
       </div>
 
       <div className="relative mt-6 grid gap-4 md:grid-cols-[1fr_1fr_auto] md:items-stretch">

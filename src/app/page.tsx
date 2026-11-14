@@ -11,6 +11,7 @@ import { WorthIt } from "@/components/WorthIt";
 import { T, country, type Corridor } from "@/lib/data";
 import { dateUtc, pct, share, usd, usdB } from "@/lib/format";
 import { REPO_URL } from "@/lib/site";
+import { MIND } from "@/lib/mind";
 
 const S = T.summary;
 const names = Object.fromEntries(Object.keys(T.countries).map((k) => [k, country(k)]));
@@ -134,6 +135,20 @@ export default function Home() {
               </li>
             </ul>
             <p className="mt-4 text-xs text-muted">Both re-check on every data run. If either fails, this page says so.</p>
+            <div className="mt-5 border-t border-rule pt-4">
+              <p className="eyebrow">What would change my mind</p>
+              <ul className="mt-3 space-y-2.5 text-sm text-ink-soft">
+                {MIND.winShareFailsAt != null && (
+                  <li>NEAR&apos;s route costing <span className="num text-ink">{MIND.winShareFailsAt.toFixed(2)}</span> more points (or incumbents getting that much cheaper) breaks criterion 1.</li>
+                )}
+                {MIND.revenueFailsAt != null && (
+                  <li>Just <span className="num text-ink">{MIND.revenueFailsAt.toFixed(2)}</span> more points breaks criterion 2, because fewer corridors win.</li>
+                )}
+                <li>The protocol keeping <span className="num text-ink">{share(MIND.takeRateCanFall)}</span> less of each swap breaks criterion 2.</li>
+                <li>NEAR above <span className="num text-ink">{usd(MIND.priceFailsAbove)}</span> with revenue unchanged breaks it too: new supply is worth more.</li>
+              </ul>
+              <p className="mt-3 text-xs text-muted">Drag the stress test under Every corridor to try it.</p>
+            </div>
           </aside>
         </div>
       </Section>
