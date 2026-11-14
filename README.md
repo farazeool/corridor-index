@@ -7,7 +7,7 @@
 <p align="center"><b>Where NEAR actually wins at sending money home.</b> A re-runnable investment thesis for NEAR, built at NEAR HACKATHON for the <b>Investment Thesis</b> track.</p>
 
 <p align="center">
-  <a href="https://corridor-index-zibj.vercel.app"><img alt="Live site" src="https://img.shields.io/badge/live-corridor--index--zibj.vercel.app-17181c"></a>
+  <a href="https://corridor-index-near.vercel.app"><img alt="Live site" src="https://img.shields.io/badge/live-corridor--index--near.vercel.app-17181c"></a>
   <a href="data/thesis.json"><img alt="348 corridors" src="https://img.shields.io/badge/corridors-348-1d3fbb"></a>
   <a href="#how-every-number-is-made"><img alt="Re-run with one command" src="https://img.shields.io/badge/re--run-npm%20run%20thesis-0e7a52"></a>
   <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-b3261e"></a>
@@ -19,7 +19,7 @@
 
 Most NEAR theses measure the chain from the inside: transactions, NEAR Intents volume, fees against inflation. This one tests NEAR against a real market. Migrants send about $900 billion home every year. For each of the 348 corridors the World Bank prices, it compares what a family receives today with what it would receive if the money went through NEAR Intents, including the cost of turning local cash into dollars and back again.
 
-- **Live site:** https://corridor-index-zibj.vercel.app
+- **Live site:** https://corridor-index-near.vercel.app
 - **All numbers:** [`data/thesis.json`](data/thesis.json) · [`public/data/corridors.csv`](public/data/corridors.csv)
 
 ## The answer (first live run, 13 Nov 2026)
@@ -53,7 +53,7 @@ Next to the kill criteria, the site shows **what would change the verdict**: how
 
 <p align="center"><img src="docs/calculator.png" alt="The calculator: $200 from the UAE to India arrives as $193.90 with a typical provider and about $196.56 to $198.56 through NEAR Intents, so NEAR wins" width="860"></p>
 
-1. Open https://corridor-index-zibj.vercel.app and click **Try a corridor**. You see a calculator set to **Kuwait → Pakistan**, with a red **NEAR loses** pill: the median provider already charges −0.39% (World Bank, Q3 2025), and NEAR's route costs more than that.
+1. Open https://corridor-index-near.vercel.app and click **Try a corridor**. You see a calculator set to **Kuwait → Pakistan**, with a red **NEAR loses** pill: the median provider already charges −0.39% (World Bank, Q3 2025), and NEAR's route costs more than that.
 2. Click **UAE → India**. You see **NEAR wins**: about $196–$198 arrives through NEAR against $193.90 today, the cost broken into cash in, NEAR Intents and cash out, and how much more the family keeps per $200. Below it is a live NEAR Intents quote, fetched from the 1Click API when the page loads. Click **Share this corridor** and paste the link into X or WhatsApp: every corridor has its own page (`/c/areind`) with a preview image showing its verdict.
 3. Scroll to **The map** and click any coloured country, for example India. You see where its money comes from, how much of it NEAR would carry for less, and a link to each corridor. Switch to **Money sent from** to see it from the sender's side.
 4. Under **The answer**, **Run by run** shows the win share and the revenue test on every daily run so far, against their kill lines.

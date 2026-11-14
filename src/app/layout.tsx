@@ -13,7 +13,7 @@ import { Progress } from "@/components/Progress";
 import { ThemeToggle } from "@/components/ThemeToggle";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://corridor-index-zibj.vercel.app"),
+  metadataBase: new URL("https://corridor-index-near.vercel.app"),
   twitter: { card: "summary_large_image" },
   title: "Corridor Index: where NEAR wins at sending money home",
   description:

@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export function Embed({ id, label }: { id: string; label: string }) {
   const [done, setDone] = useState<string | null>(null);
-  const base = typeof window === "undefined" ? "https://corridor-index-zibj.vercel.app" : location.origin;
+  const base = typeof window === "undefined" ? "https://corridor-index-near.vercel.app" : location.origin;
   const md = `[![${label}](${base}/badge/${id}.svg)](${base}/c/${id})`;
   const html = `<a href="${base}/c/${id}"><img src="${base}/badge/${id}.svg" alt="${label}"></a>`;
   const copy = async (k: string, v: string) => { try { await navigator.clipboard.writeText(v); setDone(k); setTimeout(() => setDone(null), 1600); } catch {} };
