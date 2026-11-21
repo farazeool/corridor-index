@@ -1,30 +1,30 @@
 {
- "fetchedAt": "2026-11-20T15:34:26.906Z",
+ "fetchedAt": "2026-11-21T14:45:43.593Z",
  "defillama": {
   "source": "https://api.llama.fi/summary/fees/near-intents and /summary/dexs/near-intents",
   "volumeUsd": {
-   "d24": 120825105,
-   "d30": 3903165073,
-   "y1": 32964069497
+   "d24": 233166271,
+   "d30": 3984879295,
+   "y1": 33020535572
   },
   "feesUsd": {
-   "d24": 179319,
-   "d30": 6828540,
-   "y1": 54199532
+   "d24": 545978,
+   "d30": 7160144,
+   "y1": 54325192
   },
   "revenueUsd": {
-   "d30": 1650724,
-   "y1": 9661007.05
+   "d30": 1689891,
+   "y1": 9763961.05
   }
  },
  "nearPriceUsd": {
   "source": "https://coins.llama.fi/prices/current/coingecko:near",
-  "price": 2.87505005
+  "price": 2.90932303
  },
  "nearRpc": {
   "source": "https://rpc.mainnet.fastnear.com block (final) + EXPERIMENTAL_protocol_config",
-  "height": 225424162,
-  "totalSupplyNear": 1312217677.536,
+  "height": 225568921,
+  "totalSupplyNear": 1312320149.193,
   "maxInflationRate": [
    1,
    40
