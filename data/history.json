@@ -98,5 +98,15 @@
   "winShare500": 0.5229561127887048,
   "intentsLegPct": 0.26,
   "nearPriceUsd": 2.90932303
+ },
+ {
+  "at": "2026-11-22T14:40:42.888Z",
+  "winShare": 0.7050180354946768,
+  "winsCorridors": 123,
+  "winsVolume": 274025000000,
+  "revenueShare": 0.08029235573030864,
+  "winShare500": 0.5957733650991309,
+  "intentsLegPct": 0.29,
+  "nearPriceUsd": 3.0408
  }
 ]
