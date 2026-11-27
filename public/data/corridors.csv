@@ -1,349 +1,349 @@
 from,to,from_name,to_name,verdict,volume_usd_2024,cost_today_pct,cost_today_basis,avg_all_providers_pct,cheapest_provider_pct,providers,near_low_pct,near_high_pct,cash_in_pct,cash_out_pct,cash_out_premium_pct,crypto_law,note
 AGO,NAM,Angola,Namibia,untested,6000000,13.29,median provider,13.29,9.94,2,,,,,,banking-ban,No public P2P market observed for AOA
-ARE,SSD,United Arab Emirates,South Sudan,untested,23000000,2.7,online providers,3.45,2.7,3,,,0.37,,,ok,No public P2P market observed for SSP
-ARE,IND,United Arab Emirates,India,wins,27501000000,3.05,median provider,3.72,0.77,24,0.68,1.68,0.37,-12.83,12.83,ok,
-ARE,EGY,United Arab Emirates,Egypt,illegal,5308000000,2.91,median provider,3.7,0.5,16,0.68,1.68,0.37,-3.19,3.19,illegal,Crypto is illegal at one end of this corridor
-ARE,LKA,United Arab Emirates,Sri Lanka,wins,492000000,2.61,median provider,2.7,0.25,18,0.68,1.68,0.37,-8.39,8.39,ok,
-ARE,NPL,United Arab Emirates,Nepal,illegal,122000000,2.98,median provider,3.41,0.94,17,0.68,1.68,0.37,-18.45,18.45,illegal,Crypto is illegal at one end of this corridor
-ARE,PAK,United Arab Emirates,Pakistan,loses,5442000000,0.63,median provider,2.17,-0.49,17,0.68,1.68,0.37,-6.33,6.33,ok,
-ARE,PHL,United Arab Emirates,Philippines,wins,3200000000,3.11,online providers,3.04,0.81,21,0.68,1.68,0.37,-0.1,0.1,ok,
-ARE,YEM,United Arab Emirates,Yemen,wins,275000000,4.93,median provider,7.53,2.97,6,0.68,1.68,0.37,-600.19,600.19,ok,
-ARE,BGD,United Arab Emirates,Bangladesh,illegal,3545000000,7.15,median provider,7.72,5.98,9,0.68,1.68,0.37,-7.2,7.2,illegal,Crypto is illegal at one end of this corridor
-ARE,IDN,United Arab Emirates,Indonesia,wins,1367000000,4,online providers,4.55,1.89,8,0.68,1.68,0.37,-0.7,0.7,ok,
-ARE,JOR,United Arab Emirates,Jordan,wins,937000000,5.13,online providers,5.16,4.35,6,0.68,1.68,0.37,-1.97,1.97,banking-ban,
-ARE,SDN,United Arab Emirates,Sudan,wins,51000000,32.86,median provider,25.58,2.97,4,0.68,1.68,0.37,-2174.58,2174.58,ok,
-AUS,FJI,Australia,Fiji,untested,156000000,3.55,online providers,4.35,-3.17,26,,,5.73,,,ok,No public P2P market observed for FJD
-AUS,IDN,Australia,Indonesia,loses,455000000,2.87,median provider,3.28,0.7,19,6.05,7.05,5.73,-0.7,0.7,ok,
-AUS,LKA,Australia,Sri Lanka,loses,650000000,3.04,median provider,4.04,1,23,6.05,7.05,5.73,-8.39,8.39,ok,
-AUS,SOM,Australia,Somalia,loses,17000000,2.97,median provider,3.6,1.59,11,6.05,7.05,5.73,-6.21,6.21,ok,
-AUS,ZWE,Australia,Zimbabwe,untested,143000000,4.66,online providers,5.5,2.36,20,,,5.73,,,ok,No public P2P market observed for ZWG
-AUS,IND,Australia,India,loses,6989000000,3.43,median provider,6.15,-2.22,36,6.05,7.05,5.73,-12.83,12.83,ok,
-AUS,CHN,Australia,China,illegal,1772000000,3.3,median provider,3.31,0.11,18,6.05,7.05,5.73,-0.1,0.1,illegal,Crypto is illegal at one end of this corridor
-AUS,LBN,Australia,Lebanon,loses,700000000,5.84,online providers,10.67,2.39,33,6.05,7.05,5.73,-0.96,0.96,ok,
-AUS,MYS,Australia,Malaysia,untested,111000000,3.06,median provider,3.65,0.8,20,,,5.73,,,ok,No public P2P market observed for MYR
-AUS,PHL,Australia,Philippines,loses,2045000000,2.41,median provider,2.61,0.48,34,6.05,7.05,5.73,-0.1,0.1,ok,
-AUS,PAK,Australia,Pakistan,loses,689000000,1.62,online providers,1.77,-1.53,25,6.05,7.05,5.73,-6.33,6.33,ok,
-AUS,THA,Australia,Thailand,untested,801000000,3.68,median provider,4.2,1.52,19,,,5.73,,,ok,No public P2P market observed for THB
-AUS,TON,Australia,Tonga,untested,66000000,6.62,median provider,7.65,0.92,16,,,5.73,,,ok,No public P2P market observed for TOP
-AUS,VNM,Australia,Vietnam,loses,1341000000,3.88,online providers,5.01,0.17,18,6.05,7.05,5.73,-2.48,2.48,ok,
-AUS,VUT,Australia,Vanuatu,untested,,8.63,median provider,12.77,5.72,14,,,5.73,,,ok,No public P2P market observed for VUV
-AUS,WSM,Australia,Samoa,untested,81000000,4.52,online providers,5.93,-0.54,15,,,5.73,,,ok,No public P2P market observed for WST
-AUT,BIH,Austria,Bosnia and Herzegovina,untested,331000000,6.16,online providers,6.64,2.68,17,,,0.54,,,ok,No public P2P market observed for BAM
-AUT,HRV,Austria,Croatia,wins,453000000,2.85,median provider,2.78,0,20,0.85,1.85,0.54,-4.16,4.16,ok,
-AUT,HUN,Austria,Hungary,loses,710000000,3.97,median provider,4.42,0.83,19,6.79,7.79,0.54,5.94,,ok,
-AUT,SRB,Austria,Serbia,wins,843000000,4.65,online providers,5.3,3.57,17,0.85,1.85,0.54,-0.65,0.65,ok,
-AUT,TUR,Austria,Türkiye,wins,51000000,3.41,online providers,3.94,0.54,37,0.85,1.85,0.54,-5.87,5.87,ok,
-AUT,KSV,Austria,Kosovo,wins,111000000,3.71,online providers,4.36,0,20,0.85,1.85,0.54,-4.16,4.16,ok,
-BEL,COD,Belgium,DR Congo,wins,165000000,3.19,online providers,3.15,1.36,15,0.85,1.85,0.54,-10.82,10.82,ok,
-BEL,MAR,Belgium,Morocco,illegal,881000000,3.49,online providers,3.86,1.18,22,0.85,1.85,0.54,-8.11,8.11,illegal,Crypto is illegal at one end of this corridor
-BEL,TUR,Belgium,Türkiye,wins,37000000,4.02,online providers,4.22,2.05,21,0.85,1.85,0.54,-5.87,5.87,ok,
-BEL,DZA,Belgium,Algeria,illegal,31000000,1.29,median provider,1.29,1.09,6,0.85,1.85,0.54,-96.77,96.77,illegal,Crypto is illegal at one end of this corridor
-BHR,BGD,Bahrain,Bangladesh,illegal,339000000,6.12,median provider,6.2,5.73,11,3.77,4.77,3.46,-7.2,7.2,illegal,Crypto is illegal at one end of this corridor
-BHR,PAK,Bahrain,Pakistan,loses,508000000,0.6,median provider,0.92,-0.46,7,3.77,4.77,3.46,-6.33,6.33,ok,
-BHR,IND,Bahrain,India,loses,2640000000,1.32,online providers,2.17,0.24,10,3.77,4.77,3.46,-12.83,12.83,ok,
-BHR,EGY,Bahrain,Egypt,illegal,519000000,2.71,online providers,3.25,2.41,5,3.77,4.77,3.46,-3.19,3.19,illegal,Crypto is illegal at one end of this corridor
-BRA,BOL,Brazil,Bolivia,untested,60000000,18.69,median provider,22.59,5.79,8,,,,-2.02,2.02,banking-ban,No public P2P market observed for BRL
-BRA,PER,Brazil,Peru,untested,54000000,4.94,online providers,7.1,1.98,10,,,,-0.52,0.52,ok,No public P2P market observed for BRL
-BRA,PRY,Brazil,Paraguay,untested,70000000,6.43,median provider,8.18,2.74,10,,,,0.8,,ok,No public P2P market observed for BRL
-CAN,KEN,Canada,Kenya,wins,262000000,4.46,online providers,6,0.86,21,3,4,2.68,-0.64,0.64,ok,
-CAN,NGA,Canada,Nigeria,untested,1145000000,3.06,median provider,3.15,0.96,13,,,2.68,,,banking-ban,No public P2P market observed for NGN
-CAN,JAM,Canada,Jamaica,loses,391000000,5.22,median provider,5.69,2.1,15,11.93,12.93,2.68,8.93,,ok,
-CAN,RWA,Canada,Rwanda,wins,15000000,4.59,online providers,5.03,1.94,16,3,4,2.68,-0.89,0.89,ok,
-CAN,VNM,Canada,Vietnam,wins,798000000,4.15,median provider,6.2,2.1,19,3,4,2.68,-2.48,2.48,ok,
-CAN,ZWE,Canada,Zimbabwe,untested,42000000,4.33,median provider,6.58,2.1,17,,,2.68,,,ok,No public P2P market observed for ZWG
-CAN,PHL,Canada,Philippines,close,4665000000,3,online providers,3.55,0.58,37,3,4,2.68,-0.1,0.1,ok,
-CAN,IND,Canada,India,loses,7873000000,2.57,online providers,4.28,0.86,32,3,4,2.68,-12.83,12.83,ok,
-CAN,PAK,Canada,Pakistan,wins,1391000000,4.36,median provider,4.73,1.28,19,3,4,2.68,-6.33,6.33,ok,
-CAN,CHN,Canada,China,illegal,2044000000,4.41,online providers,5.83,1.7,14,3,4,2.68,-0.1,0.1,illegal,Crypto is illegal at one end of this corridor
-CAN,GHA,Canada,Ghana,untested,77000000,3.95,online providers,5.42,-2.3,21,,,2.68,,,ok,No public P2P market observed for GHS
-CAN,GUY,Canada,Guyana,untested,94000000,7.77,online providers,8.35,4.16,10,,,2.68,,,ok,No public P2P market observed for GYD
-CAN,HTI,Canada,Haiti,wins,236000000,4.9,online providers,5.78,2.1,13,3,4,2.68,-9.46,9.46,ok,
-CAN,LBN,Canada,Lebanon,wins,705000000,5.83,online providers,9.43,2.1,8,3,4,2.68,-0.96,0.96,ok,
-CAN,LKA,Canada,Sri Lanka,wins,569000000,4.6,online providers,4.75,2.65,9,3,4,2.68,-8.39,8.39,ok,
-CHE,LKA,Switzerland,Sri Lanka,loses,156000000,4.79,median provider,5.27,2.28,17,4.96,5.96,4.65,-8.39,8.39,ok,
-CHE,HUN,Switzerland,Hungary,loses,209000000,3.12,median provider,3.81,0.63,13,10.9,11.9,4.65,5.94,,ok,
-CHE,SRB,Switzerland,Serbia,loses,402000000,4.85,online providers,5.62,3.25,9,4.96,5.96,4.65,-0.65,0.65,ok,
-CHE,ALB,Switzerland,Albania,loses,9000000,6.48,online providers,7.11,5.36,7,17.09,18.09,4.65,12.13,,ok,
-CHE,KSV,Switzerland,Kosovo,wins,322000000,8.51,median provider,12.87,5.72,11,4.96,5.96,4.65,-4.16,4.16,ok,
-CHL,PER,Chile,Peru,untested,691000000,4.62,median provider,4.93,4.25,7,,,,-0.52,0.52,ok,No public P2P market observed for CLP
-CIV,MLI,Côte d'Ivoire,Mali,untested,285000000,1.5,online providers,6.17,1.5,7,,,,-9.94,9.94,ok,No public P2P market observed for XOF
+ARE,SSD,United Arab Emirates,South Sudan,untested,23000000,2.7,online providers,3.45,2.7,3,,,0.48,,,ok,No public P2P market observed for SSP
+ARE,IND,United Arab Emirates,India,wins,27501000000,3.05,median provider,3.72,0.77,24,0.91,1.91,0.48,-12.61,12.61,ok,
+ARE,EGY,United Arab Emirates,Egypt,illegal,5308000000,2.91,median provider,3.7,0.5,16,0.91,1.91,0.48,-3.3,3.3,illegal,Crypto is illegal at one end of this corridor
+ARE,LKA,United Arab Emirates,Sri Lanka,wins,492000000,2.61,median provider,2.7,0.25,18,0.91,1.91,0.48,-6.44,6.44,ok,
+ARE,NPL,United Arab Emirates,Nepal,illegal,122000000,2.98,median provider,3.41,0.94,17,0.91,1.91,0.48,-19.07,19.07,illegal,Crypto is illegal at one end of this corridor
+ARE,PAK,United Arab Emirates,Pakistan,loses,5442000000,0.63,median provider,2.17,-0.49,17,0.91,1.91,0.48,-8.04,8.04,ok,
+ARE,PHL,United Arab Emirates,Philippines,wins,3200000000,3.11,online providers,3.04,0.81,21,0.98,1.98,0.48,0.07,,ok,
+ARE,YEM,United Arab Emirates,Yemen,wins,275000000,4.93,median provider,7.53,2.97,6,0.91,1.91,0.48,-601.41,601.41,ok,
+ARE,BGD,United Arab Emirates,Bangladesh,illegal,3545000000,7.15,median provider,7.72,5.98,9,0.91,1.91,0.48,-7.72,7.72,illegal,Crypto is illegal at one end of this corridor
+ARE,IDN,United Arab Emirates,Indonesia,wins,1367000000,4,online providers,4.55,1.89,8,0.91,1.91,0.48,-0.58,0.58,ok,
+ARE,JOR,United Arab Emirates,Jordan,wins,937000000,5.13,online providers,5.16,4.35,6,0.91,1.91,0.48,-1.97,1.97,banking-ban,
+ARE,SDN,United Arab Emirates,Sudan,wins,51000000,32.86,median provider,25.58,2.97,4,0.91,1.91,0.48,-2300.78,2300.78,ok,
+AUS,FJI,Australia,Fiji,untested,156000000,3.55,online providers,4.35,-3.17,26,,,6,,,ok,No public P2P market observed for FJD
+AUS,IDN,Australia,Indonesia,loses,455000000,2.87,median provider,3.28,0.7,19,6.43,7.43,6,-0.58,0.58,ok,
+AUS,LKA,Australia,Sri Lanka,loses,650000000,3.04,median provider,4.04,1,23,6.43,7.43,6,-6.44,6.44,ok,
+AUS,SOM,Australia,Somalia,loses,17000000,2.97,median provider,3.6,1.59,11,6.43,7.43,6,-6.1,6.1,ok,
+AUS,ZWE,Australia,Zimbabwe,untested,143000000,4.66,online providers,5.5,2.36,20,,,6,,,ok,No public P2P market observed for ZWG
+AUS,IND,Australia,India,loses,6989000000,3.43,median provider,6.15,-2.22,36,6.43,7.43,6,-12.61,12.61,ok,
+AUS,CHN,Australia,China,illegal,1772000000,3.3,median provider,3.31,0.11,18,6.66,7.66,6,0.22,,illegal,Crypto is illegal at one end of this corridor
+AUS,LBN,Australia,Lebanon,loses,700000000,5.84,online providers,10.67,2.39,33,6.43,7.43,6,-1.23,1.23,ok,
+AUS,MYS,Australia,Malaysia,untested,111000000,3.06,median provider,3.65,0.8,20,,,6,,,ok,No public P2P market observed for MYR
+AUS,PHL,Australia,Philippines,loses,2045000000,2.41,median provider,2.61,0.48,34,6.51,7.51,6,0.07,,ok,
+AUS,PAK,Australia,Pakistan,loses,689000000,1.62,online providers,1.77,-1.53,25,6.43,7.43,6,-8.04,8.04,ok,
+AUS,THA,Australia,Thailand,untested,801000000,3.68,median provider,4.2,1.52,19,,,6,,,ok,No public P2P market observed for THB
+AUS,TON,Australia,Tonga,untested,66000000,6.62,median provider,7.65,0.92,16,,,6,,,ok,No public P2P market observed for TOP
+AUS,VNM,Australia,Vietnam,loses,1341000000,3.88,online providers,5.01,0.17,18,6.43,7.43,6,-2.35,2.35,ok,
+AUS,VUT,Australia,Vanuatu,untested,,8.63,median provider,12.77,5.72,14,,,6,,,ok,No public P2P market observed for VUV
+AUS,WSM,Australia,Samoa,untested,81000000,4.52,online providers,5.93,-0.54,15,,,6,,,ok,No public P2P market observed for WST
+AUT,BIH,Austria,Bosnia and Herzegovina,untested,331000000,6.16,online providers,6.64,2.68,17,,,0.73,,,ok,No public P2P market observed for BAM
+AUT,HRV,Austria,Croatia,wins,453000000,2.85,median provider,2.78,0,20,1.17,2.17,0.73,-3.15,3.15,ok,
+AUT,HUN,Austria,Hungary,loses,710000000,3.97,median provider,4.42,0.83,19,7.12,8.12,0.73,5.96,,ok,
+AUT,SRB,Austria,Serbia,wins,843000000,4.65,online providers,5.3,3.57,17,1.17,2.17,0.73,-1.75,1.75,ok,
+AUT,TUR,Austria,Türkiye,wins,51000000,3.41,online providers,3.94,0.54,37,1.17,2.17,0.73,-6.43,6.43,ok,
+AUT,KSV,Austria,Kosovo,wins,111000000,3.71,online providers,4.36,0,20,1.17,2.17,0.73,-3.15,3.15,ok,
+BEL,COD,Belgium,DR Congo,wins,165000000,3.19,online providers,3.15,1.36,15,1.17,2.17,0.73,-10.87,10.87,ok,
+BEL,MAR,Belgium,Morocco,illegal,881000000,3.49,online providers,3.86,1.18,22,1.17,2.17,0.73,-8.06,8.06,illegal,Crypto is illegal at one end of this corridor
+BEL,TUR,Belgium,Türkiye,wins,37000000,4.02,online providers,4.22,2.05,21,1.17,2.17,0.73,-6.43,6.43,ok,
+BEL,DZA,Belgium,Algeria,illegal,31000000,1.29,median provider,1.29,1.09,6,1.17,2.17,0.73,-99.15,99.15,illegal,Crypto is illegal at one end of this corridor
+BHR,BGD,Bahrain,Bangladesh,illegal,339000000,6.12,median provider,6.2,5.73,11,3.89,4.89,3.46,-7.72,7.72,illegal,Crypto is illegal at one end of this corridor
+BHR,PAK,Bahrain,Pakistan,loses,508000000,0.6,median provider,0.92,-0.46,7,3.89,4.89,3.46,-8.04,8.04,ok,
+BHR,IND,Bahrain,India,loses,2640000000,1.32,online providers,2.17,0.24,10,3.89,4.89,3.46,-12.61,12.61,ok,
+BHR,EGY,Bahrain,Egypt,illegal,519000000,2.71,online providers,3.25,2.41,5,3.89,4.89,3.46,-3.3,3.3,illegal,Crypto is illegal at one end of this corridor
+BRA,BOL,Brazil,Bolivia,untested,60000000,18.69,median provider,22.59,5.79,8,,,,-1.86,1.86,banking-ban,No public P2P market observed for BRL
+BRA,PER,Brazil,Peru,untested,54000000,4.94,online providers,7.1,1.98,10,,,,-1.01,1.01,ok,No public P2P market observed for BRL
+BRA,PRY,Brazil,Paraguay,untested,70000000,6.43,median provider,8.18,2.74,10,,,,0.18,,ok,No public P2P market observed for BRL
+CAN,KEN,Canada,Kenya,wins,262000000,4.46,online providers,6,0.86,21,3.24,4.24,2.8,-0.99,0.99,ok,
+CAN,NGA,Canada,Nigeria,untested,1145000000,3.06,median provider,3.15,0.96,13,,,2.8,,,banking-ban,No public P2P market observed for NGN
+CAN,JAM,Canada,Jamaica,loses,391000000,5.22,median provider,5.69,2.1,15,12.02,13.02,2.8,8.79,,ok,
+CAN,RWA,Canada,Rwanda,wins,15000000,4.59,online providers,5.03,1.94,16,3.24,4.24,2.8,-0.9,0.9,ok,
+CAN,VNM,Canada,Vietnam,close,798000000,4.15,median provider,6.2,2.1,19,3.24,4.24,2.8,-2.35,2.35,ok,
+CAN,ZWE,Canada,Zimbabwe,untested,42000000,4.33,median provider,6.58,2.1,17,,,2.8,,,ok,No public P2P market observed for ZWG
+CAN,PHL,Canada,Philippines,loses,4665000000,3,online providers,3.55,0.58,37,3.31,4.31,2.8,0.07,,ok,
+CAN,IND,Canada,India,loses,7873000000,2.57,online providers,4.28,0.86,32,3.24,4.24,2.8,-12.61,12.61,ok,
+CAN,PAK,Canada,Pakistan,wins,1391000000,4.36,median provider,4.73,1.28,19,3.24,4.24,2.8,-8.04,8.04,ok,
+CAN,CHN,Canada,China,illegal,2044000000,4.41,online providers,5.83,1.7,14,3.46,4.46,2.8,0.22,,illegal,Crypto is illegal at one end of this corridor
+CAN,GHA,Canada,Ghana,untested,77000000,3.95,online providers,5.42,-2.3,21,,,2.8,,,ok,No public P2P market observed for GHS
+CAN,GUY,Canada,Guyana,untested,94000000,7.77,online providers,8.35,4.16,10,,,2.8,,,ok,No public P2P market observed for GYD
+CAN,HTI,Canada,Haiti,wins,236000000,4.9,online providers,5.78,2.1,13,3.24,4.24,2.8,-9.22,9.22,ok,
+CAN,LBN,Canada,Lebanon,wins,705000000,5.83,online providers,9.43,2.1,8,3.24,4.24,2.8,-1.23,1.23,ok,
+CAN,LKA,Canada,Sri Lanka,wins,569000000,4.6,online providers,4.75,2.65,9,3.24,4.24,2.8,-6.44,6.44,ok,
+CHE,LKA,Switzerland,Sri Lanka,close,156000000,4.79,median provider,5.27,2.28,17,4.71,5.71,4.28,-6.44,6.44,ok,
+CHE,HUN,Switzerland,Hungary,loses,209000000,3.12,median provider,3.81,0.63,13,10.67,11.67,4.28,5.96,,ok,
+CHE,SRB,Switzerland,Serbia,close,402000000,4.85,online providers,5.62,3.25,9,4.71,5.71,4.28,-1.75,1.75,ok,
+CHE,ALB,Switzerland,Albania,loses,9000000,6.48,online providers,7.11,5.36,7,16.4,17.4,4.28,11.68,,ok,
+CHE,KSV,Switzerland,Kosovo,wins,322000000,8.51,median provider,12.87,5.72,11,4.71,5.71,4.28,-3.15,3.15,ok,
+CHL,PER,Chile,Peru,untested,691000000,4.62,median provider,4.93,4.25,7,,,,-1.01,1.01,ok,No public P2P market observed for CLP
+CIV,MLI,Côte d'Ivoire,Mali,untested,285000000,1.5,online providers,6.17,1.5,7,,,,-9.34,9.34,ok,No public P2P market observed for XOF
 CMR,NGA,Cameroon,Nigeria,untested,1408000000,4.38,median provider,4.38,4.13,2,,,,,,banking-ban,No public P2P market observed for XAF
-CRI,NIC,Costa Rica,Nicaragua,untested,2250000000,2.75,median provider,6.86,2.75,9,,,,1.96,,ok,No public P2P market observed for CRC
-CZE,UKR,Czechia,Ukraine,loses,954000000,3.74,median provider,6.18,0.8,15,5.97,6.97,5.65,-8.39,8.39,ok,
-CZE,VNM,Czechia,Vietnam,loses,157000000,4.26,median provider,6.36,1.55,16,5.97,6.97,5.65,-2.48,2.48,ok,
-DEU,NGA,Germany,Nigeria,untested,969000000,1.51,median provider,2.85,-0.18,33,,,0.54,,,banking-ban,No public P2P market observed for NGN
-DEU,BGR,Germany,Bulgaria,untested,609000000,3.54,online providers,3.58,0,25,,,0.54,,,ok,No public P2P market observed for BGN
-DEU,BIH,Germany,Bosnia and Herzegovina,untested,594000000,3.84,online providers,4.9,1.96,22,,,0.54,,,ok,No public P2P market observed for BAM
-DEU,GHA,Germany,Ghana,untested,166000000,2.9,median provider,4.45,0.76,33,,,0.54,,,ok,No public P2P market observed for GHS
-DEU,HRV,Germany,Croatia,wins,2101000000,3.56,median provider,3.14,0,20,0.85,1.85,0.54,-4.16,4.16,ok,
-DEU,HUN,Germany,Hungary,loses,1595000000,6.07,median provider,7.18,2.05,18,6.79,7.79,0.54,5.94,,ok,
-DEU,IND,Germany,India,wins,2159000000,2.06,median provider,6.78,1.35,27,0.85,1.85,0.54,-12.83,12.83,ok,
-DEU,MAR,Germany,Morocco,illegal,530000000,3.72,online providers,4.11,2.24,33,0.85,1.85,0.54,-8.11,8.11,illegal,Crypto is illegal at one end of this corridor
-DEU,MDA,Germany,Moldova,wins,66000000,3.15,online providers,4.66,2.76,13,2.07,3.07,0.54,1.21,,ok,
-DEU,ROU,Germany,Romania,loses,2044000000,2.79,median provider,3.2,0,51,4.8,5.8,0.54,3.95,,ok,
-DEU,THA,Germany,Thailand,untested,467000000,2.92,median provider,6.65,2.12,21,,,0.54,,,ok,No public P2P market observed for THB
-DEU,TUR,Germany,Türkiye,wins,464000000,3,median provider,4.01,1.74,30,0.85,1.85,0.54,-5.87,5.87,ok,
-DEU,UKR,Germany,Ukraine,wins,2692000000,2.79,median provider,3.49,0,19,0.85,1.85,0.54,-8.39,8.39,ok,
-DEU,VNM,Germany,Vietnam,wins,647000000,2.68,median provider,3.85,1.34,35,0.85,1.85,0.54,-2.48,2.48,ok,
-DEU,KGZ,Germany,Kyrgyzstan,wins,78000000,6.77,online providers,9.85,5.9,8,0.85,1.85,0.54,-1.17,1.17,ok,
-DEU,SRB,Germany,Serbia,close,1777000000,1.78,median provider,2.47,0,17,0.85,1.85,0.54,-0.65,0.65,ok,
-DEU,TJK,Germany,Tajikistan,wins,181000000,2.58,median provider,2.99,0,19,0.85,1.85,0.54,-1.82,1.82,ok,
-DEU,CHN,Germany,China,illegal,455000000,6.18,online providers,9.38,3.07,16,0.85,1.85,0.54,-0.1,0.1,illegal,Crypto is illegal at one end of this corridor
-DEU,LBN,Germany,Lebanon,wins,387000000,3.86,online providers,5.49,3,5,0.85,1.85,0.54,-0.96,0.96,ok,
-DEU,TGO,Germany,Togo,wins,,2.48,online providers,3.46,1.45,15,0.85,1.85,0.54,-9.94,9.94,ok,
-DEU,KSV,Germany,Kosovo,wins,1051000000,3.2,online providers,4.4,0.3,12,0.85,1.85,0.54,-4.16,4.16,ok,
-DEU,AFG,Germany,Afghanistan,illegal,24000000,7.22,online providers,8.61,6.68,5,0.85,1.85,0.54,-3.17,3.17,illegal,Crypto is illegal at one end of this corridor
-DEU,ALB,Germany,Albania,loses,203000000,4.01,online providers,5.58,3.21,6,12.98,13.98,0.54,12.13,,ok,
-DEU,MKD,Germany,North Macedonia,untested,119000000,1.78,online providers,4.07,0,7,,,0.54,,,ok,No public P2P market observed for MKD
-DOM,HTI,Dominican Republic,Haiti,untested,857000000,7.91,median provider,7.68,6.71,3,,,,-9.46,9.46,ok,No public P2P market observed for DOP
-ESP,BOL,Spain,Bolivia,wins,281000000,11.23,online providers,15.8,3.76,12,0.85,1.85,0.54,-2.02,2.02,banking-ban,
-ESP,BRA,Spain,Brazil,untested,362000000,4.14,median provider,4.18,0.76,18,,,0.54,,,ok,No public P2P market observed for BRL
-ESP,HND,Spain,Honduras,wins,1305000000,3.68,median provider,5.86,1.79,14,0.85,1.85,0.54,-2.19,2.19,ok,
-ESP,MAR,Spain,Morocco,illegal,3470000000,3.8,median provider,6.29,1.79,22,0.85,1.85,0.54,-8.11,8.11,illegal,Crypto is illegal at one end of this corridor
-ESP,NGA,Spain,Nigeria,untested,340000000,2.84,online providers,2.88,0.71,18,,,0.54,,,banking-ban,No public P2P market observed for NGN
-ESP,COL,Spain,Colombia,close,2712000000,4.62,median provider,5.48,1.69,22,4.18,5.18,0.54,3.33,,banking-ban,
-ESP,ECU,Spain,Ecuador,wins,2175000000,3.95,online providers,7.06,2.16,15,0.85,1.85,0.54,0,,ok,
-ESP,ROU,Spain,Romania,loses,1096000000,2.87,median provider,4.75,1.49,19,4.8,5.8,0.54,3.95,,ok,
-ESP,PER,Spain,Peru,wins,1052000000,3.09,median provider,3.63,1.68,15,0.85,1.85,0.54,-0.52,0.52,ok,
-ESP,CHN,Spain,China,illegal,520000000,5.14,median provider,5.32,3.75,12,0.85,1.85,0.54,-0.1,0.1,illegal,Crypto is illegal at one end of this corridor
-ESP,BGR,Spain,Bulgaria,untested,184000000,4.18,online providers,4.18,2.44,13,,,0.54,,,ok,No public P2P market observed for BGN
-ESP,DOM,Spain,Dominican Republic,wins,1115000000,5.09,median provider,5.07,1.64,13,0.85,1.85,0.54,-3.89,3.89,ok,
-ESP,PHL,Spain,Philippines,wins,315000000,2.88,median provider,2.91,1.26,23,0.85,1.85,0.54,-0.1,0.1,ok,
-FRA,CMR,France,Cameroon,wins,166000000,2.32,median provider,3.08,1.26,20,0.85,1.85,0.54,-6.72,6.72,ok,
-FRA,CHN,France,China,illegal,325000000,4.05,median provider,4.48,1.05,19,0.85,1.85,0.54,-0.1,0.1,illegal,Crypto is illegal at one end of this corridor
-FRA,IND,France,India,wins,527000000,3.47,median provider,6.33,1.4,28,0.85,1.85,0.54,-12.83,12.83,ok,
-FRA,MAR,France,Morocco,illegal,3527000000,3.6,median provider,7.39,1.46,39,0.85,1.85,0.54,-8.11,8.11,illegal,Crypto is illegal at one end of this corridor
-FRA,VNM,France,Vietnam,wins,525000000,3.02,median provider,5.3,1.96,18,0.85,1.85,0.54,-2.48,2.48,ok,
-FRA,LBN,France,Lebanon,wins,381000000,4.31,online providers,5.08,2.37,11,0.85,1.85,0.54,-0.96,0.96,ok,
-FRA,TUN,France,Tunisia,wins,1500000000,3.71,online providers,5.5,0.61,18,0.85,1.85,0.54,-16.04,16.04,ok,
-FRA,CIV,France,Côte d'Ivoire,wins,293000000,3.93,median provider,4.05,1.03,21,0.85,1.85,0.54,-9.94,9.94,ok,
-FRA,COM,France,Comoros,untested,265000000,3.14,median provider,3.78,2.75,11,,,0.54,,,ok,No public P2P market observed for KMF
-FRA,HTI,France,Haiti,wins,263000000,4.61,online providers,4.86,4.1,8,0.85,1.85,0.54,-9.46,9.46,ok,
-FRA,MDG,France,Madagascar,wins,341000000,4.62,online providers,5.31,2.94,14,0.85,1.85,0.54,-7.13,7.13,ok,
-FRA,SEN,France,Senegal,wins,1006000000,2.15,online providers,2.41,0.91,17,0.85,1.85,0.54,-9.94,9.94,ok,
-FRA,SRB,France,Serbia,wins,566000000,5.39,median provider,8.05,4.89,11,0.85,1.85,0.54,-0.65,0.65,ok,
-FRA,TGO,France,Togo,wins,,3.06,online providers,3.36,2.48,11,0.85,1.85,0.54,-9.94,9.94,ok,
-FRA,MLI,France,Mali,wins,162000000,2.53,online providers,2.88,1.23,9,0.85,1.85,0.54,-9.94,9.94,ok,
-GBR,NGA,United Kingdom,Nigeria,untested,3287000000,1.01,median provider,1.96,-0.12,31,,,1.65,,,banking-ban,No public P2P market observed for NGN
-GBR,SLE,United Kingdom,Sierra Leone,wins,69000000,4.43,median provider,5.52,3.52,18,1.97,2.97,1.65,-11.55,11.55,ok,
-GBR,ETH,United Kingdom,Ethiopia,untested,147000000,3.45,online providers,4.34,2.03,19,,,1.65,,,ok,No public P2P market observed for ETB
-GBR,NPL,United Kingdom,Nepal,illegal,382000000,2.03,median provider,2.9,0.77,22,1.97,2.97,1.65,-18.45,18.45,illegal,Crypto is illegal at one end of this corridor
-GBR,SSD,United Kingdom,South Sudan,untested,2000000,6.07,online providers,7.95,4.75,10,,,1.65,,,ok,No public P2P market observed for SSP
-GBR,BGD,United Kingdom,Bangladesh,illegal,937000000,5.07,median provider,5.11,2.41,32,1.97,2.97,1.65,-7.2,7.2,illegal,Crypto is illegal at one end of this corridor
-GBR,BGR,United Kingdom,Bulgaria,untested,319000000,4.15,online providers,6.29,1.32,22,,,1.65,,,ok,No public P2P market observed for BGN
-GBR,BRA,United Kingdom,Brazil,untested,268000000,2.45,median provider,3.86,0.85,29,,,1.65,,,ok,No public P2P market observed for BRL
-GBR,CHN,United Kingdom,China,illegal,474000000,3.57,median provider,4.27,0.72,23,1.97,2.97,1.65,-0.1,0.1,illegal,Crypto is illegal at one end of this corridor
-GBR,IND,United Kingdom,India,close,8050000000,1.99,online providers,1.91,0.15,28,1.97,2.97,1.65,-12.83,12.83,ok,
-GBR,KEN,United Kingdom,Kenya,close,1192000000,2.65,median provider,3.43,0.38,27,1.97,2.97,1.65,-0.64,0.64,ok,
-GBR,LKA,United Kingdom,Sri Lanka,close,645000000,2.11,median provider,3.06,1.13,29,1.97,2.97,1.65,-8.39,8.39,ok,
-GBR,PAK,United Kingdom,Pakistan,close,3634000000,2.46,online providers,2.39,-1.43,29,1.97,2.97,1.65,-6.33,6.33,ok,
-GBR,PHL,United Kingdom,Philippines,wins,980000000,3.01,online providers,3.33,0.44,38,1.97,2.97,1.65,-0.1,0.1,ok,
-GBR,TZA,United Kingdom,Tanzania,wins,192000000,4.24,online providers,4.88,1.08,24,1.97,2.97,1.65,-2.11,2.11,ok,
-GBR,UGA,United Kingdom,Uganda,wins,232000000,4.12,online providers,4.64,1.27,34,1.97,2.97,1.65,-4.02,4.02,ok,
-GBR,VNM,United Kingdom,Vietnam,wins,194000000,3.22,median provider,3.95,0.73,25,1.97,2.97,1.65,-2.48,2.48,ok,
-GBR,ZAF,United Kingdom,South Africa,wins,192000000,5.78,median provider,6.39,2.07,24,1.97,2.97,1.65,-1.54,1.54,ok,
-GBR,LBN,United Kingdom,Lebanon,wins,169000000,4.35,online providers,5.7,1.99,15,1.97,2.97,1.65,-0.96,0.96,ok,
-GBR,SOM,United Kingdom,Somalia,wins,195000000,5.43,online providers,6.7,3.89,17,1.97,2.97,1.65,-6.21,6.21,ok,
-GBR,ZWE,United Kingdom,Zimbabwe,untested,384000000,4.64,online providers,5.04,1.63,23,,,1.65,,,ok,No public P2P market observed for ZWG
-GBR,AFG,United Kingdom,Afghanistan,illegal,6000000,7.8,online providers,10.56,7.54,3,1.97,2.97,1.65,-3.17,3.17,illegal,Crypto is illegal at one end of this corridor
-GBR,POL,United Kingdom,Poland,loses,1694000000,1.75,median provider,2.66,0.18,30,1.97,2.97,1.65,-0.74,0.74,ok,
-GBR,ROU,United Kingdom,Romania,loses,1480000000,2.65,online providers,3.12,0.95,24,5.92,6.92,1.65,3.95,,ok,
-GBR,RWA,United Kingdom,Rwanda,wins,8000000,3,median provider,7.43,1.76,23,1.97,2.97,1.65,-0.89,0.89,ok,
-GBR,ERI,United Kingdom,Eritrea,wins,,5.76,online providers,8.42,4.19,12,1.97,2.97,1.65,0,,ok,
-GBR,ALB,United Kingdom,Albania,loses,119000000,4.29,online providers,5.84,1.77,30,14.1,15.1,1.65,12.13,,ok,
-GBR,GHA,United Kingdom,Ghana,untested,448000000,1.38,median provider,4.24,-0.03,37,,,1.65,,,ok,No public P2P market observed for GHS
-GBR,GMB,United Kingdom,The Gambia,wins,70000000,11.87,median provider,12.06,8.05,22,1.97,2.97,1.65,-4.19,4.19,ok,
-GBR,JAM,United Kingdom,Jamaica,loses,395000000,4.86,median provider,4.45,-1.27,20,10.9,11.9,1.65,8.93,,ok,
-GBR,LTU,United Kingdom,Lithuania,wins,368000000,3.63,online providers,4.67,0.72,25,1.97,2.97,1.65,-4.16,4.16,ok,
-GBR,THA,United Kingdom,Thailand,untested,420000000,4.38,median provider,5.04,1.64,25,,,1.65,,,ok,No public P2P market observed for THB
-GBR,ZMB,United Kingdom,Zambia,wins,65000000,3.11,median provider,4.34,2.28,21,1.97,2.97,1.65,-4.98,4.98,ok,
+CRI,NIC,Costa Rica,Nicaragua,untested,2250000000,2.75,median provider,6.86,2.75,9,,,,-3.49,3.49,ok,No public P2P market observed for CRC
+CZE,UKR,Czechia,Ukraine,loses,954000000,3.74,median provider,6.18,0.8,15,3.98,4.98,3.54,-8.84,8.84,ok,
+CZE,VNM,Czechia,Vietnam,close,157000000,4.26,median provider,6.36,1.55,16,3.98,4.98,3.54,-2.35,2.35,ok,
+DEU,NGA,Germany,Nigeria,untested,969000000,1.51,median provider,2.85,-0.18,33,,,0.73,,,banking-ban,No public P2P market observed for NGN
+DEU,BGR,Germany,Bulgaria,untested,609000000,3.54,online providers,3.58,0,25,,,0.73,,,ok,No public P2P market observed for BGN
+DEU,BIH,Germany,Bosnia and Herzegovina,untested,594000000,3.84,online providers,4.9,1.96,22,,,0.73,,,ok,No public P2P market observed for BAM
+DEU,GHA,Germany,Ghana,untested,166000000,2.9,median provider,4.45,0.76,33,,,0.73,,,ok,No public P2P market observed for GHS
+DEU,HRV,Germany,Croatia,wins,2101000000,3.56,median provider,3.14,0,20,1.17,2.17,0.73,-3.15,3.15,ok,
+DEU,HUN,Germany,Hungary,loses,1595000000,6.07,median provider,7.18,2.05,18,7.12,8.12,0.73,5.96,,ok,
+DEU,IND,Germany,India,close,2159000000,2.06,median provider,6.78,1.35,27,1.17,2.17,0.73,-12.61,12.61,ok,
+DEU,MAR,Germany,Morocco,illegal,530000000,3.72,online providers,4.11,2.24,33,1.17,2.17,0.73,-8.06,8.06,illegal,Crypto is illegal at one end of this corridor
+DEU,MDA,Germany,Moldova,wins,66000000,3.15,online providers,4.66,2.76,13,2.1,3.1,0.73,0.93,,ok,
+DEU,ROU,Germany,Romania,loses,2044000000,2.79,median provider,3.2,0,51,4.42,5.42,0.73,3.26,,ok,
+DEU,THA,Germany,Thailand,untested,467000000,2.92,median provider,6.65,2.12,21,,,0.73,,,ok,No public P2P market observed for THB
+DEU,TUR,Germany,Türkiye,wins,464000000,3,median provider,4.01,1.74,30,1.17,2.17,0.73,-6.43,6.43,ok,
+DEU,UKR,Germany,Ukraine,wins,2692000000,2.79,median provider,3.49,0,19,1.17,2.17,0.73,-8.84,8.84,ok,
+DEU,VNM,Germany,Vietnam,wins,647000000,2.68,median provider,3.85,1.34,35,1.17,2.17,0.73,-2.35,2.35,ok,
+DEU,KGZ,Germany,Kyrgyzstan,wins,78000000,6.77,online providers,9.85,5.9,8,1.17,2.17,0.73,-1.11,1.11,ok,
+DEU,SRB,Germany,Serbia,close,1777000000,1.78,median provider,2.47,0,17,1.17,2.17,0.73,-1.75,1.75,ok,
+DEU,TJK,Germany,Tajikistan,wins,181000000,2.58,median provider,2.99,0,19,1.17,2.17,0.73,-1.82,1.82,ok,
+DEU,CHN,Germany,China,illegal,455000000,6.18,online providers,9.38,3.07,16,1.39,2.39,0.73,0.22,,illegal,Crypto is illegal at one end of this corridor
+DEU,LBN,Germany,Lebanon,wins,387000000,3.86,online providers,5.49,3,5,1.17,2.17,0.73,-1.23,1.23,ok,
+DEU,TGO,Germany,Togo,wins,,2.48,online providers,3.46,1.45,15,1.17,2.17,0.73,-9.34,9.34,ok,
+DEU,KSV,Germany,Kosovo,wins,1051000000,3.2,online providers,4.4,0.3,12,1.17,2.17,0.73,-3.15,3.15,ok,
+DEU,AFG,Germany,Afghanistan,illegal,24000000,7.22,online providers,8.61,6.68,5,1.17,2.17,0.73,-3.83,3.83,illegal,Crypto is illegal at one end of this corridor
+DEU,ALB,Germany,Albania,loses,203000000,4.01,online providers,5.58,3.21,6,12.85,13.85,0.73,11.68,,ok,
+DEU,MKD,Germany,North Macedonia,untested,119000000,1.78,online providers,4.07,0,7,,,0.73,,,ok,No public P2P market observed for MKD
+DOM,HTI,Dominican Republic,Haiti,untested,857000000,7.91,median provider,7.68,6.71,3,,,,-9.22,9.22,ok,No public P2P market observed for DOP
+ESP,BOL,Spain,Bolivia,wins,281000000,11.23,online providers,15.8,3.76,12,1.17,2.17,0.73,-1.86,1.86,banking-ban,
+ESP,BRA,Spain,Brazil,untested,362000000,4.14,median provider,4.18,0.76,18,,,0.73,,,ok,No public P2P market observed for BRL
+ESP,HND,Spain,Honduras,wins,1305000000,3.68,median provider,5.86,1.79,14,1.17,2.17,0.73,-2.46,2.46,ok,
+ESP,MAR,Spain,Morocco,illegal,3470000000,3.8,median provider,6.29,1.79,22,1.17,2.17,0.73,-8.06,8.06,illegal,Crypto is illegal at one end of this corridor
+ESP,NGA,Spain,Nigeria,untested,340000000,2.84,online providers,2.88,0.71,18,,,0.73,,,banking-ban,No public P2P market observed for NGN
+ESP,COL,Spain,Colombia,close,2712000000,4.62,median provider,5.48,1.69,22,3.77,4.77,0.73,2.6,,banking-ban,
+ESP,ECU,Spain,Ecuador,wins,2175000000,3.95,online providers,7.06,2.16,15,1.17,2.17,0.73,0,,ok,
+ESP,ROU,Spain,Romania,loses,1096000000,2.87,median provider,4.75,1.49,19,4.42,5.42,0.73,3.26,,ok,
+ESP,PER,Spain,Peru,wins,1052000000,3.09,median provider,3.63,1.68,15,1.17,2.17,0.73,-1.01,1.01,ok,
+ESP,CHN,Spain,China,illegal,520000000,5.14,median provider,5.32,3.75,12,1.39,2.39,0.73,0.22,,illegal,Crypto is illegal at one end of this corridor
+ESP,BGR,Spain,Bulgaria,untested,184000000,4.18,online providers,4.18,2.44,13,,,0.73,,,ok,No public P2P market observed for BGN
+ESP,DOM,Spain,Dominican Republic,wins,1115000000,5.09,median provider,5.07,1.64,13,1.17,2.17,0.73,-3.82,3.82,ok,
+ESP,PHL,Spain,Philippines,wins,315000000,2.88,median provider,2.91,1.26,23,1.24,2.24,0.73,0.07,,ok,
+FRA,CMR,France,Cameroon,wins,166000000,2.32,median provider,3.08,1.26,20,1.17,2.17,0.73,-6.82,6.82,ok,
+FRA,CHN,France,China,illegal,325000000,4.05,median provider,4.48,1.05,19,1.39,2.39,0.73,0.22,,illegal,Crypto is illegal at one end of this corridor
+FRA,IND,France,India,wins,527000000,3.47,median provider,6.33,1.4,28,1.17,2.17,0.73,-12.61,12.61,ok,
+FRA,MAR,France,Morocco,illegal,3527000000,3.6,median provider,7.39,1.46,39,1.17,2.17,0.73,-8.06,8.06,illegal,Crypto is illegal at one end of this corridor
+FRA,VNM,France,Vietnam,wins,525000000,3.02,median provider,5.3,1.96,18,1.17,2.17,0.73,-2.35,2.35,ok,
+FRA,LBN,France,Lebanon,wins,381000000,4.31,online providers,5.08,2.37,11,1.17,2.17,0.73,-1.23,1.23,ok,
+FRA,TUN,France,Tunisia,wins,1500000000,3.71,online providers,5.5,0.61,18,1.17,2.17,0.73,-16.9,16.9,ok,
+FRA,CIV,France,Côte d'Ivoire,wins,293000000,3.93,median provider,4.05,1.03,21,1.17,2.17,0.73,-9.34,9.34,ok,
+FRA,COM,France,Comoros,untested,265000000,3.14,median provider,3.78,2.75,11,,,0.73,,,ok,No public P2P market observed for KMF
+FRA,HTI,France,Haiti,wins,263000000,4.61,online providers,4.86,4.1,8,1.17,2.17,0.73,-9.22,9.22,ok,
+FRA,MDG,France,Madagascar,wins,341000000,4.62,online providers,5.31,2.94,14,1.17,2.17,0.73,-8.62,8.62,ok,
+FRA,SEN,France,Senegal,close,1006000000,2.15,online providers,2.41,0.91,17,1.17,2.17,0.73,-9.34,9.34,ok,
+FRA,SRB,France,Serbia,wins,566000000,5.39,median provider,8.05,4.89,11,1.17,2.17,0.73,-1.75,1.75,ok,
+FRA,TGO,France,Togo,wins,,3.06,online providers,3.36,2.48,11,1.17,2.17,0.73,-9.34,9.34,ok,
+FRA,MLI,France,Mali,wins,162000000,2.53,online providers,2.88,1.23,9,1.17,2.17,0.73,-9.34,9.34,ok,
+GBR,NGA,United Kingdom,Nigeria,untested,3287000000,1.01,median provider,1.96,-0.12,31,,,1.44,,,banking-ban,No public P2P market observed for NGN
+GBR,SLE,United Kingdom,Sierra Leone,wins,69000000,4.43,median provider,5.52,3.52,18,1.87,2.87,1.44,-11.68,11.68,ok,
+GBR,ETH,United Kingdom,Ethiopia,untested,147000000,3.45,online providers,4.34,2.03,19,,,1.44,,,ok,No public P2P market observed for ETB
+GBR,NPL,United Kingdom,Nepal,illegal,382000000,2.03,median provider,2.9,0.77,22,1.87,2.87,1.44,-19.07,19.07,illegal,Crypto is illegal at one end of this corridor
+GBR,SSD,United Kingdom,South Sudan,untested,2000000,6.07,online providers,7.95,4.75,10,,,1.44,,,ok,No public P2P market observed for SSP
+GBR,BGD,United Kingdom,Bangladesh,illegal,937000000,5.07,median provider,5.11,2.41,32,1.87,2.87,1.44,-7.72,7.72,illegal,Crypto is illegal at one end of this corridor
+GBR,BGR,United Kingdom,Bulgaria,untested,319000000,4.15,online providers,6.29,1.32,22,,,1.44,,,ok,No public P2P market observed for BGN
+GBR,BRA,United Kingdom,Brazil,untested,268000000,2.45,median provider,3.86,0.85,29,,,1.44,,,ok,No public P2P market observed for BRL
+GBR,CHN,United Kingdom,China,illegal,474000000,3.57,median provider,4.27,0.72,23,2.09,3.09,1.44,0.22,,illegal,Crypto is illegal at one end of this corridor
+GBR,IND,United Kingdom,India,close,8050000000,1.99,online providers,1.91,0.15,28,1.87,2.87,1.44,-12.61,12.61,ok,
+GBR,KEN,United Kingdom,Kenya,close,1192000000,2.65,median provider,3.43,0.38,27,1.87,2.87,1.44,-0.99,0.99,ok,
+GBR,LKA,United Kingdom,Sri Lanka,close,645000000,2.11,median provider,3.06,1.13,29,1.87,2.87,1.44,-6.44,6.44,ok,
+GBR,PAK,United Kingdom,Pakistan,close,3634000000,2.46,online providers,2.39,-1.43,29,1.87,2.87,1.44,-8.04,8.04,ok,
+GBR,PHL,United Kingdom,Philippines,wins,980000000,3.01,online providers,3.33,0.44,38,1.95,2.95,1.44,0.07,,ok,
+GBR,TZA,United Kingdom,Tanzania,wins,192000000,4.24,online providers,4.88,1.08,24,1.87,2.87,1.44,-2.09,2.09,ok,
+GBR,UGA,United Kingdom,Uganda,wins,232000000,4.12,online providers,4.64,1.27,34,1.87,2.87,1.44,-3.79,3.79,ok,
+GBR,VNM,United Kingdom,Vietnam,wins,194000000,3.22,median provider,3.95,0.73,25,1.87,2.87,1.44,-2.35,2.35,ok,
+GBR,ZAF,United Kingdom,South Africa,wins,192000000,5.78,median provider,6.39,2.07,24,1.87,2.87,1.44,-1.5,1.5,ok,
+GBR,LBN,United Kingdom,Lebanon,wins,169000000,4.35,online providers,5.7,1.99,15,1.87,2.87,1.44,-1.23,1.23,ok,
+GBR,SOM,United Kingdom,Somalia,wins,195000000,5.43,online providers,6.7,3.89,17,1.87,2.87,1.44,-6.1,6.1,ok,
+GBR,ZWE,United Kingdom,Zimbabwe,untested,384000000,4.64,online providers,5.04,1.63,23,,,1.44,,,ok,No public P2P market observed for ZWG
+GBR,AFG,United Kingdom,Afghanistan,illegal,6000000,7.8,online providers,10.56,7.54,3,1.87,2.87,1.44,-3.83,3.83,illegal,Crypto is illegal at one end of this corridor
+GBR,POL,United Kingdom,Poland,loses,1694000000,1.75,median provider,2.66,0.18,30,1.87,2.87,1.44,-7.27,7.27,ok,
+GBR,ROU,United Kingdom,Romania,loses,1480000000,2.65,online providers,3.12,0.95,24,5.13,6.13,1.44,3.26,,ok,
+GBR,RWA,United Kingdom,Rwanda,wins,8000000,3,median provider,7.43,1.76,23,1.87,2.87,1.44,-0.9,0.9,ok,
+GBR,ERI,United Kingdom,Eritrea,wins,,5.76,online providers,8.42,4.19,12,1.87,2.87,1.44,-20,20,ok,
+GBR,ALB,United Kingdom,Albania,loses,119000000,4.29,online providers,5.84,1.77,30,13.55,14.55,1.44,11.68,,ok,
+GBR,GHA,United Kingdom,Ghana,untested,448000000,1.38,median provider,4.24,-0.03,37,,,1.44,,,ok,No public P2P market observed for GHS
+GBR,GMB,United Kingdom,The Gambia,wins,70000000,11.87,median provider,12.06,8.05,22,1.87,2.87,1.44,-10.85,10.85,ok,
+GBR,JAM,United Kingdom,Jamaica,loses,395000000,4.86,median provider,4.45,-1.27,20,10.66,11.66,1.44,8.79,,ok,
+GBR,LTU,United Kingdom,Lithuania,wins,368000000,3.63,online providers,4.67,0.72,25,1.87,2.87,1.44,-3.15,3.15,ok,
+GBR,THA,United Kingdom,Thailand,untested,420000000,4.38,median provider,5.04,1.64,25,,,1.44,,,ok,No public P2P market observed for THB
+GBR,ZMB,United Kingdom,Zambia,wins,65000000,3.11,median provider,4.34,2.28,21,1.87,2.87,1.44,-4.73,4.73,ok,
 GHA,NGA,Ghana,Nigeria,untested,770000000,12.82,online providers,13.29,12.02,7,,,,,,banking-ban,No public P2P market observed for GHS
-IND,LKA,India,Sri Lanka,untested,933000000,6.38,median provider,6.84,4.37,8,,,,-8.39,8.39,ok,No public P2P market observed for INR
-IND,NPL,India,Nepal,untested,2062000000,1.65,median provider,3.14,0.45,21,,,,-18.45,18.45,illegal,No public P2P market observed for INR
-ISR,MAR,Israel,Morocco,untested,735000000,13.47,median provider,13.13,8.93,3,,,,-8.11,8.11,illegal,No public P2P market observed for ILS
-ITA,BRA,Italy,Brazil,untested,288000000,3.08,median provider,6.51,0.85,21,,,0.54,,,ok,No public P2P market observed for BRL
-ITA,NGA,Italy,Nigeria,untested,1076000000,2.32,median provider,4.55,0.74,18,,,0.54,,,banking-ban,No public P2P market observed for NGN
-ITA,PHL,Italy,Philippines,wins,817000000,2.09,online providers,4.44,-0.95,33,0.85,1.85,0.54,-0.1,0.1,ok,
-ITA,UKR,Italy,Ukraine,wins,546000000,5.1,median provider,11.76,0.06,26,0.85,1.85,0.54,-8.39,8.39,ok,
-ITA,EGY,Italy,Egypt,illegal,993000000,4.64,online providers,9.02,1.82,21,0.85,1.85,0.54,-3.19,3.19,illegal,Crypto is illegal at one end of this corridor
-ITA,CHN,Italy,China,illegal,625000000,3.39,online providers,5.85,0.78,15,0.85,1.85,0.54,-0.1,0.1,illegal,Crypto is illegal at one end of this corridor
-ITA,ETH,Italy,Ethiopia,untested,147000000,4.07,online providers,4.49,-7.44,20,,,0.54,,,ok,No public P2P market observed for ETB
-ITA,SEN,Italy,Senegal,wins,701000000,2.28,online providers,7.9,0.41,27,0.85,1.85,0.54,-9.94,9.94,ok,
-ITA,TUN,Italy,Tunisia,wins,425000000,4.18,online providers,5.48,-0.12,23,0.85,1.85,0.54,-16.04,16.04,ok,
-ITA,ECU,Italy,Ecuador,wins,394000000,2.82,median provider,8.13,1.58,24,0.85,1.85,0.54,0,,ok,
-ITA,ROU,Italy,Romania,loses,1861000000,2.9,median provider,4.77,1.25,31,4.8,5.8,0.54,3.95,,ok,
-ITA,LKA,Italy,Sri Lanka,wins,386000000,2.5,median provider,5.22,1.66,27,0.85,1.85,0.54,-8.39,8.39,ok,
-ITA,MDA,Italy,Moldova,close,311000000,2.97,online providers,9.44,0.71,17,2.07,3.07,0.54,1.21,,ok,
-ITA,MAR,Italy,Morocco,illegal,1576000000,2.9,online providers,7.21,-1.12,29,0.85,1.85,0.54,-8.11,8.11,illegal,Crypto is illegal at one end of this corridor
-ITA,IND,Italy,India,close,1465000000,1.82,online providers,3.97,-0.82,19,0.85,1.85,0.54,-12.83,12.83,ok,
-ITA,ALB,Italy,Albania,loses,822000000,3.67,online providers,13.05,0.71,17,12.98,13.98,0.54,12.13,,ok,
-ITA,KSV,Italy,Kosovo,wins,135000000,3.03,online providers,12.6,2.85,8,0.85,1.85,0.54,-4.16,4.16,ok,
-ITA,SRB,Italy,Serbia,wins,197000000,3.21,online providers,16.25,2.85,12,0.85,1.85,0.54,-0.65,0.65,ok,
-ITA,BGD,Italy,Bangladesh,illegal,590000000,6.63,median provider,9.55,2.98,30,0.85,1.85,0.54,-7.2,7.2,illegal,Crypto is illegal at one end of this corridor
-JOR,EGY,Jordan,Egypt,untested,3897000000,1.85,median provider,2.3,1.29,13,,,,-3.19,3.19,illegal,No public P2P market observed for JOD
+IND,LKA,India,Sri Lanka,untested,933000000,6.38,median provider,6.84,4.37,8,,,,-6.44,6.44,ok,No public P2P market observed for INR
+IND,NPL,India,Nepal,untested,2062000000,1.65,median provider,3.14,0.45,21,,,,-19.07,19.07,illegal,No public P2P market observed for INR
+ISR,MAR,Israel,Morocco,untested,735000000,13.47,median provider,13.13,8.93,3,,,,-8.06,8.06,illegal,No public P2P market observed for ILS
+ITA,BRA,Italy,Brazil,untested,288000000,3.08,median provider,6.51,0.85,21,,,0.73,,,ok,No public P2P market observed for BRL
+ITA,NGA,Italy,Nigeria,untested,1076000000,2.32,median provider,4.55,0.74,18,,,0.73,,,banking-ban,No public P2P market observed for NGN
+ITA,PHL,Italy,Philippines,close,817000000,2.09,online providers,4.44,-0.95,33,1.24,2.24,0.73,0.07,,ok,
+ITA,UKR,Italy,Ukraine,wins,546000000,5.1,median provider,11.76,0.06,26,1.17,2.17,0.73,-8.84,8.84,ok,
+ITA,EGY,Italy,Egypt,illegal,993000000,4.64,online providers,9.02,1.82,21,1.17,2.17,0.73,-3.3,3.3,illegal,Crypto is illegal at one end of this corridor
+ITA,CHN,Italy,China,illegal,625000000,3.39,online providers,5.85,0.78,15,1.39,2.39,0.73,0.22,,illegal,Crypto is illegal at one end of this corridor
+ITA,ETH,Italy,Ethiopia,untested,147000000,4.07,online providers,4.49,-7.44,20,,,0.73,,,ok,No public P2P market observed for ETB
+ITA,SEN,Italy,Senegal,wins,701000000,2.28,online providers,7.9,0.41,27,1.17,2.17,0.73,-9.34,9.34,ok,
+ITA,TUN,Italy,Tunisia,wins,425000000,4.18,online providers,5.48,-0.12,23,1.17,2.17,0.73,-16.9,16.9,ok,
+ITA,ECU,Italy,Ecuador,wins,394000000,2.82,median provider,8.13,1.58,24,1.17,2.17,0.73,0,,ok,
+ITA,ROU,Italy,Romania,loses,1861000000,2.9,median provider,4.77,1.25,31,4.42,5.42,0.73,3.26,,ok,
+ITA,LKA,Italy,Sri Lanka,wins,386000000,2.5,median provider,5.22,1.66,27,1.17,2.17,0.73,-6.44,6.44,ok,
+ITA,MDA,Italy,Moldova,close,311000000,2.97,online providers,9.44,0.71,17,2.1,3.1,0.73,0.93,,ok,
+ITA,MAR,Italy,Morocco,illegal,1576000000,2.9,online providers,7.21,-1.12,29,1.17,2.17,0.73,-8.06,8.06,illegal,Crypto is illegal at one end of this corridor
+ITA,IND,Italy,India,close,1465000000,1.82,online providers,3.97,-0.82,19,1.17,2.17,0.73,-12.61,12.61,ok,
+ITA,ALB,Italy,Albania,loses,822000000,3.67,online providers,13.05,0.71,17,12.85,13.85,0.73,11.68,,ok,
+ITA,KSV,Italy,Kosovo,wins,135000000,3.03,online providers,12.6,2.85,8,1.17,2.17,0.73,-3.15,3.15,ok,
+ITA,SRB,Italy,Serbia,wins,197000000,3.21,online providers,16.25,2.85,12,1.17,2.17,0.73,-1.75,1.75,ok,
+ITA,BGD,Italy,Bangladesh,illegal,590000000,6.63,median provider,9.55,2.98,30,1.17,2.17,0.73,-7.72,7.72,illegal,Crypto is illegal at one end of this corridor
+JOR,EGY,Jordan,Egypt,untested,3897000000,1.85,median provider,2.3,1.29,13,,,,-3.3,3.3,illegal,No public P2P market observed for JOD
 JOR,PSE,Jordan,West Bank and Gaza,untested,379000000,3.06,median provider,3.55,1.43,12,,,,,,banking-ban,No public P2P market observed for JOD
-JOR,SYR,Jordan,Syria,untested,,7.38,median provider,7.42,4.14,9,,,,-27.77,27.77,banking-ban,No public P2P market observed for JOD
-JPN,CHN,Japan,China,illegal,2148000000,8.63,median provider,18.48,3.57,15,9.43,10.43,9.11,-0.1,0.1,illegal,Crypto is illegal at one end of this corridor
-JPN,IND,Japan,India,loses,378000000,5.37,median provider,8.72,1.22,22,9.43,10.43,9.11,-12.83,12.83,ok,
-JPN,IDN,Japan,Indonesia,loses,666000000,4.59,median provider,5.63,2.19,18,9.43,10.43,9.11,-0.7,0.7,ok,
-JPN,THA,Japan,Thailand,untested,438000000,5.47,median provider,8.33,2.66,12,,,9.11,,,ok,No public P2P market observed for THB
-JPN,PHL,Japan,Philippines,loses,1771000000,5.41,median provider,12.88,2.06,45,9.43,10.43,9.11,-0.1,0.1,ok,
-JPN,VNM,Japan,Vietnam,loses,2608000000,2.74,median provider,3.7,2.19,18,9.43,10.43,9.11,-2.48,2.48,ok,
-JPN,BRA,Japan,Brazil,untested,424000000,7.41,median provider,8.35,2.36,12,,,9.11,,,ok,No public P2P market observed for BRL
-KEN,RWA,Kenya,Rwanda,untested,5000000,5.25,online providers,7.46,2.85,12,,,,-0.89,0.89,ok,No public P2P market observed for KES
-KEN,UGA,Kenya,Uganda,untested,491000000,11.8,online providers,12.75,2.85,27,,,,-4.02,4.02,ok,No public P2P market observed for KES
+JOR,SYR,Jordan,Syria,untested,,7.38,median provider,7.42,4.14,9,,,,-36.6,36.6,banking-ban,No public P2P market observed for JOD
+JPN,CHN,Japan,China,illegal,2148000000,8.63,median provider,18.48,3.57,15,7.6,8.6,6.94,0.22,,illegal,Crypto is illegal at one end of this corridor
+JPN,IND,Japan,India,loses,378000000,5.37,median provider,8.72,1.22,22,7.37,8.37,6.94,-12.61,12.61,ok,
+JPN,IDN,Japan,Indonesia,loses,666000000,4.59,median provider,5.63,2.19,18,7.37,8.37,6.94,-0.58,0.58,ok,
+JPN,THA,Japan,Thailand,untested,438000000,5.47,median provider,8.33,2.66,12,,,6.94,,,ok,No public P2P market observed for THB
+JPN,PHL,Japan,Philippines,loses,1771000000,5.41,median provider,12.88,2.06,45,7.45,8.45,6.94,0.07,,ok,
+JPN,VNM,Japan,Vietnam,loses,2608000000,2.74,median provider,3.7,2.19,18,7.37,8.37,6.94,-2.35,2.35,ok,
+JPN,BRA,Japan,Brazil,untested,424000000,7.41,median provider,8.35,2.36,12,,,6.94,,,ok,No public P2P market observed for BRL
+KEN,RWA,Kenya,Rwanda,untested,5000000,5.25,online providers,7.46,2.85,12,,,,-0.9,0.9,ok,No public P2P market observed for KES
+KEN,UGA,Kenya,Uganda,untested,491000000,11.8,online providers,12.75,2.85,27,,,,-3.79,3.79,ok,No public P2P market observed for KES
 KEN,SSD,Kenya,South Sudan,untested,53000000,13.4,online providers,13.43,2.46,24,,,,,,ok,No public P2P market observed for KES
-KEN,TZA,Kenya,Tanzania,untested,94000000,12.78,online providers,13.41,0.46,26,,,,-2.11,2.11,ok,No public P2P market observed for KES
-KOR,VNM,South Korea,Vietnam,untested,1213000000,3.96,online providers,5.15,2.01,26,,,,-2.48,2.48,ok,No public P2P market observed for KRW
-KOR,CHN,South Korea,China,untested,2101000000,4.44,online providers,5.84,3.08,22,,,,-0.1,0.1,illegal,No public P2P market observed for KRW
-KWT,BGD,Kuwait,Bangladesh,illegal,1333000000,6.53,median provider,6.63,5.96,28,2.81,3.81,2.5,-7.2,7.2,illegal,Crypto is illegal at one end of this corridor
-KWT,EGY,Kuwait,Egypt,illegal,2749000000,3.2,online providers,3.33,2.83,25,2.81,3.81,2.5,-3.19,3.19,illegal,Crypto is illegal at one end of this corridor
-KWT,IND,Kuwait,India,loses,9928000000,2.26,online providers,2.37,1.65,30,2.81,3.81,2.5,-12.83,12.83,ok,
-KWT,JOR,Kuwait,Jordan,close,329000000,3.62,median provider,3.89,2.73,22,2.81,3.81,2.5,-1.97,1.97,banking-ban,
-KWT,PAK,Kuwait,Pakistan,loses,1964000000,-0.39,median provider,0.35,-1.49,21,2.81,3.81,2.5,-6.33,6.33,ok,
-KWT,PHL,Kuwait,Philippines,close,1222000000,2.86,online providers,2.94,2.21,30,2.81,3.81,2.5,-0.1,0.1,ok,
-MYS,VNM,Malaysia,Vietnam,untested,0,2.8,median provider,3.81,2.06,16,,,,-2.48,2.48,ok,No public P2P market observed for MYR
-MYS,BGD,Malaysia,Bangladesh,untested,850000000,6.41,median provider,7.51,5.05,30,,,,-7.2,7.2,illegal,No public P2P market observed for MYR
-MYS,IDN,Malaysia,Indonesia,untested,7351000000,3.4,median provider,4.8,1.29,36,,,,-0.7,0.7,ok,No public P2P market observed for MYR
-MYS,IND,Malaysia,India,untested,1039000000,2.08,median provider,3.33,1.24,17,,,,-12.83,12.83,ok,No public P2P market observed for MYR
-MYS,NPL,Malaysia,Nepal,untested,1914000000,2.31,median provider,2.76,1.92,14,,,,-18.45,18.45,illegal,No public P2P market observed for MYR
-MYS,PHL,Malaysia,Philippines,untested,1385000000,2.75,median provider,3.92,1.27,37,,,,-0.1,0.1,ok,No public P2P market observed for MYR
+KEN,TZA,Kenya,Tanzania,untested,94000000,12.78,online providers,13.41,0.46,26,,,,-2.09,2.09,ok,No public P2P market observed for KES
+KOR,VNM,South Korea,Vietnam,untested,1213000000,3.96,online providers,5.15,2.01,26,,,,-2.35,2.35,ok,No public P2P market observed for KRW
+KOR,CHN,South Korea,China,untested,2101000000,4.44,online providers,5.84,3.08,22,,,,0.22,,illegal,No public P2P market observed for KRW
+KWT,BGD,Kuwait,Bangladesh,illegal,1333000000,6.53,median provider,6.63,5.96,28,2.68,3.68,2.25,-7.72,7.72,illegal,Crypto is illegal at one end of this corridor
+KWT,EGY,Kuwait,Egypt,illegal,2749000000,3.2,online providers,3.33,2.83,25,2.68,3.68,2.25,-3.3,3.3,illegal,Crypto is illegal at one end of this corridor
+KWT,IND,Kuwait,India,loses,9928000000,2.26,online providers,2.37,1.65,30,2.68,3.68,2.25,-12.61,12.61,ok,
+KWT,JOR,Kuwait,Jordan,close,329000000,3.62,median provider,3.89,2.73,22,2.68,3.68,2.25,-1.97,1.97,banking-ban,
+KWT,PAK,Kuwait,Pakistan,loses,1964000000,-0.39,median provider,0.35,-1.49,21,2.68,3.68,2.25,-8.04,8.04,ok,
+KWT,PHL,Kuwait,Philippines,close,1222000000,2.86,online providers,2.94,2.21,30,2.76,3.76,2.25,0.07,,ok,
+MYS,VNM,Malaysia,Vietnam,untested,0,2.8,median provider,3.81,2.06,16,,,,-2.35,2.35,ok,No public P2P market observed for MYR
+MYS,BGD,Malaysia,Bangladesh,untested,850000000,6.41,median provider,7.51,5.05,30,,,,-7.72,7.72,illegal,No public P2P market observed for MYR
+MYS,IDN,Malaysia,Indonesia,untested,7351000000,3.4,median provider,4.8,1.29,36,,,,-0.58,0.58,ok,No public P2P market observed for MYR
+MYS,IND,Malaysia,India,untested,1039000000,2.08,median provider,3.33,1.24,17,,,,-12.61,12.61,ok,No public P2P market observed for MYR
+MYS,NPL,Malaysia,Nepal,untested,1914000000,2.31,median provider,2.76,1.92,14,,,,-19.07,19.07,illegal,No public P2P market observed for MYR
+MYS,PHL,Malaysia,Philippines,untested,1385000000,2.75,median provider,3.92,1.27,37,,,,0.07,,ok,No public P2P market observed for MYR
 MYS,THA,Malaysia,Thailand,untested,505000000,3.76,online providers,4.67,2.17,14,,,,,,ok,No public P2P market observed for MYR
 MYS,MMR,Malaysia,Myanmar,untested,86000000,0.2,online providers,0.24,-0.05,7,,,,,,ok,No public P2P market observed for MYR
-MYS,CHN,Malaysia,China,untested,81000000,4.88,online providers,4.69,2.43,11,,,,-0.1,0.1,illegal,No public P2P market observed for MYR
-NLD,NGA,Netherlands,Nigeria,untested,139000000,2.66,online providers,2.84,0.25,21,,,0.54,,,banking-ban,No public P2P market observed for NGN
-NLD,DOM,Netherlands,Dominican Republic,wins,64000000,3.65,online providers,4.91,1.84,29,0.85,1.85,0.54,-3.89,3.89,ok,
-NLD,GHA,Netherlands,Ghana,untested,54000000,3.44,online providers,5.04,0.68,30,,,0.54,,,ok,No public P2P market observed for GHS
-NLD,IDN,Netherlands,Indonesia,wins,455000000,3.12,online providers,4.29,2.32,23,0.85,1.85,0.54,-0.7,0.7,ok,
-NLD,TUR,Netherlands,Türkiye,wins,70000000,4.26,online providers,8.14,2.5,23,0.85,1.85,0.54,-5.87,5.87,ok,
-NLD,MAR,Netherlands,Morocco,illegal,615000000,4.01,online providers,5.57,0.98,25,0.85,1.85,0.54,-8.11,8.11,illegal,Crypto is illegal at one end of this corridor
-NLD,SUR,Netherlands,Suriname,untested,116000000,5.68,median provider,8.86,3.84,15,,,0.54,,,ok,No public P2P market observed for SRD
-NLD,SOM,Netherlands,Somalia,wins,52000000,6.09,online providers,6.09,4.28,9,0.85,1.85,0.54,-6.21,6.21,ok,
-NOR,PAK,Norway,Pakistan,loses,151000000,2.07,median provider,3.12,0.7,41,19.72,20.72,19.4,-6.33,6.33,ok,
-NOR,POL,Norway,Poland,loses,217000000,3,online providers,4.06,-0.01,31,19.72,20.72,19.4,-0.74,0.74,ok,
-NZL,CHN,New Zealand,China,illegal,399000000,3.22,online providers,3.5,1,28,9.86,10.86,9.54,-0.1,0.1,illegal,Crypto is illegal at one end of this corridor
-NZL,TON,New Zealand,Tonga,untested,99000000,6.2,median provider,7.89,2.77,27,,,9.54,,,ok,No public P2P market observed for TOP
-NZL,WSM,New Zealand,Samoa,untested,129000000,5.97,online providers,6.66,0.74,34,,,9.54,,,ok,No public P2P market observed for WST
-NZL,FJI,New Zealand,Fiji,untested,132000000,4.24,online providers,6.5,2.37,32,,,9.54,,,ok,No public P2P market observed for FJD
-NZL,VUT,New Zealand,Vanuatu,untested,,9.3,online providers,11.22,6.54,14,,,9.54,,,ok,No public P2P market observed for VUV
-NZL,VNM,New Zealand,Vietnam,loses,58000000,4.87,online providers,6.59,1.39,28,9.86,10.86,9.54,-2.48,2.48,ok,
-NZL,PHL,New Zealand,Philippines,loses,613000000,1.5,median provider,4.05,0.34,29,9.86,10.86,9.54,-0.1,0.1,ok,
-NZL,IND,New Zealand,India,loses,1179000000,2.91,online providers,4.68,0.47,33,9.86,10.86,9.54,-12.83,12.83,ok,
-OMN,NPL,Oman,Nepal,illegal,68000000,3.32,median provider,3.11,2.14,5,2.01,3.01,1.69,-18.45,18.45,illegal,Crypto is illegal at one end of this corridor
-OMN,BGD,Oman,Bangladesh,illegal,2189000000,8.22,median provider,8.05,6.7,9,2.01,3.01,1.69,-7.2,7.2,illegal,Crypto is illegal at one end of this corridor
-OMN,LKA,Oman,Sri Lanka,wins,119000000,3.28,median provider,3.31,3.11,9,2.01,3.01,1.69,-8.39,8.39,ok,
-OMN,IND,Oman,India,wins,5892000000,3.15,median provider,3.3,2.37,11,2.01,3.01,1.69,-12.83,12.83,ok,
-OMN,PAK,Oman,Pakistan,wins,1325000000,3.68,median provider,3.01,0.94,4,2.01,3.01,1.69,-6.33,6.33,ok,
-OMN,JOR,Oman,Jordan,close,78000000,2.88,median provider,2.84,2.7,4,2.01,3.01,1.69,-1.97,1.97,banking-ban,
-POL,UKR,Poland,Ukraine,close,1965000000,2.92,online providers,3.73,0.1,22,2.03,3.03,1.72,-8.39,8.39,ok,
-PRT,CPV,Portugal,Cabo Verde,loses,105000000,3.3,median provider,3.52,3.24,6,12.36,13.36,0.54,11.51,,ok,
-PRT,MOZ,Portugal,Mozambique,wins,52000000,3.07,median provider,4.33,1.8,15,0.85,1.85,0.54,-19.81,19.81,ok,
-PRT,BRA,Portugal,Brazil,untested,346000000,5.3,online providers,5.3,1.69,11,,,0.54,,,ok,No public P2P market observed for BRL
-QAT,EGY,Qatar,Egypt,illegal,1292000000,5.42,online providers,5.63,2.53,6,5.53,6.53,5.22,-3.19,3.19,illegal,Crypto is illegal at one end of this corridor
-QAT,PHL,Qatar,Philippines,loses,1170000000,2.29,online providers,2.51,0.81,6,5.53,6.53,5.22,-0.1,0.1,banking-ban,
-QAT,IND,Qatar,India,loses,6842000000,1.82,online providers,2.5,1.33,7,5.53,6.53,5.22,-12.83,12.83,banking-ban,
-QAT,JOR,Qatar,Jordan,loses,224000000,2.46,online providers,3.87,2.46,5,5.53,6.53,5.22,-1.97,1.97,banking-ban,
-QAT,PAK,Qatar,Pakistan,loses,1651000000,0.45,median provider,1.33,-0.32,6,5.53,6.53,5.22,-6.33,6.33,banking-ban,
-QAT,SDN,Qatar,Sudan,wins,12000000,33.69,median provider,23.2,2.23,3,5.53,6.53,5.22,-2174.58,2174.58,banking-ban,
-QAT,BGD,Qatar,Bangladesh,illegal,1048000000,7.15,median provider,7.18,6.72,4,5.53,6.53,5.22,-7.2,7.2,illegal,Crypto is illegal at one end of this corridor
-QAT,LKA,Qatar,Sri Lanka,loses,758000000,1.87,online providers,2.34,0.71,6,5.53,6.53,5.22,-8.39,8.39,banking-ban,
-QAT,NPL,Qatar,Nepal,illegal,1434000000,3.56,median provider,4,3.14,6,5.53,6.53,5.22,-18.45,18.45,illegal,Crypto is illegal at one end of this corridor
-RWA,KEN,Rwanda,Kenya,untested,15000000,4.76,online providers,22.56,2.38,7,,,,-0.64,0.64,ok,No public P2P market observed for RWF
-SAU,MMR,Saudi Arabia,Myanmar,untested,53000000,4.93,median provider,5.9,4.38,3,,,1.6,,,banking-ban,No public P2P market observed for MMK
-SAU,IDN,Saudi Arabia,Indonesia,wins,753000000,3.61,online providers,3.51,2.88,10,1.91,2.91,1.6,-0.7,0.7,banking-ban,
-SAU,YEM,Saudi Arabia,Yemen,close,2665000000,2.4,median provider,2.7,2.3,8,1.91,2.91,1.6,-600.19,600.19,banking-ban,
-SAU,LKA,Saudi Arabia,Sri Lanka,wins,351000000,3.12,online providers,3.26,3.05,9,1.91,2.91,1.6,-8.39,8.39,banking-ban,
-SAU,NPL,Saudi Arabia,Nepal,illegal,1322000000,3.42,online providers,5.02,3.12,11,1.91,2.91,1.6,-18.45,18.45,illegal,Crypto is illegal at one end of this corridor
-SAU,BGD,Saudi Arabia,Bangladesh,illegal,7837000000,7.23,online providers,10.2,7.15,9,1.91,2.91,1.6,-7.2,7.2,illegal,Crypto is illegal at one end of this corridor
-SAU,JOR,Saudi Arabia,Jordan,wins,1189000000,5.15,median provider,7.03,4.28,12,1.91,2.91,1.6,-1.97,1.97,banking-ban,
-SAU,IND,Saudi Arabia,India,wins,15890000000,3.4,online providers,5.59,3.14,12,1.91,2.91,1.6,-12.83,12.83,banking-ban,
-SAU,PHL,Saudi Arabia,Philippines,close,4410000000,2.76,median provider,3.82,2.56,10,1.91,2.91,1.6,-0.1,0.1,banking-ban,
-SAU,PAK,Saudi Arabia,Pakistan,close,10726000000,2.3,online providers,5.02,1.44,12,1.91,2.91,1.6,-6.33,6.33,banking-ban,
-SAU,ETH,Saudi Arabia,Ethiopia,untested,1116000000,7.45,online providers,7.85,5.62,3,,,1.6,,,banking-ban,No public P2P market observed for ETB
-SAU,EGY,Saudi Arabia,Egypt,illegal,9158000000,3.44,median provider,5.15,2.63,12,1.91,2.91,1.6,-3.19,3.19,illegal,Crypto is illegal at one end of this corridor
-SAU,AFG,Saudi Arabia,Afghanistan,illegal,10000000,5.76,median provider,5.76,4.86,2,1.91,2.91,1.6,-3.17,3.17,illegal,Crypto is illegal at one end of this corridor
-SAU,LBN,Saudi Arabia,Lebanon,wins,402000000,5.52,online providers,5.57,5.52,2,1.91,2.91,1.6,-0.96,0.96,banking-ban,
-SAU,SDN,Saudi Arabia,Sudan,wins,342000000,4.75,median provider,13.44,3.21,3,1.91,2.91,1.6,-2174.58,2174.58,banking-ban,
-SAU,SYR,Saudi Arabia,Syria,wins,,8.88,median provider,8.88,8.88,1,1.91,2.91,1.6,-27.77,27.77,banking-ban,
-SAU,SSD,Saudi Arabia,South Sudan,untested,0,4.83,median provider,4.83,4.83,1,,,1.6,,,banking-ban,No public P2P market observed for SSP
-SEN,MLI,Senegal,Mali,untested,28000000,1.5,online providers,25.7,1.5,6,,,,-9.94,9.94,ok,No public P2P market observed for XOF
-SGP,CHN,Singapore,China,untested,1554000000,4.81,median provider,5.14,1.05,14,,,,-0.1,0.1,illegal,No public P2P market observed for SGD
-SGP,IND,Singapore,India,untested,3483000000,2.72,median provider,2.92,0.5,28,,,,-12.83,12.83,ok,No public P2P market observed for SGD
-SGP,BGD,Singapore,Bangladesh,untested,159000000,6.14,median provider,6.54,3.37,23,,,,-7.2,7.2,illegal,No public P2P market observed for SGD
-SGP,LKA,Singapore,Sri Lanka,untested,26000000,3.92,online providers,3.9,0.94,15,,,,-8.39,8.39,ok,No public P2P market observed for SGD
+MYS,CHN,Malaysia,China,untested,81000000,4.88,online providers,4.69,2.43,11,,,,0.22,,illegal,No public P2P market observed for MYR
+NLD,NGA,Netherlands,Nigeria,untested,139000000,2.66,online providers,2.84,0.25,21,,,0.73,,,banking-ban,No public P2P market observed for NGN
+NLD,DOM,Netherlands,Dominican Republic,wins,64000000,3.65,online providers,4.91,1.84,29,1.17,2.17,0.73,-3.82,3.82,ok,
+NLD,GHA,Netherlands,Ghana,untested,54000000,3.44,online providers,5.04,0.68,30,,,0.73,,,ok,No public P2P market observed for GHS
+NLD,IDN,Netherlands,Indonesia,wins,455000000,3.12,online providers,4.29,2.32,23,1.17,2.17,0.73,-0.58,0.58,ok,
+NLD,TUR,Netherlands,Türkiye,wins,70000000,4.26,online providers,8.14,2.5,23,1.17,2.17,0.73,-6.43,6.43,ok,
+NLD,MAR,Netherlands,Morocco,illegal,615000000,4.01,online providers,5.57,0.98,25,1.17,2.17,0.73,-8.06,8.06,illegal,Crypto is illegal at one end of this corridor
+NLD,SUR,Netherlands,Suriname,untested,116000000,5.68,median provider,8.86,3.84,15,,,0.73,,,ok,No public P2P market observed for SRD
+NLD,SOM,Netherlands,Somalia,wins,52000000,6.09,online providers,6.09,4.28,9,1.17,2.17,0.73,-6.1,6.1,ok,
+NOR,PAK,Norway,Pakistan,loses,151000000,2.07,median provider,3.12,0.7,41,19.41,20.41,18.97,-8.04,8.04,ok,
+NOR,POL,Norway,Poland,loses,217000000,3,online providers,4.06,-0.01,31,19.41,20.41,18.97,-7.27,7.27,ok,
+NZL,CHN,New Zealand,China,illegal,399000000,3.22,online providers,3.5,1,28,9.56,10.56,8.91,0.22,,illegal,Crypto is illegal at one end of this corridor
+NZL,TON,New Zealand,Tonga,untested,99000000,6.2,median provider,7.89,2.77,27,,,8.91,,,ok,No public P2P market observed for TOP
+NZL,WSM,New Zealand,Samoa,untested,129000000,5.97,online providers,6.66,0.74,34,,,8.91,,,ok,No public P2P market observed for WST
+NZL,FJI,New Zealand,Fiji,untested,132000000,4.24,online providers,6.5,2.37,32,,,8.91,,,ok,No public P2P market observed for FJD
+NZL,VUT,New Zealand,Vanuatu,untested,,9.3,online providers,11.22,6.54,14,,,8.91,,,ok,No public P2P market observed for VUV
+NZL,VNM,New Zealand,Vietnam,loses,58000000,4.87,online providers,6.59,1.39,28,9.34,10.34,8.91,-2.35,2.35,ok,
+NZL,PHL,New Zealand,Philippines,loses,613000000,1.5,median provider,4.05,0.34,29,9.41,10.41,8.91,0.07,,ok,
+NZL,IND,New Zealand,India,loses,1179000000,2.91,online providers,4.68,0.47,33,9.34,10.34,8.91,-12.61,12.61,ok,
+OMN,NPL,Oman,Nepal,illegal,68000000,3.32,median provider,3.11,2.14,5,2.38,3.38,1.95,-19.07,19.07,illegal,Crypto is illegal at one end of this corridor
+OMN,BGD,Oman,Bangladesh,illegal,2189000000,8.22,median provider,8.05,6.7,9,2.38,3.38,1.95,-7.72,7.72,illegal,Crypto is illegal at one end of this corridor
+OMN,LKA,Oman,Sri Lanka,close,119000000,3.28,median provider,3.31,3.11,9,2.38,3.38,1.95,-6.44,6.44,ok,
+OMN,IND,Oman,India,close,5892000000,3.15,median provider,3.3,2.37,11,2.38,3.38,1.95,-12.61,12.61,ok,
+OMN,PAK,Oman,Pakistan,wins,1325000000,3.68,median provider,3.01,0.94,4,2.38,3.38,1.95,-8.04,8.04,ok,
+OMN,JOR,Oman,Jordan,close,78000000,2.88,median provider,2.84,2.7,4,2.38,3.38,1.95,-1.97,1.97,banking-ban,
+POL,UKR,Poland,Ukraine,close,1965000000,2.92,online providers,3.73,0.1,22,2.32,3.32,1.89,-8.84,8.84,ok,
+PRT,CPV,Portugal,Cabo Verde,loses,105000000,3.3,median provider,3.52,3.24,6,12.6,13.6,0.73,11.43,,ok,
+PRT,MOZ,Portugal,Mozambique,wins,52000000,3.07,median provider,4.33,1.8,15,1.17,2.17,0.73,-19.43,19.43,ok,
+PRT,BRA,Portugal,Brazil,untested,346000000,5.3,online providers,5.3,1.69,11,,,0.73,,,ok,No public P2P market observed for BRL
+QAT,EGY,Qatar,Egypt,illegal,1292000000,5.42,online providers,5.63,2.53,6,5.38,6.38,4.95,-3.3,3.3,illegal,Crypto is illegal at one end of this corridor
+QAT,PHL,Qatar,Philippines,loses,1170000000,2.29,online providers,2.51,0.81,6,5.45,6.45,4.95,0.07,,banking-ban,
+QAT,IND,Qatar,India,loses,6842000000,1.82,online providers,2.5,1.33,7,5.38,6.38,4.95,-12.61,12.61,banking-ban,
+QAT,JOR,Qatar,Jordan,loses,224000000,2.46,online providers,3.87,2.46,5,5.38,6.38,4.95,-1.97,1.97,banking-ban,
+QAT,PAK,Qatar,Pakistan,loses,1651000000,0.45,median provider,1.33,-0.32,6,5.38,6.38,4.95,-8.04,8.04,banking-ban,
+QAT,SDN,Qatar,Sudan,wins,12000000,33.69,median provider,23.2,2.23,3,5.38,6.38,4.95,-2300.78,2300.78,banking-ban,
+QAT,BGD,Qatar,Bangladesh,illegal,1048000000,7.15,median provider,7.18,6.72,4,5.38,6.38,4.95,-7.72,7.72,illegal,Crypto is illegal at one end of this corridor
+QAT,LKA,Qatar,Sri Lanka,loses,758000000,1.87,online providers,2.34,0.71,6,5.38,6.38,4.95,-6.44,6.44,banking-ban,
+QAT,NPL,Qatar,Nepal,illegal,1434000000,3.56,median provider,4,3.14,6,5.38,6.38,4.95,-19.07,19.07,illegal,Crypto is illegal at one end of this corridor
+RWA,KEN,Rwanda,Kenya,untested,15000000,4.76,online providers,22.56,2.38,7,,,,-0.99,0.99,ok,No public P2P market observed for RWF
+SAU,MMR,Saudi Arabia,Myanmar,untested,53000000,4.93,median provider,5.9,4.38,3,,,1.87,,,banking-ban,No public P2P market observed for MMK
+SAU,IDN,Saudi Arabia,Indonesia,wins,753000000,3.61,online providers,3.51,2.88,10,2.3,3.3,1.87,-0.58,0.58,banking-ban,
+SAU,YEM,Saudi Arabia,Yemen,close,2665000000,2.4,median provider,2.7,2.3,8,2.3,3.3,1.87,-601.41,601.41,banking-ban,
+SAU,LKA,Saudi Arabia,Sri Lanka,close,351000000,3.12,online providers,3.26,3.05,9,2.3,3.3,1.87,-6.44,6.44,banking-ban,
+SAU,NPL,Saudi Arabia,Nepal,illegal,1322000000,3.42,online providers,5.02,3.12,11,2.3,3.3,1.87,-19.07,19.07,illegal,Crypto is illegal at one end of this corridor
+SAU,BGD,Saudi Arabia,Bangladesh,illegal,7837000000,7.23,online providers,10.2,7.15,9,2.3,3.3,1.87,-7.72,7.72,illegal,Crypto is illegal at one end of this corridor
+SAU,JOR,Saudi Arabia,Jordan,wins,1189000000,5.15,median provider,7.03,4.28,12,2.3,3.3,1.87,-1.97,1.97,banking-ban,
+SAU,IND,Saudi Arabia,India,wins,15890000000,3.4,online providers,5.59,3.14,12,2.3,3.3,1.87,-12.61,12.61,banking-ban,
+SAU,PHL,Saudi Arabia,Philippines,close,4410000000,2.76,median provider,3.82,2.56,10,2.37,3.37,1.87,0.07,,banking-ban,
+SAU,PAK,Saudi Arabia,Pakistan,close,10726000000,2.3,online providers,5.02,1.44,12,2.3,3.3,1.87,-8.04,8.04,banking-ban,
+SAU,ETH,Saudi Arabia,Ethiopia,untested,1116000000,7.45,online providers,7.85,5.62,3,,,1.87,,,banking-ban,No public P2P market observed for ETB
+SAU,EGY,Saudi Arabia,Egypt,illegal,9158000000,3.44,median provider,5.15,2.63,12,2.3,3.3,1.87,-3.3,3.3,illegal,Crypto is illegal at one end of this corridor
+SAU,AFG,Saudi Arabia,Afghanistan,illegal,10000000,5.76,median provider,5.76,4.86,2,2.3,3.3,1.87,-3.83,3.83,illegal,Crypto is illegal at one end of this corridor
+SAU,LBN,Saudi Arabia,Lebanon,wins,402000000,5.52,online providers,5.57,5.52,2,2.3,3.3,1.87,-1.23,1.23,banking-ban,
+SAU,SDN,Saudi Arabia,Sudan,wins,342000000,4.75,median provider,13.44,3.21,3,2.3,3.3,1.87,-2300.78,2300.78,banking-ban,
+SAU,SYR,Saudi Arabia,Syria,wins,,8.88,median provider,8.88,8.88,1,2.3,3.3,1.87,-36.6,36.6,banking-ban,
+SAU,SSD,Saudi Arabia,South Sudan,untested,0,4.83,median provider,4.83,4.83,1,,,1.87,,,banking-ban,No public P2P market observed for SSP
+SEN,MLI,Senegal,Mali,untested,28000000,1.5,online providers,25.7,1.5,6,,,,-9.34,9.34,ok,No public P2P market observed for XOF
+SGP,CHN,Singapore,China,untested,1554000000,4.81,median provider,5.14,1.05,14,,,,0.22,,illegal,No public P2P market observed for SGD
+SGP,IND,Singapore,India,untested,3483000000,2.72,median provider,2.92,0.5,28,,,,-12.61,12.61,ok,No public P2P market observed for SGD
+SGP,BGD,Singapore,Bangladesh,untested,159000000,6.14,median provider,6.54,3.37,23,,,,-7.72,7.72,illegal,No public P2P market observed for SGD
+SGP,LKA,Singapore,Sri Lanka,untested,26000000,3.92,online providers,3.9,0.94,15,,,,-6.44,6.44,ok,No public P2P market observed for SGD
 SGP,MYS,Singapore,Malaysia,untested,1005000000,3.21,online providers,4.59,0.65,30,,,,,,ok,No public P2P market observed for SGD
-SGP,PAK,Singapore,Pakistan,untested,444000000,1.52,median provider,3.26,1.26,12,,,,-6.33,6.33,ok,No public P2P market observed for SGD
-SGP,PHL,Singapore,Philippines,untested,51000000,2.32,median provider,3.16,0.76,38,,,,-0.1,0.1,ok,No public P2P market observed for SGD
+SGP,PAK,Singapore,Pakistan,untested,444000000,1.52,median provider,3.26,1.26,12,,,,-8.04,8.04,ok,No public P2P market observed for SGD
+SGP,PHL,Singapore,Philippines,untested,51000000,2.32,median provider,3.16,0.76,38,,,,0.07,,ok,No public P2P market observed for SGD
 SGP,THA,Singapore,Thailand,untested,76000000,4.34,median provider,4.49,1.01,19,,,,,,ok,No public P2P market observed for SGD
-SGP,IDN,Singapore,Indonesia,untested,880000000,2.62,median provider,3.23,0.56,31,,,,-0.7,0.7,ok,No public P2P market observed for SGD
-SWE,CHN,Sweden,China,illegal,109000000,4.65,median provider,7.23,2.61,17,19.05,20.05,18.74,-0.1,0.1,illegal,Crypto is illegal at one end of this corridor
-SWE,IND,Sweden,India,loses,484000000,2.92,median provider,7.29,0.72,25,19.05,20.05,18.74,-12.83,12.83,ok,
-SWE,LBN,Sweden,Lebanon,loses,232000000,4.67,median provider,5.31,3.56,8,19.05,20.05,18.74,-0.96,0.96,ok,
-SWE,SOM,Sweden,Somalia,loses,129000000,6.79,online providers,6.79,5.84,9,19.05,20.05,18.74,-6.21,6.21,ok,
-THA,CHN,Thailand,China,untested,224000000,8.94,online providers,12.78,2.51,17,,,,-0.1,0.1,illegal,No public P2P market observed for THB
-THA,IDN,Thailand,Indonesia,untested,2000000,9.1,online providers,12.81,2.45,16,,,,-0.7,0.7,ok,No public P2P market observed for THB
-THA,IND,Thailand,India,untested,403000000,10.34,online providers,12.59,0.72,21,,,,-12.83,12.83,ok,No public P2P market observed for THB
-THA,KHM,Thailand,Cambodia,untested,1202000000,5.1,median provider,9.87,2.5,22,,,,-1.02,1.02,banking-ban,No public P2P market observed for THB
-THA,LAO,Thailand,Laos,untested,97000000,10.66,online providers,11.49,2.74,16,,,,-2.91,2.91,ok,No public P2P market observed for THB
+SGP,IDN,Singapore,Indonesia,untested,880000000,2.62,median provider,3.23,0.56,31,,,,-0.58,0.58,ok,No public P2P market observed for SGD
+SWE,CHN,Sweden,China,illegal,109000000,4.65,median provider,7.23,2.61,17,19.86,20.86,19.2,0.22,,illegal,Crypto is illegal at one end of this corridor
+SWE,IND,Sweden,India,loses,484000000,2.92,median provider,7.29,0.72,25,19.64,20.64,19.2,-12.61,12.61,ok,
+SWE,LBN,Sweden,Lebanon,loses,232000000,4.67,median provider,5.31,3.56,8,19.64,20.64,19.2,-1.23,1.23,ok,
+SWE,SOM,Sweden,Somalia,loses,129000000,6.79,online providers,6.79,5.84,9,19.64,20.64,19.2,-6.1,6.1,ok,
+THA,CHN,Thailand,China,untested,224000000,8.94,online providers,12.78,2.51,17,,,,0.22,,illegal,No public P2P market observed for THB
+THA,IDN,Thailand,Indonesia,untested,2000000,9.1,online providers,12.81,2.45,16,,,,-0.58,0.58,ok,No public P2P market observed for THB
+THA,IND,Thailand,India,untested,403000000,10.34,online providers,12.59,0.72,21,,,,-12.61,12.61,ok,No public P2P market observed for THB
+THA,KHM,Thailand,Cambodia,untested,1202000000,5.1,median provider,9.87,2.5,22,,,,-0.58,0.58,banking-ban,No public P2P market observed for THB
+THA,LAO,Thailand,Laos,untested,97000000,10.66,online providers,11.49,2.74,16,,,,-3.04,3.04,ok,No public P2P market observed for THB
 THA,MMR,Thailand,Myanmar,untested,437000000,8.05,online providers,10.38,-0.89,14,,,,,,ok,No public P2P market observed for THB
-THA,VNM,Thailand,Vietnam,untested,76000000,9.68,online providers,11.33,2.3,22,,,,-2.48,2.48,ok,No public P2P market observed for THB
+THA,VNM,Thailand,Vietnam,untested,76000000,9.68,online providers,11.33,2.3,22,,,,-2.35,2.35,ok,No public P2P market observed for THB
 TUR,BGR,Türkiye,Bulgaria,untested,612000000,108.3,online providers,118.19,13.2,11,,,,,,ok,No public P2P market observed for TRY
-TZA,KEN,Tanzania,Kenya,untested,161000000,45.23,online providers,59.99,0.72,12,,,,-0.64,0.64,ok,No public P2P market observed for TZS
-TZA,RWA,Tanzania,Rwanda,untested,0,11.39,online providers,45.11,7.81,6,,,,-0.89,0.89,ok,No public P2P market observed for TZS
-TZA,UGA,Tanzania,Uganda,untested,8000000,74.24,online providers,62.68,1.3,10,,,,-4.02,4.02,ok,No public P2P market observed for TZS
-USA,BGD,United States,Bangladesh,illegal,1216000000,7.41,online providers,7.61,5.17,24,0.51,1.51,0.2,-7.2,7.2,illegal,Crypto is illegal at one end of this corridor
-USA,CRI,United States,Costa Rica,wins,413000000,5.64,online providers,5.97,2.83,25,1.69,2.69,0.2,1.17,,ok,
-USA,MEX,United States,Mexico,wins,65405000000,4.38,online providers,4.54,-2.44,46,0.51,1.51,0.2,-0.3,0.3,ok,
-USA,NGA,United States,Nigeria,untested,6260000000,2.15,online providers,2.72,-0.49,33,,,0.2,,,banking-ban,No public P2P market observed for NGN
-USA,NIC,United States,Nicaragua,wins,1963000000,3.97,median provider,4.13,1.95,21,2.47,3.47,0.2,1.96,,ok,
-USA,SLV,United States,El Salvador,wins,7459000000,3.04,median provider,3.5,1,46,0.51,1.51,0.2,0,,ok,
-USA,THA,United States,Thailand,untested,2290000000,5.11,online providers,7.47,0.75,27,,,0.2,,,ok,No public P2P market observed for THB
-USA,UKR,United States,Ukraine,wins,869000000,3.53,median provider,4.45,1.1,20,0.51,1.51,0.2,-8.39,8.39,ok,
-USA,VNM,United States,Vietnam,wins,6735000000,5.19,online providers,5.27,0,35,0.51,1.51,0.2,-2.48,2.48,ok,
-USA,ZAF,United States,South Africa,wins,134000000,4.95,median provider,5.42,1.72,19,0.51,1.51,0.2,-1.54,1.54,ok,
-USA,BRA,United States,Brazil,untested,1581000000,4.89,median provider,5.63,1.18,32,,,0.2,,,ok,No public P2P market observed for BRL
-USA,GTM,United States,Guatemala,wins,19293000000,3.98,median provider,4.18,-2.12,30,0.51,1.51,0.2,-2.14,2.14,ok,
-USA,HND,United States,Honduras,wins,6847000000,3.58,online providers,3.99,1.5,32,0.51,1.51,0.2,-2.19,2.19,ok,
-USA,EGY,United States,Egypt,illegal,1621000000,5.19,online providers,5.36,2.77,16,0.51,1.51,0.2,-3.19,3.19,illegal,Crypto is illegal at one end of this corridor
-USA,CHN,United States,China,illegal,6842000000,3.56,median provider,6.62,1.85,22,0.51,1.51,0.2,-0.1,0.1,illegal,Crypto is illegal at one end of this corridor
-USA,COL,United States,Colombia,close,3380000000,4.27,median provider,4.96,-2.65,39,3.85,4.85,0.2,3.33,,banking-ban,
-USA,IDN,United States,Indonesia,wins,356000000,5.27,online providers,5.71,-0.53,24,0.51,1.51,0.2,-0.7,0.7,ok,
-USA,IND,United States,India,wins,26326000000,2.75,median provider,3.68,-0.53,46,0.51,1.51,0.2,-12.83,12.83,ok,
-USA,KEN,United States,Kenya,wins,2027000000,3.89,online providers,4.26,-0.29,40,0.51,1.51,0.2,-0.64,0.64,ok,
-USA,NPL,United States,Nepal,illegal,1224000000,4.09,online providers,4.41,0.86,22,0.51,1.51,0.2,-18.45,18.45,illegal,Crypto is illegal at one end of this corridor
-USA,PAK,United States,Pakistan,wins,2611000000,2.63,median provider,3.81,0.45,25,0.51,1.51,0.2,-6.33,6.33,ok,
-USA,PHL,United States,Philippines,wins,13443000000,3.96,median provider,4.52,0.58,58,0.51,1.51,0.2,-0.1,0.1,ok,
-USA,SSD,United States,South Sudan,untested,0,3.83,online providers,4.38,3,8,,,0.2,,,ok,No public P2P market observed for SSP
-USA,ETH,United States,Ethiopia,untested,2388000000,1.97,online providers,3.14,-9.85,19,,,0.2,,,ok,No public P2P market observed for ETB
-USA,HTI,United States,Haiti,wins,2016000000,4.27,online providers,4.7,1,16,0.51,1.51,0.2,-9.46,9.46,ok,
-USA,LBN,United States,Lebanon,wins,1164000000,6,online providers,11.28,2.5,16,0.51,1.51,0.2,-0.96,0.96,ok,
-USA,GUY,United States,Guyana,untested,372000000,7.35,median provider,8.1,3.4,21,,,0.2,,,ok,No public P2P market observed for GYD
-USA,ARM,United States,Armenia,wins,166000000,6.95,median provider,7.15,4.5,16,0.51,1.51,0.2,-0.73,0.73,ok,
-USA,JAM,United States,Jamaica,loses,2632000000,6.06,online providers,6.06,-2.25,20,9.45,10.45,0.2,8.93,,ok,
-USA,LBR,United States,Liberia,wins,455000000,5.26,online providers,5.36,0.49,20,0.51,1.51,0.2,-9.38,9.38,ok,
-USA,GHA,United States,Ghana,untested,824000000,3.72,online providers,4.37,-0.13,31,,,0.2,,,ok,No public P2P market observed for GHS
-USA,CPV,United States,Cabo Verde,loses,55000000,5.5,median provider,8.81,4.22,14,12.02,13.02,0.2,11.51,,ok,
-USA,DOM,United States,Dominican Republic,wins,8648000000,4.1,median provider,5.11,0.22,27,0.51,1.51,0.2,-3.89,3.89,ok,
-USA,ECU,United States,Ecuador,wins,2929000000,3.25,median provider,3.92,0,31,0.51,1.51,0.2,0,,ok,
-USA,PAN,United States,Panama,wins,416000000,3,median provider,4.1,2.45,14,0.51,1.51,0.2,0,,ok,
-USA,PER,United States,Peru,wins,1523000000,4,median provider,4.65,2,21,0.51,1.51,0.2,-0.52,0.52,ok,
-USA,JOR,United States,Jordan,wins,417000000,4.94,online providers,5.26,2,20,0.51,1.51,0.2,-1.97,1.97,banking-ban,
-USA,YEM,United States,Yemen,wins,77000000,3,median provider,3.92,2,12,0.51,1.51,0.2,-600.19,600.19,ok,
-USA,AFG,United States,Afghanistan,illegal,14000000,8.18,online providers,9.18,6.87,6,0.51,1.51,0.2,-3.17,3.17,illegal,Crypto is illegal at one end of this corridor
-USA,ERI,United States,Eritrea,wins,,6.9,median provider,6.55,4.5,7,0.51,1.51,0.2,0,,ok,
-USA,CUB,United States,Cuba,untested,,7.75,median provider,8.75,2.5,4,,,0.2,,,ok,No public P2P market observed for CUP
-USA,SOM,United States,Somalia,wins,146000000,6,median provider,5.6,4,5,0.51,1.51,0.2,-6.21,6.21,ok,
-ZAF,NGA,South Africa,Nigeria,untested,214000000,5.79,online providers,14.65,3.46,17,,,4.27,,,banking-ban,No public P2P market observed for NGN
-ZAF,BWA,South Africa,Botswana,wins,40000000,10.29,median provider,16.45,5.57,27,4.59,5.59,4.27,-1.44,1.44,ok,
-ZAF,CHN,South Africa,China,illegal,15000000,9.43,online providers,23.88,3.76,11,4.59,5.59,4.27,-0.1,0.1,illegal,Crypto is illegal at one end of this corridor
-ZAF,MOZ,South Africa,Mozambique,wins,139000000,5.79,median provider,10.29,2.72,30,4.59,5.59,4.27,-19.81,19.81,ok,
-ZAF,MWI,South Africa,Malawi,wins,93000000,32.94,median provider,31.48,-3,23,4.59,5.59,4.27,-350.48,350.48,ok,
-ZAF,ZMB,South Africa,Zambia,wins,32000000,11.03,online providers,14.7,4.87,34,4.59,5.59,4.27,-4.98,4.98,ok,
-ZAF,IND,South Africa,India,wins,174000000,6.51,online providers,16.39,5.29,15,4.59,5.59,4.27,-12.83,12.83,ok,
-ZAF,TZA,South Africa,Tanzania,wins,20000000,11.84,online providers,17.3,6.13,16,4.59,5.59,4.27,-2.11,2.11,ok,
-ZAF,ZWE,South Africa,Zimbabwe,untested,2274000000,8.36,online providers,12.49,5.15,40,,,4.27,,,ok,No public P2P market observed for ZWG
-ZAF,KEN,South Africa,Kenya,wins,40000000,7.05,median provider,10.62,3.44,33,4.59,5.59,4.27,-0.64,0.64,ok,
-ZAF,LSO,South Africa,Lesotho,untested,456000000,7.58,online providers,11.25,0,11,,,4.27,,,ok,No public P2P market observed for LSL
-ZAF,SWZ,South Africa,Eswatini,untested,20000000,6.26,online providers,11.62,0,9,,,4.27,,,ok,No public P2P market observed for SZL
-ZAF,AGO,South Africa,Angola,wins,0,13.47,online providers,21.39,6.12,13,4.59,5.59,4.27,-33.87,33.87,ok,
-FRA,DZA,France,Algeria,illegal,1332000000,45.13,median provider,45.13,45.13,1,0.85,1.85,0.54,-96.77,96.77,illegal,Crypto is illegal at one end of this corridor
+TZA,KEN,Tanzania,Kenya,untested,161000000,45.23,online providers,59.99,0.72,12,,,,-0.99,0.99,ok,No public P2P market observed for TZS
+TZA,RWA,Tanzania,Rwanda,untested,0,11.39,online providers,45.11,7.81,6,,,,-0.9,0.9,ok,No public P2P market observed for TZS
+TZA,UGA,Tanzania,Uganda,untested,8000000,74.24,online providers,62.68,1.3,10,,,,-3.79,3.79,ok,No public P2P market observed for TZS
+USA,BGD,United States,Bangladesh,illegal,1216000000,7.41,online providers,7.61,5.17,24,0.43,1.43,0,-7.72,7.72,illegal,Crypto is illegal at one end of this corridor
+USA,CRI,United States,Costa Rica,wins,413000000,5.64,online providers,5.97,2.83,25,1.37,2.37,0,0.94,,ok,
+USA,MEX,United States,Mexico,wins,65405000000,4.38,online providers,4.54,-2.44,46,0.52,1.52,0,0.08,,ok,
+USA,NGA,United States,Nigeria,untested,6260000000,2.15,online providers,2.72,-0.49,33,,,0,,,banking-ban,No public P2P market observed for NGN
+USA,NIC,United States,Nicaragua,wins,1963000000,3.97,median provider,4.13,1.95,21,0.43,1.43,0,-3.49,3.49,ok,
+USA,SLV,United States,El Salvador,wins,7459000000,3.04,median provider,3.5,1,46,0.43,1.43,0,0,,ok,
+USA,THA,United States,Thailand,untested,2290000000,5.11,online providers,7.47,0.75,27,,,0,,,ok,No public P2P market observed for THB
+USA,UKR,United States,Ukraine,wins,869000000,3.53,median provider,4.45,1.1,20,0.43,1.43,0,-8.84,8.84,ok,
+USA,VNM,United States,Vietnam,wins,6735000000,5.19,online providers,5.27,0,35,0.43,1.43,0,-2.35,2.35,ok,
+USA,ZAF,United States,South Africa,wins,134000000,4.95,median provider,5.42,1.72,19,0.43,1.43,0,-1.5,1.5,ok,
+USA,BRA,United States,Brazil,untested,1581000000,4.89,median provider,5.63,1.18,32,,,0,,,ok,No public P2P market observed for BRL
+USA,GTM,United States,Guatemala,wins,19293000000,3.98,median provider,4.18,-2.12,30,0.43,1.43,0,-2.21,2.21,ok,
+USA,HND,United States,Honduras,wins,6847000000,3.58,online providers,3.99,1.5,32,0.43,1.43,0,-2.46,2.46,ok,
+USA,EGY,United States,Egypt,illegal,1621000000,5.19,online providers,5.36,2.77,16,0.43,1.43,0,-3.3,3.3,illegal,Crypto is illegal at one end of this corridor
+USA,CHN,United States,China,illegal,6842000000,3.56,median provider,6.62,1.85,22,0.66,1.66,0,0.22,,illegal,Crypto is illegal at one end of this corridor
+USA,COL,United States,Colombia,wins,3380000000,4.27,median provider,4.96,-2.65,39,3.03,4.03,0,2.6,,banking-ban,
+USA,IDN,United States,Indonesia,wins,356000000,5.27,online providers,5.71,-0.53,24,0.43,1.43,0,-0.58,0.58,ok,
+USA,IND,United States,India,wins,26326000000,2.75,median provider,3.68,-0.53,46,0.43,1.43,0,-12.61,12.61,ok,
+USA,KEN,United States,Kenya,wins,2027000000,3.89,online providers,4.26,-0.29,40,0.43,1.43,0,-0.99,0.99,ok,
+USA,NPL,United States,Nepal,illegal,1224000000,4.09,online providers,4.41,0.86,22,0.43,1.43,0,-19.07,19.07,illegal,Crypto is illegal at one end of this corridor
+USA,PAK,United States,Pakistan,wins,2611000000,2.63,median provider,3.81,0.45,25,0.43,1.43,0,-8.04,8.04,ok,
+USA,PHL,United States,Philippines,wins,13443000000,3.96,median provider,4.52,0.58,58,0.51,1.51,0,0.07,,ok,
+USA,SSD,United States,South Sudan,untested,0,3.83,online providers,4.38,3,8,,,0,,,ok,No public P2P market observed for SSP
+USA,ETH,United States,Ethiopia,untested,2388000000,1.97,online providers,3.14,-9.85,19,,,0,,,ok,No public P2P market observed for ETB
+USA,HTI,United States,Haiti,wins,2016000000,4.27,online providers,4.7,1,16,0.43,1.43,0,-9.22,9.22,ok,
+USA,LBN,United States,Lebanon,wins,1164000000,6,online providers,11.28,2.5,16,0.43,1.43,0,-1.23,1.23,ok,
+USA,GUY,United States,Guyana,untested,372000000,7.35,median provider,8.1,3.4,21,,,0,,,ok,No public P2P market observed for GYD
+USA,ARM,United States,Armenia,wins,166000000,6.95,median provider,7.15,4.5,16,0.43,1.43,0,-0.64,0.64,ok,
+USA,JAM,United States,Jamaica,loses,2632000000,6.06,online providers,6.06,-2.25,20,9.22,10.22,0,8.79,,ok,
+USA,LBR,United States,Liberia,wins,455000000,5.26,online providers,5.36,0.49,20,0.43,1.43,0,-9.66,9.66,ok,
+USA,GHA,United States,Ghana,untested,824000000,3.72,online providers,4.37,-0.13,31,,,0,,,ok,No public P2P market observed for GHS
+USA,CPV,United States,Cabo Verde,loses,55000000,5.5,median provider,8.81,4.22,14,11.86,12.86,0,11.43,,ok,
+USA,DOM,United States,Dominican Republic,wins,8648000000,4.1,median provider,5.11,0.22,27,0.43,1.43,0,-3.82,3.82,ok,
+USA,ECU,United States,Ecuador,wins,2929000000,3.25,median provider,3.92,0,31,0.43,1.43,0,0,,ok,
+USA,PAN,United States,Panama,wins,416000000,3,median provider,4.1,2.45,14,0.43,1.43,0,0,,ok,
+USA,PER,United States,Peru,wins,1523000000,4,median provider,4.65,2,21,0.43,1.43,0,-1.01,1.01,ok,
+USA,JOR,United States,Jordan,wins,417000000,4.94,online providers,5.26,2,20,0.43,1.43,0,-1.97,1.97,banking-ban,
+USA,YEM,United States,Yemen,wins,77000000,3,median provider,3.92,2,12,0.43,1.43,0,-601.41,601.41,ok,
+USA,AFG,United States,Afghanistan,illegal,14000000,8.18,online providers,9.18,6.87,6,0.43,1.43,0,-3.83,3.83,illegal,Crypto is illegal at one end of this corridor
+USA,ERI,United States,Eritrea,wins,,6.9,median provider,6.55,4.5,7,0.43,1.43,0,-20,20,ok,
+USA,CUB,United States,Cuba,untested,,7.75,median provider,8.75,2.5,4,,,0,,,ok,No public P2P market observed for CUP
+USA,SOM,United States,Somalia,wins,146000000,6,median provider,5.6,4,5,0.43,1.43,0,-6.1,6.1,ok,
+ZAF,NGA,South Africa,Nigeria,untested,214000000,5.79,online providers,14.65,3.46,17,,,4.24,,,banking-ban,No public P2P market observed for NGN
+ZAF,BWA,South Africa,Botswana,wins,40000000,10.29,median provider,16.45,5.57,27,4.67,5.67,4.24,-2.12,2.12,ok,
+ZAF,CHN,South Africa,China,illegal,15000000,9.43,online providers,23.88,3.76,11,4.9,5.9,4.24,0.22,,illegal,Crypto is illegal at one end of this corridor
+ZAF,MOZ,South Africa,Mozambique,wins,139000000,5.79,median provider,10.29,2.72,30,4.67,5.67,4.24,-19.43,19.43,ok,
+ZAF,MWI,South Africa,Malawi,wins,93000000,32.94,median provider,31.48,-3,23,4.67,5.67,4.24,-349.89,349.89,ok,
+ZAF,ZMB,South Africa,Zambia,wins,32000000,11.03,online providers,14.7,4.87,34,4.67,5.67,4.24,-4.73,4.73,ok,
+ZAF,IND,South Africa,India,wins,174000000,6.51,online providers,16.39,5.29,15,4.67,5.67,4.24,-12.61,12.61,ok,
+ZAF,TZA,South Africa,Tanzania,wins,20000000,11.84,online providers,17.3,6.13,16,4.67,5.67,4.24,-2.09,2.09,ok,
+ZAF,ZWE,South Africa,Zimbabwe,untested,2274000000,8.36,online providers,12.49,5.15,40,,,4.24,,,ok,No public P2P market observed for ZWG
+ZAF,KEN,South Africa,Kenya,wins,40000000,7.05,median provider,10.62,3.44,33,4.67,5.67,4.24,-0.99,0.99,ok,
+ZAF,LSO,South Africa,Lesotho,untested,456000000,7.58,online providers,11.25,0,11,,,4.24,,,ok,No public P2P market observed for LSL
+ZAF,SWZ,South Africa,Eswatini,untested,20000000,6.26,online providers,11.62,0,9,,,4.24,,,ok,No public P2P market observed for SZL
+ZAF,AGO,South Africa,Angola,wins,0,13.47,online providers,21.39,6.12,13,4.67,5.67,4.24,-32.7,32.7,ok,
+FRA,DZA,France,Algeria,illegal,1332000000,45.13,median provider,45.13,45.13,1,1.17,2.17,0.73,-99.15,99.15,illegal,Crypto is illegal at one end of this corridor
